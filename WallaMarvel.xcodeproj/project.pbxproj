@@ -11,9 +11,9 @@
 		DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B342E21637E7D005709E3 /* AppDelegate.swift */; };
 		DB4B343121637E7D005709E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B343021637E7D005709E3 /* ViewController.swift */; };
 		DB4B343421637E7D005709E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343221637E7D005709E3 /* Main.storyboard */; };
-		DB4B343621637E7F005709E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343521637E7F005709E3 /* Assets.xcassets */; };
-		DB4B343921637E7F005709E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343721637E7F005709E3 /* LaunchScreen.storyboard */; };
+		DB4B343621637E7F005709E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343521637E7F005709E3 /* Images.xcassets */; };
 		DB4B344121637ED5005709E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344021637ED5005709E3 /* Podfile */; };
+		DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344321638C30005709E3 /* SplashScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +24,10 @@
 		DB4B342E21637E7D005709E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4B343021637E7D005709E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB4B343321637E7D005709E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB4B343521637E7F005709E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB4B343821637E7F005709E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB4B343521637E7F005709E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB4B343A21637E7F005709E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB4B344021637ED5005709E3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DB4B344021637ED5005709E3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB4B344321638C30005709E3 /* SplashScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +84,19 @@
 				DB4B342E21637E7D005709E3 /* AppDelegate.swift */,
 				DB4B343021637E7D005709E3 /* ViewController.swift */,
 				DB4B343221637E7D005709E3 /* Main.storyboard */,
-				DB4B343521637E7F005709E3 /* Assets.xcassets */,
-				DB4B343721637E7F005709E3 /* LaunchScreen.storyboard */,
-				DB4B343A21637E7F005709E3 /* Info.plist */,
+				DB4B344321638C30005709E3 /* SplashScreen.xib */,
+				DB4B344221638BFD005709E3 /* Resources */,
 			);
 			path = WallaMarvel;
+			sourceTree = "<group>";
+		};
+		DB4B344221638BFD005709E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B343A21637E7F005709E3 /* Info.plist */,
+				DB4B343521637E7F005709E3 /* Images.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +110,7 @@
 				DB4B342721637E7D005709E3 /* Sources */,
 				DB4B342821637E7D005709E3 /* Frameworks */,
 				DB4B342921637E7D005709E3 /* Resources */,
+				814C20A966A00D90BFC0A5A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,8 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4B343921637E7F005709E3 /* LaunchScreen.storyboard in Resources */,
-				DB4B343621637E7F005709E3 /* Assets.xcassets in Resources */,
+				DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */,
+				DB4B343621637E7F005709E3 /* Images.xcassets in Resources */,
 				DB4B344121637ED5005709E3 /* Podfile in Resources */,
 				DB4B343421637E7D005709E3 /* Main.storyboard in Resources */,
 			);
@@ -160,6 +169,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		814C20A966A00D90BFC0A5A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9C317A0D737E63960E4B7BC0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,14 +234,6 @@
 				DB4B343321637E7D005709E3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DB4B343721637E7F005709E3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB4B343821637E7F005709E3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = WallaMarvel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WallaMarvel/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,7 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = WallaMarvel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WallaMarvel/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

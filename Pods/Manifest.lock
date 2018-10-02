@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: bf4ad32b3691b40ddc534e01880b21b33d9027b4
+PODS:
+  - IBAnimatable (5.2.1)
+
+DEPENDENCIES:
+  - IBAnimatable (~> 5.2.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBAnimatable
+
+SPEC CHECKSUMS:
+  IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
+
+PODFILE CHECKSUM: 5555c434e0b6f86099589c4e2568de7b354c0e96
 
 COCOAPODS: 1.5.3
