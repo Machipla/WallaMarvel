@@ -1,22 +1,20 @@
 //
-//  CharacterRequestParams.swift
+//  CharactersFilter.swift
 //  WallaMarvelAPI
 //
-//  Created by Mario Plaza on 2/10/18.
+//  Created by Mario Plaza on 3/10/18.
 //  Copyright © 2018 Mario Plaza. All rights reserved.
 //
 
 import Foundation
 
-public struct CharacterRequestParams{
+public struct CharactersFilter{
     let name:String
     let nameStartsWith:String
     let modifiedSince:Date
-    let comics:[Int]
-    let orderBy:APICharacterOrderBy
-    let limit:UInt
-    let offset:UInt
-
+    let comicIDs:[Int]
+    let orderBy:CharacterOrderBy
+    
     // XXX: These will not be available at the moment, maybe in a near future.
     //    let series:[Int]
     //    let events:[Int]

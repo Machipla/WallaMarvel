@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum APICharacterOrderBy: String{
+public enum CharacterOrderBy: String{
     case ascendingByName        = "name"
     case ascendingByModified    = "modified"
     case descendingByName       = "-name"

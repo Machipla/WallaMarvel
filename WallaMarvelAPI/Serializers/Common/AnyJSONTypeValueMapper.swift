@@ -9,7 +9,7 @@
 import Foundation
 
 // Protocol that maps a type to an other valid JSON type. I.e. If we get an int in a JSON field and we want a String in there, instead of failing, returns a String representing that int.
-public protocol AnyJSONTypeValueMapper{
+internal protocol AnyJSONTypeValueMapper{
     // Function that tries to get a value from another JSONType
     // I.e: If the JSON type is a 99 and we want to get a String, the type is converted to "99"
     // - Parameter type: The JSON value to be converted
@@ -17,7 +17,7 @@ public protocol AnyJSONTypeValueMapper{
     func mapValue<Type>(from type:AnyJSONTypeProtocol) -> Type?
 }
 
-public extension AnyJSONTypeValueMapper{
+internal extension AnyJSONTypeValueMapper{
     func mapValue<Type>(from type:AnyJSONTypeProtocol) -> Type?{
         guard let rawValue = type.rawValue else { return nil }
         

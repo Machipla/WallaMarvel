@@ -2,7 +2,7 @@
 //  Dictionary+Filtering.swift
 //  WallaMarvelAPI
 //
-//  Created by Mario Chinchilla on 29/5/18.
+//  Created by Mario Chinchilla on 3/10/18.
 //
 
 import Foundation

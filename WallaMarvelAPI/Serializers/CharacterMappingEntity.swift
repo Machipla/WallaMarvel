@@ -22,7 +22,7 @@ internal struct CharacterMappingEntity: Decodable, EntityConvertible{
         return Character(ID: rawID, name: rawName, description: rawDescription, modified: mappedModified, thumbnail: mappedThumbnail)
     }
     
-    init(entity: EntityType) throws{
+    init(entity: Character) throws{
         rawID = entity.ID
         rawName = entity.name
         rawDescription = entity.description
