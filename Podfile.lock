@@ -1,5 +1,9 @@
 PODS:
   - Alamofire (4.7.3)
+  - ErrorHandler (0.8.1):
+    - ErrorHandler/Core (= 0.8.1)
+  - ErrorHandler/Core (0.8.1)
+  - Eureka (4.3.0)
   - IBAnimatable (5.2.1)
   - PromisesObjC (1.2.3)
   - PromisesSwift (1.2.3):
@@ -8,6 +12,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.7.3)
+  - ErrorHandler (~> 0.8.1)
+  - Eureka (~> 4.3.0)
   - IBAnimatable (~> 5.2.1)
   - PromisesSwift (~> 1.2.3)
   - SwiftDate (~> 4.0)
@@ -15,6 +21,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - ErrorHandler
+    - Eureka
     - IBAnimatable
     - PromisesObjC
     - PromisesSwift
@@ -22,11 +30,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  ErrorHandler: 04b1be7ec6e57e11f7382021f0760d0dbb84fdb6
+  Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
   IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
   PromisesObjC: a3a4263d8a9260214267e0b3788d0f83466ad449
   PromisesSwift: f7f45c21986419e85f7c5b645ed8c6a2c10c04b4
   SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
 
-PODFILE CHECKSUM: 4fa1df16581d013c52132aa3f165523a7b7fa0bd
+PODFILE CHECKSUM: 5043037280916198321cdc2848bde5039e16a334
 
 COCOAPODS: 1.5.3

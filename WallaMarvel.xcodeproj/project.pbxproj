@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21D6634C26A7B4E33A8D1436 /* Pods_WallaMarvelAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */; };
+		521148473E5131D7DBCD7A7E /* Pods_WallaMarvelUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */; };
 		859A0CFA78E272CB951F562C /* Pods_WallaMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */; };
 		DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B342E21637E7D005709E3 /* AppDelegate.swift */; };
 		DB4B343121637E7D005709E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B343021637E7D005709E3 /* ViewController.swift */; };
@@ -62,6 +63,30 @@
 		DB8BF1152164EB1200AB8287 /* ComicsFilterMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1142164EB1200AB8287 /* ComicsFilterMappingEntity.swift */; };
 		DB8BF1172165043900AB8287 /* ComicMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1162165043900AB8287 /* ComicMappingEntity.swift */; };
 		DB8BF119216504FE00AB8287 /* ComicOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF118216504FE00AB8287 /* ComicOrderBy.swift */; };
+		DB8BF1232165070F00AB8287 /* WallaMarvelUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8BF1212165070F00AB8287 /* WallaMarvelUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8BF1262165070F00AB8287 /* WallaMarvelUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF11F2165070F00AB8287 /* WallaMarvelUI.framework */; };
+		DB8BF1272165070F00AB8287 /* WallaMarvelUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF11F2165070F00AB8287 /* WallaMarvelUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF12D2165079500AB8287 /* Coordinator.swift */; };
+		DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */; };
+		DB8BF1322165084300AB8287 /* Startable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1312165084300AB8287 /* Startable.swift */; };
+		DB8BF1342165092D00AB8287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF1332165092D00AB8287 /* UIKit.framework */; };
+		DB8BF14821650AA500AB8287 /* HeroesMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13821650AA500AB8287 /* HeroesMediator.swift */; };
+		DB8BF14921650AA500AB8287 /* HeroesDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13921650AA500AB8287 /* HeroesDisplayData.swift */; };
+		DB8BF14B21650AA500AB8287 /* HeroesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13B21650AA500AB8287 /* HeroesPresenter.swift */; };
+		DB8BF14C21650AA500AB8287 /* HeroesMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13C21650AA500AB8287 /* HeroesMediatorProtocol.swift */; };
+		DB8BF14D21650AA500AB8287 /* HeroesPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13D21650AA500AB8287 /* HeroesPresenterProtocol.swift */; };
+		DB8BF14E21650AA500AB8287 /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13E21650AA500AB8287 /* HeroesViewController.swift */; };
+		DB8BF14F21650AA500AB8287 /* HeroesWirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13F21650AA500AB8287 /* HeroesWirer.swift */; };
+		DB8BF15021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift */; };
+		DB8BF15221650AA500AB8287 /* HeroesViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14221650AA500AB8287 /* HeroesViewProtocol.swift */; };
+		DB8BF15321650AA500AB8287 /* HeroesDelegateCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14321650AA500AB8287 /* HeroesDelegateCaller.swift */; };
+		DB8BF15421650AA500AB8287 /* HeroesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8BF14421650AA500AB8287 /* HeroesViewController.xib */; };
+		DB8BF15521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift */; };
+		DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF15D21650BF800AB8287 /* UIViewController+Load.swift */; };
+		DB8BF16A2165130900AB8287 /* WallaMarvelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8BF1682165130900AB8287 /* WallaMarvelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8BF16D2165130900AB8287 /* WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */; };
+		DB8BF16E2165130900AB8287 /* WallaMarvelKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +96,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = DB7BB2092163BC5300FE9BE4;
 			remoteInfo = WallaMarvelAPI;
+		};
+		DB8BF1242165070F00AB8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4B342321637E7D005709E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8BF11E2165070F00AB8287;
+			remoteInfo = WallaMarvelUI;
+		};
+		DB8BF15F21650CC400AB8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4B342321637E7D005709E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7BB2092163BC5300FE9BE4;
+			remoteInfo = WallaMarvelAPI;
+		};
+		DB8BF16B2165130900AB8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4B342321637E7D005709E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8BF1652165130900AB8287;
+			remoteInfo = WallaMarvelKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -82,6 +128,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				DB7BB2122163BC5400FE9BE4 /* WallaMarvelAPI.framework in Embed Frameworks */,
+				DB8BF1272165070F00AB8287 /* WallaMarvelUI.framework in Embed Frameworks */,
+				DB8BF16E2165130900AB8287 /* WallaMarvelKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +141,11 @@
 		1F922AF8B49D9539E7DC8315 /* Pods-WallaMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel.release.xcconfig"; sourceTree = "<group>"; };
 		574A56B66781F4676B60CA03 /* Pods-WallaMarvelAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPI/Pods-WallaMarvelAPI.release.xcconfig"; sourceTree = "<group>"; };
 		609A88AB3BFA136327347788 /* Pods-WallaMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel.debug.xcconfig"; sourceTree = "<group>"; };
+		6A946A457220BCA780F0E661 /* Pods-WallaMarvelUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelUI/Pods-WallaMarvelUI.debug.xcconfig"; sourceTree = "<group>"; };
+		75EB1231B617FE07D708AFA5 /* Pods-WallaMarvelUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelUI/Pods-WallaMarvelUI.release.xcconfig"; sourceTree = "<group>"; };
+		949D2A24C3FC3C59320F1CFE /* Pods-WallaMarvelKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.debug.xcconfig"; sourceTree = "<group>"; };
 		A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B342B21637E7D005709E3 /* WallaMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallaMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B342E21637E7D005709E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +202,31 @@
 		DB8BF1142164EB1200AB8287 /* ComicsFilterMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsFilterMappingEntity.swift; sourceTree = "<group>"; };
 		DB8BF1162165043900AB8287 /* ComicMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicMappingEntity.swift; sourceTree = "<group>"; };
 		DB8BF118216504FE00AB8287 /* ComicOrderBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicOrderBy.swift; sourceTree = "<group>"; };
+		DB8BF11F2165070F00AB8287 /* WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8BF1212165070F00AB8287 /* WallaMarvelUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallaMarvelUI.h; sourceTree = "<group>"; };
+		DB8BF1222165070F00AB8287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8BF12D2165079500AB8287 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootCoordinator.swift; sourceTree = "<group>"; };
+		DB8BF1312165084300AB8287 /* Startable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startable.swift; sourceTree = "<group>"; };
+		DB8BF1332165092D00AB8287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB8BF13821650AA500AB8287 /* HeroesMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesMediator.swift; sourceTree = "<group>"; };
+		DB8BF13921650AA500AB8287 /* HeroesDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDisplayData.swift; sourceTree = "<group>"; };
+		DB8BF13B21650AA500AB8287 /* HeroesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPresenter.swift; sourceTree = "<group>"; };
+		DB8BF13C21650AA500AB8287 /* HeroesMediatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesMediatorProtocol.swift; sourceTree = "<group>"; };
+		DB8BF13D21650AA500AB8287 /* HeroesPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPresenterProtocol.swift; sourceTree = "<group>"; };
+		DB8BF13E21650AA500AB8287 /* HeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
+		DB8BF13F21650AA500AB8287 /* HeroesWirer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesWirer.swift; sourceTree = "<group>"; };
+		DB8BF14021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPresenterViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DB8BF14221650AA500AB8287 /* HeroesViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewProtocol.swift; sourceTree = "<group>"; };
+		DB8BF14321650AA500AB8287 /* HeroesDelegateCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDelegateCaller.swift; sourceTree = "<group>"; };
+		DB8BF14421650AA500AB8287 /* HeroesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesViewController.xib; sourceTree = "<group>"; };
+		DB8BF14521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDelegateCallerProtocol.swift; sourceTree = "<group>"; };
+		DB8BF15D21650BF800AB8287 /* UIViewController+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Load.swift"; sourceTree = "<group>"; };
+		DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WallaMarvelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8BF1682165130900AB8287 /* WallaMarvelKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallaMarvelKit.h; sourceTree = "<group>"; };
+		DB8BF1692165130900AB8287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
+		FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +234,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8BF1342165092D00AB8287 /* UIKit.framework in Frameworks */,
 				DB7BB2112163BC5400FE9BE4 /* WallaMarvelAPI.framework in Frameworks */,
+				DB8BF1262165070F00AB8287 /* WallaMarvelUI.framework in Frameworks */,
 				859A0CFA78E272CB951F562C /* Pods_WallaMarvel.framework in Frameworks */,
+				DB8BF16D2165130900AB8287 /* WallaMarvelKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +247,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				21D6634C26A7B4E33A8D1436 /* Pods_WallaMarvelAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BF11C2165070F00AB8287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521148473E5131D7DBCD7A7E /* Pods_WallaMarvelUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BF1632165130900AB8287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +276,10 @@
 				1F922AF8B49D9539E7DC8315 /* Pods-WallaMarvel.release.xcconfig */,
 				0B67C236611D8B607AF37C3D /* Pods-WallaMarvelAPI.debug.xcconfig */,
 				574A56B66781F4676B60CA03 /* Pods-WallaMarvelAPI.release.xcconfig */,
+				6A946A457220BCA780F0E661 /* Pods-WallaMarvelUI.debug.xcconfig */,
+				75EB1231B617FE07D708AFA5 /* Pods-WallaMarvelUI.release.xcconfig */,
+				949D2A24C3FC3C59320F1CFE /* Pods-WallaMarvelKit.debug.xcconfig */,
+				EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -187,8 +287,11 @@
 		1723F7E50F78D1DFB6C7519E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB8BF1332165092D00AB8287 /* UIKit.framework */,
 				A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */,
 				CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */,
+				FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */,
+				C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,6 +302,8 @@
 				DB4B344021637ED5005709E3 /* Podfile */,
 				DB4B342D21637E7D005709E3 /* WallaMarvel */,
 				DB7BB20B2163BC5400FE9BE4 /* WallaMarvelAPI */,
+				DB8BF1202165070F00AB8287 /* WallaMarvelUI */,
+				DB8BF1672165130900AB8287 /* WallaMarvelKit */,
 				DB4B342C21637E7D005709E3 /* Products */,
 				16B1A4CE98E06E3B01F47DC2 /* Pods */,
 				1723F7E50F78D1DFB6C7519E /* Frameworks */,
@@ -210,6 +315,8 @@
 			children = (
 				DB4B342B21637E7D005709E3 /* WallaMarvel.app */,
 				DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */,
+				DB8BF11F2165070F00AB8287 /* WallaMarvelUI.framework */,
+				DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4B342E21637E7D005709E3 /* AppDelegate.swift */,
+				DB8BF12B2165073400AB8287 /* Coordinators */,
 				DB4B343021637E7D005709E3 /* ViewController.swift */,
 				DB4B343221637E7D005709E3 /* Main.storyboard */,
 				DB4B344321638C30005709E3 /* SplashScreen.xib */,
@@ -432,6 +540,119 @@
 			path = Request;
 			sourceTree = "<group>";
 		};
+		DB8BF1202165070F00AB8287 /* WallaMarvelUI */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF15B21650BBB00AB8287 /* Extensions */,
+				DB8BF13521650A8400AB8287 /* Controllers */,
+				DB8BF1212165070F00AB8287 /* WallaMarvelUI.h */,
+				DB8BF1222165070F00AB8287 /* Info.plist */,
+			);
+			path = WallaMarvelUI;
+			sourceTree = "<group>";
+		};
+		DB8BF12B2165073400AB8287 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF12C2165074500AB8287 /* Common */,
+				DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		DB8BF12C2165074500AB8287 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF12D2165079500AB8287 /* Coordinator.swift */,
+				DB8BF1312165084300AB8287 /* Startable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DB8BF13521650A8400AB8287 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF13621650A8700AB8287 /* HeroesViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB8BF13621650A8700AB8287 /* HeroesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF13F21650AA500AB8287 /* HeroesWirer.swift */,
+				DB8BF15721650AB200AB8287 /* Mediator */,
+				DB8BF15821650AB900AB8287 /* Presenter */,
+				DB8BF15921650ACE00AB8287 /* View */,
+				DB8BF15A21650AD300AB8287 /* DelegateCaller */,
+			);
+			path = HeroesViewController;
+			sourceTree = "<group>";
+		};
+		DB8BF15721650AB200AB8287 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF13821650AA500AB8287 /* HeroesMediator.swift */,
+				DB8BF13C21650AA500AB8287 /* HeroesMediatorProtocol.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		DB8BF15821650AB900AB8287 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF13921650AA500AB8287 /* HeroesDisplayData.swift */,
+				DB8BF13B21650AA500AB8287 /* HeroesPresenter.swift */,
+				DB8BF13D21650AA500AB8287 /* HeroesPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DB8BF15921650ACE00AB8287 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF13E21650AA500AB8287 /* HeroesViewController.swift */,
+				DB8BF14021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift */,
+				DB8BF14221650AA500AB8287 /* HeroesViewProtocol.swift */,
+				DB8BF14421650AA500AB8287 /* HeroesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB8BF15A21650AD300AB8287 /* DelegateCaller */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF14321650AA500AB8287 /* HeroesDelegateCaller.swift */,
+				DB8BF14521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift */,
+			);
+			path = DelegateCaller;
+			sourceTree = "<group>";
+		};
+		DB8BF15B21650BBB00AB8287 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF15C21650BF800AB8287 /* UIViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB8BF15C21650BF800AB8287 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF15D21650BF800AB8287 /* UIViewController+Load.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		DB8BF1672165130900AB8287 /* WallaMarvelKit */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF1682165130900AB8287 /* WallaMarvelKit.h */,
+				DB8BF1692165130900AB8287 /* Info.plist */,
+			);
+			path = WallaMarvelKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -440,6 +661,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7BB20E2163BC5400FE9BE4 /* WallaMarvelAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BF11A2165070F00AB8287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BF1232165070F00AB8287 /* WallaMarvelUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BF1612165130900AB8287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BF16A2165130900AB8287 /* WallaMarvelKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +698,8 @@
 			);
 			dependencies = (
 				DB7BB2102163BC5400FE9BE4 /* PBXTargetDependency */,
+				DB8BF1252165070F00AB8287 /* PBXTargetDependency */,
+				DB8BF16C2165130900AB8287 /* PBXTargetDependency */,
 			);
 			name = WallaMarvel;
 			productName = WallaMarvel;
@@ -486,6 +725,45 @@
 			productReference = DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DB8BF11E2165070F00AB8287 /* WallaMarvelUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8BF1282165070F00AB8287 /* Build configuration list for PBXNativeTarget "WallaMarvelUI" */;
+			buildPhases = (
+				00F68E70D1168F227313BAF7 /* [CP] Check Pods Manifest.lock */,
+				DB8BF11A2165070F00AB8287 /* Headers */,
+				DB8BF11B2165070F00AB8287 /* Sources */,
+				DB8BF11C2165070F00AB8287 /* Frameworks */,
+				DB8BF11D2165070F00AB8287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB8BF16021650CC400AB8287 /* PBXTargetDependency */,
+			);
+			name = WallaMarvelUI;
+			productName = WallaMarvelUI;
+			productReference = DB8BF11F2165070F00AB8287 /* WallaMarvelUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB8BF1652165130900AB8287 /* WallaMarvelKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB8BF16F2165130900AB8287 /* Build configuration list for PBXNativeTarget "WallaMarvelKit" */;
+			buildPhases = (
+				6CE0F49934EA722E73F13AD7 /* [CP] Check Pods Manifest.lock */,
+				DB8BF1612165130900AB8287 /* Headers */,
+				DB8BF1622165130900AB8287 /* Sources */,
+				DB8BF1632165130900AB8287 /* Frameworks */,
+				DB8BF1642165130900AB8287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallaMarvelKit;
+			productName = WallaMarvelKit;
+			productReference = DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -503,6 +781,13 @@
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
 					};
+					DB8BF11E2165070F00AB8287 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					DB8BF1652165130900AB8287 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = DB4B342621637E7D005709E3 /* Build configuration list for PBXProject "WallaMarvel" */;
@@ -519,7 +804,9 @@
 			projectRoot = "";
 			targets = (
 				DB4B342A21637E7D005709E3 /* WallaMarvel */,
+				DB8BF1652165130900AB8287 /* WallaMarvelKit */,
 				DB7BB2092163BC5300FE9BE4 /* WallaMarvelAPI */,
+				DB8BF11E2165070F00AB8287 /* WallaMarvelUI */,
 			);
 		};
 /* End PBXProject section */
@@ -543,9 +830,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB8BF11D2165070F00AB8287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BF15421650AA500AB8287 /* HeroesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BF1642165130900AB8287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00F68E70D1168F227313BAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		577C661D6331DF54C8F025C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -568,6 +892,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6CE0F49934EA722E73F13AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		814C20A966A00D90BFC0A5A7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,20 +924,24 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/ErrorHandler/ErrorHandler.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ErrorHandler.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -627,8 +977,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8BF1322165084300AB8287 /* Startable.swift in Sources */,
+				DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */,
 				DB4B343121637E7D005709E3 /* ViewController.swift in Sources */,
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
+				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +1036,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB8BF11B2165070F00AB8287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8BF14B21650AA500AB8287 /* HeroesPresenter.swift in Sources */,
+				DB8BF14E21650AA500AB8287 /* HeroesViewController.swift in Sources */,
+				DB8BF15321650AA500AB8287 /* HeroesDelegateCaller.swift in Sources */,
+				DB8BF14821650AA500AB8287 /* HeroesMediator.swift in Sources */,
+				DB8BF15221650AA500AB8287 /* HeroesViewProtocol.swift in Sources */,
+				DB8BF14C21650AA500AB8287 /* HeroesMediatorProtocol.swift in Sources */,
+				DB8BF14F21650AA500AB8287 /* HeroesWirer.swift in Sources */,
+				DB8BF14921650AA500AB8287 /* HeroesDisplayData.swift in Sources */,
+				DB8BF15521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift in Sources */,
+				DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */,
+				DB8BF15021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift in Sources */,
+				DB8BF14D21650AA500AB8287 /* HeroesPresenterProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8BF1622165130900AB8287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -690,6 +1069,21 @@
 			isa = PBXTargetDependency;
 			target = DB7BB2092163BC5300FE9BE4 /* WallaMarvelAPI */;
 			targetProxy = DB7BB20F2163BC5400FE9BE4 /* PBXContainerItemProxy */;
+		};
+		DB8BF1252165070F00AB8287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8BF11E2165070F00AB8287 /* WallaMarvelUI */;
+			targetProxy = DB8BF1242165070F00AB8287 /* PBXContainerItemProxy */;
+		};
+		DB8BF16021650CC400AB8287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7BB2092163BC5300FE9BE4 /* WallaMarvelAPI */;
+			targetProxy = DB8BF15F21650CC400AB8287 /* PBXContainerItemProxy */;
+		};
+		DB8BF16C2165130900AB8287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8BF1652165130900AB8287 /* WallaMarvelKit */;
+			targetProxy = DB8BF16B2165130900AB8287 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -924,6 +1318,129 @@
 			};
 			name = Release;
 		};
+		DB8BF1292165070F00AB8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A946A457220BCA780F0E661 /* Pods-WallaMarvelUI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WallaMarvelUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machipla.WallaMarvelUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB8BF12A2165070F00AB8287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EB1231B617FE07D708AFA5 /* Pods-WallaMarvelUI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WallaMarvelUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machipla.WallaMarvelUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB8BF1702165130900AB8287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949D2A24C3FC3C59320F1CFE /* Pods-WallaMarvelKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WallaMarvelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machipla.WallaMarvelKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB8BF1712165130900AB8287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WallaMarvelKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machipla.WallaMarvelKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -950,6 +1467,24 @@
 			buildConfigurations = (
 				DB7BB2132163BC5400FE9BE4 /* Debug */,
 				DB7BB2142163BC5400FE9BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8BF1282165070F00AB8287 /* Build configuration list for PBXNativeTarget "WallaMarvelUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8BF1292165070F00AB8287 /* Debug */,
+				DB8BF12A2165070F00AB8287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB8BF16F2165130900AB8287 /* Build configuration list for PBXNativeTarget "WallaMarvelKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8BF1702165130900AB8287 /* Debug */,
+				DB8BF1712165130900AB8287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
