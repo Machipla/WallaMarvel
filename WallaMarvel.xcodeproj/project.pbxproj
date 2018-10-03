@@ -36,18 +36,12 @@
 		DB7BB2492163C7CC00FE9BE4 /* KeyedEncodingContainer+JSONMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB23C2163C7CC00FE9BE4 /* KeyedEncodingContainer+JSONMapping.swift */; };
 		DB7BB24A2163C7CC00FE9BE4 /* KeyedDecodingContainer+JSONMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB23D2163C7CC00FE9BE4 /* KeyedDecodingContainer+JSONMapping.swift */; };
 		DB7BB24B2163C7CC00FE9BE4 /* Encodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB23E2163C7CC00FE9BE4 /* Encodable+JSON.swift */; };
-		DB7BB24F2163C92600FE9BE4 /* Bool+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB24E2163C92600FE9BE4 /* Bool+Additions.swift */; };
-		DB8BF0DB2164AF0B00AB8287 /* Sequence+Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0DA2164AF0B00AB8287 /* Sequence+Filtering.swift */; };
-		DB8BF0DE2164AF5500AB8287 /* Optional+TypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0DD2164AF5500AB8287 /* Optional+TypeProtocol.swift */; };
-		DB8BF0E12164AF9400AB8287 /* Dictionary+Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E02164AF9400AB8287 /* Dictionary+Filtering.swift */; };
-		DB8BF0E42164B0F000AB8287 /* Collection+ElementCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E32164B0F000AB8287 /* Collection+ElementCheck.swift */; };
 		DB8BF0E62164B4AA00AB8287 /* ThumbnailMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E52164B4AA00AB8287 /* ThumbnailMappingEntity.swift */; };
 		DB8BF0E92164B63E00AB8287 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E82164B63E00AB8287 /* MappingError.swift */; };
 		DB8BF0EC2164C40100AB8287 /* CharactersFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0EB2164C40100AB8287 /* CharactersFilter.swift */; };
 		DB8BF0EE2164C42A00AB8287 /* Cursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0ED2164C42A00AB8287 /* Cursor.swift */; };
 		DB8BF0F02164C62500AB8287 /* API+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0EF2164C62500AB8287 /* API+Keys.swift */; };
 		DB8BF0F22164C67100AB8287 /* API+Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0F12164C67100AB8287 /* API+Endpoints.swift */; };
-		DB8BF0F52164CF9800AB8287 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0F42164CF9800AB8287 /* String+MD5.swift */; };
 		DB8BF0F72164D1A600AB8287 /* APIEndpoints+Marvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0F62164D1A600AB8287 /* APIEndpoints+Marvel.swift */; };
 		DB8BF0F92164D3F000AB8287 /* APIKeys+Marvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0F82164D3F000AB8287 /* APIKeys+Marvel.swift */; };
 		DB8BF0FB2164D4CF00AB8287 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0FA2164D4CF00AB8287 /* RequestError.swift */; };
@@ -55,7 +49,6 @@
 		DB8BF1012164DB9400AB8287 /* CharactersFilterMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1002164DB9400AB8287 /* CharactersFilterMappingEntity.swift */; };
 		DB8BF1042164E0B500AB8287 /* DataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1032164E0B500AB8287 /* DataResult.swift */; };
 		DB8BF1062164E12C00AB8287 /* DataResultMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1052164E12C00AB8287 /* DataResultMappingEntity.swift */; };
-		DB8BF1082164E40C00AB8287 /* String+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1072164E40C00AB8287 /* String+Format.swift */; };
 		DB8BF10C2164E6AB00AB8287 /* API+Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF10B2164E6AB00AB8287 /* API+Comics.swift */; };
 		DB8BF10E2164E6C700AB8287 /* ComicsAPI+Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF10D2164E6C700AB8287 /* ComicsAPI+Get.swift */; };
 		DB8BF1112164E71C00AB8287 /* ComicsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1102164E71C00AB8287 /* ComicsFilter.swift */; };
@@ -86,6 +79,13 @@
 		DB8BF16A2165130900AB8287 /* WallaMarvelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8BF1682165130900AB8287 /* WallaMarvelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB8BF16D2165130900AB8287 /* WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */; };
 		DB8BF16E2165130900AB8287 /* WallaMarvelKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DB8BF172216513D800AB8287 /* Optional+TypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0DD2164AF5500AB8287 /* Optional+TypeProtocol.swift */; };
+		DB8BF173216513D800AB8287 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0F42164CF9800AB8287 /* String+MD5.swift */; };
+		DB8BF174216513D800AB8287 /* String+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1072164E40C00AB8287 /* String+Format.swift */; };
+		DB8BF175216513D800AB8287 /* Collection+ElementCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E32164B0F000AB8287 /* Collection+ElementCheck.swift */; };
+		DB8BF176216513D800AB8287 /* Dictionary+Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E02164AF9400AB8287 /* Dictionary+Filtering.swift */; };
+		DB8BF177216513D800AB8287 /* Sequence+Filtering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0DA2164AF0B00AB8287 /* Sequence+Filtering.swift */; };
+		DB8BF178216513D800AB8287 /* Bool+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB24E2163C92600FE9BE4 /* Bool+Additions.swift */; };
 		DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -112,6 +112,20 @@
 			remoteInfo = WallaMarvelAPI;
 		};
 		DB8BF16B2165130900AB8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4B342321637E7D005709E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8BF1652165130900AB8287;
+			remoteInfo = WallaMarvelKit;
+		};
+		DB8BF179216513EA00AB8287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4B342321637E7D005709E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB8BF1652165130900AB8287;
+			remoteInfo = WallaMarvelKit;
+		};
+		DB8BF17B216513EE00AB8287 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB4B342321637E7D005709E3 /* Project object */;
 			proxyType = 1;
@@ -301,9 +315,9 @@
 			children = (
 				DB4B344021637ED5005709E3 /* Podfile */,
 				DB4B342D21637E7D005709E3 /* WallaMarvel */,
+				DB8BF1672165130900AB8287 /* WallaMarvelKit */,
 				DB7BB20B2163BC5400FE9BE4 /* WallaMarvelAPI */,
 				DB8BF1202165070F00AB8287 /* WallaMarvelUI */,
-				DB8BF1672165130900AB8287 /* WallaMarvelKit */,
 				DB4B342C21637E7D005709E3 /* Products */,
 				16B1A4CE98E06E3B01F47DC2 /* Pods */,
 				1723F7E50F78D1DFB6C7519E /* Frameworks */,
@@ -346,8 +360,6 @@
 		DB7BB20B2163BC5400FE9BE4 /* WallaMarvelAPI */ = {
 			isa = PBXGroup;
 			children = (
-				DB8BF0DC2164AF3400AB8287 /* Others */,
-				DB7BB24C2163C91500FE9BE4 /* Extensions */,
 				DB7BB22C2163C49400FE9BE4 /* Protocols */,
 				DB7BB2292163C37D00FE9BE4 /* Serializers */,
 				DB8BF0E72164B60D00AB8287 /* Errors */,
@@ -647,6 +659,8 @@
 		DB8BF1672165130900AB8287 /* WallaMarvelKit */ = {
 			isa = PBXGroup;
 			children = (
+				DB8BF0DC2164AF3400AB8287 /* Others */,
+				DB7BB24C2163C91500FE9BE4 /* Extensions */,
 				DB8BF1682165130900AB8287 /* WallaMarvelKit.h */,
 				DB8BF1692165130900AB8287 /* Info.plist */,
 			);
@@ -719,6 +733,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DB8BF17A216513EA00AB8287 /* PBXTargetDependency */,
 			);
 			name = WallaMarvelAPI;
 			productName = WallaMarvelAPI;
@@ -738,6 +753,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				DB8BF17C216513EE00AB8287 /* PBXTargetDependency */,
 				DB8BF16021650CC400AB8287 /* PBXTargetDependency */,
 			);
 			name = WallaMarvelUI;
@@ -996,7 +1012,6 @@
 				DB7BB21B2163BD7900FE9BE4 /* API+Characters.swift in Sources */,
 				DB8BF10C2164E6AB00AB8287 /* API+Comics.swift in Sources */,
 				DB8BF0FB2164D4CF00AB8287 /* RequestError.swift in Sources */,
-				DB8BF0E12164AF9400AB8287 /* Dictionary+Filtering.swift in Sources */,
 				DB7BB21D2163BDAA00FE9BE4 /* CharactersAPI+Get.swift in Sources */,
 				DB7BB2442163C7CC00FE9BE4 /* AnyJSONTypeProtocol.swift in Sources */,
 				DB7BB22B2163C38500FE9BE4 /* CharacterMappingEntity.swift in Sources */,
@@ -1009,25 +1024,19 @@
 				DB7BB2222163BFAD00FE9BE4 /* CharacterOrderBy.swift in Sources */,
 				DB8BF1112164E71C00AB8287 /* ComicsFilter.swift in Sources */,
 				DB8BF10E2164E6C700AB8287 /* ComicsAPI+Get.swift in Sources */,
-				DB8BF0E42164B0F000AB8287 /* Collection+ElementCheck.swift in Sources */,
 				DB8BF0E62164B4AA00AB8287 /* ThumbnailMappingEntity.swift in Sources */,
-				DB7BB24F2163C92600FE9BE4 /* Bool+Additions.swift in Sources */,
 				DB8BF0F72164D1A600AB8287 /* APIEndpoints+Marvel.swift in Sources */,
 				DB8BF0EE2164C42A00AB8287 /* Cursor.swift in Sources */,
-				DB8BF0DB2164AF0B00AB8287 /* Sequence+Filtering.swift in Sources */,
 				DB7BB2462163C7CC00FE9BE4 /* AnyJSONTypeValueMapper.swift in Sources */,
 				DB7BB2472163C7CC00FE9BE4 /* Decodable+JSON.swift in Sources */,
 				DB7BB2282163C24D00FE9BE4 /* Thumbnail.swift in Sources */,
-				DB8BF0DE2164AF5500AB8287 /* Optional+TypeProtocol.swift in Sources */,
 				DB7BB24B2163C7CC00FE9BE4 /* Encodable+JSON.swift in Sources */,
-				DB8BF1082164E40C00AB8287 /* String+Format.swift in Sources */,
 				DB7BB2452163C7CC00FE9BE4 /* JSONEncodingError.swift in Sources */,
 				DB8BF1012164DB9400AB8287 /* CharactersFilterMappingEntity.swift in Sources */,
 				DB7BB24A2163C7CC00FE9BE4 /* KeyedDecodingContainer+JSONMapping.swift in Sources */,
 				DB8BF0FF2164D8D200AB8287 /* CursorMappingEntity.swift in Sources */,
 				DB8BF1172165043900AB8287 /* ComicMappingEntity.swift in Sources */,
 				DB7BB23F2163C7CC00FE9BE4 /* JSONTypeRawRepresentable.swift in Sources */,
-				DB8BF0F52164CF9800AB8287 /* String+MD5.swift in Sources */,
 				DB8BF0E92164B63E00AB8287 /* MappingError.swift in Sources */,
 				DB8BF1132164E8EC00AB8287 /* Comic.swift in Sources */,
 				DB8BF0EC2164C40100AB8287 /* CharactersFilter.swift in Sources */,
@@ -1059,6 +1068,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8BF174216513D800AB8287 /* String+Format.swift in Sources */,
+				DB8BF176216513D800AB8287 /* Dictionary+Filtering.swift in Sources */,
+				DB8BF172216513D800AB8287 /* Optional+TypeProtocol.swift in Sources */,
+				DB8BF178216513D800AB8287 /* Bool+Additions.swift in Sources */,
+				DB8BF177216513D800AB8287 /* Sequence+Filtering.swift in Sources */,
+				DB8BF173216513D800AB8287 /* String+MD5.swift in Sources */,
+				DB8BF175216513D800AB8287 /* Collection+ElementCheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1084,6 +1100,16 @@
 			isa = PBXTargetDependency;
 			target = DB8BF1652165130900AB8287 /* WallaMarvelKit */;
 			targetProxy = DB8BF16B2165130900AB8287 /* PBXContainerItemProxy */;
+		};
+		DB8BF17A216513EA00AB8287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8BF1652165130900AB8287 /* WallaMarvelKit */;
+			targetProxy = DB8BF179216513EA00AB8287 /* PBXContainerItemProxy */;
+		};
+		DB8BF17C216513EE00AB8287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB8BF1652165130900AB8287 /* WallaMarvelKit */;
+			targetProxy = DB8BF17B216513EE00AB8287 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

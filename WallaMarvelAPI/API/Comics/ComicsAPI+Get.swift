@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 import Promises
+import WallaMarvelKit
 
 public extension API.Comics{
     public struct Get{

@@ -9,7 +9,7 @@
 import Foundation
 import CommonCrypto
 
-internal extension String{
+public extension String{
     var MD5:String {
         let messageData = self.data(using:.utf8)!
         var digestData = Data(count: Int(CC_MD5_DIGEST_LENGTH))
