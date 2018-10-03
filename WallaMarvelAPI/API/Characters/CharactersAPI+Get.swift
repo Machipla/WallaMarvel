@@ -47,6 +47,30 @@ public extension API.Characters.Get{
             }
         }
     }
+
+    public static func byID(_ ID:String) -> Promise<Character>{
+        let params = API.Keys.Marvel.asParams()
+        
+        return Promise{ fulfill, reject in
+            Alamofire.request(API.Endpoints.Marvel.character.formatted(ID), method: .get, parameters: params).responseJSON { (response:DataResponse<Any>) in
+                guard response.result.isSuccess else{
+                    reject(response.result.error!)
+                    return
+                }
+                
+                guard let JSON = response.result.value! as? [String:Any],
+                    let data = JSON["data"] as? [String:Any],
+                    let dataResult = try? DataResultMappingEntity(from: data).asEntity,
+                    let firstResult = dataResult.results.first,
+                    let character = try? CharacterMappingEntity(from: firstResult).asEntity else {
+                        reject(RequestError.responseNotConsistent)
+                        return
+                }
+                
+                fulfill(character)
+            }
+        }
+    }
 }
 
 public extension API.Characters.Get{
