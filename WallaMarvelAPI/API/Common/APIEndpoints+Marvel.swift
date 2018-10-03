@@ -13,5 +13,7 @@ internal extension API.Endpoints{
         static let root         = "https://gateway.marvel.com"
         static let characters   = API.Endpoints.Marvel.root + "/v1/public/characters"
         static let character    = API.Endpoints.Marvel.root + "/v1/public/characters/%@"
+        static let comics       = API.Endpoints.Marvel.root + "/v1/public/comics"
+        static let comic        = API.Endpoints.Marvel.root + "/v1/public/comics/%@"
     }
 }

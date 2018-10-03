@@ -55,6 +55,13 @@
 		DB8BF1042164E0B500AB8287 /* DataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1032164E0B500AB8287 /* DataResult.swift */; };
 		DB8BF1062164E12C00AB8287 /* DataResultMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1052164E12C00AB8287 /* DataResultMappingEntity.swift */; };
 		DB8BF1082164E40C00AB8287 /* String+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1072164E40C00AB8287 /* String+Format.swift */; };
+		DB8BF10C2164E6AB00AB8287 /* API+Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF10B2164E6AB00AB8287 /* API+Comics.swift */; };
+		DB8BF10E2164E6C700AB8287 /* ComicsAPI+Get.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF10D2164E6C700AB8287 /* ComicsAPI+Get.swift */; };
+		DB8BF1112164E71C00AB8287 /* ComicsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1102164E71C00AB8287 /* ComicsFilter.swift */; };
+		DB8BF1132164E8EC00AB8287 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1122164E8EC00AB8287 /* Comic.swift */; };
+		DB8BF1152164EB1200AB8287 /* ComicsFilterMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1142164EB1200AB8287 /* ComicsFilterMappingEntity.swift */; };
+		DB8BF1172165043900AB8287 /* ComicMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1162165043900AB8287 /* ComicMappingEntity.swift */; };
+		DB8BF119216504FE00AB8287 /* ComicOrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF118216504FE00AB8287 /* ComicOrderBy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +143,13 @@
 		DB8BF1032164E0B500AB8287 /* DataResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResult.swift; sourceTree = "<group>"; };
 		DB8BF1052164E12C00AB8287 /* DataResultMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResultMappingEntity.swift; sourceTree = "<group>"; };
 		DB8BF1072164E40C00AB8287 /* String+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Format.swift"; sourceTree = "<group>"; };
+		DB8BF10B2164E6AB00AB8287 /* API+Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Comics.swift"; sourceTree = "<group>"; };
+		DB8BF10D2164E6C700AB8287 /* ComicsAPI+Get.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ComicsAPI+Get.swift"; sourceTree = "<group>"; };
+		DB8BF1102164E71C00AB8287 /* ComicsFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsFilter.swift; sourceTree = "<group>"; };
+		DB8BF1122164E8EC00AB8287 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		DB8BF1142164EB1200AB8287 /* ComicsFilterMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsFilterMappingEntity.swift; sourceTree = "<group>"; };
+		DB8BF1162165043900AB8287 /* ComicMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicMappingEntity.swift; sourceTree = "<group>"; };
+		DB8BF118216504FE00AB8287 /* ComicOrderBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicOrderBy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +266,7 @@
 			children = (
 				DB7BB2252163C11C00FE9BE4 /* Character.swift */,
 				DB7BB2272163C24D00FE9BE4 /* Thumbnail.swift */,
+				DB8BF1122164E8EC00AB8287 /* Comic.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,6 +284,9 @@
 		DB7BB2242163C10900FE9BE4 /* Comics */ = {
 			isa = PBXGroup;
 			children = (
+				DB8BF10B2164E6AB00AB8287 /* API+Comics.swift */,
+				DB8BF10D2164E6C700AB8287 /* ComicsAPI+Get.swift */,
+				DB8BF10F2164E70A00AB8287 /* Request */,
 			);
 			path = Comics;
 			sourceTree = "<group>";
@@ -278,10 +296,12 @@
 			children = (
 				DB7BB22F2163C7CC00FE9BE4 /* Common */,
 				DB7BB22A2163C38500FE9BE4 /* CharacterMappingEntity.swift */,
+				DB8BF1162165043900AB8287 /* ComicMappingEntity.swift */,
 				DB8BF0E52164B4AA00AB8287 /* ThumbnailMappingEntity.swift */,
 				DB8BF0FE2164D8D200AB8287 /* CursorMappingEntity.swift */,
 				DB8BF1002164DB9400AB8287 /* CharactersFilterMappingEntity.swift */,
 				DB8BF1052164E12C00AB8287 /* DataResultMappingEntity.swift */,
+				DB8BF1142164EB1200AB8287 /* ComicsFilterMappingEntity.swift */,
 			);
 			path = Serializers;
 			sourceTree = "<group>";
@@ -401,6 +421,15 @@
 				DB8BF1032164E0B500AB8287 /* DataResult.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		DB8BF10F2164E70A00AB8287 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF1102164E71C00AB8287 /* ComicsFilter.swift */,
+				DB8BF118216504FE00AB8287 /* ComicOrderBy.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -608,9 +637,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB7BB2192163BD5500FE9BE4 /* API.swift in Sources */,
+				DB8BF1152164EB1200AB8287 /* ComicsFilterMappingEntity.swift in Sources */,
 				DB8BF0F02164C62500AB8287 /* API+Keys.swift in Sources */,
 				DB8BF0F22164C67100AB8287 /* API+Endpoints.swift in Sources */,
 				DB7BB21B2163BD7900FE9BE4 /* API+Characters.swift in Sources */,
+				DB8BF10C2164E6AB00AB8287 /* API+Comics.swift in Sources */,
 				DB8BF0FB2164D4CF00AB8287 /* RequestError.swift in Sources */,
 				DB8BF0E12164AF9400AB8287 /* Dictionary+Filtering.swift in Sources */,
 				DB7BB21D2163BDAA00FE9BE4 /* CharactersAPI+Get.swift in Sources */,
@@ -623,6 +654,8 @@
 				DB7BB22E2163C49D00FE9BE4 /* EntityConvertible.swift in Sources */,
 				DB7BB2262163C11C00FE9BE4 /* Character.swift in Sources */,
 				DB7BB2222163BFAD00FE9BE4 /* CharacterOrderBy.swift in Sources */,
+				DB8BF1112164E71C00AB8287 /* ComicsFilter.swift in Sources */,
+				DB8BF10E2164E6C700AB8287 /* ComicsAPI+Get.swift in Sources */,
 				DB8BF0E42164B0F000AB8287 /* Collection+ElementCheck.swift in Sources */,
 				DB8BF0E62164B4AA00AB8287 /* ThumbnailMappingEntity.swift in Sources */,
 				DB7BB24F2163C92600FE9BE4 /* Bool+Additions.swift in Sources */,
@@ -639,11 +672,14 @@
 				DB8BF1012164DB9400AB8287 /* CharactersFilterMappingEntity.swift in Sources */,
 				DB7BB24A2163C7CC00FE9BE4 /* KeyedDecodingContainer+JSONMapping.swift in Sources */,
 				DB8BF0FF2164D8D200AB8287 /* CursorMappingEntity.swift in Sources */,
+				DB8BF1172165043900AB8287 /* ComicMappingEntity.swift in Sources */,
 				DB7BB23F2163C7CC00FE9BE4 /* JSONTypeRawRepresentable.swift in Sources */,
 				DB8BF0F52164CF9800AB8287 /* String+MD5.swift in Sources */,
 				DB8BF0E92164B63E00AB8287 /* MappingError.swift in Sources */,
+				DB8BF1132164E8EC00AB8287 /* Comic.swift in Sources */,
 				DB8BF0EC2164C40100AB8287 /* CharactersFilter.swift in Sources */,
 				DB8BF1062164E12C00AB8287 /* DataResultMappingEntity.swift in Sources */,
+				DB8BF119216504FE00AB8287 /* ComicOrderBy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
