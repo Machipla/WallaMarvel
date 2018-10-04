@@ -10,4 +10,6 @@ import UIKit
 
 protocol HeroesMediatorProtocol: class{
     func reloadData()
+    
+    func filtersTapped()
 }

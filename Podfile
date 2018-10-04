@@ -10,11 +10,13 @@ def promises;   pod 'PromisesSwift', '~> 1.2.3'; end
 def swiftDate;  pod 'SwiftDate', '~> 4.0'; end
 
 ## Handlers
-def errorhandler;   pod 'ErrorHandler', '~> 0.8.1'; end
+def errorHandler;   pod 'ErrorHandler', '~> 0.8.1'; end
 
 ## UI
-def ibanimatable;   pod 'IBAnimatable', '~> 5.2.1'; end
-def eureka;         pod 'Eureka', '~> 4.3.0'; end
+def ibanimatable;       pod 'IBAnimatable', '~> 5.2.1'; end
+def eureka;             pod 'Eureka', '~> 4.3.0'; end
+def jgprogressHUD;      pod 'JGProgressHUD', '~> 2.0.3'; end
+def alamofireimage;     pod 'AlamofireImage', '~> 3.4.1'; end
 
 ######## Targets ########
 target 'WallaMarvel' do
@@ -22,7 +24,7 @@ target 'WallaMarvel' do
 end
 
 target 'WallaMarvelKit' do
-    errorhandler
+    errorHandler
 end
 
 target 'WallaMarvelAPI' do
@@ -32,9 +34,12 @@ target 'WallaMarvelAPI' do
 end
 
 target 'WallaMarvelUI' do
-    ibanimatable
     promises
+    errorHandler
+    ibanimatable
     eureka
+    jgprogressHUD
+    alamofireimage
 end
 
 ######## Post-installation scripts ########

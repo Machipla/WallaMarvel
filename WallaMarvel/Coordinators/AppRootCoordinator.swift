@@ -8,9 +8,13 @@
 
 import Foundation
 import UIKit
+import WallaMarvelUI
 
 final class AppRootCoordinator: Coordinator, Startable{
     var childs = [Coordinator]()
+
+    private(set) weak var rootNavigationController:UINavigationController?
+    private(set) weak var heroesListController:HeroesViewController?
     
     let launchOptions:[UIApplication.LaunchOptionsKey:Any]?
     let mainWindow:UIWindow
@@ -21,14 +25,14 @@ final class AppRootCoordinator: Coordinator, Startable{
     }
     
     func start(){
-        let controller = UIViewController()
-        controller.view.backgroundColor = .red
-        controller.title = "Holis"
+        let heroesListController = HeroesViewController()
         
-        let rootNavigationController = UINavigationController(rootViewController: controller)
-        
+        let rootNavigationController = UINavigationController(rootViewController: heroesListController)
         
         mainWindow.rootViewController = rootNavigationController
         mainWindow.makeKeyAndVisible()
+        
+        self.heroesListController = heroesListController
+        self.rootNavigationController = rootNavigationController
     }
 }

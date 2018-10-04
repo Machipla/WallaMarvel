@@ -7,6 +7,12 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 protocol HeroesPresenterProtocol: class{
+    func display(_ characters:[WallaMarvelAPI.Character])
+    
+    func displayProgress()
+    func hideProgress()
+    func display(_ error:Error)
 }

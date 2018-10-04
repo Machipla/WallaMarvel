@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  WallaMarvel
+
+  Created by Mario Plaza on 4/10/18.
+  Copyright © 2018 Mario Plaza. All rights reserved.
+*/
+
+/******** Heroes List ********/
+"HEROES_LIST_TITLE" = "Llistat d'herois";
+/*****************************/

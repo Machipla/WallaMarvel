@@ -8,6 +8,8 @@
 
 import UIKit
 import Eureka
+import AlamofireImage
+import WallaMarvelKit
 
 public final class HeroesViewController: FormViewController {
 
@@ -22,11 +24,35 @@ public final class HeroesViewController: FormViewController {
     
 	public override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "HEROES_LIST_TITLE".localized(onBundleFor: self)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "ic_filters", inBundleOf: self)!, style: .plain, target: self, action: #selector(filtersTapped))
+        
         mediator.reloadData()
     }
 
 }
 
-extension HeroesViewController:  HeroesViewProtocol{
-    
+private extension HeroesViewController{
+    @objc func filtersTapped(){
+        mediator.filtersTapped()
+    }
+}
+
+extension HeroesViewController: HeroesViewProtocol{
+    func displayHeroesData(_ displayData:HeroesDisplayData){
+        func mapHeroDisplayDataToRow(_ heroDisplayData:HeroesDisplayData.SingleHeroDisplay) -> BaseRow{
+            return LabelRow(){ row in
+                row.cellStyle = .subtitle
+                row.title = heroDisplayData.title
+                row.cell.imageView?.setImage(withURL: heroDisplayData.imageURL, imageTransition: .crossDissolve(0.4))
+            }
+        }
+        
+        let rows = displayData.characters.map(mapHeroDisplayDataToRow(_:))
+        let section = Section()
+        section.append(contentsOf: rows)
+        
+        form +++ section
+    }
 }

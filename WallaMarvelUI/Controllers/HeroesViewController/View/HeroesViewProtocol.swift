@@ -8,6 +8,6 @@
 
 import UIKit
 
-protocol HeroesViewProtocol: class {
-    
+protocol HeroesViewProtocol: class, HUDDrawer {
+    func displayHeroesData(_ displayData:HeroesDisplayData)
 }

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import ErrorHandler
+import WallaMarvelKit
 import WallaMarvelAPI
 
 final class HeroesMediator {
@@ -14,16 +16,26 @@ final class HeroesMediator {
     var delegateCaller: HeroesDelegateCallerProtocol!
     
     private var currentCursor = Cursor()
+    private var currentCharacters = [WallaMarvelAPI.Character]()
 }
 
 extension HeroesMediator: HeroesMediatorProtocol{
     func reloadData(){
+        presenter.displayProgress()
         API.Characters.Get.all(cursor: currentCursor).then{ result in
-                
-        }.catch { error in
+            self.currentCursor = result.nextCursor
+            self.currentCharacters = result.characters
             
+            self.presenter.display(result.characters)
+        }.catch { error in
+            ErrorHandler.default.handle(error)
+            self.presenter.display(error)
         }.always {
-                
+            self.presenter.hideProgress()
         }
+    }
+    
+    func filtersTapped(){
+        
     }
 }
