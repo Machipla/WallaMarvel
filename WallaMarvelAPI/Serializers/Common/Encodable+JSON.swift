@@ -11,7 +11,7 @@ import Foundation
 public extension Encodable{
     func asJSON() throws -> [String:Any]{
         let encoder = JSONEncoder()
-        encoder.keyEncodingStrategy = .convertToSnakeCase
+        encoder.keyEncodingStrategy = .useDefaultKeys
         let encodedJSONData = try encoder.encode(self)
         
         guard let rawJSON = try JSONSerialization.jsonObject(with: encodedJSONData, options: []) as? [String:Any] else{ throw JSONEncodingError.serializationFailed }

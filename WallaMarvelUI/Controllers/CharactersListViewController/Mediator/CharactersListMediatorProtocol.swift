@@ -13,5 +13,6 @@ protocol CharactersListMediatorProtocol: class{
     
     func refreshTriggered()
     func nextDataRequestTriggered()
+    func searchHasChanged(to text:String?)
     func filtersTapped()
 }

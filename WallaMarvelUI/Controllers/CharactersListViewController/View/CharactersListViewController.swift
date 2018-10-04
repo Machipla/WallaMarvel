@@ -30,6 +30,7 @@ public final class CharactersListViewController: FormViewController {
         
         title = "HEROES_LIST_TITLE".localized(onBundleFor: self)
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "ic_filters", inBundleOf: self)!, style: .plain, target: self, action: #selector(filtersTapped))
+        setupSearchBar()
         
         tableView.addInfiniteScroll(handler: { _ in self.nextDataRequestTriggered() })
         form +++ Section()
@@ -45,6 +46,16 @@ public final class CharactersListViewController: FormViewController {
     public override func deleteAnimation(forRows rows: [BaseRow]) -> UITableView.RowAnimation { return .fade }
     public override func insertAnimation(forRows rows: [BaseRow]) -> UITableView.RowAnimation { return .fade }
 
+    private func setupSearchBar(){
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchBar.delegate = self
+        searchController.searchBar.enablesReturnKeyAutomatically = false
+        searchController.searchBar.placeholder = "HEROES_LIST_SEARCH_PLACEHOLDER".localized(onBundleFor: self)
+        searchController.hidesNavigationBarDuringPresentation = false
+        searchController.dimsBackgroundDuringPresentation = false
+        definesPresentationContext = true
+        navigationItem.searchingController = searchController
+    }
 }
 
 private extension CharactersListViewController{
@@ -94,5 +105,18 @@ extension CharactersListViewController: CharactersListViewProtocol{
     
     func hideNextDataRequestProgressView(){
         tableView.finishInfiniteScroll()
+    }
+}
+
+extension CharactersListViewController: UISearchBarDelegate{
+    public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.text = nil
+        mediator.searchHasChanged(to: searchBar.text)
+    }
+    
+    public func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
+        // We do it like this in order not to make a lot of requests at once if user types fast.
+        // If we want to do it so, we just have to change the delegate method to the appropiate one
+        mediator.searchHasChanged(to: searchBar.text)
     }
 }

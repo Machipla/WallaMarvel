@@ -7,5 +7,6 @@
 */
 
 /******** Heroes List ********/
-"HEROES_LIST_TITLE" = "Lista de heroes";
+"HEROES_LIST_TITLE"                 = "Lista de heroes";
+"HEROES_LIST_SEARCH_PLACEHOLDER"    = "Iron man, Spider-man...";
 /*****************************/

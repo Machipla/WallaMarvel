@@ -12,9 +12,9 @@ import SwiftDate
 /// A raw representation of a CharactersFilter that comes from a JSON.
 /// This is may be taken as a object representation of the JSON that can be converted into or feeded by an entity
 internal struct CharactersFilterMappingEntity: Encodable, EntityConvertible{
-    let rawName:String
-    let rawNameStartsWith:String
-    let rawModifiedSince:String
+    let rawName:String?
+    let rawNameStartsWith:String?
+    let rawModifiedSince:String?
     let rawComicIDs:String
     let rawOrderBy:String
     
@@ -25,19 +25,25 @@ internal struct CharactersFilterMappingEntity: Encodable, EntityConvertible{
     init(entity:CharactersFilter) throws{
         rawName = entity.name
         rawNameStartsWith = entity.nameStartsWith
-        rawModifiedSince = entity.modifiedSince.iso8601()
+        rawModifiedSince = entity.modifiedSince?.iso8601()
         rawComicIDs = entity.comicIDs.map{ String($0) }.joined(separator: ",")
         rawOrderBy = entity.orderBy.rawValue
     }
     
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: EncodingKeys.self)
-        
-        try container.encode(rawName, forKey: .name)
-        try container.encode(rawNameStartsWith, forKey: .nameStartsWith)
-        try container.encode(rawModifiedSince, forKey: .modifiedSince)
-        try container.encode(rawComicIDs, forKey: .comics)
+
+        try container.encodeIfPresent(rawNameStartsWith, forKey: .nameStartsWith)
+        try container.encodeIfPresent(rawModifiedSince, forKey: .modifiedSince)
         try container.encode(rawOrderBy, forKey: .orderBy)
+
+        if !(rawName?.isEmpty ?? true){
+            try container.encodeIfPresent(rawName, forKey: .name)
+        }
+        
+        if !rawComicIDs.isEmpty{
+            try container.encode(rawComicIDs, forKey: .comics)
+        }
     }
 }
 
@@ -56,8 +62,8 @@ internal extension CharactersFilterMappingEntity{
         return rawComicIDs.split(separator: ",").map{ Int($0) }.filteringNils()
     }
     
-    var mappedModifiedSince:Date{
-        return rawModifiedSince.date(format: .iso8601Auto)!.absoluteDate
+    var mappedModifiedSince:Date?{
+        return rawModifiedSince?.date(format: .iso8601Auto)!.absoluteDate
     }
     
     var mappedOrderBy:CharacterOrderBy{

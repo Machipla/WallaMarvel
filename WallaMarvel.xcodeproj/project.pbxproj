@@ -103,6 +103,7 @@
 		DBB25FA821662C7B002DFDB4 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25FA721662C7B002DFDB4 /* UIImage+Additions.swift */; };
 		DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */; };
 		DBC915EB21664B570064A706 /* Promises+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915EA21664B570064A706 /* Promises+Empty.swift */; };
+		DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */; };
 		DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -277,6 +278,7 @@
 		DBB25FA721662C7B002DFDB4 /* UIImage+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
 		DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
 		DBC915EA21664B570064A706 /* Promises+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promises+Empty.swift"; sourceTree = "<group>"; };
+		DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+SearchController.swift"; sourceTree = "<group>"; };
 		EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
 		FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -732,6 +734,7 @@
 		DB8BF15B21650BBB00AB8287 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DBC915EC2166596C0064A706 /* UINavigationItem */,
 				DB5C81EF216643E000F43F09 /* UIView */,
 				DBB25FA921663364002DFDB4 /* UIImageView */,
 				DBB25FA621662C73002DFDB4 /* UIImage */,
@@ -840,6 +843,14 @@
 				DBC915EA21664B570064A706 /* Promises+Empty.swift */,
 			);
 			path = Promises;
+			sourceTree = "<group>";
+		};
+		DBC915EC2166596C0064A706 /* UINavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */,
+			);
+			path = UINavigationItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1249,6 +1260,7 @@
 				DB8BF14C21650AA500AB8287 /* CharactersListMediatorProtocol.swift in Sources */,
 				DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */,
 				DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */,
+				DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */,
 				DB8BF14921650AA500AB8287 /* CharactersDisplayData.swift in Sources */,
 				DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */,
 				DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */,

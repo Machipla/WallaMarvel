@@ -18,11 +18,12 @@ final class CharactersListMediator {
     
     private var currentCursor = Cursor()
     private var currentCharacters = [WallaMarvelAPI.Character]()
+    private var currentFilter = CharactersFilter()
 }
 
 private extension CharactersListMediator{
     func loadDataAndHandleErrorIfAny() -> Promise<API.Characters.Get.CharactersResult>{
-        return API.Characters.Get.all(cursor: currentCursor).catch { error in
+        return API.Characters.Get.all(filteringBy: currentFilter, cursor: currentCursor).catch { error in
             ErrorHandler.default.handle(error)
             self.presenter.display(error)
         }
@@ -68,6 +69,11 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
         }.always {
             self.presenter.hideNextDataRequestInProgress()
         }
+    }
+    
+    func searchHasChanged(to text:String?){
+        currentFilter.name = text
+        reloadData()
     }
     
     func filtersTapped(){
