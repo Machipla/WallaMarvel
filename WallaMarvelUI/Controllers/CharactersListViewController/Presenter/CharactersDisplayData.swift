@@ -18,3 +18,9 @@ struct CharactersDisplayData {
     
     let characters:[SingleCharacterDisplay]
 }
+
+// MARK: - Character display behaviors
+enum CharactersDisplayBehavior{
+    case removingOldOnes
+    case appendingToOldOnes
+}

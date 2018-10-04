@@ -7,12 +7,15 @@
 //
 
 import Foundation
+import WallaMarvelKit
 
 public struct Thumbnail{
     public let path:String
     public let `extension`:String
+    
+    /// URL of the thumbnail, already converted to secure http and ready to use
     public var url:URL{
-        return URL(string: path+`extension`)!
+        return URL(string: path+"."+`extension`)!.asHTTPSURL
     }
     
     public init?(path:String, extension:String){

@@ -9,12 +9,15 @@
 import UIKit
 import Eureka
 import AlamofireImage
+import UIScrollView_InfiniteScroll
 import WallaMarvelKit
 
 public final class CharactersListViewController: FormViewController {
 
     public weak var delegate:CharactersListViewControllerDelegate?
 	var mediator: CharactersListMediatorProtocol!
+    
+    private var charactersSection:Section{ return form.allSections.first! }
 
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
     public init(){
@@ -28,8 +31,19 @@ public final class CharactersListViewController: FormViewController {
         title = "HEROES_LIST_TITLE".localized(onBundleFor: self)
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "ic_filters", inBundleOf: self)!, style: .plain, target: self, action: #selector(filtersTapped))
         
+        tableView.addInfiniteScroll(handler: { _ in self.nextDataRequestTriggered() })
+        form +++ Section()
+        
+        if #available(iOS 10.0, *){
+            tableView.refreshControl = UIRefreshControl()
+            tableView.refreshControl?.addTarget(self, action: #selector(refreshTriggered), for: .valueChanged)
+        }
+        
         mediator.reloadData()
     }
+    
+    public override func deleteAnimation(forRows rows: [BaseRow]) -> UITableView.RowAnimation { return .fade }
+    public override func insertAnimation(forRows rows: [BaseRow]) -> UITableView.RowAnimation { return .fade }
 
 }
 
@@ -37,22 +51,48 @@ private extension CharactersListViewController{
     @objc func filtersTapped(){
         mediator.filtersTapped()
     }
+    
+    @objc func refreshTriggered(){
+        mediator.refreshTriggered()
+    }
+    
+    func nextDataRequestTriggered(){
+        mediator.nextDataRequestTriggered()
+    }
 }
 
 extension CharactersListViewController: CharactersListViewProtocol{
-    func displayHeroesData(_ displayData:CharactersDisplayData){
+    func displayHeroesData(_ displayData:CharactersDisplayData, behavior:CharactersDisplayBehavior){
         func mapHeroDisplayDataToRow(_ heroDisplayData:CharactersDisplayData.SingleCharacterDisplay) -> BaseRow{
-            return LabelRow(){ row in
-                row.cellStyle = .subtitle
+            return CharacterRow(){ row in
                 row.title = heroDisplayData.title
-                row.cell.imageView?.setImage(withURL: heroDisplayData.imageURL, imageTransition: .crossDissolve(0.4))
+                row.imageURL = heroDisplayData.imageURL
             }
+        }
+
+        if behavior == .removingOldOnes{
+            charactersSection.removeAll()
         }
         
         let rows = displayData.characters.map(mapHeroDisplayDataToRow(_:))
-        let section = Section()
-        section.append(contentsOf: rows)
-        
-        form +++ section
+        charactersSection.append(contentsOf: rows)
+    }
+    
+    func drawRefreshProgressView() {
+        guard #available(iOS 10.0, *) else { return }
+        tableView.refreshControl?.beginRefreshing()
+    }
+    
+    func hideRefreshProgressView() {
+        guard #available(iOS 10.0, *) else { return }
+        tableView.refreshControl?.endRefreshing()
+    }
+    
+    func drawNextDataRequestProgressView(){
+        tableView.beginInfiniteScroll(true)
+    }
+    
+    func hideNextDataRequestProgressView(){
+        tableView.finishInfiniteScroll()
     }
 }

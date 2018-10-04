@@ -9,5 +9,9 @@
 import UIKit
 
 protocol CharactersListViewProtocol: class, HUDDrawer {
-    func displayHeroesData(_ displayData:CharactersDisplayData)
+    func displayHeroesData(_ displayData:CharactersDisplayData, behavior:CharactersDisplayBehavior)
+    func drawRefreshProgressView()
+    func hideRefreshProgressView()
+    func drawNextDataRequestProgressView()
+    func hideNextDataRequestProgressView()
 }

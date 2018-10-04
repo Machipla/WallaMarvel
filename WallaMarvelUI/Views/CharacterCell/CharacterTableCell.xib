@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CharacterTableCell" customModule="WallaMarvelUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="514" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="514" height="60.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Poe-tM-wdb">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="9fe-EL-exv"/>
+                            <constraint firstAttribute="height" constant="60" id="Y7h-vV-n6h"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gp-jz-Odb">
+                        <rect key="frame" x="98" y="30" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7Gp-jz-Odb" firstAttribute="leading" secondItem="Poe-tM-wdb" secondAttribute="trailing" constant="8" symbolic="YES" id="JhX-Jc-BVe"/>
+                    <constraint firstAttribute="bottom" secondItem="Poe-tM-wdb" secondAttribute="bottom" id="KM6-Wv-o7L"/>
+                    <constraint firstItem="Poe-tM-wdb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="O4L-22-aLc"/>
+                    <constraint firstItem="Poe-tM-wdb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ORx-sq-6C6"/>
+                    <constraint firstItem="7Gp-jz-Odb" firstAttribute="centerY" secondItem="Poe-tM-wdb" secondAttribute="centerY" id="Phy-J7-9F0"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7Gp-jz-Odb" secondAttribute="trailing" constant="20" symbolic="YES" id="lBy-K3-gO8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="detailImageView" destination="Poe-tM-wdb" id="Sij-Z3-W3c"/>
+                <outlet property="titleLabel" destination="7Gp-jz-Odb" id="Tiw-za-WNb"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="73.313343328335833"/>
+        </tableViewCell>
+    </objects>
+</document>

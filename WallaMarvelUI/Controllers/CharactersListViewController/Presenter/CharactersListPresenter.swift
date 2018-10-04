@@ -14,10 +14,20 @@ final class CharactersListPresenter {
 }
 
 extension CharactersListPresenter: CharactersListPresenterProtocol{
-    func display(_ characters:[WallaMarvelAPI.Character]){
+    func displayReloadCharacters(_ characters:[WallaMarvelAPI.Character]){
         let charactersDisplayData = characters.map{ return CharactersDisplayData.SingleCharacterDisplay(imageURL: $0.thumbnail.url, title: $0.name, description: nil) }
         let toDisplayData = CharactersDisplayData(characters: charactersDisplayData)
-        attachedView.displayHeroesData(toDisplayData)
+        attachedView.displayHeroesData(toDisplayData, behavior: .removingOldOnes)
+    }
+    
+    func displayRefreshCharacters(_ characters:[WallaMarvelAPI.Character]){
+        displayReloadCharacters(characters) // Refreshing and reloading represents the same behavior.
+    }
+    
+    func displayNextDataCharacters(_ characters:[WallaMarvelAPI.Character]){
+        let charactersDisplayData = characters.map{ return CharactersDisplayData.SingleCharacterDisplay(imageURL: $0.thumbnail.url, title: $0.name, description: nil) }
+        let toDisplayData = CharactersDisplayData(characters: charactersDisplayData)
+        attachedView.displayHeroesData(toDisplayData, behavior: .appendingToOldOnes)
     }
     
     func displayProgress(){
@@ -26,6 +36,22 @@ extension CharactersListPresenter: CharactersListPresenterProtocol{
     
     func hideProgress(){
         attachedView.hideProgressHUD()
+    }
+    
+    func displayRefreshInProgress(){
+        attachedView.drawRefreshProgressView()
+    }
+    
+    func hideRefreshInProgress(){
+        attachedView.hideRefreshProgressView()
+    }
+    
+    func displayNextDataRequestInProgress(){
+        attachedView.drawNextDataRequestProgressView()
+    }
+    
+    func hideNextDataRequestInProgress(){
+        attachedView.hideNextDataRequestProgressView()
     }
     
     func display(_ error:Error){

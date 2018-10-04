@@ -16,6 +16,11 @@
 		DB4B343621637E7F005709E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343521637E7F005709E3 /* Images.xcassets */; };
 		DB4B344121637ED5005709E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344021637ED5005709E3 /* Podfile */; };
 		DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344321638C30005709E3 /* SplashScreen.xib */; };
+		DB5C81E52166388C00F43F09 /* URL+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C81E42166388C00F43F09 /* URL+Info.swift */; };
+		DB5C81EA21663ACC00F43F09 /* CharacterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C81E821663ACC00F43F09 /* CharacterTableCell.swift */; };
+		DB5C81EB21663ACC00F43F09 /* CharacterTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5C81E921663ACC00F43F09 /* CharacterTableCell.xib */; };
+		DB5C81EE2166433800F43F09 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C81ED2166433800F43F09 /* CharacterRow.swift */; };
+		DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C81F02166440B00F43F09 /* UIView+Load.swift */; };
 		DB7BB20E2163BC5400FE9BE4 /* WallaMarvelAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7BB20C2163BC5400FE9BE4 /* WallaMarvelAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7BB2112163BC5400FE9BE4 /* WallaMarvelAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */; };
 		DB7BB2122163BC5400FE9BE4 /* WallaMarvelAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -97,6 +102,7 @@
 		DBB25FA5216627A2002DFDB4 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25FA4216627A2002DFDB4 /* String+Localized.swift */; };
 		DBB25FA821662C7B002DFDB4 /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25FA721662C7B002DFDB4 /* UIImage+Additions.swift */; };
 		DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */; };
+		DBC915EB21664B570064A706 /* Promises+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915EA21664B570064A706 /* Promises+Empty.swift */; };
 		DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -180,6 +186,11 @@
 		DB4B343A21637E7F005709E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4B344021637ED5005709E3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DB4B344321638C30005709E3 /* SplashScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
+		DB5C81E42166388C00F43F09 /* URL+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Info.swift"; sourceTree = "<group>"; };
+		DB5C81E821663ACC00F43F09 /* CharacterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableCell.swift; sourceTree = "<group>"; };
+		DB5C81E921663ACC00F43F09 /* CharacterTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableCell.xib; sourceTree = "<group>"; };
+		DB5C81ED2166433800F43F09 /* CharacterRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		DB5C81F02166440B00F43F09 /* UIView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Load.swift"; sourceTree = "<group>"; };
 		DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WallaMarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7BB20C2163BC5400FE9BE4 /* WallaMarvelAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallaMarvelAPI.h; sourceTree = "<group>"; };
 		DB7BB20D2163BC5400FE9BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -265,6 +276,7 @@
 		DBB25FA4216627A2002DFDB4 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		DBB25FA721662C7B002DFDB4 /* UIImage+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
 		DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
+		DBC915EA21664B570064A706 /* Promises+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promises+Empty.swift"; sourceTree = "<group>"; };
 		EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
 		FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -383,6 +395,47 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		DB5C81E32166388300F43F09 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C81E42166388C00F43F09 /* URL+Info.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		DB5C81E621663A7200F43F09 /* SpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				DBB25F8E2165F816002DFDB4 /* SpinnerView.swift */,
+			);
+			path = SpinnerView;
+			sourceTree = "<group>";
+		};
+		DB5C81E721663A7800F43F09 /* CharacterCell */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C81E821663ACC00F43F09 /* CharacterTableCell.swift */,
+				DB5C81E921663ACC00F43F09 /* CharacterTableCell.xib */,
+			);
+			path = CharacterCell;
+			sourceTree = "<group>";
+		};
+		DB5C81EC2166431300F43F09 /* EurekaRows */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C81ED2166433800F43F09 /* CharacterRow.swift */,
+			);
+			path = EurekaRows;
+			sourceTree = "<group>";
+		};
+		DB5C81EF216643E000F43F09 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C81F02166440B00F43F09 /* UIView+Load.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		DB7BB20B2163BC5400FE9BE4 /* WallaMarvelAPI */ = {
 			isa = PBXGroup;
 			children = (
@@ -479,6 +532,8 @@
 		DB7BB24C2163C91500FE9BE4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DBC915E921664B3B0064A706 /* Promises */,
+				DB5C81E32166388300F43F09 /* URL */,
 				DBB25F902165FB51002DFDB4 /* Bundle */,
 				DB8BF0F32164CF9200AB8287 /* String */,
 				DB8BF0E22164B0E000AB8287 /* Collection */,
@@ -588,6 +643,7 @@
 				DB8BF15B21650BBB00AB8287 /* Extensions */,
 				DB8BF13521650A8400AB8287 /* Controllers */,
 				DBB25F8D2165F7B3002DFDB4 /* Views */,
+				DB5C81EC2166431300F43F09 /* EurekaRows */,
 				DB8BF1212165070F00AB8287 /* WallaMarvelUI.h */,
 				DB8BF1222165070F00AB8287 /* Info.plist */,
 				DBB25F8B2165F6ED002DFDB4 /* Images.xcassets */,
@@ -676,6 +732,7 @@
 		DB8BF15B21650BBB00AB8287 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DB5C81EF216643E000F43F09 /* UIView */,
 				DBB25FA921663364002DFDB4 /* UIImageView */,
 				DBB25FA621662C73002DFDB4 /* UIImage */,
 				DBB25F972166262E002DFDB4 /* UIColor */,
@@ -739,7 +796,8 @@
 		DBB25F8D2165F7B3002DFDB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DBB25F8E2165F816002DFDB4 /* SpinnerView.swift */,
+				DB5C81E721663A7800F43F09 /* CharacterCell */,
+				DB5C81E621663A7200F43F09 /* SpinnerView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -774,6 +832,14 @@
 				DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */,
 			);
 			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		DBC915E921664B3B0064A706 /* Promises */ = {
+			isa = PBXGroup;
+			children = (
+				DBC915EA21664B570064A706 /* Promises+Empty.swift */,
+			);
+			path = Promises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -961,6 +1027,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5C81EB21663ACC00F43F09 /* CharacterTableCell.xib in Resources */,
 				DB8BF15421650AA500AB8287 /* CharactersListViewController.xib in Resources */,
 				DBB25F9C216626EE002DFDB4 /* Localizable.strings in Resources */,
 				DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */,
@@ -1054,13 +1121,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/ErrorHandler/ErrorHandler.framework",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/UIScrollView-InfiniteScroll/UIScrollView_InfiniteScroll.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -1068,13 +1136,14 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ErrorHandler.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIScrollView_InfiniteScroll.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1168,14 +1237,17 @@
 			files = (
 				DB8BF14B21650AA500AB8287 /* CharactersListPresenter.swift in Sources */,
 				DB8BF14E21650AA500AB8287 /* CharactersListViewController.swift in Sources */,
+				DB5C81EE2166433800F43F09 /* CharacterRow.swift in Sources */,
 				DB8BF15321650AA500AB8287 /* CharactersListDelegateCaller.swift in Sources */,
 				DBB25F9921662638002DFDB4 /* UIColor+WallaMarvel.swift in Sources */,
+				DB5C81EA21663ACC00F43F09 /* CharacterTableCell.swift in Sources */,
 				DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */,
 				DB8BF184216517B000AB8287 /* HUDDrawer.swift in Sources */,
 				DB8BF14821650AA500AB8287 /* CharactersListMediator.swift in Sources */,
 				DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */,
 				DBB25F8F2165F816002DFDB4 /* SpinnerView.swift in Sources */,
 				DB8BF14C21650AA500AB8287 /* CharactersListMediatorProtocol.swift in Sources */,
+				DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */,
 				DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */,
 				DB8BF14921650AA500AB8287 /* CharactersDisplayData.swift in Sources */,
 				DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */,
@@ -1191,12 +1263,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8BF174216513D800AB8287 /* String+Format.swift in Sources */,
+				DBC915EB21664B570064A706 /* Promises+Empty.swift in Sources */,
 				DBB25F922165FB5B002DFDB4 /* Bundle+Class.swift in Sources */,
 				DB8BF176216513D800AB8287 /* Dictionary+Filtering.swift in Sources */,
 				DB8BF172216513D800AB8287 /* Optional+TypeProtocol.swift in Sources */,
 				DB8BF178216513D800AB8287 /* Bool+Additions.swift in Sources */,
 				DB8BF177216513D800AB8287 /* Sequence+Filtering.swift in Sources */,
 				DB8BF180216514AA00AB8287 /* ErrorHandler+WallaMarvel.swift in Sources */,
+				DB5C81E52166388C00F43F09 /* URL+Info.swift in Sources */,
 				DB8BF173216513D800AB8287 /* String+MD5.swift in Sources */,
 				DB8BF175216513D800AB8287 /* Collection+ElementCheck.swift in Sources */,
 				DBB25FA5216627A2002DFDB4 /* String+Localized.swift in Sources */,

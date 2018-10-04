@@ -20,6 +20,10 @@ public struct Cursor{
         self.limit = limit
     }
     
+    public mutating func resetToFirstResults(){
+        self = Cursor()
+    }
+    
     public static func firstResults() -> Cursor{
         return Cursor()
     }

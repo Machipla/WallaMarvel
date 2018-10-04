@@ -17,6 +17,7 @@ def ibanimatable;       pod 'IBAnimatable', '~> 5.2.1'; end
 def eureka;             pod 'Eureka', '~> 4.3.0'; end
 def jgprogressHUD;      pod 'JGProgressHUD', '~> 2.0.3'; end
 def alamofireimage;     pod 'AlamofireImage', '~> 3.4.1'; end
+def infiniteScroll;     pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'; end
 
 ######## Targets ########
 target 'WallaMarvel' do
@@ -25,6 +26,7 @@ end
 
 target 'WallaMarvelKit' do
     errorHandler
+    promises
 end
 
 target 'WallaMarvelAPI' do
@@ -40,6 +42,7 @@ target 'WallaMarvelUI' do
     eureka
     jgprogressHUD
     alamofireimage
+    infiniteScroll
 end
 
 ######## Post-installation scripts ########

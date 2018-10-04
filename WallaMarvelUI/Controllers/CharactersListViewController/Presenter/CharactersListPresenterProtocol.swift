@@ -10,9 +10,15 @@ import UIKit
 import WallaMarvelAPI
 
 protocol CharactersListPresenterProtocol: class{
-    func display(_ characters:[WallaMarvelAPI.Character])
+    func displayReloadCharacters(_ characters:[WallaMarvelAPI.Character])
+    func displayRefreshCharacters(_ characters:[WallaMarvelAPI.Character])
+    func displayNextDataCharacters(_ characters:[WallaMarvelAPI.Character])
     
     func displayProgress()
     func hideProgress()
+    func displayRefreshInProgress()
+    func hideRefreshInProgress()
+    func displayNextDataRequestInProgress()
+    func hideNextDataRequestInProgress()
     func display(_ error:Error)
 }
