@@ -1,5 +1,5 @@
 //
-//  HeroesPresenter.swift
+//  CharactersListPresenter.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -9,14 +9,14 @@
 import UIKit
 import WallaMarvelAPI
 
-final class HeroesPresenter {
-    weak var attachedView: HeroesViewProtocol!
+final class CharactersListPresenter {
+    weak var attachedView: CharactersListViewProtocol!
 }
 
-extension HeroesPresenter: HeroesPresenterProtocol{
+extension CharactersListPresenter: CharactersListPresenterProtocol{
     func display(_ characters:[WallaMarvelAPI.Character]){
-        let charactersDisplayData = characters.map{ return HeroesDisplayData.SingleHeroDisplay(imageURL: $0.thumbnail.url, title: $0.name, description: nil) }
-        let toDisplayData = HeroesDisplayData(characters: charactersDisplayData)
+        let charactersDisplayData = characters.map{ return CharactersDisplayData.SingleCharacterDisplay(imageURL: $0.thumbnail.url, title: $0.name, description: nil) }
+        let toDisplayData = CharactersDisplayData(characters: charactersDisplayData)
         attachedView.displayHeroesData(toDisplayData)
     }
     

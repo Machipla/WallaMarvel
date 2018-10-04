@@ -1,5 +1,5 @@
 //
-//  HeroesMediatorProtocol.swift
+//  CharactersListMediatorProtocol.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol HeroesMediatorProtocol: class{
+protocol CharactersListMediatorProtocol: class{
     func reloadData()
     
     func filtersTapped()

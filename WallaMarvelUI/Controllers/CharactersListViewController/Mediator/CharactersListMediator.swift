@@ -1,5 +1,5 @@
 //
-//  HeroesMediator.swift
+//  CharactersListMediator.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -11,15 +11,15 @@ import ErrorHandler
 import WallaMarvelKit
 import WallaMarvelAPI
 
-final class HeroesMediator {
-    var presenter: HeroesPresenterProtocol!
-    var delegateCaller: HeroesDelegateCallerProtocol!
+final class CharactersListMediator {
+    var presenter: CharactersListPresenterProtocol!
+    var delegateCaller: CharactersListDelegateCallerProtocol!
     
     private var currentCursor = Cursor()
     private var currentCharacters = [WallaMarvelAPI.Character]()
 }
 
-extension HeroesMediator: HeroesMediatorProtocol{
+extension CharactersListMediator: CharactersListMediatorProtocol{
     func reloadData(){
         presenter.displayProgress()
         API.Characters.Get.all(cursor: currentCursor).then{ result in

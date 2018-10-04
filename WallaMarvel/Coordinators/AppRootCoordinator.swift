@@ -14,7 +14,7 @@ final class AppRootCoordinator: Coordinator, Startable{
     var childs = [Coordinator]()
 
     private(set) weak var rootNavigationController:UINavigationController?
-    private(set) weak var heroesListController:HeroesViewController?
+    private(set) weak var heroesListController:CharactersListViewController?
     
     let launchOptions:[UIApplication.LaunchOptionsKey:Any]?
     let mainWindow:UIWindow
@@ -25,7 +25,7 @@ final class AppRootCoordinator: Coordinator, Startable{
     }
     
     func start(){
-        let heroesListController = HeroesViewController()
+        let heroesListController = CharactersListViewController()
         
         let rootNavigationController = UINavigationController(rootViewController: heroesListController)
         

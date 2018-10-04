@@ -11,15 +11,15 @@ import Eureka
 import AlamofireImage
 import WallaMarvelKit
 
-public final class HeroesViewController: FormViewController {
+public final class CharactersListViewController: FormViewController {
 
-    public weak var delegate:HeroesViewControllerDelegate?
-	var mediator: HeroesMediatorProtocol!
+    public weak var delegate:CharactersListViewControllerDelegate?
+	var mediator: CharactersListMediatorProtocol!
 
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
     public init(){
         super.init(nibName: type(of: self).loadNibName, bundle: type(of: self).loadBundle)
-        HeroesWirer.wireUp(viewController: self)
+        CharactersListWirer.wireUp(viewController: self)
     }
     
 	public override func viewDidLoad() {
@@ -33,15 +33,15 @@ public final class HeroesViewController: FormViewController {
 
 }
 
-private extension HeroesViewController{
+private extension CharactersListViewController{
     @objc func filtersTapped(){
         mediator.filtersTapped()
     }
 }
 
-extension HeroesViewController: HeroesViewProtocol{
-    func displayHeroesData(_ displayData:HeroesDisplayData){
-        func mapHeroDisplayDataToRow(_ heroDisplayData:HeroesDisplayData.SingleHeroDisplay) -> BaseRow{
+extension CharactersListViewController: CharactersListViewProtocol{
+    func displayHeroesData(_ displayData:CharactersDisplayData){
+        func mapHeroDisplayDataToRow(_ heroDisplayData:CharactersDisplayData.SingleCharacterDisplay) -> BaseRow{
             return LabelRow(){ row in
                 row.cellStyle = .subtitle
                 row.title = heroDisplayData.title

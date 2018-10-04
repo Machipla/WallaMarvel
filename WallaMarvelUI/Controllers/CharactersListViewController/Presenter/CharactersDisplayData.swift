@@ -1,5 +1,5 @@
 //
-//  HeroesDisplayData.swift
+//  CharactersDisplayData.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -9,12 +9,12 @@
 import UIKit
 
 // MARK: - Heroes dispay data
-struct HeroesDisplayData {
-    struct SingleHeroDisplay{
+struct CharactersDisplayData {
+    struct SingleCharacterDisplay{
         let imageURL:URL?
         let title:String?
         let description:String?
     }
     
-    let characters:[SingleHeroDisplay]
+    let characters:[SingleCharacterDisplay]
 }

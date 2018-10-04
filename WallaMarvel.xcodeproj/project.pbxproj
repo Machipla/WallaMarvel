@@ -63,18 +63,18 @@
 		DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */; };
 		DB8BF1322165084300AB8287 /* Startable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF1312165084300AB8287 /* Startable.swift */; };
 		DB8BF1342165092D00AB8287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF1332165092D00AB8287 /* UIKit.framework */; };
-		DB8BF14821650AA500AB8287 /* HeroesMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13821650AA500AB8287 /* HeroesMediator.swift */; };
-		DB8BF14921650AA500AB8287 /* HeroesDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13921650AA500AB8287 /* HeroesDisplayData.swift */; };
-		DB8BF14B21650AA500AB8287 /* HeroesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13B21650AA500AB8287 /* HeroesPresenter.swift */; };
-		DB8BF14C21650AA500AB8287 /* HeroesMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13C21650AA500AB8287 /* HeroesMediatorProtocol.swift */; };
-		DB8BF14D21650AA500AB8287 /* HeroesPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13D21650AA500AB8287 /* HeroesPresenterProtocol.swift */; };
-		DB8BF14E21650AA500AB8287 /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13E21650AA500AB8287 /* HeroesViewController.swift */; };
-		DB8BF14F21650AA500AB8287 /* HeroesWirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13F21650AA500AB8287 /* HeroesWirer.swift */; };
-		DB8BF15021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift */; };
-		DB8BF15221650AA500AB8287 /* HeroesViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14221650AA500AB8287 /* HeroesViewProtocol.swift */; };
-		DB8BF15321650AA500AB8287 /* HeroesDelegateCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14321650AA500AB8287 /* HeroesDelegateCaller.swift */; };
-		DB8BF15421650AA500AB8287 /* HeroesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8BF14421650AA500AB8287 /* HeroesViewController.xib */; };
-		DB8BF15521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift */; };
+		DB8BF14821650AA500AB8287 /* CharactersListMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13821650AA500AB8287 /* CharactersListMediator.swift */; };
+		DB8BF14921650AA500AB8287 /* CharactersDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13921650AA500AB8287 /* CharactersDisplayData.swift */; };
+		DB8BF14B21650AA500AB8287 /* CharactersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13B21650AA500AB8287 /* CharactersListPresenter.swift */; };
+		DB8BF14C21650AA500AB8287 /* CharactersListMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13C21650AA500AB8287 /* CharactersListMediatorProtocol.swift */; };
+		DB8BF14D21650AA500AB8287 /* CharactersListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13D21650AA500AB8287 /* CharactersListPresenterProtocol.swift */; };
+		DB8BF14E21650AA500AB8287 /* CharactersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13E21650AA500AB8287 /* CharactersListViewController.swift */; };
+		DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF13F21650AA500AB8287 /* CharactersListWirer.swift */; };
+		DB8BF15021650AA500AB8287 /* CharactersListViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14021650AA500AB8287 /* CharactersListViewControllerDelegate.swift */; };
+		DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14221650AA500AB8287 /* CharactersListViewProtocol.swift */; };
+		DB8BF15321650AA500AB8287 /* CharactersListDelegateCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14321650AA500AB8287 /* CharactersListDelegateCaller.swift */; };
+		DB8BF15421650AA500AB8287 /* CharactersListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB8BF14421650AA500AB8287 /* CharactersListViewController.xib */; };
+		DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF14521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift */; };
 		DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF15D21650BF800AB8287 /* UIViewController+Load.swift */; };
 		DB8BF16A2165130900AB8287 /* WallaMarvelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8BF1682165130900AB8287 /* WallaMarvelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB8BF16D2165130900AB8287 /* WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */; };
@@ -234,18 +234,18 @@
 		DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootCoordinator.swift; sourceTree = "<group>"; };
 		DB8BF1312165084300AB8287 /* Startable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Startable.swift; sourceTree = "<group>"; };
 		DB8BF1332165092D00AB8287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DB8BF13821650AA500AB8287 /* HeroesMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesMediator.swift; sourceTree = "<group>"; };
-		DB8BF13921650AA500AB8287 /* HeroesDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDisplayData.swift; sourceTree = "<group>"; };
-		DB8BF13B21650AA500AB8287 /* HeroesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPresenter.swift; sourceTree = "<group>"; };
-		DB8BF13C21650AA500AB8287 /* HeroesMediatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesMediatorProtocol.swift; sourceTree = "<group>"; };
-		DB8BF13D21650AA500AB8287 /* HeroesPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPresenterProtocol.swift; sourceTree = "<group>"; };
-		DB8BF13E21650AA500AB8287 /* HeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
-		DB8BF13F21650AA500AB8287 /* HeroesWirer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesWirer.swift; sourceTree = "<group>"; };
-		DB8BF14021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPresenterViewControllerDelegate.swift; sourceTree = "<group>"; };
-		DB8BF14221650AA500AB8287 /* HeroesViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewProtocol.swift; sourceTree = "<group>"; };
-		DB8BF14321650AA500AB8287 /* HeroesDelegateCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDelegateCaller.swift; sourceTree = "<group>"; };
-		DB8BF14421650AA500AB8287 /* HeroesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroesViewController.xib; sourceTree = "<group>"; };
-		DB8BF14521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDelegateCallerProtocol.swift; sourceTree = "<group>"; };
+		DB8BF13821650AA500AB8287 /* CharactersListMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListMediator.swift; sourceTree = "<group>"; };
+		DB8BF13921650AA500AB8287 /* CharactersDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersDisplayData.swift; sourceTree = "<group>"; };
+		DB8BF13B21650AA500AB8287 /* CharactersListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListPresenter.swift; sourceTree = "<group>"; };
+		DB8BF13C21650AA500AB8287 /* CharactersListMediatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListMediatorProtocol.swift; sourceTree = "<group>"; };
+		DB8BF13D21650AA500AB8287 /* CharactersListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListPresenterProtocol.swift; sourceTree = "<group>"; };
+		DB8BF13E21650AA500AB8287 /* CharactersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewController.swift; sourceTree = "<group>"; };
+		DB8BF13F21650AA500AB8287 /* CharactersListWirer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListWirer.swift; sourceTree = "<group>"; };
+		DB8BF14021650AA500AB8287 /* CharactersListViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DB8BF14221650AA500AB8287 /* CharactersListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewProtocol.swift; sourceTree = "<group>"; };
+		DB8BF14321650AA500AB8287 /* CharactersListDelegateCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListDelegateCaller.swift; sourceTree = "<group>"; };
+		DB8BF14421650AA500AB8287 /* CharactersListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersListViewController.xib; sourceTree = "<group>"; };
+		DB8BF14521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListDelegateCallerProtocol.swift; sourceTree = "<group>"; };
 		DB8BF15D21650BF800AB8287 /* UIViewController+Load.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Load.swift"; sourceTree = "<group>"; };
 		DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WallaMarvelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8BF1682165130900AB8287 /* WallaMarvelKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallaMarvelKit.h; sourceTree = "<group>"; };
@@ -617,28 +617,28 @@
 		DB8BF13521650A8400AB8287 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DB8BF13621650A8700AB8287 /* HeroesViewController */,
+				DB8BF13621650A8700AB8287 /* CharactersListViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		DB8BF13621650A8700AB8287 /* HeroesViewController */ = {
+		DB8BF13621650A8700AB8287 /* CharactersListViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DB8BF13F21650AA500AB8287 /* HeroesWirer.swift */,
+				DB8BF13F21650AA500AB8287 /* CharactersListWirer.swift */,
 				DB8BF15721650AB200AB8287 /* Mediator */,
 				DB8BF15821650AB900AB8287 /* Presenter */,
 				DB8BF15921650ACE00AB8287 /* View */,
 				DB8BF15A21650AD300AB8287 /* DelegateCaller */,
 			);
-			path = HeroesViewController;
+			path = CharactersListViewController;
 			sourceTree = "<group>";
 		};
 		DB8BF15721650AB200AB8287 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
-				DB8BF13821650AA500AB8287 /* HeroesMediator.swift */,
-				DB8BF13C21650AA500AB8287 /* HeroesMediatorProtocol.swift */,
+				DB8BF13821650AA500AB8287 /* CharactersListMediator.swift */,
+				DB8BF13C21650AA500AB8287 /* CharactersListMediatorProtocol.swift */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -646,9 +646,9 @@
 		DB8BF15821650AB900AB8287 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				DB8BF13921650AA500AB8287 /* HeroesDisplayData.swift */,
-				DB8BF13B21650AA500AB8287 /* HeroesPresenter.swift */,
-				DB8BF13D21650AA500AB8287 /* HeroesPresenterProtocol.swift */,
+				DB8BF13921650AA500AB8287 /* CharactersDisplayData.swift */,
+				DB8BF13B21650AA500AB8287 /* CharactersListPresenter.swift */,
+				DB8BF13D21650AA500AB8287 /* CharactersListPresenterProtocol.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -656,10 +656,10 @@
 		DB8BF15921650ACE00AB8287 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DB8BF13E21650AA500AB8287 /* HeroesViewController.swift */,
-				DB8BF14021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift */,
-				DB8BF14221650AA500AB8287 /* HeroesViewProtocol.swift */,
-				DB8BF14421650AA500AB8287 /* HeroesViewController.xib */,
+				DB8BF13E21650AA500AB8287 /* CharactersListViewController.swift */,
+				DB8BF14021650AA500AB8287 /* CharactersListViewControllerDelegate.swift */,
+				DB8BF14221650AA500AB8287 /* CharactersListViewProtocol.swift */,
+				DB8BF14421650AA500AB8287 /* CharactersListViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -667,8 +667,8 @@
 		DB8BF15A21650AD300AB8287 /* DelegateCaller */ = {
 			isa = PBXGroup;
 			children = (
-				DB8BF14321650AA500AB8287 /* HeroesDelegateCaller.swift */,
-				DB8BF14521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift */,
+				DB8BF14321650AA500AB8287 /* CharactersListDelegateCaller.swift */,
+				DB8BF14521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift */,
 			);
 			path = DelegateCaller;
 			sourceTree = "<group>";
@@ -961,7 +961,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8BF15421650AA500AB8287 /* HeroesViewController.xib in Resources */,
+				DB8BF15421650AA500AB8287 /* CharactersListViewController.xib in Resources */,
 				DBB25F9C216626EE002DFDB4 /* Localizable.strings in Resources */,
 				DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */,
 			);
@@ -1166,23 +1166,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8BF14B21650AA500AB8287 /* HeroesPresenter.swift in Sources */,
-				DB8BF14E21650AA500AB8287 /* HeroesViewController.swift in Sources */,
-				DB8BF15321650AA500AB8287 /* HeroesDelegateCaller.swift in Sources */,
+				DB8BF14B21650AA500AB8287 /* CharactersListPresenter.swift in Sources */,
+				DB8BF14E21650AA500AB8287 /* CharactersListViewController.swift in Sources */,
+				DB8BF15321650AA500AB8287 /* CharactersListDelegateCaller.swift in Sources */,
 				DBB25F9921662638002DFDB4 /* UIColor+WallaMarvel.swift in Sources */,
 				DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */,
 				DB8BF184216517B000AB8287 /* HUDDrawer.swift in Sources */,
-				DB8BF14821650AA500AB8287 /* HeroesMediator.swift in Sources */,
-				DB8BF15221650AA500AB8287 /* HeroesViewProtocol.swift in Sources */,
+				DB8BF14821650AA500AB8287 /* CharactersListMediator.swift in Sources */,
+				DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */,
 				DBB25F8F2165F816002DFDB4 /* SpinnerView.swift in Sources */,
-				DB8BF14C21650AA500AB8287 /* HeroesMediatorProtocol.swift in Sources */,
-				DB8BF14F21650AA500AB8287 /* HeroesWirer.swift in Sources */,
-				DB8BF14921650AA500AB8287 /* HeroesDisplayData.swift in Sources */,
-				DB8BF15521650AA500AB8287 /* HeroesDelegateCallerProtocol.swift in Sources */,
+				DB8BF14C21650AA500AB8287 /* CharactersListMediatorProtocol.swift in Sources */,
+				DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */,
+				DB8BF14921650AA500AB8287 /* CharactersDisplayData.swift in Sources */,
+				DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */,
 				DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */,
 				DBB25FA821662C7B002DFDB4 /* UIImage+Additions.swift in Sources */,
-				DB8BF15021650AA500AB8287 /* HeroesPresenterViewControllerDelegate.swift in Sources */,
-				DB8BF14D21650AA500AB8287 /* HeroesPresenterProtocol.swift in Sources */,
+				DB8BF15021650AA500AB8287 /* CharactersListViewControllerDelegate.swift in Sources */,
+				DB8BF14D21650AA500AB8287 /* CharactersListPresenterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

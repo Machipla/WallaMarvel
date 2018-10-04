@@ -1,5 +1,5 @@
 //
-//  HeroesPresenterProtocol.swift
+//  CharactersListPresenterProtocol.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -9,7 +9,7 @@
 import UIKit
 import WallaMarvelAPI
 
-protocol HeroesPresenterProtocol: class{
+protocol CharactersListPresenterProtocol: class{
     func display(_ characters:[WallaMarvelAPI.Character])
     
     func displayProgress()

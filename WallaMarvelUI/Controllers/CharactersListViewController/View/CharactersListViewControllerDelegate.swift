@@ -1,5 +1,5 @@
 //
-//  HeroesDelegateCallerProtocol.swift
+//  HeroesPresenterViewControllerDelegate.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -8,5 +8,5 @@
 
 import UIKit
 
-protocol HeroesDelegateCallerProtocol: class{
+public protocol CharactersListViewControllerDelegate: class {
 }

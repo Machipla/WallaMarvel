@@ -1,5 +1,5 @@
 //
-//  HeroesWirer.swift
+//  CharactersListWirer.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-struct HeroesWirer{
+struct CharactersListWirer{
  
-    static func wireUp(viewController:HeroesViewController){
-        let mediator = HeroesMediator()
-        let presenter = HeroesPresenter()
-        let delegateCaller = HeroesDelegateCaller()
+    static func wireUp(viewController:CharactersListViewController){
+        let mediator = CharactersListMediator()
+        let presenter = CharactersListPresenter()
+        let delegateCaller = CharactersListDelegateCaller()
         
         viewController.mediator = mediator
         
