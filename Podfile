@@ -34,6 +34,9 @@ target 'WallaMarvelAPI' do
     alamofire
     promises
     swiftDate
+    
+    target 'WallaMarvelAPITests' do
+    end
 end
 
 target 'WallaMarvelUI' do

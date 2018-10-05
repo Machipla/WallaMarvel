@@ -16,4 +16,18 @@ public struct Character{
     public let modified:Date?
     public let thumbnail:Thumbnail?
     public let comicsData:ComicsData?
+    
+    public init(ID:String,
+                name:String,
+                description:String? = nil,
+                modified:Date? = nil,
+                thumbnail:Thumbnail? = nil,
+                comicsData:ComicsData? = nil){
+        self.ID = ID
+        self.name = name
+        self.description = description
+        self.modified = modified
+        self.thumbnail = thumbnail
+        self.comicsData = comicsData
+    }
 }

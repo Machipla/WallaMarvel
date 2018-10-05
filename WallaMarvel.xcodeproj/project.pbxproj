@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21D6634C26A7B4E33A8D1436 /* Pods_WallaMarvelAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */; };
-		521148473E5131D7DBCD7A7E /* Pods_WallaMarvelUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */; };
-		859A0CFA78E272CB951F562C /* Pods_WallaMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */; };
+		2262597833C1C59484B9BC24 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8FB83F38CD35E12BB32CD9 /* Pods_WallaMarvelKit.framework */; };
+		527422F0B82F8397F29DAEEF /* Pods_WallaMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318A903E82509A185F0624A3 /* Pods_WallaMarvel.framework */; };
+		6936B3631920B4893FBC29F6 /* Pods_WallaMarvelAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEFF818D653098EAEB5D36B /* Pods_WallaMarvelAPI.framework */; };
+		745A6F734879FAF0BD398E90 /* Pods_WallaMarvelUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF3B310F835AC2A526F6126 /* Pods_WallaMarvelUI.framework */; };
+		77A43F723A04489FEB820715 /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B38CB50C90B00C74DFB641F /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework */; };
 		DB2BF41C2167A875001D110D /* DefaultStyleSheet+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BF41B2167A875001D110D /* DefaultStyleSheet+Fonts.swift */; };
 		DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B342E21637E7D005709E3 /* AppDelegate.swift */; };
 		DB4B343121637E7D005709E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B343021637E7D005709E3 /* ViewController.swift */; };
@@ -141,7 +143,7 @@
 		DBD053482167308C00C1504D /* ParallaxTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD053462167308C00C1504D /* ParallaxTableHeader.xib */; };
 		DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053492167313E00C1504D /* ViewCutDrawer.swift */; };
 		DBD0534C216737E300C1504D /* ParallaxTableHeaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */; };
-		DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */; };
+		DBECCB9F2167BBD3001DC736 /* CharacterMappingEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +189,13 @@
 			remoteGlobalIDString = DB8BF1652165130900AB8287;
 			remoteInfo = WallaMarvelKit;
 		};
+		DBECCB9A2167BA8A001DC736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4B342321637E7D005709E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7BB2092163BC5300FE9BE4;
+			remoteInfo = WallaMarvelAPI;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -206,16 +215,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B67C236611D8B607AF37C3D /* Pods-WallaMarvelAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPI/Pods-WallaMarvelAPI.debug.xcconfig"; sourceTree = "<group>"; };
-		1F922AF8B49D9539E7DC8315 /* Pods-WallaMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel.release.xcconfig"; sourceTree = "<group>"; };
-		574A56B66781F4676B60CA03 /* Pods-WallaMarvelAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPI/Pods-WallaMarvelAPI.release.xcconfig"; sourceTree = "<group>"; };
-		609A88AB3BFA136327347788 /* Pods-WallaMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel.debug.xcconfig"; sourceTree = "<group>"; };
-		6A946A457220BCA780F0E661 /* Pods-WallaMarvelUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelUI/Pods-WallaMarvelUI.debug.xcconfig"; sourceTree = "<group>"; };
-		75EB1231B617FE07D708AFA5 /* Pods-WallaMarvelUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelUI/Pods-WallaMarvelUI.release.xcconfig"; sourceTree = "<group>"; };
-		949D2A24C3FC3C59320F1CFE /* Pods-WallaMarvelKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.debug.xcconfig"; sourceTree = "<group>"; };
-		A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8C5B78967BB4E1403132B9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		318A903E82509A185F0624A3 /* Pods_WallaMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF691543B65772600A09F1B /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
+		3ED2D87543A2AF789F96F020 /* Pods-WallaMarvelAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPITests/Pods-WallaMarvelAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B38CB50C90B00C74DFB641F /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelAPI_WallaMarvelAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF3B310F835AC2A526F6126 /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C716062DBB855EB5E1D2216 /* Pods-WallaMarvelAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPITests/Pods-WallaMarvelAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E8FB83F38CD35E12BB32CD9 /* Pods_WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B50A0019514FD106AD589A /* Pods-WallaMarvelAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPI/Pods-WallaMarvelAPI.release.xcconfig"; sourceTree = "<group>"; };
+		622D62A0A0F76A17669EABD7 /* Pods-WallaMarvelAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPI/Pods-WallaMarvelAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		67775153C4834FBCBD7E34AF /* Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A1890A6CF3FD56BF47A2BD0 /* Pods-WallaMarvelKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.debug.xcconfig"; sourceTree = "<group>"; };
+		8AEFF818D653098EAEB5D36B /* Pods_WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B916FD461A9693D083A3BA /* Pods-WallaMarvelUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelUI/Pods-WallaMarvelUI.debug.xcconfig"; sourceTree = "<group>"; };
+		AD59AC2F1737ACFC2FB8F91C /* Pods-WallaMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel.debug.xcconfig"; sourceTree = "<group>"; };
+		BC9315E92EB84988B06B5CB6 /* Pods-WallaMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvel.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel.release.xcconfig"; sourceTree = "<group>"; };
+		BDAD113CB5FF16CBEA4CB171 /* Pods-WallaMarvelUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelUI/Pods-WallaMarvelUI.release.xcconfig"; sourceTree = "<group>"; };
+		CC108367C1AC62D51B1F6F12 /* Pods_WallaMarvelAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2BF41B2167A875001D110D /* DefaultStyleSheet+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultStyleSheet+Fonts.swift"; sourceTree = "<group>"; };
 		DB4B342B21637E7D005709E3 /* WallaMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallaMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B342E21637E7D005709E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -353,8 +370,10 @@
 		DBD053462167308C00C1504D /* ParallaxTableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParallaxTableHeader.xib; sourceTree = "<group>"; };
 		DBD053492167313E00C1504D /* ViewCutDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCutDrawer.swift; sourceTree = "<group>"; };
 		DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxTableHeaderDelegate.swift; sourceTree = "<group>"; };
-		EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
-		FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBECCB7F2167B9E2001DC736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallaMarvelAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMappingEntityTests.swift; sourceTree = "<group>"; };
+		DBECCB982167BA8A001DC736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,8 +384,8 @@
 				DB8BF1342165092D00AB8287 /* UIKit.framework in Frameworks */,
 				DB7BB2112163BC5400FE9BE4 /* WallaMarvelAPI.framework in Frameworks */,
 				DB8BF1262165070F00AB8287 /* WallaMarvelUI.framework in Frameworks */,
-				859A0CFA78E272CB951F562C /* Pods_WallaMarvel.framework in Frameworks */,
 				DB8BF16D2165130900AB8287 /* WallaMarvelKit.framework in Frameworks */,
+				527422F0B82F8397F29DAEEF /* Pods_WallaMarvel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +393,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D6634C26A7B4E33A8D1436 /* Pods_WallaMarvelAPI.framework in Frameworks */,
+				6936B3631920B4893FBC29F6 /* Pods_WallaMarvelAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +401,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521148473E5131D7DBCD7A7E /* Pods_WallaMarvelUI.framework in Frameworks */,
+				745A6F734879FAF0BD398E90 /* Pods_WallaMarvelUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,38 +409,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */,
+				2262597833C1C59484B9BC24 /* Pods_WallaMarvelKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBECCB912167BA89001DC736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A43F723A04489FEB820715 /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16B1A4CE98E06E3B01F47DC2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				609A88AB3BFA136327347788 /* Pods-WallaMarvel.debug.xcconfig */,
-				1F922AF8B49D9539E7DC8315 /* Pods-WallaMarvel.release.xcconfig */,
-				0B67C236611D8B607AF37C3D /* Pods-WallaMarvelAPI.debug.xcconfig */,
-				574A56B66781F4676B60CA03 /* Pods-WallaMarvelAPI.release.xcconfig */,
-				6A946A457220BCA780F0E661 /* Pods-WallaMarvelUI.debug.xcconfig */,
-				75EB1231B617FE07D708AFA5 /* Pods-WallaMarvelUI.release.xcconfig */,
-				949D2A24C3FC3C59320F1CFE /* Pods-WallaMarvelKit.debug.xcconfig */,
-				EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		1723F7E50F78D1DFB6C7519E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBECCB7F2167B9E2001DC736 /* Foundation.framework */,
 				DB8BF1332165092D00AB8287 /* UIKit.framework */,
-				A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */,
-				CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */,
-				FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */,
-				C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */,
+				318A903E82509A185F0624A3 /* Pods_WallaMarvel.framework */,
+				8AEFF818D653098EAEB5D36B /* Pods_WallaMarvelAPI.framework */,
+				CC108367C1AC62D51B1F6F12 /* Pods_WallaMarvelAPITests.framework */,
+				4E8FB83F38CD35E12BB32CD9 /* Pods_WallaMarvelKit.framework */,
+				4BF3B310F835AC2A526F6126 /* Pods_WallaMarvelUI.framework */,
+				4B38CB50C90B00C74DFB641F /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		508E99F7CE169AC4D405D15D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD59AC2F1737ACFC2FB8F91C /* Pods-WallaMarvel.debug.xcconfig */,
+				BC9315E92EB84988B06B5CB6 /* Pods-WallaMarvel.release.xcconfig */,
+				622D62A0A0F76A17669EABD7 /* Pods-WallaMarvelAPI.debug.xcconfig */,
+				56B50A0019514FD106AD589A /* Pods-WallaMarvelAPI.release.xcconfig */,
+				3ED2D87543A2AF789F96F020 /* Pods-WallaMarvelAPITests.debug.xcconfig */,
+				4C716062DBB855EB5E1D2216 /* Pods-WallaMarvelAPITests.release.xcconfig */,
+				7A1890A6CF3FD56BF47A2BD0 /* Pods-WallaMarvelKit.debug.xcconfig */,
+				3CF691543B65772600A09F1B /* Pods-WallaMarvelKit.release.xcconfig */,
+				A0B916FD461A9693D083A3BA /* Pods-WallaMarvelUI.debug.xcconfig */,
+				BDAD113CB5FF16CBEA4CB171 /* Pods-WallaMarvelUI.release.xcconfig */,
+				0F8C5B78967BB4E1403132B9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig */,
+				67775153C4834FBCBD7E34AF /* Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DB4B342221637E7D005709E3 = {
@@ -432,9 +466,10 @@
 				DB8BF1672165130900AB8287 /* WallaMarvelKit */,
 				DB7BB20B2163BC5400FE9BE4 /* WallaMarvelAPI */,
 				DB8BF1202165070F00AB8287 /* WallaMarvelUI */,
+				DBECCB952167BA89001DC736 /* WallaMarvelAPITests */,
 				DB4B342C21637E7D005709E3 /* Products */,
-				16B1A4CE98E06E3B01F47DC2 /* Pods */,
 				1723F7E50F78D1DFB6C7519E /* Frameworks */,
+				508E99F7CE169AC4D405D15D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -445,6 +480,7 @@
 				DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */,
 				DB8BF11F2165070F00AB8287 /* WallaMarvelUI.framework */,
 				DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */,
+				DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1044,6 +1080,15 @@
 			path = ParallaxTableHeader;
 			sourceTree = "<group>";
 		};
+		DBECCB952167BA89001DC736 /* WallaMarvelAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */,
+				DBECCB982167BA8A001DC736 /* Info.plist */,
+			);
+			path = WallaMarvelAPITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1078,12 +1123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4B343D21637E7F005709E3 /* Build configuration list for PBXNativeTarget "WallaMarvel" */;
 			buildPhases = (
-				9C317A0D737E63960E4B7BC0 /* [CP] Check Pods Manifest.lock */,
+				EB92F5574EB3BEABE3B8DAC6 /* [CP] Check Pods Manifest.lock */,
 				DB4B342721637E7D005709E3 /* Sources */,
 				DB4B342821637E7D005709E3 /* Frameworks */,
 				DB4B342921637E7D005709E3 /* Resources */,
-				814C20A966A00D90BFC0A5A7 /* [CP] Embed Pods Frameworks */,
 				DB7BB2162163BC5400FE9BE4 /* Embed Frameworks */,
+				2626D2D6FDB4AB20C632210A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1101,7 +1146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB7BB2152163BC5400FE9BE4 /* Build configuration list for PBXNativeTarget "WallaMarvelAPI" */;
 			buildPhases = (
-				577C661D6331DF54C8F025C4 /* [CP] Check Pods Manifest.lock */,
+				6FFE3DB9D0C7C55521F52967 /* [CP] Check Pods Manifest.lock */,
 				DB7BB2052163BC5300FE9BE4 /* Headers */,
 				DB7BB2062163BC5300FE9BE4 /* Sources */,
 				DB7BB2072163BC5300FE9BE4 /* Frameworks */,
@@ -1121,7 +1166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB8BF1282165070F00AB8287 /* Build configuration list for PBXNativeTarget "WallaMarvelUI" */;
 			buildPhases = (
-				00F68E70D1168F227313BAF7 /* [CP] Check Pods Manifest.lock */,
+				948E8D8CFC940FCE450FA44C /* [CP] Check Pods Manifest.lock */,
 				DB8BF11A2165070F00AB8287 /* Headers */,
 				DB8BF11B2165070F00AB8287 /* Sources */,
 				DB8BF11C2165070F00AB8287 /* Frameworks */,
@@ -1142,7 +1187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB8BF16F2165130900AB8287 /* Build configuration list for PBXNativeTarget "WallaMarvelKit" */;
 			buildPhases = (
-				6CE0F49934EA722E73F13AD7 /* [CP] Check Pods Manifest.lock */,
+				8FBA2DB0B726D1B91FF6ADBD /* [CP] Check Pods Manifest.lock */,
 				DB8BF1612165130900AB8287 /* Headers */,
 				DB8BF1622165130900AB8287 /* Sources */,
 				DB8BF1632165130900AB8287 /* Frameworks */,
@@ -1156,6 +1201,26 @@
 			productName = WallaMarvelKit;
 			productReference = DB8BF1662165130900AB8287 /* WallaMarvelKit.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		DBECCB932167BA89001DC736 /* WallaMarvelAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBECCB9C2167BA8A001DC736 /* Build configuration list for PBXNativeTarget "WallaMarvelAPITests" */;
+			buildPhases = (
+				8BD8D3C0A4DE9507009A4ED6 /* [CP] Check Pods Manifest.lock */,
+				DBECCB902167BA89001DC736 /* Sources */,
+				DBECCB912167BA89001DC736 /* Frameworks */,
+				DBECCB922167BA89001DC736 /* Resources */,
+				C962A5B78EA5BEF31C684AA8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBECCB9B2167BA8A001DC736 /* PBXTargetDependency */,
+			);
+			name = WallaMarvelAPITests;
+			productName = WallaMarvelAPITests;
+			productReference = DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -1181,6 +1246,9 @@
 					DB8BF1652165130900AB8287 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					DBECCB932167BA89001DC736 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = DB4B342621637E7D005709E3 /* Build configuration list for PBXProject "WallaMarvel" */;
@@ -1202,6 +1270,7 @@
 				DB8BF1652165130900AB8287 /* WallaMarvelKit */,
 				DB7BB2092163BC5300FE9BE4 /* WallaMarvelAPI */,
 				DB8BF11E2165070F00AB8287 /* WallaMarvelUI */,
+				DBECCB932167BA89001DC736 /* WallaMarvelAPITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1253,76 +1322,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBECCB922167BA89001DC736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00F68E70D1168F227313BAF7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelUI-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		577C661D6331DF54C8F025C4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelAPI-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6CE0F49934EA722E73F13AD7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelKit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		814C20A966A00D90BFC0A5A7 /* [CP] Embed Pods Frameworks */ = {
+		2626D2D6FDB4AB20C632210A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1368,7 +1378,125 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C317A0D737E63960E4B7BC0 /* [CP] Check Pods Manifest.lock */ = {
+		6FFE3DB9D0C7C55521F52967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD8D3C0A4DE9507009A4ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelAPI-WallaMarvelAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FBA2DB0B726D1B91FF6ADBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948E8D8CFC940FCE450FA44C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallaMarvelUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C962A5B78EA5BEF31C684AA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Pods-WallaMarvelAPI-WallaMarvelAPITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/ErrorHandler/ErrorHandler.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ErrorHandler.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Pods-WallaMarvelAPI-WallaMarvelAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB92F5574EB3BEABE3B8DAC6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1524,6 +1652,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBECCB902167BA89001DC736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBECCB9F2167BBD3001DC736 /* CharacterMappingEntityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1556,6 +1692,11 @@
 			isa = PBXTargetDependency;
 			target = DB8BF1652165130900AB8287 /* WallaMarvelKit */;
 			targetProxy = DB8BF17B216513EE00AB8287 /* PBXContainerItemProxy */;
+		};
+		DBECCB9B2167BA8A001DC736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB7BB2092163BC5300FE9BE4 /* WallaMarvelAPI */;
+			targetProxy = DBECCB9A2167BA8A001DC736 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1703,7 +1844,7 @@
 		};
 		DB4B343E21637E7F005709E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 609A88AB3BFA136327347788 /* Pods-WallaMarvel.debug.xcconfig */;
+			baseConfigurationReference = AD59AC2F1737ACFC2FB8F91C /* Pods-WallaMarvel.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1723,7 +1864,7 @@
 		};
 		DB4B343F21637E7F005709E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F922AF8B49D9539E7DC8315 /* Pods-WallaMarvel.release.xcconfig */;
+			baseConfigurationReference = BC9315E92EB84988B06B5CB6 /* Pods-WallaMarvel.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1743,7 +1884,7 @@
 		};
 		DB7BB2132163BC5400FE9BE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B67C236611D8B607AF37C3D /* Pods-WallaMarvelAPI.debug.xcconfig */;
+			baseConfigurationReference = 622D62A0A0F76A17669EABD7 /* Pods-WallaMarvelAPI.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1775,7 +1916,7 @@
 		};
 		DB7BB2142163BC5400FE9BE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 574A56B66781F4676B60CA03 /* Pods-WallaMarvelAPI.release.xcconfig */;
+			baseConfigurationReference = 56B50A0019514FD106AD589A /* Pods-WallaMarvelAPI.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1806,7 +1947,7 @@
 		};
 		DB8BF1292165070F00AB8287 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A946A457220BCA780F0E661 /* Pods-WallaMarvelUI.debug.xcconfig */;
+			baseConfigurationReference = A0B916FD461A9693D083A3BA /* Pods-WallaMarvelUI.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1838,7 +1979,7 @@
 		};
 		DB8BF12A2165070F00AB8287 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75EB1231B617FE07D708AFA5 /* Pods-WallaMarvelUI.release.xcconfig */;
+			baseConfigurationReference = BDAD113CB5FF16CBEA4CB171 /* Pods-WallaMarvelUI.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1869,7 +2010,7 @@
 		};
 		DB8BF1702165130900AB8287 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 949D2A24C3FC3C59320F1CFE /* Pods-WallaMarvelKit.debug.xcconfig */;
+			baseConfigurationReference = 7A1890A6CF3FD56BF47A2BD0 /* Pods-WallaMarvelKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1899,7 +2040,7 @@
 		};
 		DB8BF1712165130900AB8287 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */;
+			baseConfigurationReference = 3CF691543B65772600A09F1B /* Pods-WallaMarvelKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1924,6 +2065,46 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBECCB9D2167BA8A001DC736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8C5B78967BB4E1403132B9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAPBGQ838M;
+				INFOPLIST_FILE = WallaMarvelAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machipla.WallaMarvelAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBECCB9E2167BA8A001DC736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67775153C4834FBCBD7E34AF /* Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GAPBGQ838M;
+				INFOPLIST_FILE = WallaMarvelAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.machipla.WallaMarvelAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1971,6 +2152,15 @@
 			buildConfigurations = (
 				DB8BF1702165130900AB8287 /* Debug */,
 				DB8BF1712165130900AB8287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBECCB9C2167BA8A001DC736 /* Build configuration list for PBXNativeTarget "WallaMarvelAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBECCB9D2167BA8A001DC736 /* Debug */,
+				DBECCB9E2167BA8A001DC736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

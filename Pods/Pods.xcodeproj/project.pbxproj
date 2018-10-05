@@ -135,7 +135,7 @@
 		409355348BF9DCFF5AD6A0CE68C5C905 /* ActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B6A8147256B1045888C354BC917B6 /* ActivityIndicatorAnimationCubeTransition.swift */; };
 		40F24CDC92418F780D2976C4697CDF17 /* TableViewCellDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289AC83F908E610B1A64ED3F3E79D7E5 /* TableViewCellDesignable.swift */; };
 		418B42828CA24A3F5F05AF586833C37A /* PopoverSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78BA877E6A6E9A85B433836AE31B985 /* PopoverSelectorRow.swift */; };
-		42F3DFD2D0D90E7AFB877B949465DED2 /* Pods-WallaMarvelAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE2CD1E9DAE76AAA873AFE75F83D9E0 /* Pods-WallaMarvelAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F3DFD2D0D90E7AFB877B949465DED2 /* Pods-WallaMarvelAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78468E2A68972FA7283315C8AA287B9C /* Pods-WallaMarvelAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42FC5DDE6B6D046573A670D2DE89B9F1 /* DateInRegionFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0DF0994D3E9F356D9671AA33041012 /* DateInRegionFormatter.swift */; };
 		436986B9A21C48793AC94588F5C5C126 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D20EFEB13190B2757BA911485F75D /* Localization.swift */; };
 		43B823C1B43D07F90622C5D1DA6DC95C /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A1F058BB40FD57BB189A0F75FFC1A /* Request+AlamofireImage.swift */; };
@@ -252,7 +252,7 @@
 		71359E3B49BE82374AFBCD6885395DDD /* PlaceholderDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A31C53140E156860E07411F19AEF1 /* PlaceholderDesignable.swift */; };
 		722435BE9071EFACF9C8C12F602CC497 /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD39B2E75687A544F58CE01FDF86396 /* ZoomAnimator.swift */; };
 		7246B65FFDF092BA13A935A952B3AB4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA8CB252B7EB362F1066AF22FA0C96F /* QuartzCore.framework */; };
-		727D18D80395266466CE846F1D5B3231 /* JGProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFD0AB0CD85CB80893AD5D1B95D4EA3D /* JGProgressHUD.bundle */; };
+		727D18D80395266466CE846F1D5B3231 /* JGProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3E2EC227758DADB71462FFA256950730 /* JGProgressHUD.bundle */; };
 		72D36E08F222E9E04BB151C92030244A /* ViewControllerAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5516B590142EED59CBC4CFCC8BDFA2 /* ViewControllerAnimatedTransitioning.swift */; };
 		73ABC4C2ABBC419F1FB6B7C647450141 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E3C08C14ECE11007D1B62DDD2ADC9C /* UIColorExtension.swift */; };
 		7436ED44182B2013D34FE0A438F7BF91 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D26AC9F2997EAC349956388F88A58 /* FLAnimatedImageView.m */; };
@@ -309,12 +309,12 @@
 		8D2157666CD293274B13C4ABF1DC94B6 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB206306D49E9D76DC24A721AAC033A /* ColorType.swift */; };
 		8D82EFD461A2579EB956249A6B314ED7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BF739762B3274608961955811E5DD7 /* Alamofire.framework */; };
 		8E820FCC94709A4287DE7361CA6896F6 /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = EC392BF187D174F7B57F215E22B54856 /* FBLPromiseError.h */; };
-		8F9B18F414ECB8F682BD60BA57249745 /* Pods-WallaMarvelKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7000A7D8AA7FDE335379FC55F4116CC6 /* Pods-WallaMarvelKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F9B18F414ECB8F682BD60BA57249745 /* Pods-WallaMarvelKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06027824DB8791254A813502155EB2C4 /* Pods-WallaMarvelKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC4A5E205FFA89A083E96E7B469473E /* AnimatableCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB66CB1914E9FC350494C685625D7B6 /* AnimatableCheckBox.swift */; };
-		90221310ECA8309D905A0EAA0026BBD9 /* Pods-WallaMarvel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B89A42CFF29BDE3E0875E1A6B8EA522A /* Pods-WallaMarvel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90221310ECA8309D905A0EAA0026BBD9 /* Pods-WallaMarvel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6096EF05528125BDCF5BC8228765F4FA /* Pods-WallaMarvel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		908CCE3DD0ADFE66CA6B32E48824A245 /* DoublePickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C06C89072B0D95BBF6EC949FC778747 /* DoublePickerRow.swift */; };
 		90E003C79493F22A6174EAF3C732E7F0 /* ActivityIndicatorAnimationNewtonCradle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DF73FEBF09C6BFD5C3930C11491AB /* ActivityIndicatorAnimationNewtonCradle.swift */; };
-		91C45FF64062B1DD527654A1415AD2AC /* Pods-WallaMarvelUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40075707251A6A46069C65B7996A3AD /* Pods-WallaMarvelUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C45FF64062B1DD527654A1415AD2AC /* Pods-WallaMarvelUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 111FC0E50B0F5B86D3ABECD2E28A4AAC /* Pods-WallaMarvelUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9388A3C4AA644C1B85C28C3E08F2B531 /* PresentationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909B9D9A5128B8DD3929B83557CE1DBE /* PresentationPresenter.swift */; };
 		93ABBEB4DC51851C30D2639926CC2961 /* JGProgressHUDErrorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4484AA33E878C11693D5DA6895C70458 /* JGProgressHUDErrorIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94D087DC4B2B566EECE7460061A9A518 /* PresentNatGeoSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68713E797AAE280EC7C8714F365DC87 /* PresentNatGeoSegue.swift */; };
@@ -356,6 +356,7 @@
 		AB970BE89267E1EC57CAB2A31D22A612 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F89FDDAA57AC1032CF3FAD47127406 /* UIViewControllerExtension.swift */; };
 		AD24D0DEA0F6DAED045422705B6C8FFD /* _SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673027A01E44C83020BF883E5E6A3E52 /* _SwiftSupport.swift */; };
 		AD4803289B042C661D884DF861DE0884 /* FBLPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A2148A5C6917D007B31B86EFFF761B /* FBLPromise.m */; };
+		AD66516E5186BA6C057EC5C0963BAA79 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A82BB750901A6352B48D9AAADAAFFEEF /* Pods-WallaMarvelAPI-WallaMarvelAPITests-dummy.m */; };
 		ADFB8223DDF02467FE55B9FF29644208 /* ActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D40C8DAB946DBC15CD7B0FD57C3FD0 /* ActivityIndicatorAnimationBallZigZag.swift */; };
 		AE75344691422B9782EFB0B9A480DD9E /* SideImageDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB1EA587EA55DF40421EFF20808E76 /* SideImageDesignable.swift */; };
 		AF13256AB0EB664320A6743B82210E1A /* CardsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E8F6532589CCA6D1A378B4F3DC4D0 /* CardsAnimator.swift */; };
@@ -381,6 +382,7 @@
 		B9C88696321145AF5EAC8BECF1AB1D81 /* jg_hud_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AABE9644CADFDF6806F54C900C497B8D /* jg_hud_error@3x.png */; };
 		BA11AA0F50439BA7CC702B9DCE0B7A3F /* AXPhotosPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7B3D1FD9D11E3694FD386410AB062 /* AXPhotosPresentationAnimator.swift */; };
 		BB4A937774445429144F9B4A22E4A37D /* JGProgressHUDIndeterminateIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDA2ED84235FD69D40BC5A724413ECA /* JGProgressHUDIndeterminateIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBADCB04C4ED59DD8BD0F6999A59B1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75B8EBB0A8E621082DCEC3D750E8FCA /* Foundation.framework */; };
 		BBE620440AD3AC5D1F4DEF77BCC88F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75B8EBB0A8E621082DCEC3D750E8FCA /* Foundation.framework */; };
 		BC056132620D7381B87B1AD36EB0B24D /* AXDispatchUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302E56EF9BB942888B9B637EEAC65E0 /* AXDispatchUtils.swift */; };
 		BC1DCE153DBA7DE45B7DE2940C5EB6BC /* Promise+Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937486788FBCCFE7D3F63967A08A94F /* Promise+Catch.swift */; };
@@ -405,6 +407,7 @@
 		C3B7F28BE4136421A30FED270FD2232D /* InteractiveGestureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B654689FA020F3173FB238AE0CC7B /* InteractiveGestureType.swift */; };
 		C3C3C4940860F001DB6326E7876811BA /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D184ACB6458966C3A3252B2CA987FB /* SegmentedRow.swift */; };
 		C3EBDDA15096120837AC3F6113407CC8 /* PresentPortalWithDismissInteractionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444575FCE6FA27C139EF4945DEBEC4D0 /* PresentPortalWithDismissInteractionSegue.swift */; };
+		C58D79E12D0874DB93EABF73CB8D6016 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E2A8550E27CC7AF274B3DE03BA9C31 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5951DEA1DC8EE8C8DDB0286B05E482A /* NatGeoAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2AA58DC3D0A685F5C3F563D84D3262 /* NatGeoAnimator.swift */; };
 		C65CF99BFFB5F1E9D7CC39196A194D8E /* jg_hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A92569F1D68F3C85C6778B86034841 /* jg_hud_success@3x.png */; };
 		C711B55252EE3404BC79D9998BCA0BF9 /* PresentExplodeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14B8CC099E7DE1337DF775EB94FD442 /* PresentExplodeSegue.swift */; };
@@ -424,14 +427,14 @@
 		CC10CBAACF0F9D5CC4EBCEC9F579231F /* JGProgressHUDIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7792D5DA0D66E7CFDC28D20841177F0F /* JGProgressHUDIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC2678F317C5E091A7ED92CBA0FA48CF /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38FAA96F822A3701F4D0D12227A18E /* FieldRow.swift */; };
 		CCAF2F1BD69E4FCA6EB3CA6795C922AB /* ConicalGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713E3E28C0C829F4122771E0042509D /* ConicalGradientLayer.swift */; };
-		CD03812CA5B355BC6CE5DEC108CD4801 /* Pods-WallaMarvelAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8926D5984B4A730D03F5C9BFEB9CE4B8 /* Pods-WallaMarvelAPI-dummy.m */; };
+		CD03812CA5B355BC6CE5DEC108CD4801 /* Pods-WallaMarvelAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1157D4B969BFBDEA6343D77D5B6970 /* Pods-WallaMarvelAPI-dummy.m */; };
 		CD85CDB0280525FACF003A08F0C460E5 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9537865452B829EC1C0616DACDD735DA /* DismissSegue.swift */; };
 		CDB8009489DFDF3486E130AE34D74522 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DE87DFBBCB5C9F1ADD0A3A4349D16C /* InlineRowType.swift */; };
 		CDD48DEEF5306D910E0BD5325B7930E0 /* AnimatableModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB16CA74C14E9CFB4B3B4FA22ECFFBA /* AnimatableModalViewController.swift */; };
 		CE5ABAC9561BB7FD900D8C434660C36B /* SwiftDate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0BFF4E54248EA03776B719C7810D3F8B /* SwiftDate.bundle */; };
 		CEFFB8B19E87A32D6EC785DE66D490D6 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627147E11B94A6FB484833C5BDDCEB /* PickerInlineRow.swift */; };
 		CF2728448E838F7E9220AAEBA0205607 /* PresentSlideSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842A228A0B5317CF369843326501643 /* PresentSlideSegue.swift */; };
-		CFE20C3B5A05A431FD408F7CCDB98BC8 /* Pods-WallaMarvel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C443474C16B4B8705AAFB4399F3EEA4 /* Pods-WallaMarvel-dummy.m */; };
+		CFE20C3B5A05A431FD408F7CCDB98BC8 /* Pods-WallaMarvel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7266B5CDF05726C68851AA385A8594 /* Pods-WallaMarvel-dummy.m */; };
 		CFEB5F900DDDED97EFDE88EFC10406A6 /* JGProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5D1D899BA46D4EDC108A471CA33B43 /* JGProgressHUD-dummy.m */; };
 		D0793D13A92EBA5E09F389E065F86775 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 270BF66860C99710C3217E83887C852B /* FLAnimatedImage.m */; };
 		D28E4FECCE2A5BAF53650F56D939A7ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75B8EBB0A8E621082DCEC3D750E8FCA /* Foundation.framework */; };
@@ -450,7 +453,7 @@
 		D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75B8EBB0A8E621082DCEC3D750E8FCA /* Foundation.framework */; };
 		D91589E3EF71D933E945BE9947CC62BF /* UIInterfaceOrientation+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5729C9580DE8CF7437CFC05819B41414 /* UIInterfaceOrientation+Transform.swift */; };
 		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B4A0EB844C20C970DFCB70A1B528 /* DispatchQueue+Alamofire.swift */; };
-		DC03A9A5A80A4AD5F62A451518C6DAE9 /* Pods-WallaMarvelKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB78D44B95DB510DE22E389B7E4D840C /* Pods-WallaMarvelKit-dummy.m */; };
+		DC03A9A5A80A4AD5F62A451518C6DAE9 /* Pods-WallaMarvelKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 082C31763970236802E54FEBB6F01347 /* Pods-WallaMarvelKit-dummy.m */; };
 		DC048BA4296F248600A256FF7FA89D91 /* AXPhotoProtocol+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F9DDFBE96E9177E239FB0B27E7C10F /* AXPhotoProtocol+Internal.swift */; };
 		DCF157055DBC3BEC0B04D68C371EBBB0 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6C378DE9221F4B0EF8E104B9291EF /* Operators.swift */; };
 		DD55056D9CA62A21DD873975AF4CA453 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664E139C5CFE350E16166FED271E8C4 /* AFIError.swift */; };
@@ -521,7 +524,7 @@
 		FE2B1744F0BAAFB58F386161133B8E36 /* ActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB38E3337206120DC3C6FA3B11789E /* ActivityIndicatorAnimationSemiCircleSpin.swift */; };
 		FEC3C521E7FB03989F082031EB79EFAD /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9FC615E939AA42E850EE47AD85C03 /* SliderRow.swift */; };
 		FF4CD314E9D3CCE2944668ADBD665166 /* FBLPromise+Retry.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EBBEE2D47A99233327062A4DD1843C /* FBLPromise+Retry.h */; };
-		FF5AB5F44C052DD5D9A534E76EEF34C2 /* Pods-WallaMarvelUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F43FAF92D88CFB379BD10EE457C6C13F /* Pods-WallaMarvelUI-dummy.m */; };
+		FF5AB5F44C052DD5D9A534E76EEF34C2 /* Pods-WallaMarvelUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CE98C84175F6CED86C750120629C2 /* Pods-WallaMarvelUI-dummy.m */; };
 		FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E5F51C824F32CA6FB924F7DE6DDA93 /* MultipartFormData.swift */; };
 		FFC317F7E8748DB2AD2EFF2CD3E90B2D /* FBLPromise+Reduce.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E1133CA2BD2C47B4A3A9A4DD3FB2834D /* FBLPromise+Reduce.h */; };
 /* End PBXBuildFile section */
@@ -604,6 +607,13 @@
 			remoteGlobalIDString = EDAAFABC26E23770421BB5F28B643EF2;
 			remoteInfo = AXPhotoViewer;
 		};
+		41A933D7901CCB5C0FD302F7D80583BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E6EB3AA95D4B7F7413B546E53E62312;
+			remoteInfo = SwiftDate;
+		};
 		46097407D02ABA42D6F64E7F1079045F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -638,6 +648,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A2D491F85C2F0E31F5BB90876BEEB149;
 			remoteInfo = Eureka;
+		};
+		58EADABA73BB7BD57F29D2B221418C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A416B4A9A1CB769296967B53AF8D39A;
+			remoteInfo = PromisesObjC;
 		};
 		6A93F1D1E777591E1B91BCC08548BCA7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -674,6 +691,13 @@
 			remoteGlobalIDString = E76458C58C9140B6A16D60547E68E80C;
 			remoteInfo = Alamofire;
 		};
+		85DD9952978BE17589243F5D2FB767EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7335C048B7219517490CC0C9B62A3A0A;
+			remoteInfo = ErrorHandler;
+		};
 		876ADC90FA94EC94CB7CB7765A8690B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -694,6 +718,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 435035F59F8E4FC66E64400882806DC7;
 			remoteInfo = "UIScrollView-InfiniteScroll";
+		};
+		A789D26AC56A034B3D0C559833318084 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76458C58C9140B6A16D60547E68E80C;
+			remoteInfo = Alamofire;
 		};
 		A7FDCF1A7727C8F0273E991A27FF421A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -779,6 +810,13 @@
 			remoteGlobalIDString = E76458C58C9140B6A16D60547E68E80C;
 			remoteInfo = Alamofire;
 		};
+		EF2D8A5662CB9FDA9E73FBB1A6A2CB95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ADF25EEFE39C0D9EF85308749E16AF3;
+			remoteInfo = PromisesSwift;
+		};
 		F740E6E2201A126EE46FFF71B5014FFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -845,12 +883,14 @@
 		0338F827E02D7DC6B88CB3622EF6748F /* RotationDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDesignable.swift; path = Sources/Protocols/Designable/RotationDesignable.swift; sourceTree = "<group>"; };
 		039AB6CEAD91B6EC952958A8FF5C18DC /* ActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallTrianglePath.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
 		03B1423F8B43CAAE51448995E532AD1D /* CheckBoxDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckBoxDesignable.swift; path = Sources/Protocols/Designable/CheckBoxDesignable.swift; sourceTree = "<group>"; };
+		03F9578C919B9DA4BC6EDFBFF2AAE9F2 /* Pods-WallaMarvelAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvelAPI.modulemap"; sourceTree = "<group>"; };
 		04816B4AB4431EE17BBA327E0DBD79E1 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0520CCEFB2A43C01DAD71F2D7EC5D698 /* JGProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGProgressHUD.modulemap; sourceTree = "<group>"; };
 		0525043E552AE65C9D7CAF618D537CFC /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeZoomAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		06027824DB8791254A813502155EB2C4 /* Pods-WallaMarvelKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvelKit-umbrella.h"; sourceTree = "<group>"; };
 		063E203817038792EE88D1D8229136FB /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
 		06DF0F14A4CE53FF36C2D14DCC02B9F3 /* DoublePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerInputRow.swift; path = Source/Rows/DoublePickerInputRow.swift; sourceTree = "<group>"; };
-		077802A2B7CB83CA400D6A865739E793 /* Pods-WallaMarvel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvel-acknowledgements.plist"; sourceTree = "<group>"; };
+		082C31763970236802E54FEBB6F01347 /* Pods-WallaMarvelKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvelKit-dummy.m"; sourceTree = "<group>"; };
 		08A16B6CEF112CEAD15704CA2F5FD929 /* GradientDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDesignable.swift; path = Sources/Protocols/Designable/GradientDesignable.swift; sourceTree = "<group>"; };
 		08B4E062C0637E41727E3790F191532F /* AXPhotoViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPhotoViewer-prefix.pch"; sourceTree = "<group>"; };
 		09299F1283057C6A0E980394AD742DE1 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/SwiftDate/Extensions.swift; sourceTree = "<group>"; };
@@ -873,18 +913,17 @@
 		10078E87D13CB49E8AE7E0398320D01D /* JGProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGProgressHUD.xcconfig; sourceTree = "<group>"; };
 		104E7BEF005C7AD7C312D73FF279F567 /* IBAnimatable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBAnimatable-prefix.pch"; sourceTree = "<group>"; };
 		1097E9ECF10AAB5A2231E77865FBEB24 /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
+		111FC0E50B0F5B86D3ABECD2E28A4AAC /* Pods-WallaMarvelUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvelUI-umbrella.h"; sourceTree = "<group>"; };
 		11E82988FBEA98754BF22DC6B18C5CE9 /* ActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
 		12336F0E864DD9B0A918B230FC9E16FD /* ActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallBeat.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
 		124B85D229C9895DBB5DD59700BAA03C /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
 		12D7C73253F33A549E033FBA08567B7F /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
-		12DE94F576BC3EB5ACEE670BD3268B58 /* Promises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Promises.framework; path = PromisesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		130BECB961F6DE14A06F508981C6D7F9 /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
 		1337AEF96EE24F02AA1D2FE840D0ACE4 /* AnimatableStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableStackView.swift; path = Sources/Views/AnimatableStackView.swift; sourceTree = "<group>"; };
 		13BA4B1D35C2C110262F99A15C36E015 /* UIScrollView+InfiniteScroll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+InfiniteScroll.m"; path = "Classes/UIScrollView+InfiniteScroll.m"; sourceTree = "<group>"; };
 		13E58AE8BE2934CA122B7A1C9837D0FB /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
 		13F3D3154336DC56BBA182A021598EA0 /* AnimatableTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTableViewCell.swift; path = Sources/Views/AnimatableTableViewCell.swift; sourceTree = "<group>"; };
 		1505EDEDD52A07D60BD8515B4B1A5D12 /* FieldsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldsRow.swift; path = Source/Rows/FieldsRow.swift; sourceTree = "<group>"; };
-		160138C63A88AEE9817C04E9F2F5DCED /* Pods-WallaMarvel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvel-frameworks.sh"; sourceTree = "<group>"; };
 		1632E5A8B1A1D3A53F9BB8C335A4F8C0 /* AXPhotoViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXPhotoViewer.xcconfig; sourceTree = "<group>"; };
 		1695E10DC83D356F24BF7158C9690508 /* AnimatableBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableBarButtonItem.swift; path = Sources/Views/AnimatableBarButtonItem.swift; sourceTree = "<group>"; };
 		16EE71571ADC4B16E57A42014B63E896 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
@@ -901,13 +940,11 @@
 		1C44E5BE93A4E04A4917B0C22D76C912 /* AXTransitionUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXTransitionUtils.swift; path = Source/Utilities/AXTransitionUtils.swift; sourceTree = "<group>"; };
 		1CAD8E72B5A0E21BEAB2701908E2FF47 /* CALayerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CALayerExtension.swift; path = Sources/Extensions/CALayerExtension.swift; sourceTree = "<group>"; };
 		1CBA78635E0A690E1B1E8D87A98C5C36 /* FBLPromise+Delay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Delay.m"; path = "Sources/FBLPromises/FBLPromise+Delay.m"; sourceTree = "<group>"; };
-		1D742E2966204ED2FDB07D0D652D1E7B /* Pods-WallaMarvelAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelAPI-resources.sh"; sourceTree = "<group>"; };
 		1E5D1D899BA46D4EDC108A471CA33B43 /* JGProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		1E740080CF48B4124C9D4937C1451FE0 /* AnimatableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTextView.swift; path = Sources/Views/AnimatableTextView.swift; sourceTree = "<group>"; };
 		1ECF6175E0478E5DC8F1B9B86F965B8F /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndeterminateIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
 		201181FA02C07639FB6A1A885633DE15 /* AnimatableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableView.swift; path = Sources/Views/AnimatableView.swift; sourceTree = "<group>"; };
 		212ABEC873B2EAF43F0CFD85FE39E647 /* ErrorHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ErrorHandler-prefix.pch"; sourceTree = "<group>"; };
-		213F2320AA00F91EFE77DD16076B026C /* Pods-WallaMarvelAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvelAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		21602F6B7C4F77F63B7FEBCBFCC3DB0D /* ActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallPulseSync.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
 		219B3DB6C75EAC968F55EBB2A1373219 /* AXBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXBundle.swift; path = Source/AXBundle.swift; sourceTree = "<group>"; };
 		222924A2FF231D8C07D0A312BA314938 /* AnimatableTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTableViewController.swift; path = Sources/Controllers/AnimatableTableViewController.swift; sourceTree = "<group>"; };
@@ -917,6 +954,7 @@
 		22E8B8341E7EF86549E6597BC68C1376 /* ActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationLineScale.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
 		233BC4370D191BDD5D0B5D8A83EAC1DB /* AlertOptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertOptionsRow.swift; path = Source/Rows/Common/AlertOptionsRow.swift; sourceTree = "<group>"; };
 		23DF097D2B20F91D99AB0B5364DA6B5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FD3AC6A67E7A50B02757CF1A50BF91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242B47A5BED8002375FF8C3AFE3C9EF7 /* JGProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		24826160C29DBE9F9401B834790F0A7C /* SimpleNetworkIntegration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleNetworkIntegration.swift; path = Source/Integrations/SimpleNetworkIntegration.swift; sourceTree = "<group>"; };
 		25069AB9CE9DFEDF34BD6C71A6F7C3AF /* FBLPromiseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromiseError.m; path = Sources/FBLPromises/FBLPromiseError.m; sourceTree = "<group>"; };
@@ -925,17 +963,17 @@
 		2614BB2E0D3A33F48985F225C0B802A3 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
 		261A034E1F258E1A4FEC78BFB655052A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		26570E81D7B31DFAD239FBABDAE0E54D /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
-		26942BE6D9EB19A776E5EA6F88B54123 /* Pods-WallaMarvelKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvelKit.modulemap"; sourceTree = "<group>"; };
 		26CDE60527262817648915DF7B89EB4F /* AXPhotoViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXPhotoViewer-umbrella.h"; sourceTree = "<group>"; };
-		26DC679B83A5A6F22088CAE35D87FC9F /* Pods-WallaMarvelUI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelUI-resources.sh"; sourceTree = "<group>"; };
 		270BF66860C99710C3217E83887C852B /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
 		2834B3C3635FD097B513B5D74EA32659 /* FBLPromise+Await.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Await.m"; path = "Sources/FBLPromises/FBLPromise+Await.m"; sourceTree = "<group>"; };
 		283C844947217D23EE03C97270EADEBB /* PresentOverCurrentContextSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentOverCurrentContextSegue.swift; path = Sources/Segues/PresentOverCurrentContextSegue.swift; sourceTree = "<group>"; };
+		28859F16D265E8B518D249F48B403849 /* Pods_WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvelAPI.framework; path = "Pods-WallaMarvelAPI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		289AC83F908E610B1A64ED3F3E79D7E5 /* TableViewCellDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCellDesignable.swift; path = Sources/Protocols/Designable/TableViewCellDesignable.swift; sourceTree = "<group>"; };
 		28D1FB3C64C313831E8831B453C06BAB /* InteractiveAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveAnimator.swift; path = Sources/Animators/InteractiveAnimator/InteractiveAnimator.swift; sourceTree = "<group>"; };
 		291AC6BDFFD790DC0A5FDE9DC59215DD /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
 		292F2091496C04B12F179D5BBAE87B7F /* BlurDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurDesignable.swift; path = Sources/Protocols/Designable/BlurDesignable.swift; sourceTree = "<group>"; };
 		293AA0DF36035B06BC2F8631885718CF /* JGProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		2986C7F855F89647A9509CD39EC67172 /* Pods-WallaMarvelUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvelUI.modulemap"; sourceTree = "<group>"; };
 		29F2ACC1CA7BB8BD0D3EE66BA54C8B74 /* ListCheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCheckRow.swift; path = Source/Rows/SelectableRows/ListCheckRow.swift; sourceTree = "<group>"; };
 		2A29AD2D3AFEA24B42758C0C53E6D75E /* BorderDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderDesignable.swift; path = Sources/Protocols/Designable/BorderDesignable.swift; sourceTree = "<group>"; };
 		2AAA7F24BFF5080CDAF087C90A5C47B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -943,18 +981,19 @@
 		2C8DF73FEBF09C6BFD5C3930C11491AB /* ActivityIndicatorAnimationNewtonCradle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationNewtonCradle.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationNewtonCradle.swift; sourceTree = "<group>"; };
 		2CC1E2E0CA9374C4DFE3F61B6CE229C0 /* FBLPromise+Race.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Race.m"; path = "Sources/FBLPromises/FBLPromise+Race.m"; sourceTree = "<group>"; };
 		2D3E58E1333BBA5A1864E4A4CB07C67F /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		2D94F16D40B0E26148AB289551056441 /* Pods-WallaMarvelAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvelAPI-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DEFD056DE074D8DA0B8E64CBDBD151C /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D492C750FBFB8D665C6A190A7F65A1E /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBLPromises.framework; path = PromisesObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E477DC2F275644DC4F78891102C104D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE7222C8AB729F81789AA3F0CF91949 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
 		2F54B72DF00725D3EFD8B77AD932583F /* PresentationDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationDesignable.swift; path = Sources/Protocols/Designable/PresentationDesignable.swift; sourceTree = "<group>"; };
 		2F7AC264D97FAC31F5CCEA24C539BF1B /* ActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallClipRotatePulse.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
-		310AFCA7D29412AFB5F8782E2FD60F60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308F34588307F2244588B4A55348B584 /* Pods-WallaMarvelUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelUI.release.xcconfig"; sourceTree = "<group>"; };
 		31460D9C195FAFB8B021C3C9E89C6BA1 /* AXLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXLoadingView.swift; path = Source/Classes/Views/AXLoadingView.swift; sourceTree = "<group>"; };
 		31530306423543839BB4BDBFEC26162F /* AXPhotoViewer.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = AXPhotoViewer.xcassets; path = Assets/AXPhotoViewer.xcassets; sourceTree = "<group>"; };
 		315322BB0E156C354BDB6D3581A7E8E5 /* FBLPromise+Always.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Always.m"; path = "Sources/FBLPromises/FBLPromise+Always.m"; sourceTree = "<group>"; };
 		3173420D6A486804BE6BC4CE8284142B /* GradientStartPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStartPoint.swift; path = Sources/Enums/GradientStartPoint.swift; sourceTree = "<group>"; };
 		319A0E310D1EE89A2839C817057E0C5C /* AXImageViewTransitionContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXImageViewTransitionContainer.swift; path = Source/Classes/Views/AXImageViewTransitionContainer.swift; sourceTree = "<group>"; };
 		31DDB7DD856799744794506E3AFD322E /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		31FFF7BF9E807418B3033EF53A6B470E /* Pods-WallaMarvelAPI-WallaMarvelAPITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests-resources.sh"; sourceTree = "<group>"; };
 		32D5C910A8E7611F0390DE0BDFCCACB2 /* DateFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFieldRow.swift; path = Source/Rows/Common/DateFieldRow.swift; sourceTree = "<group>"; };
 		33D33DA3C07088FBDF6C81C6FDCA9F53 /* FLAnimatedImageView+AXExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FLAnimatedImageView+AXExtensions.h"; path = "Source/Extensions/FLAnimatedImageView+AXExtensions.h"; sourceTree = "<group>"; };
 		33EE4B52EDF58EC679D7BF2FAFF0719E /* FBLPromise+Then.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Then.m"; path = "Sources/FBLPromises/FBLPromise+Then.m"; sourceTree = "<group>"; };
@@ -973,28 +1012,25 @@
 		3A5834D0113806F83DCCDCAAD8C2FFDA /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
 		3A62266D6CBBFB028C7AC01C5CF7B396 /* Array+Sorted.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Sorted.swift"; path = "Source/Extensions/Array+Sorted.swift"; sourceTree = "<group>"; };
 		3A7C8E27BAFF144BD6032B245CFE9667 /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDImageIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
-		3C443474C16B4B8705AAFB4399F3EEA4 /* Pods-WallaMarvel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvel-dummy.m"; sourceTree = "<group>"; };
 		3D047EF5529F11C5F73D4C5A9A3AAD91 /* ActivityIndicatorAnimationCirclePendulum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationCirclePendulum.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationCirclePendulum.swift; sourceTree = "<group>"; };
 		3D130329B45A0BCC1895384A4655D09C /* SlideAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideAnimator.swift; path = Sources/Animators/TransitionAnimator/SlideAnimator.swift; sourceTree = "<group>"; };
+		3E2EC227758DADB71462FFA256950730 /* JGProgressHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JGProgressHUD.bundle; path = "JGProgressHUD-JGProgressHUD.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E474F6F39D4A2BBAE9EDB5C807C19D0 /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
 		3E78A38072984BE2BE1F65BAE284D3A0 /* PresentFlipSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentFlipSegue.swift; path = Sources/Segues/PresentFlipSegue.swift; sourceTree = "<group>"; };
-		3E9577877EBC444A5BAB884B44F20E2B /* Pods-WallaMarvelUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelUI.debug.xcconfig"; sourceTree = "<group>"; };
 		3EC81A448C86DAF2AC04E9168EE62042 /* BackgroundImageDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundImageDesignable.swift; path = Sources/Protocols/Designable/BackgroundImageDesignable.swift; sourceTree = "<group>"; };
-		3F29285C2CDB06F28B56F636CB7D88E3 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBAnimatable.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCFE609BE7BEC10520F78565345B6CE /* DOTNETDateTimeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DOTNETDateTimeFormatter.swift; path = Sources/SwiftDate/DOTNETDateTimeFormatter.swift; sourceTree = "<group>"; };
 		4017FF17FC90EA92ADD7F93DF0933DF5 /* Eureka-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-umbrella.h"; sourceTree = "<group>"; };
 		40B8EBEDECD843C69B8B330D6D450536 /* TransitionAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimationType.swift; path = Sources/Enums/TransitionAnimationType.swift; sourceTree = "<group>"; };
 		40DCE4BD2816E9630D7E3E70F276D584 /* AXStateButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXStateButton.modulemap; sourceTree = "<group>"; };
 		41D40C8DAB946DBC15CD7B0FD57C3FD0 /* ActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallZigZag.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
 		42F57A373B6E247D4B889EB02970F2C6 /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
+		43743AAA82233CB88EEAB2ED8810376A /* Pods-WallaMarvelKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvelKit.modulemap"; sourceTree = "<group>"; };
+		437A48867FC0F2D790FB91134B4EBE83 /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBAnimatable.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E6A72F9C8C1DCE7608902E6BB5CE6A /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBezierPathExtension.swift; path = Sources/Extensions/UIBezierPathExtension.swift; sourceTree = "<group>"; };
 		444575FCE6FA27C139EF4945DEBEC4D0 /* PresentPortalWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentPortalWithDismissInteractionSegue.swift; path = Sources/Segues/PresentPortalWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
 		4484AA33E878C11693D5DA6895C70458 /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDErrorIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
 		4492D7A56C906DBB89DD9684DFC192EE /* MaskType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskType.swift; path = Sources/Enums/MaskType.swift; sourceTree = "<group>"; };
-		45BF1953AA49832F70712B12A693B4FC /* Pods-WallaMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvel.debug.xcconfig"; sourceTree = "<group>"; };
-		45D0B305259D934EB710349768704AD4 /* Pods_WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvelKit.framework; path = "Pods-WallaMarvelKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D184ACB6458966C3A3252B2CA987FB /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
-		47602F508458975B0959644BAED73BBF /* Pods-WallaMarvelUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelUI.release.xcconfig"; sourceTree = "<group>"; };
 		4839B2E94AFD59E86227227B1C681743 /* ButtonRowWithPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRowWithPresent.swift; path = Source/Rows/ButtonRowWithPresent.swift; sourceTree = "<group>"; };
 		48C6C378DE9221F4B0EF8E104B9291EF /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Source/Core/Operators.swift; sourceTree = "<group>"; };
 		490B2C10DB5CD4BB215A9AF864767A11 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
@@ -1002,15 +1038,15 @@
 		4A3BB27BCCCB77AA4C4AAC54C41BA458 /* Promise+Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Do.swift"; path = "Sources/Promises/Promise+Do.swift"; sourceTree = "<group>"; };
 		4ABE335A1C4C791D68DC5540C9A06F2D /* PinchInteractiveAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinchInteractiveAnimator.swift; path = Sources/Animators/InteractiveAnimator/PinchInteractiveAnimator.swift; sourceTree = "<group>"; };
 		4B0E9E0EFA254A86C0186AB58ECB79C8 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
-		4B649C1BB5FFFE224B77BBDCD1150429 /* UIScrollView_InfiniteScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIScrollView_InfiniteScroll.framework; path = "UIScrollView-InfiniteScroll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE2CD1E9DAE76AAA873AFE75F83D9E0 /* Pods-WallaMarvelAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvelAPI-umbrella.h"; sourceTree = "<group>"; };
+		4BF0252A5611AC9922A85AC6BC55A7FC /* Pods_WallaMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvel.framework; path = "Pods-WallaMarvel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E82D7553FEA21D734253130547B7EB6 /* ResourceBundle-JGProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JGProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		4EBE4E9247F6CBD6DA2E6F2495395183 /* ActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallRotate.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
 		4FA29C3B12134CB525FDC189B728EE82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500BC4BAC7C768C183AE5A6E46742047 /* ErrorHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ErrorHandler.framework; path = ErrorHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		504058BCEF08CD1DE42014E76A8D7829 /* PresentationBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationBackgroundView.swift; path = Sources/Controllers/PresentationBackgroundView.swift; sourceTree = "<group>"; };
 		5062912F6CB2F6446D796B1F86332496 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDRingIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
 		509739A2EDDA1AC367E9FA4490565C58 /* ActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallClipRotate.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
-		521C7C0F9880D5F8AF9B24E949ED3037 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E3D9EA6EEE1E29E0A26369C181D7BA /* Pods-WallaMarvelKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvelKit-acknowledgements.plist"; sourceTree = "<group>"; };
 		52E23DE00C64B132E5C87C4D1BEAF808 /* FBLPromise+Await.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Await.h"; path = "Sources/FBLPromises/include/FBLPromise+Await.h"; sourceTree = "<group>"; };
 		52F17299F82567B81C22F7961F1E3F2D /* Promise+Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Timeout.swift"; path = "Sources/Promises/Promise+Timeout.swift"; sourceTree = "<group>"; };
 		54FAB7292741BE1FB4CD10419C017AD1 /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
@@ -1020,6 +1056,7 @@
 		56791CB170F185EF9D153C36A5DD184C /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
 		56D2D59C5F2471E796A89BD466399833 /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
 		5729C9580DE8CF7437CFC05819B41414 /* UIInterfaceOrientation+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIInterfaceOrientation+Transform.swift"; path = "Source/Extensions/UIInterfaceOrientation+Transform.swift"; sourceTree = "<group>"; };
+		57DCA16ABA6A3415EACA27224C5B84E9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		5841146B2D4D9D2BC4D90A53C5EA849B /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
 		5859BF2AFEEAA54C9B3CCE8CB591DD51 /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
 		5888FD387E6699EB2678AAE084D27874 /* SelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorRow.swift; path = Source/Rows/Common/SelectorRow.swift; sourceTree = "<group>"; };
@@ -1027,22 +1064,19 @@
 		5974B177EBA271A9DD4778AA84146805 /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "Sources/SwiftDate/DateInRegion+Components.swift"; sourceTree = "<group>"; };
 		599930F91E6F47A71FA3E1CDB2B971AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		59A2148A5C6917D007B31B86EFFF761B /* FBLPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBLPromise.m; path = Sources/FBLPromises/FBLPromise.m; sourceTree = "<group>"; };
-		5A079D47FDA37902B0378E47B15947F5 /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvelUI.framework; path = "Pods-WallaMarvelUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AA1B8EBF6EF6C43BCB911487E8AF754 /* Pods-WallaMarvelAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		5B61CD8AE5A5777F2B833C3406304B1A /* UIImageView+AXExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AXExtensions.h"; path = "Source/Extensions/UIImageView+AXExtensions.h"; sourceTree = "<group>"; };
 		5BD5C4ED3ABB2A46D2E35BFDE7A7B83B /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
 		5BE57CD2C0E236702858704DD14F39A7 /* ActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallScaleMultiple.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
-		5BEB5BB558085599959E9ED6A3C1269C /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
-		5C12A72E552FB298EDED823CF9286153 /* Pods-WallaMarvelKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5C26D447D69C7194C53FF49613695B3E /* ActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallGridPulse.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
 		5D38B4A0EB844C20C970DFCB70A1B528 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		5DAEA6C16A37AAB2A0EC46868AA5880E /* FadeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeAnimator.swift; path = Sources/Animators/TransitionAnimator/FadeAnimator.swift; sourceTree = "<group>"; };
 		5E11F303643F87141F89C6BD5A4C1669 /* CoverAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoverAnimator.swift; path = Sources/Animators/PresentationAnimator/CoverAnimator.swift; sourceTree = "<group>"; };
 		5E589BDC04A7614214A53D415F1294F8 /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeZoomAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
-		5F00001245BE1484B860A1093C1CB0E3 /* Pods-WallaMarvel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E89909208430BDC8EAD973E087F448D /* Pods-WallaMarvel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvel.modulemap"; sourceTree = "<group>"; };
 		5F2AA58DC3D0A685F5C3F563D84D3262 /* NatGeoAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NatGeoAnimator.swift; path = Sources/Animators/TransitionAnimator/NatGeoAnimator.swift; sourceTree = "<group>"; };
 		5F48D168C7DA6232BF48E15099A55FD2 /* TransitionPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPresenter.swift; path = Sources/Animators/Common/TransitionPresenter.swift; sourceTree = "<group>"; };
 		60738DA9F73A3282AD788501B2297FC1 /* DateInRegion+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Formatter.swift"; path = "Sources/SwiftDate/DateInRegion+Formatter.swift"; sourceTree = "<group>"; };
+		6096EF05528125BDCF5BC8228765F4FA /* Pods-WallaMarvel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvel-umbrella.h"; sourceTree = "<group>"; };
 		60A389381A4189E23672CB23718848FE /* Date+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Formatter.swift"; path = "Sources/SwiftDate/Date+Formatter.swift"; sourceTree = "<group>"; };
 		61D2C952C80BF440581FEBA119CBB305 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62509CDB23B356AB3464D04550747F77 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
@@ -1050,13 +1084,12 @@
 		6302E56EF9BB942888B9B637EEAC65E0 /* AXDispatchUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXDispatchUtils.swift; path = Source/Utilities/AXDispatchUtils.swift; sourceTree = "<group>"; };
 		63497B4952B699DBE5147C56A5557116 /* RadialGradientLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialGradientLayer.swift; path = Sources/Others/RadialGradientLayer.swift; sourceTree = "<group>"; };
 		63CCE34F66CC959BA16A3311F060C10E /* LocaleName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleName.swift; path = Sources/SwiftDate/LocaleName.swift; sourceTree = "<group>"; };
-		646601F6B02E82AE9949157C5239E319 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBLPromises.framework; path = PromisesObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64016F19839B8EE4C5A855D271723DF8 /* Pods-WallaMarvelAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelAPI.release.xcconfig"; sourceTree = "<group>"; };
+		64AA8BB560DB917FFB72A01AA4762205 /* Pods-WallaMarvel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvel-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64F2FB8D37FBBF350D6C954A68FE2A94 /* FBLPromise+Any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Any.h"; path = "Sources/FBLPromises/include/FBLPromise+Any.h"; sourceTree = "<group>"; };
 		64FB2314986611F1C88B5CB16B589C56 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		650EFCA07421ACED6A1FE212D66F78BB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		65109D19006AB2BF8AD6753BCB39D5CD /* AXPhotoViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXPhotoViewer.framework; path = AXPhotoViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6598B31BC5F452B0DA9375FB8A450137 /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
-		65BDCCF79329927466AD0436A5030D5E /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		660C5E2E96F23FCC0C86DAF14A4B2655 /* ActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
 		665998F734EE22D4CE58B098CD6E5D0C /* SystemTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemTransitionAnimator.swift; path = Sources/Animators/TransitionAnimator/SystemTransitionAnimator.swift; sourceTree = "<group>"; };
 		66A42ADB08F1B593C129610FC527BA47 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
@@ -1072,18 +1105,18 @@
 		6C06C89072B0D95BBF6EC949FC778747 /* DoublePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoublePickerRow.swift; path = Source/Rows/DoublePickerRow.swift; sourceTree = "<group>"; };
 		6C33CB51600E39CE63945662BFA6AEBB /* JGProgressHUDShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDShadow.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.h; sourceTree = "<group>"; };
 		6C51D566A4B49BB9764EBA83AACD43C6 /* Promise+Retry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Retry.swift"; path = "Sources/Promises/Promise+Retry.swift"; sourceTree = "<group>"; };
-		6D24BFDC407D322B6BA20ED7A177937D /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D3B9A9F811B824DE55E5E5F5473879D /* Pods-WallaMarvel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvel-resources.sh"; sourceTree = "<group>"; };
+		6C8DFFFBC39E2450EDBF619E227D0B08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF9DF431EB3BEB6C35A117206C73E2A /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
+		6E1157D4B969BFBDEA6343D77D5B6970 /* Pods-WallaMarvelAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvelAPI-dummy.m"; sourceTree = "<group>"; };
 		6E3634CBC7586467BDA57F25DDA73BF2 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
 		6E78D73AEE3AD7BC7004FCD5C19DCF1F /* AnimatedTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTransitioning.swift; path = Sources/Protocols/TransitionAnimatable/AnimatedTransitioning.swift; sourceTree = "<group>"; };
 		6FBC6F5D4C28D735A34B8E3906D4490F /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m; sourceTree = "<group>"; };
-		7000A7D8AA7FDE335379FC55F4116CC6 /* Pods-WallaMarvelKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvelKit-umbrella.h"; sourceTree = "<group>"; };
 		70B292C598A7529A0252439D3B8D045C /* AXStateButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXStateButton-prefix.pch"; sourceTree = "<group>"; };
 		70BA1F30299FF20AF2C942B7B7603068 /* UIScrollView+InfiniteScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+InfiniteScroll.h"; path = "Classes/UIScrollView+InfiniteScroll.h"; sourceTree = "<group>"; };
 		713275E1414ABF8A848A266721CBF358 /* NSErrorMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSErrorMatcher.swift; path = ErrorHandler/Classes/Core/NSErrorMatcher.swift; sourceTree = "<group>"; };
 		71556EC5178A50F86348209D87AF2822 /* AnimatableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTextField.swift; path = Sources/Views/AnimatableTextField.swift; sourceTree = "<group>"; };
 		716EE1EB44646FFD5825062F55433218 /* AXCaptionViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXCaptionViewProtocol.swift; path = Source/Protocols/AXCaptionViewProtocol.swift; sourceTree = "<group>"; };
+		724C4CB678325E3E1B0CACC6A4F17D15 /* Pods-WallaMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvel.release.xcconfig"; sourceTree = "<group>"; };
 		72A80B6D3B3EA969E21CB57067FB147C /* ISO8601DateTimeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTimeFormatter.swift; path = Sources/SwiftDate/ISO8601DateTimeFormatter.swift; sourceTree = "<group>"; };
 		733BCD01428B34FADF4F9FD3D38FC0CF /* RuleRequired.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRequired.swift; path = Source/Validations/RuleRequired.swift; sourceTree = "<group>"; };
 		741BB1907C14C1724572444F44EA469D /* PresentationModalSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationModalSize.swift; path = Sources/Enums/PresentationModalSize.swift; sourceTree = "<group>"; };
@@ -1094,14 +1127,21 @@
 		753A6A25990865D9AED110C70FF0F52F /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
 		762069C24C5E3E35EAC6899B5E1D19C4 /* AXPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosDataSource.swift; path = Source/Classes/Models/AXPhotosDataSource.swift; sourceTree = "<group>"; };
 		7645AF14692A73C9C20F48B03A9D6DAE /* MaskDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaskDesignable.swift; path = Sources/Protocols/Designable/MaskDesignable.swift; sourceTree = "<group>"; };
+		7672B7F2C02089644F9403F6F6D70AD6 /* AXPhotoViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXPhotoViewer.framework; path = AXPhotoViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E0FB9386515899B80F0BF8350A07AE /* IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IB.swift; path = Sources/Others/IB.swift; sourceTree = "<group>"; };
 		77585F9E48550AC9721717474C6AE0F2 /* AXNetworkIntegrationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXNetworkIntegrationProtocol.swift; path = Source/Protocols/AXNetworkIntegrationProtocol.swift; sourceTree = "<group>"; };
+		775B66CA59500ABD1DCDA44DC793BAE3 /* Pods_WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvelKit.framework; path = "Pods-WallaMarvelKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7792D5DA0D66E7CFDC28D20841177F0F /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		7806E25B2B56932422CA78E95F0A678C /* Pods-WallaMarvelAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelAPI-resources.sh"; sourceTree = "<group>"; };
 		780CD42CABBEADC02186DCF9CD5AAECE /* FBLPromise+Testing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Testing.m"; path = "Sources/FBLPromises/FBLPromise+Testing.m"; sourceTree = "<group>"; };
 		78394160C86244A6DE0E28B6CF56BB60 /* ActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationSquareSpin.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		78468E2A68972FA7283315C8AA287B9C /* Pods-WallaMarvelAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvelAPI-umbrella.h"; sourceTree = "<group>"; };
 		78B753EF967A308CB2A64FF14D3D8579 /* PushRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushRow.swift; path = Source/Rows/PushRow.swift; sourceTree = "<group>"; };
+		78DDD5F838941AB3194DC9AAC15C709A /* Promises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Promises.framework; path = PromisesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		792CE98C84175F6CED86C750120629C2 /* Pods-WallaMarvelUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvelUI-dummy.m"; sourceTree = "<group>"; };
 		793B3F0BD6EE2502D79AFF0A12C7BFF1 /* ActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallScaleRipple.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
 		793F4B080424B1B2BB7914ADE7231476 /* TransitionPresenterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPresenterManager.swift; path = Sources/Animators/Common/TransitionPresenterManager.swift; sourceTree = "<group>"; };
+		79E2A8550E27CC7AF274B3DE03BA9C31 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests-umbrella.h"; sourceTree = "<group>"; };
 		7A77053262EF13C561C4F1CC282A4B7F /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = Sources/Enums/AnimationType.swift; sourceTree = "<group>"; };
 		7B0588A323C73FF899D580B1C953A348 /* AXPhotoViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXPhotoViewer-dummy.m"; sourceTree = "<group>"; };
 		7B5516B590142EED59CBC4CFCC8BDFA2 /* ViewControllerAnimatedTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerAnimatedTransitioning.swift; path = Sources/Protocols/TransitionAnimatable/ViewControllerAnimatedTransitioning.swift; sourceTree = "<group>"; };
@@ -1111,14 +1151,16 @@
 		7C9843E73222865E2CD949F8C769EC34 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
 		7CDE5B5E2E08C286230318EF3FFD5B65 /* PresentFadeSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentFadeSegue.swift; path = Sources/Segues/PresentFadeSegue.swift; sourceTree = "<group>"; };
 		7D38FAA96F822A3701F4D0D12227A18E /* FieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldRow.swift; path = Source/Rows/Common/FieldRow.swift; sourceTree = "<group>"; };
-		7D7DAC5073ABEFFA44728D3A71D98690 /* Pods-WallaMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvel.release.xcconfig"; sourceTree = "<group>"; };
+		7D653DA1191E56C91391A9D4DCC4B170 /* Pods-WallaMarvelUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelUI.debug.xcconfig"; sourceTree = "<group>"; };
 		7D806FC010A80426A9B7F97BBC870679 /* AXPageableViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPageableViewControllerProtocol.swift; path = Source/Protocols/AXPageableViewControllerProtocol.swift; sourceTree = "<group>"; };
 		7D82D40E2059D9FF507FE26E09E5F692 /* AXPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosViewController.swift; path = "Source/Classes/View Controllers/AXPhotosViewController.swift"; sourceTree = "<group>"; };
 		7DC405725151E94922945A6330E0715E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		7E96D0FC762BE2B1317A614F4C36A51C /* AXStateButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXStateButton-dummy.m"; sourceTree = "<group>"; };
 		7F225D68F0C04B6603DC83A11D71AFA1 /* DateComponents+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extension.swift"; path = "Sources/SwiftDate/DateComponents+Extension.swift"; sourceTree = "<group>"; };
 		7F93C6FF3BE496AB7C1C230655F5F1AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA30DF9A6E60900BA09498FB5427D72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FBA6A2E1C22898ED5383C738DF653E9 /* ActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallRotateChase.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		7FC1E56AE1FE427A0CFDE87A315F48FB /* Pods-WallaMarvelKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelKit-resources.sh"; sourceTree = "<group>"; };
 		80354DCF249FC5F271095E3866995E64 /* PresenterRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenterRowType.swift; path = Source/Core/PresenterRowType.swift; sourceTree = "<group>"; };
 		80B0EF8AFDCF29134BF85828278EAE55 /* RefreshControlerDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefreshControlerDesignable.swift; path = Sources/Protocols/Designable/RefreshControlerDesignable.swift; sourceTree = "<group>"; };
 		823B287C0C2D64D20707D37F04E87223 /* RuleLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleLength.swift; path = Source/Validations/RuleLength.swift; sourceTree = "<group>"; };
@@ -1126,10 +1168,9 @@
 		82FC069F1B012F79407B215C173DB594 /* PresentCardsSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentCardsSegue.swift; path = Sources/Segues/PresentCardsSegue.swift; sourceTree = "<group>"; };
 		836202B7B2835253E488DC29B70211D8 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		83769038115D5D660EB15B53E26955C8 /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
-		838043B24A91AD1D6A85828AA811516E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EFBFEDDA37387CA03EC3F4953F9105 /* PresentationAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationAnimationType.swift; path = Sources/Enums/PresentationAnimationType.swift; sourceTree = "<group>"; };
+		84127C7E3F47518CBB46D3F965A9E33F /* Pods-WallaMarvelKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelKit.debug.xcconfig"; sourceTree = "<group>"; };
 		84151D6570A4A32AADE80EE27851C30A /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
-		84F3AD98CF5F4A4C307F0B397AA018AB /* ErrorHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ErrorHandler.framework; path = ErrorHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8578E232091930B31D6E11122CBA18CC /* ActivityIndicatorAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimatable.swift; path = Sources/Protocols/ActivityIndicator/ActivityIndicatorAnimatable.swift; sourceTree = "<group>"; };
 		85A92569F1D68F3C85C6778B86034841 /* jg_hud_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_success@3x.png"; path = "JGProgressHUD/Resources/jg_hud_success@3x.png"; sourceTree = "<group>"; };
 		86BF471891B30B4124BFC4ADA0C4E39E /* IBAnimatable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBAnimatable.xcconfig; sourceTree = "<group>"; };
@@ -1142,12 +1183,13 @@
 		888C6CA22EB8B12BFD77650BB5D71CC2 /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
 		88966590E5B2568255D14A403C9AB930 /* BarButtonItemDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarButtonItemDesignable.swift; path = Sources/Protocols/Designable/BarButtonItemDesignable.swift; sourceTree = "<group>"; };
 		88F89FDDAA57AC1032CF3FAD47127406 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtension.swift; path = Sources/Extensions/UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		8926D5984B4A730D03F5C9BFEB9CE4B8 /* Pods-WallaMarvelAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvelAPI-dummy.m"; sourceTree = "<group>"; };
+		89F28DA9E949299BEFE31A912FC40A4B /* Pods-WallaMarvelKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvelKit-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8A154657056C64210C137EC8F684E8E9 /* PromisesSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesSwift-dummy.m"; sourceTree = "<group>"; };
 		8A7E23FBD603F1354654643DC1DA2EFE /* SwitchRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRow.swift; path = Source/Rows/SwitchRow.swift; sourceTree = "<group>"; };
 		8AFB1EA587EA55DF40421EFF20808E76 /* SideImageDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideImageDesignable.swift; path = Sources/Protocols/Designable/SideImageDesignable.swift; sourceTree = "<group>"; };
 		8B638A9BCE081E7E9FAEBDC66FA1250F /* AnimatableTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTableView.swift; path = Sources/Views/AnimatableTableView.swift; sourceTree = "<group>"; };
 		8BD3CAC448F1C61820FF0913B41258EA /* jg_hud_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jg_hud_error.png; path = JGProgressHUD/Resources/jg_hud_error.png; sourceTree = "<group>"; };
+		8C9A3134F5880DDA1E52FB18FEF0C181 /* Pods-WallaMarvel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvel-resources.sh"; sourceTree = "<group>"; };
 		8CFF4660EA12D914C8E61CF45D8D2065 /* PaddingDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddingDesignable.swift; path = Sources/Protocols/Designable/PaddingDesignable.swift; sourceTree = "<group>"; };
 		8D5434C77470F36DDC32DE7D836D70C9 /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
 		8D651CF5CAF826551F9C86FC0A454E12 /* FBLPromise+All.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+All.m"; path = "Sources/FBLPromises/FBLPromise+All.m"; sourceTree = "<group>"; };
@@ -1155,22 +1197,26 @@
 		8E02F0E2105208F7C4D00C81231A015A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		8E9EFABBAC1FE1C3864B17DB7BAC2689 /* TurnAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TurnAnimator.swift; path = Sources/Animators/TransitionAnimator/TurnAnimator.swift; sourceTree = "<group>"; };
 		8EB66CB1914E9FC350494C685625D7B6 /* AnimatableCheckBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableCheckBox.swift; path = Sources/Views/AnimatableCheckBox.swift; sourceTree = "<group>"; };
+		8EF59877FFDC31EFAC9C7A06BE69900C /* FLAnimatedImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLAnimatedImage.framework; path = FLAnimatedImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F86D2AEA1F3C28055270827897E5F8B /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
 		8FCAC97CA6C6B10D2D461DD02931DE3C /* AXOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXOverlayView.swift; path = Source/Classes/Views/AXOverlayView.swift; sourceTree = "<group>"; };
-		9062C8BEA79F0FE65105276F30836041 /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGProgressHUD.framework; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDDC7E15CF35A2C09B468E560EEE3C0 /* Pods-WallaMarvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvel.debug.xcconfig"; sourceTree = "<group>"; };
+		9047CE0E1619E8511913BFCF8F1A4682 /* Pods-WallaMarvelUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvelUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		906AA39B9475F98224D5C4BC5B2FB163 /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
 		909B9D9A5128B8DD3929B83557CE1DBE /* PresentationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationPresenter.swift; path = Sources/Animators/Common/PresentationPresenter.swift; sourceTree = "<group>"; };
 		90BE657FD855391248C5CA28C84AFED7 /* TimeInterval+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Extensions.swift"; path = "Sources/SwiftDate/TimeInterval+Extensions.swift"; sourceTree = "<group>"; };
 		912859CA866C405603ABD6056B7404E1 /* Eureka-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eureka-prefix.pch"; sourceTree = "<group>"; };
 		9149C096D55D600C8A866CD6DB244BE1 /* ExplodeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExplodeAnimator.swift; path = Sources/Animators/TransitionAnimator/ExplodeAnimator.swift; sourceTree = "<group>"; };
+		91D7AFF0375D048BBF0B9B5164A98814 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		932E8FDBFDDB2E8151E00E7E66083190 /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
-		9343C5B235AA2C41A0444274264805A3 /* AXStateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXStateButton.framework; path = AXStateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		937019EF8A4EAE06572FA057347392F2 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promises/Promise.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A5DAB4B46E1005F9F293F1214252E5 /* JGProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUD.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.m; sourceTree = "<group>"; };
 		93AA8DFEC8089C9E4DEEF7E4E7845EDE /* PromisesObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromisesObjC.xcconfig; sourceTree = "<group>"; };
+		93C3FB77629AB129712C76E91C60A82C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93D78B2255104668782718B9A612D717 /* Section.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Section.swift; path = Source/Core/Section.swift; sourceTree = "<group>"; };
 		93F813000E5F21725588F9FC2E5A00A0 /* ISO8601Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601Parser.swift; path = Sources/SwiftDate/ISO8601Parser.swift; sourceTree = "<group>"; };
+		94602D86C5BA32E431B0B605E5C8F996 /* Pods-WallaMarvelAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvelAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9537865452B829EC1C0616DACDD735DA /* DismissSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissSegue.swift; path = Sources/Segues/DismissSegue.swift; sourceTree = "<group>"; };
 		956C5E51D2D324DF8691BBF7DD729A00 /* ContainerTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerTransition.swift; path = Sources/Animators/Common/ContainerTransition.swift; sourceTree = "<group>"; };
 		95D14B482CCCAA69820C567A79D6EF63 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
@@ -1180,7 +1226,6 @@
 		98A1118FC14B0490960E9B1EE30DCBC9 /* AnimatableActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableActivityIndicatorView.swift; path = Sources/Views/AnimatableActivityIndicatorView.swift; sourceTree = "<group>"; };
 		9A0DF0994D3E9F356D9671AA33041012 /* DateInRegionFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegionFormatter.swift; path = Sources/SwiftDate/DateInRegionFormatter.swift; sourceTree = "<group>"; };
 		9A24DE68C7990ECC308702377C2553D7 /* UIScrollView-InfiniteScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIScrollView-InfiniteScroll.xcconfig"; sourceTree = "<group>"; };
-		9AA23A572B3C9C7692FFA2FFD5567DB6 /* Pods-WallaMarvelAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelAPI.release.xcconfig"; sourceTree = "<group>"; };
 		9B1E338FD5D9FF66248D07F1FCCBF690 /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDShadow.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.m; sourceTree = "<group>"; };
 		9B627147E11B94A6FB484833C5BDDCEB /* PickerInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInlineRow.swift; path = Source/Rows/PickerInlineRow.swift; sourceTree = "<group>"; };
 		9B7996C88DE5CDCF0455E18A85CA8A37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1189,7 +1234,6 @@
 		9C3A18EE155FDEA2E18DDC08C308508F /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDPieIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
 		9D3B5C77EF0070A8C415BA01F728FB13 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Enums/Utils.swift; sourceTree = "<group>"; };
 		9EA238FA8B54F70CD315D1DFD63AF194 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		9EE6BF2A7FE00EE3D202B1B7A54A7A0C /* Pods_WallaMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvel.framework; path = "Pods-WallaMarvel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF0EDE8F8F42BF37DF25897275AFE8A /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
 		9F6C3F22966023A32C41C07A10FB4E96 /* SwipeActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActions.swift; path = Source/Core/SwipeActions.swift; sourceTree = "<group>"; };
 		A0CB1E896EE971CE1C6040E9A854250F /* IBAnimatable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBAnimatable-dummy.m"; sourceTree = "<group>"; };
@@ -1201,11 +1245,15 @@
 		A4BE29508D10A5318CC7DEEB07C6528F /* PromisesObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesObjC-umbrella.h"; sourceTree = "<group>"; };
 		A4BF739762B3274608961955811E5DD7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E93744DB6BAAC70A2FA74B1ABF9F3C /* UIScrollView-InfiniteScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "UIScrollView-InfiniteScroll.modulemap"; sourceTree = "<group>"; };
+		A50E08CB00D682043415BB83D11FD8C4 /* UIScrollView_InfiniteScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIScrollView_InfiniteScroll.framework; path = "UIScrollView-InfiniteScroll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BA574F99617E4D820E3CB1C451B04B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		A6463F3653752E8C6C3AF38AF4FA9B72 /* Pods-WallaMarvel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvel-frameworks.sh"; sourceTree = "<group>"; };
 		A6E3C08C14ECE11007D1B62DDD2ADC9C /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/Extensions/UIColorExtension.swift; sourceTree = "<group>"; };
 		A7D2DA704E97B43D597D1FD60DAC207C /* AXPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhoto.swift; path = Source/Classes/Models/AXPhoto.swift; sourceTree = "<group>"; };
+		A7E906855D2A49B3101F6F9AFDDE6E94 /* Pods-WallaMarvelAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		A7F9110A90BC39B16126C630B5CEF3EB /* Promise+All.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+All.swift"; path = "Sources/Promises/Promise+All.swift"; sourceTree = "<group>"; };
 		A81586115C68263C76AA9D5DB1D503A3 /* MultipleSelectorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorViewController.swift; path = Source/Rows/Controllers/MultipleSelectorViewController.swift; sourceTree = "<group>"; };
+		A82BB750901A6352B48D9AAADAAFFEEF /* Pods-WallaMarvelAPI-WallaMarvelAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests-dummy.m"; sourceTree = "<group>"; };
 		A8D6A723F48801006A7D7EB967D56E7E /* PresentationPresenterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationPresenterManager.swift; path = Sources/Animators/Common/PresentationPresenterManager.swift; sourceTree = "<group>"; };
 		A8E41333EE8F4E1B8068F7B028590212 /* FLAnimatedImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-umbrella.h"; sourceTree = "<group>"; };
 		A96D86791376DD527C3536459B6CA812 /* AnimatableTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTabBarItem.swift; path = Sources/Views/AnimatableTabBarItem.swift; sourceTree = "<group>"; };
@@ -1223,17 +1271,17 @@
 		ADD519B005690C7CC613777B641EB4CC /* Promise+Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Async.swift"; path = "Sources/Promises/Promise+Async.swift"; sourceTree = "<group>"; };
 		AE003E27BDA119BC83ECD4BD48D701E2 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		AE49D489356BA6AA0FB3811BC94546D6 /* FLAnimatedImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLAnimatedImage.modulemap; sourceTree = "<group>"; };
+		AE766EC188717365C6A48D4DCE342E2C /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvelAPI_WallaMarvelAPITests.framework; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8882BDD5141CFC5CD25DF73A9B0AEE /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
 		AE98D0FDECFBBDB29A410080D7BE1E58 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		AE9E817404664FDEEDC8AA646F65EC73 /* PresentationModalPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationModalPosition.swift; path = Sources/Enums/PresentationModalPosition.swift; sourceTree = "<group>"; };
 		AEAC59288CAE61B1FA819449842EA2C0 /* FBLPromise+Validate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Validate.m"; path = "Sources/FBLPromises/FBLPromise+Validate.m"; sourceTree = "<group>"; };
-		AF626EBF1D2C4A07823EE53E1AB7570A /* Pods-WallaMarvelAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvelAPI.modulemap"; sourceTree = "<group>"; };
+		AF8767469BC44C7F2D4CD1A59CD26175 /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGProgressHUD.framework; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B034C104C58E6069D09A340C4BA88FE3 /* AnimatableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableTabBarController.swift; path = Sources/Controllers/AnimatableTabBarController.swift; sourceTree = "<group>"; };
 		B0490CA2C0402CFA6A69A7DE0A9AE4F2 /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftDate.modulemap; sourceTree = "<group>"; };
 		B04D6FCE4FD7D96358C73B6A22B94F8C /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Eureka.modulemap; sourceTree = "<group>"; };
 		B0733F909258B3BFEED35DD7131DD20A /* PresentFoldSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentFoldSegue.swift; path = Sources/Segues/PresentFoldSegue.swift; sourceTree = "<group>"; };
 		B15FEED3D8469A6BE86FC54CE3C3E145 /* Promise+Always.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Always.swift"; path = "Sources/Promises/Promise+Always.swift"; sourceTree = "<group>"; };
-		B18398476C29EDF6A339800580F970BC /* Pods-WallaMarvelKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvelKit-acknowledgements.plist"; sourceTree = "<group>"; };
 		B1BF86E030C20BD8F576AD017164D62C /* RuleClosure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = "<group>"; };
 		B1F9DDFBE96E9177E239FB0B27E7C10F /* AXPhotoProtocol+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AXPhotoProtocol+Internal.swift"; path = "Source/Extensions/AXPhotoProtocol+Internal.swift"; sourceTree = "<group>"; };
 		B23B2DAB9DD870B8C2A366A31F956BEF /* ScreenEdgePanInteractiveAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenEdgePanInteractiveAnimator.swift; path = Sources/Animators/InteractiveAnimator/ScreenEdgePanInteractiveAnimator.swift; sourceTree = "<group>"; };
@@ -1243,20 +1291,21 @@
 		B526B7F330B0CF8454D678330E92C5A6 /* jg_hud_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jg_hud_success.png; path = JGProgressHUD/Resources/jg_hud_success.png; sourceTree = "<group>"; };
 		B5543205B0ACF9B706C4CBCFA9ACBD5A /* BorderSide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderSide.swift; path = Sources/Enums/BorderSide.swift; sourceTree = "<group>"; };
 		B568C32F38008BA957645C01A3E2A2BC /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
-		B59F1A5EFA8FA738F2A6278E3B7F9193 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60BE086856625D1DC06A1F8114CCEC9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests.modulemap"; sourceTree = "<group>"; };
+		B615DFB2B88E5E72F0F7E52CA25E1E8E /* Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6CB75C6885EF728A0AB55D1D1ED99E2 /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
+		B78A0FBBE0D3C9FD22329C26E8DB985C /* AXStateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXStateButton.framework; path = AXStateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78D86186EA227E1FA7683CCC6499BFF /* ErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorHandler.swift; path = ErrorHandler/Classes/Core/ErrorHandler.swift; sourceTree = "<group>"; };
 		B7A4237C55C47DA71AD6F450013741C8 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
 		B7FB38E3337206120DC3C6FA3B11789E /* ActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationSemiCircleSpin.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
 		B82A78699919752FFB77665A5F2D8742 /* PresentTurnWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentTurnWithDismissInteractionSegue.swift; path = Sources/Segues/PresentTurnWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
-		B89A42CFF29BDE3E0875E1A6B8EA522A /* Pods-WallaMarvel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvel-umbrella.h"; sourceTree = "<group>"; };
 		B8ECC89F72DF9159C921FC81632F999D /* ActivityIndicatorAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimating.swift; path = Sources/Protocols/ActivityIndicator/ActivityIndicatorAnimating.swift; sourceTree = "<group>"; };
 		B93D66EE8DB170B80FADF431CF7CEA76 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		B983CFAAE5B1C2BBDAC246EC498FDDC5 /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
 		BA65575123049F3D69B269413077FE77 /* TransitionAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimatable.swift; path = Sources/Protocols/TransitionAnimatable/TransitionAnimatable.swift; sourceTree = "<group>"; };
 		BA679BEF812ABCC6F0B165994C05B6B3 /* PromisesSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-prefix.pch"; sourceTree = "<group>"; };
+		BB0A85815F9345A742D4B722AD639ACF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB76808A04B912E7193D92FB283518A7 /* ActivityIndicatorAnimationTripleGear.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationTripleGear.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationTripleGear.swift; sourceTree = "<group>"; };
-		BB78D44B95DB510DE22E389B7E4D840C /* Pods-WallaMarvelKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvelKit-dummy.m"; sourceTree = "<group>"; };
 		BC86B904DA4C67FD9DBAE8B58F29FFF5 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		BC9B03CE087A0E750B6D76FC72EC68CE /* AnimatablePresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatablePresentationController.swift; path = Sources/Controllers/AnimatablePresentationController.swift; sourceTree = "<group>"; };
 		BDB206306D49E9D76DC24A721AAC033A /* ColorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorType.swift; path = Sources/Enums/ColorType.swift; sourceTree = "<group>"; };
@@ -1285,13 +1334,14 @@
 		CA04CC66989F9F3E5864406D175E56BD /* Promise+Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Then.swift"; path = "Sources/Promises/Promise+Then.swift"; sourceTree = "<group>"; };
 		CB725C0A8ACCD522D432BDB77F08E84B /* AXPhotoProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotoProtocol.swift; path = Source/Protocols/AXPhotoProtocol.swift; sourceTree = "<group>"; };
 		CBB5C01FCC1A2DEF2AF464809B3F65C1 /* Promise+Await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Await.swift"; path = "Sources/Promises/Promise+Await.swift"; sourceTree = "<group>"; };
+		CC7266B5CDF05726C68851AA385A8594 /* Pods-WallaMarvel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvel-dummy.m"; sourceTree = "<group>"; };
+		CDB601F24A5DDD340AAEADE5EE78CFC4 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CE05EDA8AFE3B57AF29BE912E3B1D8EB /* Typealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealias.swift; path = Sources/Common/Typealias.swift; sourceTree = "<group>"; };
 		CE7BF5ADB29C622ED08FBD79DC2A2970 /* AnimatableScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableScrollView.swift; path = Sources/Views/AnimatableScrollView.swift; sourceTree = "<group>"; };
-		CF469E84559CF16AFFEB24BB530FC8F0 /* Pods-WallaMarvel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvel.modulemap"; sourceTree = "<group>"; };
+		CF0FD95BE495E47EF514AEFB1EE9B01E /* Pods-WallaMarvelAPI-WallaMarvelAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests-frameworks.sh"; sourceTree = "<group>"; };
 		CF4BB3B5F86F7446F9534D262BC6CF73 /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
 		D09B7C55CF02D1CA22D9D5EEA5CC8B1A /* PromisesSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesSwift.modulemap; sourceTree = "<group>"; };
 		D0A410DB9AB626F72BC154F72DC33355 /* Navigator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Navigator.swift; path = Sources/Animators/Common/Navigator.swift; sourceTree = "<group>"; };
-		D16AB89031E9161C504933B5833BC240 /* Pods-WallaMarvelKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvelKit-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D16C22124106C9F8DD16697FF2532ED6 /* PresentFadeWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentFadeWithDismissInteractionSegue.swift; path = Sources/Segues/PresentFadeWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
 		D17E1144E745EB81CB708A130B47F05D /* GradientMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientMode.swift; path = Sources/Enums/GradientMode.swift; sourceTree = "<group>"; };
 		D1DD9F6EFBEC90872CA82581862266D5 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
@@ -1305,9 +1355,8 @@
 		D5FDE4D88839D3504699004D38CB8CAF /* AnimatableCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableCollectionViewCell.swift; path = Sources/Views/AnimatableCollectionViewCell.swift; sourceTree = "<group>"; };
 		D6117A2FDE604A4CAE01DBDF8E04E235 /* jg_hud_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_success@2x.png"; path = "JGProgressHUD/Resources/jg_hud_success@2x.png"; sourceTree = "<group>"; };
 		D664E139C5CFE350E16166FED271E8C4 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
+		D669264A9C2BA973CFB2482035EF3530 /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvelUI.framework; path = "Pods-WallaMarvelUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B8EBB0A8E621082DCEC3D750E8FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D77DCDB8F36ABA1A147BBD2AC9ABD118 /* Pods-WallaMarvelUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WallaMarvelUI.modulemap"; sourceTree = "<group>"; };
-		D78B2380CD64CD3260F0CE8743AA1870 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7C0AAE5FC85AB9E4CDA10AAEF21CF9D /* FlipAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlipAnimator.swift; path = Sources/Animators/TransitionAnimator/FlipAnimator.swift; sourceTree = "<group>"; };
 		D7E2AB843B12D958EAA72DD8DB24ABC8 /* AnimationChainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationChainable.swift; path = Sources/Others/AnimationChainable.swift; sourceTree = "<group>"; };
 		D905DD41D8F841FB965694EAC0451AC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -1317,10 +1366,10 @@
 		DBD8D46B6BC79663F08AEB25A234EE6A /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
 		DD0316836712F5B5B068818D35E468FE /* ActivityIndicatorAnimationTriforce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationTriforce.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationTriforce.swift; sourceTree = "<group>"; };
 		DD3B5F5F14DBC7E98F8FBB4CF425DE1E /* ActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationLineScalePulseOut.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		DD85B569FC584659CF719EC52A145E37 /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE47B05F8F470A7E6224618F3D5DFA2 /* AXZoomingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXZoomingImageView.swift; path = Source/Classes/Views/AXZoomingImageView.swift; sourceTree = "<group>"; };
 		DF063ECA928840587708924FDE4F3D94 /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
 		DF6440C52E4C50FF614172B12184DAEC /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeAnimation.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
-		DFD0AB0CD85CB80893AD5D1B95D4EA3D /* JGProgressHUD.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JGProgressHUD.bundle; path = "JGProgressHUD-JGProgressHUD.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD615BEF84CB73A3DE3C870E0CCAA3E /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "Sources/SwiftDate/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
 		E06000CB7CEB286D434A1CCACD766C25 /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JGProgressHUD-Defines.h"; path = "JGProgressHUD/JGProgressHUD/JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
 		E0B67A22D9A72D3EDF03F9F679CFA719 /* Data+GIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+GIF.swift"; path = "Source/Extensions/Data+GIF.swift"; sourceTree = "<group>"; };
@@ -1328,12 +1377,13 @@
 		E1133CA2BD2C47B4A3A9A4DD3FB2834D /* FBLPromise+Reduce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Reduce.h"; path = "Sources/FBLPromises/include/FBLPromise+Reduce.h"; sourceTree = "<group>"; };
 		E140B761CA3B2D6F5804EFCE53FE5159 /* Matchers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matchers.swift; path = ErrorHandler/Classes/Core/Matchers.swift; sourceTree = "<group>"; };
 		E16048FE9F052CC12CA1DD2AD240CBBE /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDImageIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		E179BDBF575454246D3DE46D4FE0E813 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvelAPI-WallaMarvelAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E237F0EBCFF5117610395923A398C943 /* ActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallPulseRise.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
 		E26B538C2A26A83110CF67B26538D849 /* DesignableNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableNavigationBar.swift; path = Sources/Views/DesignableNavigationBar.swift; sourceTree = "<group>"; };
 		E2C52B1379788BA5D6379CDD35E21A7C /* AXStateButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXStateButton.h; path = Source/AXStateButton.h; sourceTree = "<group>"; };
 		E2F02FB7121D225D2B55770DD06A78A2 /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
+		E30C6CFE44843CB04D793C8EFC120FBE /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E364FABEBA0C4847E483497A51DD4C31 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
-		E40075707251A6A46069C65B7996A3AD /* Pods-WallaMarvelUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WallaMarvelUI-umbrella.h"; sourceTree = "<group>"; };
 		E46378268190C7C1B203ACEE46E80C20 /* AXPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXPhotosTransitionAnimator.swift; path = "Source/Classes/Transition Controller + Animators/AXPhotosTransitionAnimator.swift"; sourceTree = "<group>"; };
 		E47B2E489DB8ED3403D1ADC2465D1CFF /* AnimatableNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableNavigationController.swift; path = Sources/Controllers/AnimatableNavigationController.swift; sourceTree = "<group>"; };
 		E5551189A5034AF37D374BBA0EFFE51B /* AnimatableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableViewController.swift; path = Sources/Controllers/AnimatableViewController.swift; sourceTree = "<group>"; };
@@ -1346,25 +1396,24 @@
 		E71AF4B5DB5E244A2D59C6AB1FA630B1 /* jg_hud_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jg_hud_error@2x.png"; path = "JGProgressHUD/Resources/jg_hud_error@2x.png"; sourceTree = "<group>"; };
 		E741F71892AB4F0BB4B91DB4D9195847 /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDRingIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
 		E78BA877E6A6E9A85B433836AE31B985 /* PopoverSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopoverSelectorRow.swift; path = Source/Rows/PopoverSelectorRow.swift; sourceTree = "<group>"; };
-		E7B0E96284656C960652D2A3086FCC03 /* Pods_WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WallaMarvelAPI.framework; path = "Pods-WallaMarvelAPI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FF896F8D433B3C5DB92CB716C7F632 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
 		E871F2772CFCDE717ECC34A089ED1425 /* ActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationBallPulse.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		E9DB42D4847216BB5DE6254A87D9A6FB /* Pods-WallaMarvel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvel-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9FEBBB877C1F836F59B9E415C792FF0 /* AXStateButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXStateButton-umbrella.h"; sourceTree = "<group>"; };
 		EABD6A11BAE6607D00485B550DD7D6C6 /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
 		EB1E28E4E9F75B9BE056EADEFA812CF9 /* PromiseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromiseError.swift; path = Sources/Promises/PromiseError.swift; sourceTree = "<group>"; };
 		EB785BA4C34647726047D75AA9229A4E /* ActivityIndicatorAnimationGear.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicatorAnimationGear.swift; path = Sources/ActivityIndicators/Animations/ActivityIndicatorAnimationGear.swift; sourceTree = "<group>"; };
 		EBCB91BA6CAD9B7F96748D1DC93F55CF /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
-		EC29C4BD4A9610B5837B257C485613D3 /* Pods-WallaMarvelUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WallaMarvelUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC392BF187D174F7B57F215E22B54856 /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
 		EC4A2F4AF3DA1DFCD4DE7B7147045127 /* PresentFoldWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentFoldWithDismissInteractionSegue.swift; path = Sources/Segues/PresentFoldWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
 		EC955D1312503CC57CDD9031B6E1E082 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
 		EDA8CB252B7EB362F1066AF22FA0C96F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EDD4A7FA860C854ADB1564EBFA843AA7 /* Pods-WallaMarvelUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvelUI-acknowledgements.plist"; sourceTree = "<group>"; };
 		EDDD4B2A51E1461CC49EA3BA5B8BA456 /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
 		EE19A11875E5C688482F9A97DB45814B /* IBAnimatable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBAnimatable.modulemap; sourceTree = "<group>"; };
 		EEB21C20CBE5A6C1FC1202463C562C66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF65E6F9E3EFBD50802CC2DF9AD4DF25 /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
 		EFADA087EFA2874404B7C62214559A2C /* AnimatableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableButton.swift; path = Sources/Views/AnimatableButton.swift; sourceTree = "<group>"; };
+		F122EF4931C07BECE5AB83C087408F7D /* Pods-WallaMarvelAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvelAPI-acknowledgements.plist"; sourceTree = "<group>"; };
 		F1484CACFC15C7B9C3553FC65495196B /* AnimatableSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableSlider.swift; path = Sources/Views/AnimatableSlider.swift; sourceTree = "<group>"; };
 		F14B8CC099E7DE1337DF775EB94FD442 /* PresentExplodeSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentExplodeSegue.swift; path = Sources/Segues/PresentExplodeSegue.swift; sourceTree = "<group>"; };
 		F2270904F9D7827968031F9322E02AC2 /* RuleEqualsToRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEqualsToRow.swift; path = Source/Validations/RuleEqualsToRow.swift; sourceTree = "<group>"; };
@@ -1373,16 +1422,16 @@
 		F28CFABCCE81FD0508C59FE2B0421E00 /* PresentationKeyboardTranslation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationKeyboardTranslation.swift; path = Sources/Enums/PresentationKeyboardTranslation.swift; sourceTree = "<group>"; };
 		F2EAD384E5064A66F2CD221298B37C76 /* TriplePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerRow.swift; path = Source/Rows/TriplePickerRow.swift; sourceTree = "<group>"; };
 		F304D645E4A57C5DE6249A8C69841D76 /* AXPhotoViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXPhotoViewer.modulemap; sourceTree = "<group>"; };
-		F357CDFB0D4912D4B09573D29D74B278 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C8A516BCB20F4D8D3DA642E05C81D4 /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDSuccessIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
 		F3FE0C3003A40FA130E534270BF3745E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F43FAF92D88CFB379BD10EE457C6C13F /* Pods-WallaMarvelUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WallaMarvelUI-dummy.m"; sourceTree = "<group>"; };
 		F45E1C1308933ADB963CB016FE60C907 /* PickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRow.swift; path = Source/Rows/PickerRow.swift; sourceTree = "<group>"; };
 		F5417FC188BE0BAAC660B45C82597F84 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
 		F5B8300F67EA2432CD6D1DDD7A1B9CA3 /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
 		F5EB3C341C0E690DDAB6DFABF4193C02 /* TriplePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerInputRow.swift; path = Source/Rows/TriplePickerInputRow.swift; sourceTree = "<group>"; };
 		F66F177C69E84F423D817B579F0D118E /* PresentSlideWithDismissInteractionSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentSlideWithDismissInteractionSegue.swift; path = Sources/Segues/PresentSlideWithDismissInteractionSegue.swift; sourceTree = "<group>"; };
+		F682037CF62107A74523366CB197A57D /* Pods-WallaMarvelUI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelUI-resources.sh"; sourceTree = "<group>"; };
 		F726A9895924E3F9C284D7A390237EDD /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		F78DFF0C02D73B4C3A55432B527DF845 /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
 		F7B079090CA3714E0444902FB69D33B2 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Core/Validation.swift; sourceTree = "<group>"; };
 		F7EBBEE2D47A99233327062A4DD1843C /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
 		F80B80003A900992A6E37EB413A64DEE /* PanInteractiveAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanInteractiveAnimator.swift; path = Sources/Animators/InteractiveAnimator/PanInteractiveAnimator.swift; sourceTree = "<group>"; };
@@ -1394,11 +1443,11 @@
 		FAB16CA74C14E9CFB4B3B4FA22ECFFBA /* AnimatableModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableModalViewController.swift; path = Sources/Controllers/AnimatableModalViewController.swift; sourceTree = "<group>"; };
 		FB0D796D97DEFF666CB3504654CE788E /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Sources/SwiftDate/Region.swift; sourceTree = "<group>"; };
 		FB5A65C082548B0CCF7168DFE2B8382F /* PromisesSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromisesSwift-umbrella.h"; sourceTree = "<group>"; };
-		FB5EEECA4FCFFE1F67507CC8B37836C8 /* Pods-WallaMarvelKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WallaMarvelKit-resources.sh"; sourceTree = "<group>"; };
 		FB7E4BFCCCB5007D9E78AF7B8C312347 /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
 		FCDA2ED84235FD69D40BC5A724413ECA /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndeterminateIndicatorView.h; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
 		FD28F4CAB1F6909F8D1B911121CC190C /* ShadowDesignable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShadowDesignable.swift; path = Sources/Protocols/Designable/ShadowDesignable.swift; sourceTree = "<group>"; };
 		FD6B735D66CEA9C88A072274DB18F3C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCDF02E5802835D74EF6E49850E405C /* Pods-WallaMarvelUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WallaMarvelUI-acknowledgements.plist"; sourceTree = "<group>"; };
 		FDFA4EFCB6DCAA280002910C287CF3C7 /* AXCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AXCaptionView.swift; path = Source/Classes/Views/AXCaptionView.swift; sourceTree = "<group>"; };
 		FE603CC46F4C44A2706AC3AEFD400193 /* Promise+Wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Wrap.swift"; path = "Sources/Promises/Promise+Wrap.swift"; sourceTree = "<group>"; };
 		FE6C57BE2F9619D6FFEA48094CDB3DF1 /* Animatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animatable.swift; path = Sources/Protocols/Animatable/Animatable.swift; sourceTree = "<group>"; };
@@ -1432,6 +1481,14 @@
 				7F67B9647C2CA68AAF960CE0D0B71AE8 /* Foundation.framework in Frameworks */,
 				F111A80A3A1DCDC287EA0A7714916335 /* QuartzCore.framework in Frameworks */,
 				47F4FF973FD859A08B7A52E19BAEC67E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110944340D6F616FD8D6BE5BA31E0684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBADCB04C4ED59DD8BD0F6999A59B1D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1570,23 +1627,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03433D44D57CAD9E9B8D3200EED56511 /* Pods-WallaMarvelUI */ = {
-			isa = PBXGroup;
-			children = (
-				F357CDFB0D4912D4B09573D29D74B278 /* Info.plist */,
-				D77DCDB8F36ABA1A147BBD2AC9ABD118 /* Pods-WallaMarvelUI.modulemap */,
-				EC29C4BD4A9610B5837B257C485613D3 /* Pods-WallaMarvelUI-acknowledgements.markdown */,
-				EDD4A7FA860C854ADB1564EBFA843AA7 /* Pods-WallaMarvelUI-acknowledgements.plist */,
-				F43FAF92D88CFB379BD10EE457C6C13F /* Pods-WallaMarvelUI-dummy.m */,
-				26DC679B83A5A6F22088CAE35D87FC9F /* Pods-WallaMarvelUI-resources.sh */,
-				E40075707251A6A46069C65B7996A3AD /* Pods-WallaMarvelUI-umbrella.h */,
-				3E9577877EBC444A5BAB884B44F20E2B /* Pods-WallaMarvelUI.debug.xcconfig */,
-				47602F508458975B0959644BAED73BBF /* Pods-WallaMarvelUI.release.xcconfig */,
-			);
-			name = "Pods-WallaMarvelUI";
-			path = "Target Support Files/Pods-WallaMarvelUI";
-			sourceTree = "<group>";
-		};
 		0EE23A83ED9DBB348B33D4CE19075C33 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1840,17 +1880,6 @@
 			path = SwiftDate;
 			sourceTree = "<group>";
 		};
-		5BD2E1BA453EF88530F628E45CE1FCBA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				967908ABFF18AE8CBAFFD30F4E09801B /* Pods-WallaMarvel */,
-				81F2D9EEFD2464994A182C99DB697B27 /* Pods-WallaMarvelAPI */,
-				B77EDDA6EC77417DDBD2691822A19445 /* Pods-WallaMarvelKit */,
-				03433D44D57CAD9E9B8D3200EED56511 /* Pods-WallaMarvelUI */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		6C780E44E932B802292A394775B450CC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1879,6 +1908,24 @@
 			path = "../Target Support Files/AXStateButton";
 			sourceTree = "<group>";
 		};
+		7A5B54CCDC47B0C03667DA12101A5A92 /* Pods-WallaMarvel */ = {
+			isa = PBXGroup;
+			children = (
+				93C3FB77629AB129712C76E91C60A82C /* Info.plist */,
+				5E89909208430BDC8EAD973E087F448D /* Pods-WallaMarvel.modulemap */,
+				64AA8BB560DB917FFB72A01AA4762205 /* Pods-WallaMarvel-acknowledgements.markdown */,
+				E9DB42D4847216BB5DE6254A87D9A6FB /* Pods-WallaMarvel-acknowledgements.plist */,
+				CC7266B5CDF05726C68851AA385A8594 /* Pods-WallaMarvel-dummy.m */,
+				A6463F3653752E8C6C3AF38AF4FA9B72 /* Pods-WallaMarvel-frameworks.sh */,
+				8C9A3134F5880DDA1E52FB18FEF0C181 /* Pods-WallaMarvel-resources.sh */,
+				6096EF05528125BDCF5BC8228765F4FA /* Pods-WallaMarvel-umbrella.h */,
+				8FDDC7E15CF35A2C09B468E560EEE3C0 /* Pods-WallaMarvel.debug.xcconfig */,
+				724C4CB678325E3E1B0CACC6A4F17D15 /* Pods-WallaMarvel.release.xcconfig */,
+			);
+			name = "Pods-WallaMarvel";
+			path = "Target Support Files/Pods-WallaMarvel";
+			sourceTree = "<group>";
+		};
 		7C7C99966BD32E586A3271B4D8B477F1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1891,6 +1938,32 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PromisesSwift";
+			sourceTree = "<group>";
+		};
+		7C89630CD7337E86F5FC1C5E2E5AA40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E477DC2F275644DC4F78891102C104D /* Alamofire.framework */,
+				DD85B569FC584659CF719EC52A145E37 /* AlamofireImage.framework */,
+				7672B7F2C02089644F9403F6F6D70AD6 /* AXPhotoViewer.framework */,
+				B78A0FBBE0D3C9FD22329C26E8DB985C /* AXStateButton.framework */,
+				500BC4BAC7C768C183AE5A6E46742047 /* ErrorHandler.framework */,
+				91D7AFF0375D048BBF0B9B5164A98814 /* Eureka.framework */,
+				2D492C750FBFB8D665C6A190A7F65A1E /* FBLPromises.framework */,
+				8EF59877FFDC31EFAC9C7A06BE69900C /* FLAnimatedImage.framework */,
+				437A48867FC0F2D790FB91134B4EBE83 /* IBAnimatable.framework */,
+				3E2EC227758DADB71462FFA256950730 /* JGProgressHUD.bundle */,
+				AF8767469BC44C7F2D4CD1A59CD26175 /* JGProgressHUD.framework */,
+				4BF0252A5611AC9922A85AC6BC55A7FC /* Pods_WallaMarvel.framework */,
+				28859F16D265E8B518D249F48B403849 /* Pods_WallaMarvelAPI.framework */,
+				AE766EC188717365C6A48D4DCE342E2C /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework */,
+				775B66CA59500ABD1DCDA44DC793BAE3 /* Pods_WallaMarvelKit.framework */,
+				D669264A9C2BA973CFB2482035EF3530 /* Pods_WallaMarvelUI.framework */,
+				78DDD5F838941AB3194DC9AAC15C709A /* Promises.framework */,
+				E30C6CFE44843CB04D793C8EFC120FBE /* SwiftDate.framework */,
+				A50E08CB00D682043415BB83D11FD8C4 /* UIScrollView_InfiniteScroll.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DA8165BC347AB4D6D245B05C4F90F32 /* Support Files */ = {
@@ -1914,8 +1987,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C5C481CD3F7CF8EAB97DB3603D99F052 /* Frameworks */,
 				34177C849B737BECFEC04769A6CD7748 /* Pods */,
-				D6A3719D6EB9800CD091EF998983C280 /* Products */,
-				5BD2E1BA453EF88530F628E45CE1FCBA /* Targets Support Files */,
+				7C89630CD7337E86F5FC1C5E2E5AA40B /* Products */,
+				F4EF555BD73E7C98F799B5EEC2A93EFC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1930,21 +2003,38 @@
 			path = "UIScrollView-InfiniteScroll";
 			sourceTree = "<group>";
 		};
-		81F2D9EEFD2464994A182C99DB697B27 /* Pods-WallaMarvelAPI */ = {
+		820D105524CBC254D5ADBB972D01039E /* Pods-WallaMarvelAPI */ = {
 			isa = PBXGroup;
 			children = (
-				521C7C0F9880D5F8AF9B24E949ED3037 /* Info.plist */,
-				AF626EBF1D2C4A07823EE53E1AB7570A /* Pods-WallaMarvelAPI.modulemap */,
-				213F2320AA00F91EFE77DD16076B026C /* Pods-WallaMarvelAPI-acknowledgements.markdown */,
-				2D94F16D40B0E26148AB289551056441 /* Pods-WallaMarvelAPI-acknowledgements.plist */,
-				8926D5984B4A730D03F5C9BFEB9CE4B8 /* Pods-WallaMarvelAPI-dummy.m */,
-				1D742E2966204ED2FDB07D0D652D1E7B /* Pods-WallaMarvelAPI-resources.sh */,
-				4DE2CD1E9DAE76AAA873AFE75F83D9E0 /* Pods-WallaMarvelAPI-umbrella.h */,
-				5AA1B8EBF6EF6C43BCB911487E8AF754 /* Pods-WallaMarvelAPI.debug.xcconfig */,
-				9AA23A572B3C9C7692FFA2FFD5567DB6 /* Pods-WallaMarvelAPI.release.xcconfig */,
+				BB0A85815F9345A742D4B722AD639ACF /* Info.plist */,
+				03F9578C919B9DA4BC6EDFBFF2AAE9F2 /* Pods-WallaMarvelAPI.modulemap */,
+				94602D86C5BA32E431B0B605E5C8F996 /* Pods-WallaMarvelAPI-acknowledgements.markdown */,
+				F122EF4931C07BECE5AB83C087408F7D /* Pods-WallaMarvelAPI-acknowledgements.plist */,
+				6E1157D4B969BFBDEA6343D77D5B6970 /* Pods-WallaMarvelAPI-dummy.m */,
+				7806E25B2B56932422CA78E95F0A678C /* Pods-WallaMarvelAPI-resources.sh */,
+				78468E2A68972FA7283315C8AA287B9C /* Pods-WallaMarvelAPI-umbrella.h */,
+				A7E906855D2A49B3101F6F9AFDDE6E94 /* Pods-WallaMarvelAPI.debug.xcconfig */,
+				64016F19839B8EE4C5A855D271723DF8 /* Pods-WallaMarvelAPI.release.xcconfig */,
 			);
 			name = "Pods-WallaMarvelAPI";
 			path = "Target Support Files/Pods-WallaMarvelAPI";
+			sourceTree = "<group>";
+		};
+		89B051A1E7AA18D8BB7DCFB2618A59CB /* Pods-WallaMarvelKit */ = {
+			isa = PBXGroup;
+			children = (
+				23FD3AC6A67E7A50B02757CF1A50BF91 /* Info.plist */,
+				43743AAA82233CB88EEAB2ED8810376A /* Pods-WallaMarvelKit.modulemap */,
+				89F28DA9E949299BEFE31A912FC40A4B /* Pods-WallaMarvelKit-acknowledgements.markdown */,
+				51E3D9EA6EEE1E29E0A26369C181D7BA /* Pods-WallaMarvelKit-acknowledgements.plist */,
+				082C31763970236802E54FEBB6F01347 /* Pods-WallaMarvelKit-dummy.m */,
+				7FC1E56AE1FE427A0CFDE87A315F48FB /* Pods-WallaMarvelKit-resources.sh */,
+				06027824DB8791254A813502155EB2C4 /* Pods-WallaMarvelKit-umbrella.h */,
+				84127C7E3F47518CBB46D3F965A9E33F /* Pods-WallaMarvelKit.debug.xcconfig */,
+				F78DFF0C02D73B4C3A55432B527DF845 /* Pods-WallaMarvelKit.release.xcconfig */,
+			);
+			name = "Pods-WallaMarvelKit";
+			path = "Target Support Files/Pods-WallaMarvelKit";
 			sourceTree = "<group>";
 		};
 		91350814BA0DA22B6A4BDEB9E58237CC /* FLAnimatedImage */ = {
@@ -1971,24 +2061,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PromisesObjC";
-			sourceTree = "<group>";
-		};
-		967908ABFF18AE8CBAFFD30F4E09801B /* Pods-WallaMarvel */ = {
-			isa = PBXGroup;
-			children = (
-				310AFCA7D29412AFB5F8782E2FD60F60 /* Info.plist */,
-				CF469E84559CF16AFFEB24BB530FC8F0 /* Pods-WallaMarvel.modulemap */,
-				5F00001245BE1484B860A1093C1CB0E3 /* Pods-WallaMarvel-acknowledgements.markdown */,
-				077802A2B7CB83CA400D6A865739E793 /* Pods-WallaMarvel-acknowledgements.plist */,
-				3C443474C16B4B8705AAFB4399F3EEA4 /* Pods-WallaMarvel-dummy.m */,
-				160138C63A88AEE9817C04E9F2F5DCED /* Pods-WallaMarvel-frameworks.sh */,
-				6D3B9A9F811B824DE55E5E5F5473879D /* Pods-WallaMarvel-resources.sh */,
-				B89A42CFF29BDE3E0875E1A6B8EA522A /* Pods-WallaMarvel-umbrella.h */,
-				45BF1953AA49832F70712B12A693B4FC /* Pods-WallaMarvel.debug.xcconfig */,
-				7D7DAC5073ABEFFA44728D3A71D98690 /* Pods-WallaMarvel.release.xcconfig */,
-			);
-			name = "Pods-WallaMarvel";
-			path = "Target Support Files/Pods-WallaMarvel";
 			sourceTree = "<group>";
 		};
 		9C13407A31764583DAEFED0FF342B65B /* Support Files */ = {
@@ -2054,21 +2126,22 @@
 			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
-		B77EDDA6EC77417DDBD2691822A19445 /* Pods-WallaMarvelKit */ = {
+		B15868261DD73D391F842953355A5A2F /* Pods-WallaMarvelAPI-WallaMarvelAPITests */ = {
 			isa = PBXGroup;
 			children = (
-				D78B2380CD64CD3260F0CE8743AA1870 /* Info.plist */,
-				26942BE6D9EB19A776E5EA6F88B54123 /* Pods-WallaMarvelKit.modulemap */,
-				D16AB89031E9161C504933B5833BC240 /* Pods-WallaMarvelKit-acknowledgements.markdown */,
-				B18398476C29EDF6A339800580F970BC /* Pods-WallaMarvelKit-acknowledgements.plist */,
-				BB78D44B95DB510DE22E389B7E4D840C /* Pods-WallaMarvelKit-dummy.m */,
-				FB5EEECA4FCFFE1F67507CC8B37836C8 /* Pods-WallaMarvelKit-resources.sh */,
-				7000A7D8AA7FDE335379FC55F4116CC6 /* Pods-WallaMarvelKit-umbrella.h */,
-				5C12A72E552FB298EDED823CF9286153 /* Pods-WallaMarvelKit.debug.xcconfig */,
-				5BEB5BB558085599959E9ED6A3C1269C /* Pods-WallaMarvelKit.release.xcconfig */,
+				7FA30DF9A6E60900BA09498FB5427D72 /* Info.plist */,
+				B60BE086856625D1DC06A1F8114CCEC9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.modulemap */,
+				E179BDBF575454246D3DE46D4FE0E813 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-acknowledgements.markdown */,
+				CDB601F24A5DDD340AAEADE5EE78CFC4 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-acknowledgements.plist */,
+				A82BB750901A6352B48D9AAADAAFFEEF /* Pods-WallaMarvelAPI-WallaMarvelAPITests-dummy.m */,
+				CF0FD95BE495E47EF514AEFB1EE9B01E /* Pods-WallaMarvelAPI-WallaMarvelAPITests-frameworks.sh */,
+				31FFF7BF9E807418B3033EF53A6B470E /* Pods-WallaMarvelAPI-WallaMarvelAPITests-resources.sh */,
+				79E2A8550E27CC7AF274B3DE03BA9C31 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-umbrella.h */,
+				B615DFB2B88E5E72F0F7E52CA25E1E8E /* Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig */,
+				57DCA16ABA6A3415EACA27224C5B84E9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig */,
 			);
-			name = "Pods-WallaMarvelKit";
-			path = "Target Support Files/Pods-WallaMarvelKit";
+			name = "Pods-WallaMarvelAPI-WallaMarvelAPITests";
+			path = "Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests";
 			sourceTree = "<group>";
 		};
 		C3CD938978C205793E605688E69313E2 /* Core */ = {
@@ -2119,31 +2192,6 @@
 			);
 			name = PromisesSwift;
 			path = PromisesSwift;
-			sourceTree = "<group>";
-		};
-		D6A3719D6EB9800CD091EF998983C280 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				838043B24A91AD1D6A85828AA811516E /* Alamofire.framework */,
-				B59F1A5EFA8FA738F2A6278E3B7F9193 /* AlamofireImage.framework */,
-				65109D19006AB2BF8AD6753BCB39D5CD /* AXPhotoViewer.framework */,
-				9343C5B235AA2C41A0444274264805A3 /* AXStateButton.framework */,
-				84F3AD98CF5F4A4C307F0B397AA018AB /* ErrorHandler.framework */,
-				65BDCCF79329927466AD0436A5030D5E /* Eureka.framework */,
-				646601F6B02E82AE9949157C5239E319 /* FBLPromises.framework */,
-				2DEFD056DE074D8DA0B8E64CBDBD151C /* FLAnimatedImage.framework */,
-				3F29285C2CDB06F28B56F636CB7D88E3 /* IBAnimatable.framework */,
-				DFD0AB0CD85CB80893AD5D1B95D4EA3D /* JGProgressHUD.bundle */,
-				9062C8BEA79F0FE65105276F30836041 /* JGProgressHUD.framework */,
-				9EE6BF2A7FE00EE3D202B1B7A54A7A0C /* Pods_WallaMarvel.framework */,
-				E7B0E96284656C960652D2A3086FCC03 /* Pods_WallaMarvelAPI.framework */,
-				45D0B305259D934EB710349768704AD4 /* Pods_WallaMarvelKit.framework */,
-				5A079D47FDA37902B0378E47B15947F5 /* Pods_WallaMarvelUI.framework */,
-				12DE94F576BC3EB5ACEE670BD3268B58 /* Promises.framework */,
-				6D24BFDC407D322B6BA20ED7A177937D /* SwiftDate.framework */,
-				4B649C1BB5FFFE224B77BBDCD1150429 /* UIScrollView_InfiniteScroll.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D9DEBEB4612FEFF36C06B9C7FF364BFE /* AXStateButton */ = {
@@ -2350,6 +2398,23 @@
 			path = IBAnimatable;
 			sourceTree = "<group>";
 		};
+		E32C8C3A794468D3C6AB06B52889B6B5 /* Pods-WallaMarvelUI */ = {
+			isa = PBXGroup;
+			children = (
+				6C8DFFFBC39E2450EDBF619E227D0B08 /* Info.plist */,
+				2986C7F855F89647A9509CD39EC67172 /* Pods-WallaMarvelUI.modulemap */,
+				9047CE0E1619E8511913BFCF8F1A4682 /* Pods-WallaMarvelUI-acknowledgements.markdown */,
+				FDCDF02E5802835D74EF6E49850E405C /* Pods-WallaMarvelUI-acknowledgements.plist */,
+				792CE98C84175F6CED86C750120629C2 /* Pods-WallaMarvelUI-dummy.m */,
+				F682037CF62107A74523366CB197A57D /* Pods-WallaMarvelUI-resources.sh */,
+				111FC0E50B0F5B86D3ABECD2E28A4AAC /* Pods-WallaMarvelUI-umbrella.h */,
+				7D653DA1191E56C91391A9D4DCC4B170 /* Pods-WallaMarvelUI.debug.xcconfig */,
+				308F34588307F2244588B4A55348B584 /* Pods-WallaMarvelUI.release.xcconfig */,
+			);
+			name = "Pods-WallaMarvelUI";
+			path = "Target Support Files/Pods-WallaMarvelUI";
+			sourceTree = "<group>";
+		};
 		E507F849BAC48E7335E4B64ACE7F7590 /* Eureka */ = {
 			isa = PBXGroup;
 			children = (
@@ -2491,6 +2556,18 @@
 			);
 			name = ErrorHandler;
 			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
+		F4EF555BD73E7C98F799B5EEC2A93EFC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B54CCDC47B0C03667DA12101A5A92 /* Pods-WallaMarvel */,
+				820D105524CBC254D5ADBB972D01039E /* Pods-WallaMarvelAPI */,
+				B15868261DD73D391F842953355A5A2F /* Pods-WallaMarvelAPI-WallaMarvelAPITests */,
+				89B051A1E7AA18D8BB7DCFB2618A59CB /* Pods-WallaMarvelKit */,
+				E32C8C3A794468D3C6AB06B52889B6B5 /* Pods-WallaMarvelUI */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		F76FAAC1BC82676F669DB5150496EC1B /* iOS */ = {
@@ -2685,6 +2762,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FFDA4085D226116403DFD77EF5499737 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58D79E12D0874DB93EABF73CB8D6016 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2707,7 +2792,7 @@
 			);
 			name = "Pods-WallaMarvelAPI";
 			productName = "Pods-WallaMarvelAPI";
-			productReference = E7B0E96284656C960652D2A3086FCC03 /* Pods_WallaMarvelAPI.framework */;
+			productReference = 28859F16D265E8B518D249F48B403849 /* Pods_WallaMarvelAPI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1A416B4A9A1CB769296967B53AF8D39A /* PromisesObjC */ = {
@@ -2727,7 +2812,7 @@
 			);
 			name = PromisesObjC;
 			productName = PromisesObjC;
-			productReference = 646601F6B02E82AE9949157C5239E319 /* FBLPromises.framework */;
+			productReference = 2D492C750FBFB8D665C6A190A7F65A1E /* FBLPromises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		23F42BDAE32C0BE1B2B7893F762F0C6E /* IBAnimatable */ = {
@@ -2745,7 +2830,7 @@
 			);
 			name = IBAnimatable;
 			productName = IBAnimatable;
-			productReference = 3F29285C2CDB06F28B56F636CB7D88E3 /* IBAnimatable.framework */;
+			productReference = 437A48867FC0F2D790FB91134B4EBE83 /* IBAnimatable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2E6EB3AA95D4B7F7413B546E53E62312 /* SwiftDate */ = {
@@ -2763,7 +2848,7 @@
 			);
 			name = SwiftDate;
 			productName = SwiftDate;
-			productReference = 6D24BFDC407D322B6BA20ED7A177937D /* SwiftDate.framework */;
+			productReference = E30C6CFE44843CB04D793C8EFC120FBE /* SwiftDate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		435035F59F8E4FC66E64400882806DC7 /* UIScrollView-InfiniteScroll */ = {
@@ -2781,7 +2866,7 @@
 			);
 			name = "UIScrollView-InfiniteScroll";
 			productName = "UIScrollView-InfiniteScroll";
-			productReference = 4B649C1BB5FFFE224B77BBDCD1150429 /* UIScrollView_InfiniteScroll.framework */;
+			productReference = A50E08CB00D682043415BB83D11FD8C4 /* UIScrollView_InfiniteScroll.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		598BBAB98616FE5AF9169488828B6A8C /* Pods-WallaMarvel */ = {
@@ -2812,7 +2897,7 @@
 			);
 			name = "Pods-WallaMarvel";
 			productName = "Pods-WallaMarvel";
-			productReference = 9EE6BF2A7FE00EE3D202B1B7A54A7A0C /* Pods_WallaMarvel.framework */;
+			productReference = 4BF0252A5611AC9922A85AC6BC55A7FC /* Pods_WallaMarvel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5F4BA8B4D605B684ABBD2FB009E45151 /* AlamofireImage */ = {
@@ -2831,7 +2916,7 @@
 			);
 			name = AlamofireImage;
 			productName = AlamofireImage;
-			productReference = B59F1A5EFA8FA738F2A6278E3B7F9193 /* AlamofireImage.framework */;
+			productReference = DD85B569FC584659CF719EC52A145E37 /* AlamofireImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		68A9C0A06161AC6D39A6CC9DA5C01566 /* JGProgressHUD-JGProgressHUD */ = {
@@ -2848,7 +2933,7 @@
 			);
 			name = "JGProgressHUD-JGProgressHUD";
 			productName = "JGProgressHUD-JGProgressHUD";
-			productReference = DFD0AB0CD85CB80893AD5D1B95D4EA3D /* JGProgressHUD.bundle */;
+			productReference = 3E2EC227758DADB71462FFA256950730 /* JGProgressHUD.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		7335C048B7219517490CC0C9B62A3A0A /* ErrorHandler */ = {
@@ -2866,7 +2951,30 @@
 			);
 			name = ErrorHandler;
 			productName = ErrorHandler;
-			productReference = 84F3AD98CF5F4A4C307F0B397AA018AB /* ErrorHandler.framework */;
+			productReference = 500BC4BAC7C768C183AE5A6E46742047 /* ErrorHandler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78BC027A0A9734E6A1D6D870A62A7167 /* Pods-WallaMarvelAPI-WallaMarvelAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F97F0A9B702D8370C1B570ADD799C9 /* Build configuration list for PBXNativeTarget "Pods-WallaMarvelAPI-WallaMarvelAPITests" */;
+			buildPhases = (
+				FFDA4085D226116403DFD77EF5499737 /* Headers */,
+				FF6717521606C2304A3D1705B3EBFC20 /* Sources */,
+				110944340D6F616FD8D6BE5BA31E0684 /* Frameworks */,
+				0A7C27FF39BF721FF742D26356AC17E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29120E80D66920A3B1DBCD5376139A0 /* PBXTargetDependency */,
+				D9D13DC7A3A61F643ABEF7CB041219C1 /* PBXTargetDependency */,
+				AE19A57B8CE065B6EDAF1195F3BCA8CD /* PBXTargetDependency */,
+				3E88B815B40B84F320B39D13692C5E1C /* PBXTargetDependency */,
+				48533D54B336F81C733935A20F1BD205 /* PBXTargetDependency */,
+			);
+			name = "Pods-WallaMarvelAPI-WallaMarvelAPITests";
+			productName = "Pods-WallaMarvelAPI-WallaMarvelAPITests";
+			productReference = AE766EC188717365C6A48D4DCE342E2C /* Pods_WallaMarvelAPI_WallaMarvelAPITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8A1A1048AE6CFBBBFC483A4ED93CF568 /* JGProgressHUD */ = {
@@ -2885,7 +2993,7 @@
 			);
 			name = JGProgressHUD;
 			productName = JGProgressHUD;
-			productReference = 9062C8BEA79F0FE65105276F30836041 /* JGProgressHUD.framework */;
+			productReference = AF8767469BC44C7F2D4CD1A59CD26175 /* JGProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8ADF25EEFE39C0D9EF85308749E16AF3 /* PromisesSwift */ = {
@@ -2904,7 +3012,7 @@
 			);
 			name = PromisesSwift;
 			productName = PromisesSwift;
-			productReference = 12DE94F576BC3EB5ACEE670BD3268B58 /* Promises.framework */;
+			productReference = 78DDD5F838941AB3194DC9AAC15C709A /* Promises.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A2D491F85C2F0E31F5BB90876BEEB149 /* Eureka */ = {
@@ -2922,7 +3030,7 @@
 			);
 			name = Eureka;
 			productName = Eureka;
-			productReference = 65BDCCF79329927466AD0436A5030D5E /* Eureka.framework */;
+			productReference = 91D7AFF0375D048BBF0B9B5164A98814 /* Eureka.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA0F12C52FBC95B00BE959468EB6B9D8 /* FLAnimatedImage */ = {
@@ -2940,7 +3048,7 @@
 			);
 			name = FLAnimatedImage;
 			productName = FLAnimatedImage;
-			productReference = 2DEFD056DE074D8DA0B8E64CBDBD151C /* FLAnimatedImage.framework */;
+			productReference = 8EF59877FFDC31EFAC9C7A06BE69900C /* FLAnimatedImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D1A870B4E064A9CFB360177A43721E18 /* Pods-WallaMarvelUI */ = {
@@ -2970,7 +3078,7 @@
 			);
 			name = "Pods-WallaMarvelUI";
 			productName = "Pods-WallaMarvelUI";
-			productReference = 5A079D47FDA37902B0378E47B15947F5 /* Pods_WallaMarvelUI.framework */;
+			productReference = D669264A9C2BA973CFB2482035EF3530 /* Pods_WallaMarvelUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D4C5C9798458DBD120D139D952B729B0 /* Pods-WallaMarvelKit */ = {
@@ -2991,7 +3099,7 @@
 			);
 			name = "Pods-WallaMarvelKit";
 			productName = "Pods-WallaMarvelKit";
-			productReference = 45D0B305259D934EB710349768704AD4 /* Pods_WallaMarvelKit.framework */;
+			productReference = 775B66CA59500ABD1DCDA44DC793BAE3 /* Pods_WallaMarvelKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E258F7F00D37E1C918E4DBF2EE9563B5 /* AXStateButton */ = {
@@ -3009,7 +3117,7 @@
 			);
 			name = AXStateButton;
 			productName = AXStateButton;
-			productReference = 9343C5B235AA2C41A0444274264805A3 /* AXStateButton.framework */;
+			productReference = B78A0FBBE0D3C9FD22329C26E8DB985C /* AXStateButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E76458C58C9140B6A16D60547E68E80C /* Alamofire */ = {
@@ -3027,7 +3135,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 838043B24A91AD1D6A85828AA811516E /* Alamofire.framework */;
+			productReference = 2E477DC2F275644DC4F78891102C104D /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EDAAFABC26E23770421BB5F28B643EF2 /* AXPhotoViewer */ = {
@@ -3047,7 +3155,7 @@
 			);
 			name = AXPhotoViewer;
 			productName = AXPhotoViewer;
-			productReference = 65109D19006AB2BF8AD6753BCB39D5CD /* AXPhotoViewer.framework */;
+			productReference = 7672B7F2C02089644F9403F6F6D70AD6 /* AXPhotoViewer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -3067,7 +3175,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D6A3719D6EB9800CD091EF998983C280 /* Products */;
+			productRefGroup = 7C89630CD7337E86F5FC1C5E2E5AA40B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -3083,6 +3191,7 @@
 				68A9C0A06161AC6D39A6CC9DA5C01566 /* JGProgressHUD-JGProgressHUD */,
 				598BBAB98616FE5AF9169488828B6A8C /* Pods-WallaMarvel */,
 				17ED1F7062C4E92BAB4A24B249392ED1 /* Pods-WallaMarvelAPI */,
+				78BC027A0A9734E6A1D6D870A62A7167 /* Pods-WallaMarvelAPI-WallaMarvelAPITests */,
 				D4C5C9798458DBD120D139D952B729B0 /* Pods-WallaMarvelKit */,
 				D1A870B4E064A9CFB360177A43721E18 /* Pods-WallaMarvelUI */,
 				1A416B4A9A1CB769296967B53AF8D39A /* PromisesObjC */,
@@ -3095,6 +3204,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		02D2C3712053831212DD40D64DCC1E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A7C27FF39BF721FF742D26356AC17E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3755,6 +3871,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF6717521606C2304A3D1705B3EBFC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD66516E5186BA6C057EC5C0963BAA79 /* Pods-WallaMarvelAPI-WallaMarvelAPITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3800,6 +3924,12 @@
 			target = E258F7F00D37E1C918E4DBF2EE9563B5 /* AXStateButton */;
 			targetProxy = ECBCE8C3810EF4A11179A9E0EAC13CD8 /* PBXContainerItemProxy */;
 		};
+		3E88B815B40B84F320B39D13692C5E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesSwift;
+			target = 8ADF25EEFE39C0D9EF85308749E16AF3 /* PromisesSwift */;
+			targetProxy = EF2D8A5662CB9FDA9E73FBB1A6A2CB95 /* PBXContainerItemProxy */;
+		};
 		43A1EEB717AEF787555EA0662138006D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
@@ -3811,6 +3941,12 @@
 			name = "JGProgressHUD-JGProgressHUD";
 			target = 68A9C0A06161AC6D39A6CC9DA5C01566 /* JGProgressHUD-JGProgressHUD */;
 			targetProxy = D32E3F6CE73E56808AF0D30BBE361ED1 /* PBXContainerItemProxy */;
+		};
+		48533D54B336F81C733935A20F1BD205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDate;
+			target = 2E6EB3AA95D4B7F7413B546E53E62312 /* SwiftDate */;
+			targetProxy = 41A933D7901CCB5C0FD302F7D80583BF /* PBXContainerItemProxy */;
 		};
 		556FDD87B30A9F0BE2DD727400655A0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3884,6 +4020,12 @@
 			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
 			targetProxy = E07A8FCD814FF48E07788CA7D5494E53 /* PBXContainerItemProxy */;
 		};
+		A29120E80D66920A3B1DBCD5376139A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
+			targetProxy = A789D26AC56A034B3D0C559833318084 /* PBXContainerItemProxy */;
+		};
 		A817D5D62EEFDEAB86FE03C8123CB23F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Eureka;
@@ -3907,6 +4049,12 @@
 			name = AlamofireImage;
 			target = 5F4BA8B4D605B684ABBD2FB009E45151 /* AlamofireImage */;
 			targetProxy = F740E6E2201A126EE46FFF71B5014FFD /* PBXContainerItemProxy */;
+		};
+		AE19A57B8CE065B6EDAF1195F3BCA8CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 1A416B4A9A1CB769296967B53AF8D39A /* PromisesObjC */;
+			targetProxy = 58EADABA73BB7BD57F29D2B221418C7E /* PBXContainerItemProxy */;
 		};
 		B2CDED1E1E463B52F9F4C8406B16143A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3937,6 +4085,12 @@
 			name = PromisesSwift;
 			target = 8ADF25EEFE39C0D9EF85308749E16AF3 /* PromisesSwift */;
 			targetProxy = D47BC50F8AA9DE0E5DF0FD14945D9F27 /* PBXContainerItemProxy */;
+		};
+		D9D13DC7A3A61F643ABEF7CB041219C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ErrorHandler;
+			target = 7335C048B7219517490CC0C9B62A3A0A /* ErrorHandler */;
+			targetProxy = 85DD9952978BE17589243F5D2FB767EE /* PBXContainerItemProxy */;
 		};
 		DC51E260D102A6A1727E3BABACAF4287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4164,7 +4318,7 @@
 		};
 		1D34CE53F4F330DFBE8B3A4E50AFF49E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AA1B8EBF6EF6C43BCB911487E8AF754 /* Pods-WallaMarvelAPI.debug.xcconfig */;
+			baseConfigurationReference = A7E906855D2A49B3101F6F9AFDDE6E94 /* Pods-WallaMarvelAPI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -4312,7 +4466,7 @@
 		};
 		59C464DE1C88154B028CDEA2D082CA0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BEB5BB558085599959E9ED6A3C1269C /* Pods-WallaMarvelKit.release.xcconfig */;
+			baseConfigurationReference = F78DFF0C02D73B4C3A55432B527DF845 /* Pods-WallaMarvelKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -4350,9 +4504,48 @@
 			};
 			name = Release;
 		};
+		5E9B81D2B2E2E28B3A3435CCE0451771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B615DFB2B88E5E72F0F7E52CA25E1E8E /* Pods-WallaMarvelAPI-WallaMarvelAPITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Pods-WallaMarvelAPI-WallaMarvelAPITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5F1257123C0703E09DB02EBD7A63F390 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AA23A572B3C9C7692FFA2FFD5567DB6 /* Pods-WallaMarvelAPI.release.xcconfig */;
+			baseConfigurationReference = 64016F19839B8EE4C5A855D271723DF8 /* Pods-WallaMarvelAPI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -4510,7 +4703,7 @@
 		};
 		6BFE4ECAFB6442DBFE4C929B7BC6AF72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D7DAC5073ABEFFA44728D3A71D98690 /* Pods-WallaMarvel.release.xcconfig */;
+			baseConfigurationReference = 724C4CB678325E3E1B0CACC6A4F17D15 /* Pods-WallaMarvel.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -4825,7 +5018,7 @@
 		};
 		B4269BDA6C714F558DA852F7223D026F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C12A72E552FB298EDED823CF9286153 /* Pods-WallaMarvelKit.debug.xcconfig */;
+			baseConfigurationReference = 84127C7E3F47518CBB46D3F965A9E33F /* Pods-WallaMarvelKit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -4900,7 +5093,7 @@
 		};
 		BC7C4A9FD57BBAC7DC32A22271DD7627 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47602F508458975B0959644BAED73BBF /* Pods-WallaMarvelUI.release.xcconfig */;
+			baseConfigurationReference = 308F34588307F2244588B4A55348B584 /* Pods-WallaMarvelUI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -4999,7 +5192,7 @@
 		};
 		D3502826563C1495C2DCC1BD49BCDD96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E9577877EBC444A5BAB884B44F20E2B /* Pods-WallaMarvelUI.debug.xcconfig */;
+			baseConfigurationReference = 7D653DA1191E56C91391A9D4DCC4B170 /* Pods-WallaMarvelUI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -5112,7 +5305,7 @@
 		};
 		DF60F01439CBA63C08D3D79E7E5382CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45BF1953AA49832F70712B12A693B4FC /* Pods-WallaMarvel.debug.xcconfig */;
+			baseConfigurationReference = 8FDDC7E15CF35A2C09B468E560EEE3C0 /* Pods-WallaMarvel.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -5363,6 +5556,46 @@
 			};
 			name = Debug;
 		};
+		FDB0B844D1E2AC4F33EA25BB1C9667BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57DCA16ABA6A3415EACA27224C5B84E9 /* Pods-WallaMarvelAPI-WallaMarvelAPITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WallaMarvelAPI-WallaMarvelAPITests/Pods-WallaMarvelAPI-WallaMarvelAPITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FDF6ACECC103C62769643F4CB4DF6B3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5841146B2D4D9D2BC4D90A53C5EA849B /* AlamofireImage.xcconfig */;
@@ -5506,6 +5739,15 @@
 			buildConfigurations = (
 				073B8B56E393C03E9B489058DF47E24E /* Debug */,
 				92D71731D9FAE3FFEAEAD04D0D7F9427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F97F0A9B702D8370C1B570ADD799C9 /* Build configuration list for PBXNativeTarget "Pods-WallaMarvelAPI-WallaMarvelAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9B81D2B2E2E28B3A3435CCE0451771 /* Debug */,
+				FDB0B844D1E2AC4F33EA25BB1C9667BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
