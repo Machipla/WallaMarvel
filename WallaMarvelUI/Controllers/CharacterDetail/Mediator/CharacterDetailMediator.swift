@@ -51,12 +51,12 @@ extension CharacterDetailMediator: CharacterDetailMediatorProtocol{
     }
     
     func refreshTriggered(){
-        presenter.displayProgress()
+        presenter.displayRefreshInProgress()
         loadDataAndHandleErrorIfNecessary().then{ character in
             self.currentCharacter = character
             self.presenter.display(character)
         }.always{
-            self.presenter.hideProgress()
+            self.presenter.displayRefreshInProgress()
         }
     }
     

@@ -42,8 +42,8 @@ final class AppRootCoordinator: Coordinator, Startable{
 }
 
 extension AppRootCoordinator: CharactersListViewControllerDelegate{
-    func charactersListViewController(_ controller: CharactersListViewController, hasSelected charater: WallaMarvelAPI.Character) {
-        let detailCoordinator = CharacterDetailCoordinator(fromNavigationController: rootNavigationController)
+    func charactersListViewController(_ controller: CharactersListViewController, hasSelected character: WallaMarvelAPI.Character) {
+        let detailCoordinator = CharacterDetailCoordinator(fromNavigationController: rootNavigationController, character: character)
         startChild(detailCoordinator)
     }
 }

@@ -28,6 +28,12 @@
                         <constraint firstAttribute="width" priority="750" id="N7a-Wm-AQg"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="do2-G6-y6Q">
+                    <rect key="frame" x="0.0" y="32" width="333.5" height="343"/>
+                    <connections>
+                        <action selector="imageTapped" destination="-1" eventType="touchUpInside" id="xr8-vB-YRF"/>
+                    </connections>
+                </button>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IvI-1Z-Kug">
                     <rect key="frame" x="333.5" y="32" width="333.5" height="343"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,13 +41,17 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="do2-G6-y6Q" firstAttribute="bottom" secondItem="2Nl-l4-ODc" secondAttribute="bottom" id="1XH-JP-PV6"/>
                 <constraint firstItem="2Nl-l4-ODc" firstAttribute="leading" secondItem="AO6-Dt-hsa" secondAttribute="leading" id="3WY-B2-uti"/>
                 <constraint firstItem="AO6-Dt-hsa" firstAttribute="trailing" secondItem="IvI-1Z-Kug" secondAttribute="trailing" id="IFr-v9-QCZ"/>
                 <constraint firstItem="IvI-1Z-Kug" firstAttribute="leading" secondItem="2Nl-l4-ODc" secondAttribute="trailing" id="MH6-po-XHp"/>
+                <constraint firstItem="do2-G6-y6Q" firstAttribute="top" secondItem="2Nl-l4-ODc" secondAttribute="top" id="Pva-62-ok5"/>
                 <constraint firstItem="2Nl-l4-ODc" firstAttribute="top" secondItem="AO6-Dt-hsa" secondAttribute="top" id="bNt-Xv-vCm"/>
                 <constraint firstItem="AO6-Dt-hsa" firstAttribute="bottom" secondItem="IvI-1Z-Kug" secondAttribute="bottom" id="dZS-fL-0ka"/>
                 <constraint firstItem="IvI-1Z-Kug" firstAttribute="top" secondItem="AO6-Dt-hsa" secondAttribute="top" id="eyZ-gj-4cC"/>
+                <constraint firstItem="do2-G6-y6Q" firstAttribute="leading" secondItem="2Nl-l4-ODc" secondAttribute="leading" id="fJt-CJ-VdS"/>
                 <constraint firstItem="AO6-Dt-hsa" firstAttribute="bottom" secondItem="2Nl-l4-ODc" secondAttribute="bottom" id="j5k-Ia-sx0"/>
+                <constraint firstItem="do2-G6-y6Q" firstAttribute="trailing" secondItem="2Nl-l4-ODc" secondAttribute="trailing" id="lvs-UQ-Lsq"/>
                 <constraint firstItem="AO6-Dt-hsa" firstAttribute="centerX" secondItem="2Nl-l4-ODc" secondAttribute="trailing" priority="999" id="r0l-OV-v8v"/>
                 <constraint firstItem="IvI-1Z-Kug" firstAttribute="leading" secondItem="AO6-Dt-hsa" secondAttribute="leading" id="wy5-Wi-UBW"/>
             </constraints>
@@ -67,11 +77,13 @@
             <variation key="heightClass=regular-widthClass=compact">
                 <mask key="subviews">
                     <exclude reference="2Nl-l4-ODc"/>
+                    <exclude reference="do2-G6-y6Q"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=regular">
                 <mask key="subviews">
                     <exclude reference="2Nl-l4-ODc"/>
+                    <exclude reference="do2-G6-y6Q"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="-241" y="104"/>

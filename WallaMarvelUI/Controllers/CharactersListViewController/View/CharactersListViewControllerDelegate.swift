@@ -10,9 +10,9 @@ import UIKit
 import WallaMarvelAPI
 
 public protocol CharactersListViewControllerDelegate: class {
-    func charactersListViewController(_ controller:CharactersListViewController, hasSelected charater:WallaMarvelAPI.Character)
+    func charactersListViewController(_ controller:CharactersListViewController, hasSelected character:WallaMarvelAPI.Character)
 }
 
 public extension CharactersListViewControllerDelegate {
-    func charactersListViewController(_ controller:CharactersListViewController, hasSelected charater:WallaMarvelAPI.Character){}
+    func charactersListViewController(_ controller:CharactersListViewController, hasSelected character:WallaMarvelAPI.Character){}
 }

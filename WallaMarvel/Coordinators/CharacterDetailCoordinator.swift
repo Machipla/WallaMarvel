@@ -17,12 +17,19 @@ final class CharacterDetailCoordinator: Coordinator, Startable{
     private(set) weak var fromNavigationController:UINavigationController!
     private(set) weak var characterDetailController:CharacterDetailViewController?
     
-    init(fromNavigationController:UINavigationController){
+    private let characterDetailControllerConfig:CharacterDetailControllerConfig
+    
+    init(fromNavigationController:UINavigationController, characterID:String){
         self.fromNavigationController = fromNavigationController
+        self.characterDetailControllerConfig = .characterID(characterID)
+    }
+    
+    init(fromNavigationController:UINavigationController, character:WallaMarvelAPI.Character){
+        self.fromNavigationController = fromNavigationController
+        self.characterDetailControllerConfig = .character(character)
     }
     
     func start(){
-        let characterDetailControllerConfig = CharacterDetailControllerConfig.characterID("")
         let characterDetailController = CharacterDetailViewController(config: characterDetailControllerConfig)
         characterDetailController.delegate = self
         

@@ -21,4 +21,8 @@ public extension Collection{
     func anyConforms(to check:((Element) -> Bool)) -> Bool{
         return first(where: check) != nil
     }
+    
+    func firstOfType<ElementType>() -> ElementType?{
+        return first(where: { $0 is ElementType }) as? ElementType
+    }
 }

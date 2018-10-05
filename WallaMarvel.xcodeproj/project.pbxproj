@@ -119,9 +119,15 @@
 		DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */; };
 		DBC915EB21664B570064A706 /* Promises+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915EA21664B570064A706 /* Promises+Empty.swift */; };
 		DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */; };
+		DBCB19DC21673C0500768650 /* UITableView+TableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB19DB21673C0500768650 /* UITableView+TableHeaderFooterView.swift */; };
+		DBCB19DE2167513300768650 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB19DD2167513200768650 /* UIView+Additions.swift */; };
 		DBD0533F2167248800C1504D /* ComicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0533E2167248800C1504D /* ComicsData.swift */; };
 		DBD053412167252900C1504D /* ComicsDataMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053402167252900C1504D /* ComicsDataMappingEntity.swift */; };
 		DBD053432167264000C1504D /* String+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053422167264000C1504D /* String+Info.swift */; };
+		DBD053472167308C00C1504D /* ParallaxTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053452167308C00C1504D /* ParallaxTableHeader.swift */; };
+		DBD053482167308C00C1504D /* ParallaxTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD053462167308C00C1504D /* ParallaxTableHeader.xib */; };
+		DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053492167313E00C1504D /* ViewCutDrawer.swift */; };
+		DBD0534C216737E300C1504D /* ParallaxTableHeaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */; };
 		DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -312,9 +318,15 @@
 		DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
 		DBC915EA21664B570064A706 /* Promises+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promises+Empty.swift"; sourceTree = "<group>"; };
 		DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+SearchController.swift"; sourceTree = "<group>"; };
+		DBCB19DB21673C0500768650 /* UITableView+TableHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+TableHeaderFooterView.swift"; sourceTree = "<group>"; };
+		DBCB19DD2167513200768650 /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
 		DBD0533E2167248800C1504D /* ComicsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsData.swift; sourceTree = "<group>"; };
 		DBD053402167252900C1504D /* ComicsDataMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsDataMappingEntity.swift; sourceTree = "<group>"; };
 		DBD053422167264000C1504D /* String+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Info.swift"; sourceTree = "<group>"; };
+		DBD053452167308C00C1504D /* ParallaxTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTableHeader.swift; sourceTree = "<group>"; };
+		DBD053462167308C00C1504D /* ParallaxTableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParallaxTableHeader.xib; sourceTree = "<group>"; };
+		DBD053492167313E00C1504D /* ViewCutDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCutDrawer.swift; sourceTree = "<group>"; };
+		DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxTableHeaderDelegate.swift; sourceTree = "<group>"; };
 		EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
 		FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -470,6 +482,7 @@
 			isa = PBXGroup;
 			children = (
 				DB5C81F02166440B00F43F09 /* UIView+Load.swift */,
+				DBCB19DD2167513200768650 /* UIView+Additions.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -828,6 +841,7 @@
 		DB8BF15B21650BBB00AB8287 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DBCB19DA21673BFA00768650 /* UITableView */,
 				DBC915EC2166596C0064A706 /* UINavigationItem */,
 				DB5C81EF216643E000F43F09 /* UIView */,
 				DBB25FA921663364002DFDB4 /* UIImageView */,
@@ -893,6 +907,7 @@
 		DBB25F8D2165F7B3002DFDB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DBD053442167308C00C1504D /* ParallaxTableHeader */,
 				DB5C81E721663A7800F43F09 /* CharacterCell */,
 				DB5C81E621663A7200F43F09 /* SpinnerView */,
 			);
@@ -945,6 +960,25 @@
 				DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */,
 			);
 			path = UINavigationItem;
+			sourceTree = "<group>";
+		};
+		DBCB19DA21673BFA00768650 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB19DB21673C0500768650 /* UITableView+TableHeaderFooterView.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		DBD053442167308C00C1504D /* ParallaxTableHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DBD053492167313E00C1504D /* ViewCutDrawer.swift */,
+				DBD053452167308C00C1504D /* ParallaxTableHeader.swift */,
+				DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */,
+				DBD053462167308C00C1504D /* ParallaxTableHeader.xib */,
+			);
+			path = ParallaxTableHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1136,6 +1170,7 @@
 				DB8BF15421650AA500AB8287 /* CharactersListViewController.xib in Resources */,
 				DBB25F9C216626EE002DFDB4 /* Localizable.strings in Resources */,
 				DB84BC60216672A000440A7D /* CharacterDetailViewController.xib in Resources */,
+				DBD053482167308C00C1504D /* ParallaxTableHeader.xib in Resources */,
 				DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1354,6 +1389,7 @@
 				DB8BF14E21650AA500AB8287 /* CharactersListViewController.swift in Sources */,
 				DB84BC5A216672A000440A7D /* CharacterDetailViewController.swift in Sources */,
 				DB5C81EE2166433800F43F09 /* CharacterRow.swift in Sources */,
+				DBCB19DE2167513300768650 /* UIView+Additions.swift in Sources */,
 				DB8BF15321650AA500AB8287 /* CharactersListDelegateCaller.swift in Sources */,
 				DB84BC62216672A000440A7D /* CharacterDetailControllerConfig.swift in Sources */,
 				DBB25F9921662638002DFDB4 /* UIColor+WallaMarvel.swift in Sources */,
@@ -1361,8 +1397,10 @@
 				DB84BC59216672A000440A7D /* CharacterDetailPresenterProtocol.swift in Sources */,
 				DB84BC61216672A000440A7D /* CharacterDetailDelegateCallerProtocol.swift in Sources */,
 				DB84BC57216672A000440A7D /* CharacterDetailPresenter.swift in Sources */,
+				DBD0534C216737E300C1504D /* ParallaxTableHeaderDelegate.swift in Sources */,
 				DB5C81EA21663ACC00F43F09 /* CharacterTableCell.swift in Sources */,
 				DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */,
+				DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */,
 				DB8BF184216517B000AB8287 /* HUDDrawer.swift in Sources */,
 				DB8BF14821650AA500AB8287 /* CharactersListMediator.swift in Sources */,
 				DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */,
@@ -1372,10 +1410,12 @@
 				DB84BC58216672A000440A7D /* CharacterDetailMediatorProtocol.swift in Sources */,
 				DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */,
 				DB84BC5F216672A000440A7D /* CharacterDetailDelegateCaller.swift in Sources */,
+				DBD053472167308C00C1504D /* ParallaxTableHeader.swift in Sources */,
 				DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */,
 				DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */,
 				DB8BF14921650AA500AB8287 /* CharactersDisplayData.swift in Sources */,
 				DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */,
+				DBCB19DC21673C0500768650 /* UITableView+TableHeaderFooterView.swift in Sources */,
 				DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */,
 				DBB25FA821662C7B002DFDB4 /* UIImage+Additions.swift in Sources */,
 				DB84BC5B216672A000440A7D /* CharacterDetailWirer.swift in Sources */,
