@@ -17,6 +17,7 @@ final class DefaultStyleSheet{
         applySearchBarAppearance()
         applyBarButtonItemAppearance()
         applyAlertControllerAppearance()
+        applyTableHeaderFooterViewAppearance()
         applyCharactersListAppearance()
         applyCharacterDetailAppearance()
     }
@@ -29,24 +30,33 @@ private extension DefaultStyleSheet{
         
         var dictTextAttributes = [NSAttributedString.Key:Any]()
         dictTextAttributes[NSAttributedString.Key.foregroundColor] = UIColor.WallaMarvel.wallapopContrast
-        //        dictTextAttributes[NSFontAttributeName] = defaultFont
+        dictTextAttributes[NSAttributedString.Key.font] = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .body)
         
         navigationBarProxy.titleTextAttributes = dictTextAttributes
-        if #available(iOS 11.0, *){ navigationBarProxy.largeTitleTextAttributes = dictTextAttributes }
         navigationBarProxy.barTintColor = UIColor.WallaMarvel.wallapop
         navigationBarProxy.tintColor = UIColor.WallaMarvel.wallapopContrast
         
-        if #available(iOS 11, *){ navigationBarProxy.prefersLargeTitles = true }
+        if #available(iOS 11, *){
+            var largeTitleTextAttributes = [NSAttributedString.Key:Any]()
+            largeTitleTextAttributes[NSAttributedString.Key.foregroundColor] = UIColor.WallaMarvel.wallapopContrast
+            largeTitleTextAttributes[NSAttributedString.Key.font] = Fonts.ubuntuBold.scaledFontDynamicallyIfPossible(for: .largeTitle)
+            
+            navigationBarProxy.largeTitleTextAttributes = largeTitleTextAttributes
+            navigationBarProxy.prefersLargeTitles = true
+        }
     }
     
     static func applySearchBarAppearance(){
         let searchBarProxy = UISearchBar.appearance()
         let textFieldSearchBarProxy = UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self])
+        let labelSearchBarProxy = UILabel.appearance(whenContainedInInstancesOf: [UISearchBar.self])
         
         var dictTextAttributes = [NSAttributedString.Key:Any]()
         dictTextAttributes[NSAttributedString.Key.foregroundColor] = UIColor.WallaMarvel.darkTextColor
         
         textFieldSearchBarProxy.defaultTextAttributes = dictTextAttributes
+        textFieldSearchBarProxy.font = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .body)
+        labelSearchBarProxy.font = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .body)
         
         searchBarProxy.tintColor = UIColor.WallaMarvel.darkTextColor
         searchBarProxy.barTintColor = UIColor.WallaMarvel.darkTextColor
@@ -64,6 +74,7 @@ private extension DefaultStyleSheet{
         
         var dictTextAttributes = [NSAttributedString.Key:Any]()
         dictTextAttributes[NSAttributedString.Key.foregroundColor] = UIColor.WallaMarvel.wallapopContrast
+        dictTextAttributes[NSAttributedString.Key.font] = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .body)
         
         barItemProxy.setTitleTextAttributes(dictTextAttributes, for: .normal)
         barItemProxy.setTitleTextAttributes(dictTextAttributes, for: .selected)
@@ -74,12 +85,19 @@ private extension DefaultStyleSheet{
         viewAlertControllerProxy.tintColor = UIColor.WallaMarvel.wallapop
     }
     
+    static func applyTableHeaderFooterViewAppearance(){
+        let labelTableHeaderFooterViewProxy = UILabel.appearance(whenContainedInInstancesOf: [UITableViewHeaderFooterView.self])
+        labelTableHeaderFooterViewProxy.font = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .subheadline)
+    }
+    
     static func applyCharactersListAppearance(){
-        CharactersListViewController.Appearance.itemsFont = UIFont(name: "Ubuntu-Medium", size: UIFont.labelFontSize)!
+        CharactersListViewController.Appearance.itemsFont = Fonts.ubuntuMedium
         CharactersListViewController.Appearance.itemsSeparatorStyle = .gradient(startColor: UIColor.WallaMarvel.wallapop, endColor: UIColor.WallaMarvel.marvel)
     }
     
     static func applyCharacterDetailAppearance(){
-        CharacterDetailViewController.Appearance.titleFont = UIFont(name: "Ubuntu-Bold", size: UIFont.labelFontSize)!
+        CharacterDetailViewController.Appearance.titleFont = Fonts.ubuntuBold
+        CharacterDetailViewController.Appearance.detailFont = Fonts.ubuntuRegular
+        CharacterDetailViewController.Appearance.detailFont = Fonts.ubuntuRegular
     }
 }

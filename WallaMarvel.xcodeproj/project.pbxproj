@@ -10,6 +10,7 @@
 		21D6634C26A7B4E33A8D1436 /* Pods_WallaMarvelAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */; };
 		521148473E5131D7DBCD7A7E /* Pods_WallaMarvelUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */; };
 		859A0CFA78E272CB951F562C /* Pods_WallaMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */; };
+		DB2BF41C2167A875001D110D /* DefaultStyleSheet+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BF41B2167A875001D110D /* DefaultStyleSheet+Fonts.swift */; };
 		DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B342E21637E7D005709E3 /* AppDelegate.swift */; };
 		DB4B343121637E7D005709E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B343021637E7D005709E3 /* ViewController.swift */; };
 		DB4B343421637E7D005709E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343221637E7D005709E3 /* Main.storyboard */; };
@@ -215,6 +216,7 @@
 		A97F3874FBF0F35BC32BF6B8 /* Pods_WallaMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2023D71B1CB9B28813E3E3 /* Pods_WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2BF41B2167A875001D110D /* DefaultStyleSheet+Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultStyleSheet+Fonts.swift"; sourceTree = "<group>"; };
 		DB4B342B21637E7D005709E3 /* WallaMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallaMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B342E21637E7D005709E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4B343021637E7D005709E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1026,6 +1028,7 @@
 			isa = PBXGroup;
 			children = (
 				DBCB19E021675A5100768650 /* DefaultStyleSheet.swift */,
+				DB2BF41B2167A875001D110D /* DefaultStyleSheet+Fonts.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -1398,6 +1401,7 @@
 				DBCB19E121675A5100768650 /* DefaultStyleSheet.swift in Sources */,
 				DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */,
 				DB4B343121637E7D005709E3 /* ViewController.swift in Sources */,
+				DB2BF41C2167A875001D110D /* DefaultStyleSheet+Fonts.swift in Sources */,
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
 				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
 				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
