@@ -18,7 +18,9 @@ public final class CharacterDetailViewController: FormViewController{
     public weak var delegate:CharacterDetailViewControllerDelegate?
 	var mediator: CharacterDetailMediatorProtocol!
 
-    private var characterSection:Section{ return form.allSections.first! }
+    private var characterSection:Section{ return form.allSections[0] }
+    private var dataSection:Section{ return form.allSections[1] }
+    
     
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
     public init(config:CharacterDetailControllerConfig){
@@ -36,6 +38,7 @@ public final class CharacterDetailViewController: FormViewController{
         tableView.tableHeaderView = headerView
         
         form +++ Section()
+        form +++ Section("HERO_DETAIL_INFO_SECTION_TITLE".localized(onBundleFor: self))
         
         if #available(iOS 10.0, *){
             tableView.refreshControl = UIRefreshControl()
@@ -76,6 +79,13 @@ extension CharacterDetailViewController:  CharacterDetailViewProtocol{
             row.textAreaMode = .readOnly
             row.textAreaHeight = .dynamic(initialTextViewHeight: 0)
             row.cell.textView.font = UIFont.preferredFont(forTextStyle: .body)
+        }
+        
+        if data.mustShowComicsField{
+            dataSection <<< LabelRow(){ row in
+                row.title = "HERO_DETAIL_COMICS_FIELD".localized(onBundleFor: self)
+                row.value = String(data.comicsCount)
+            }
         }
         
         headerView.imageView.setImage(withURL: data.imageURL, placeholderImage: UIImage(named: "im_placeholder", in: Bundle(forClassOfInstance: self)), imageTransition: .crossDissolve(0.4))

@@ -15,7 +15,11 @@ final class CharacterDetailPresenter {
 
 extension CharacterDetailPresenter: CharacterDetailPresenterProtocol{
     func display(_ character:WallaMarvelAPI.Character){
-        let displayData = CharacterDetailDisplayData(name: character.name, description: character.description, imageURL: character.thumbnail?.url)
+        let displayData = CharacterDetailDisplayData(name: character.name,
+                                                     description: character.description,
+                                                     imageURL: character.thumbnail?.url,
+                                                     mustShowComicsField: !(character.comicsData?.comics.isEmpty ?? true),
+                                                     comicsCount: character.comicsData?.comics.count ?? 0)
         attachedView.display(displayData)
     }
     

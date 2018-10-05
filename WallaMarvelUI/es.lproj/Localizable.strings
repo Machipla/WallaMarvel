@@ -7,7 +7,9 @@
 */
 
 /******** Hero Detail ********/
-"HERO_DETAIL_TITLE" = "Expediente del héroe";
+"HERO_DETAIL_TITLE"                 = "Expediente del héroe";
+"HERO_DETAIL_COMICS_FIELD"          = "Comics";
+"HERO_DETAIL_INFO_SECTION_TITLE"    = "Info";
 /*****************************/
 
 /******** Heroes List ********/

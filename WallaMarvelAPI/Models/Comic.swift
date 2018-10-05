@@ -10,9 +10,9 @@ import Foundation
 
 /// Struct that represents a Marvel comic
 public struct Comic{
-    public let ID:String
+    public let ID:String?
     public let title:String
-    public let description:String
-    public let modified:Date
-    public let thumbnail:Thumbnail
+    public let description:String?
+    public let modified:Date?
+    public let thumbnail:Thumbnail?
 }

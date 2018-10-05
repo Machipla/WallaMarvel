@@ -13,6 +13,9 @@ struct CharacterDetailDisplayData {
     let name:String
     let description:String?
     let imageURL:URL?
+    
+    let mustShowComicsField:Bool
+    let comicsCount:Int
 }
 
 // MARK: - Image detail display data
