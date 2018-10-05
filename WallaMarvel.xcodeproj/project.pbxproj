@@ -108,6 +108,17 @@
 		DB8BF178216513D800AB8287 /* Bool+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB24E2163C92600FE9BE4 /* Bool+Additions.swift */; };
 		DB8BF180216514AA00AB8287 /* ErrorHandler+WallaMarvel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF17F216514AA00AB8287 /* ErrorHandler+WallaMarvel.swift */; };
 		DB8BF184216517B000AB8287 /* HUDDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF183216517B000AB8287 /* HUDDrawer.swift */; };
+		DB915E02216772CA0097CE02 /* CharactersListViewController+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E01216772CA0097CE02 /* CharactersListViewController+Appearance.swift */; };
+		DB915E0C2167747F0097CE02 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E09216773A50097CE02 /* Ubuntu-Bold.ttf */; };
+		DB915E0D2167747F0097CE02 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E05216773A40097CE02 /* Ubuntu-BoldItalic.ttf */; };
+		DB915E0E2167747F0097CE02 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E0A216773A60097CE02 /* Ubuntu-Italic.ttf */; };
+		DB915E0F2167747F0097CE02 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E06216773A50097CE02 /* Ubuntu-Light.ttf */; };
+		DB915E102167747F0097CE02 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E07216773A50097CE02 /* Ubuntu-LightItalic.ttf */; };
+		DB915E112167747F0097CE02 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E08216773A50097CE02 /* Ubuntu-Medium.ttf */; };
+		DB915E122167747F0097CE02 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E04216773A40097CE02 /* Ubuntu-MediumItalic.ttf */; };
+		DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */; };
+		DB915E1621678DE40097CE02 /* UIFont+DynamicSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */; };
+		DB915E18216795500097CE02 /* CharacterDetailViewController+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */; };
 		DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB25F8B2165F6ED002DFDB4 /* Images.xcassets */; };
 		DBB25F8F2165F816002DFDB4 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25F8E2165F816002DFDB4 /* SpinnerView.swift */; };
 		DBB25F922165FB5B002DFDB4 /* Bundle+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25F912165FB5B002DFDB4 /* Bundle+Class.swift */; };
@@ -121,6 +132,7 @@
 		DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */; };
 		DBCB19DC21673C0500768650 /* UITableView+TableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB19DB21673C0500768650 /* UITableView+TableHeaderFooterView.swift */; };
 		DBCB19DE2167513300768650 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB19DD2167513200768650 /* UIView+Additions.swift */; };
+		DBCB19E121675A5100768650 /* DefaultStyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB19E021675A5100768650 /* DefaultStyleSheet.swift */; };
 		DBD0533F2167248800C1504D /* ComicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0533E2167248800C1504D /* ComicsData.swift */; };
 		DBD053412167252900C1504D /* ComicsDataMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053402167252900C1504D /* ComicsDataMappingEntity.swift */; };
 		DBD053432167264000C1504D /* String+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053422167264000C1504D /* String+Info.swift */; };
@@ -303,6 +315,17 @@
 		DB8BF1692165130900AB8287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB8BF17F216514AA00AB8287 /* ErrorHandler+WallaMarvel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ErrorHandler+WallaMarvel.swift"; sourceTree = "<group>"; };
 		DB8BF183216517B000AB8287 /* HUDDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDDrawer.swift; sourceTree = "<group>"; };
+		DB915E01216772CA0097CE02 /* CharactersListViewController+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharactersListViewController+Appearance.swift"; sourceTree = "<group>"; };
+		DB915E04216773A40097CE02 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DB915E05216773A40097CE02 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DB915E06216773A50097CE02 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		DB915E07216773A50097CE02 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		DB915E08216773A50097CE02 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		DB915E09216773A50097CE02 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		DB915E0A216773A60097CE02 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DynamicSizing.swift"; sourceTree = "<group>"; };
+		DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterDetailViewController+Appearance.swift"; sourceTree = "<group>"; };
 		DBB25F8B2165F6ED002DFDB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DBB25F8E2165F816002DFDB4 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		DBB25F912165FB5B002DFDB4 /* Bundle+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Class.swift"; sourceTree = "<group>"; };
@@ -320,6 +343,7 @@
 		DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+SearchController.swift"; sourceTree = "<group>"; };
 		DBCB19DB21673C0500768650 /* UITableView+TableHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+TableHeaderFooterView.swift"; sourceTree = "<group>"; };
 		DBCB19DD2167513200768650 /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		DBCB19E021675A5100768650 /* DefaultStyleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyleSheet.swift; sourceTree = "<group>"; };
 		DBD0533E2167248800C1504D /* ComicsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsData.swift; sourceTree = "<group>"; };
 		DBD053402167252900C1504D /* ComicsDataMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsDataMappingEntity.swift; sourceTree = "<group>"; };
 		DBD053422167264000C1504D /* String+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Info.swift"; sourceTree = "<group>"; };
@@ -427,6 +451,7 @@
 			isa = PBXGroup;
 			children = (
 				DB4B342E21637E7D005709E3 /* AppDelegate.swift */,
+				DBCB19DF21675A4500768650 /* Style */,
 				DB8BF12B2165073400AB8287 /* Coordinators */,
 				DB4B343021637E7D005709E3 /* ViewController.swift */,
 				DB4B343221637E7D005709E3 /* Main.storyboard */,
@@ -439,6 +464,7 @@
 		DB4B344221638BFD005709E3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB915E032167739D0097CE02 /* Fonts */,
 				DB4B343A21637E7F005709E3 /* Info.plist */,
 				DB4B343521637E7F005709E3 /* Images.xcassets */,
 			);
@@ -645,6 +671,7 @@
 				DB84BC4C216672A000440A7D /* CharacterDetailViewControllerDelegate.swift */,
 				DB84BC4E216672A000440A7D /* CharacterDetailViewProtocol.swift */,
 				DB84BC50216672A000440A7D /* CharacterDetailViewController.xib */,
+				DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -825,6 +852,7 @@
 				DB8BF14021650AA500AB8287 /* CharactersListViewControllerDelegate.swift */,
 				DB8BF14221650AA500AB8287 /* CharactersListViewProtocol.swift */,
 				DB8BF14421650AA500AB8287 /* CharactersListViewController.xib */,
+				DB915E01216772CA0097CE02 /* CharactersListViewController+Appearance.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -841,6 +869,7 @@
 		DB8BF15B21650BBB00AB8287 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DB915E1421678DDB0097CE02 /* UIFont */,
 				DBCB19DA21673BFA00768650 /* UITableView */,
 				DBC915EC2166596C0064A706 /* UINavigationItem */,
 				DB5C81EF216643E000F43F09 /* UIView */,
@@ -902,6 +931,29 @@
 				DB8BF183216517B000AB8287 /* HUDDrawer.swift */,
 			);
 			path = Drawers;
+			sourceTree = "<group>";
+		};
+		DB915E032167739D0097CE02 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB915E09216773A50097CE02 /* Ubuntu-Bold.ttf */,
+				DB915E05216773A40097CE02 /* Ubuntu-BoldItalic.ttf */,
+				DB915E0A216773A60097CE02 /* Ubuntu-Italic.ttf */,
+				DB915E06216773A50097CE02 /* Ubuntu-Light.ttf */,
+				DB915E07216773A50097CE02 /* Ubuntu-LightItalic.ttf */,
+				DB915E08216773A50097CE02 /* Ubuntu-Medium.ttf */,
+				DB915E04216773A40097CE02 /* Ubuntu-MediumItalic.ttf */,
+				DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DB915E1421678DDB0097CE02 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */,
+			);
+			path = UIFont;
 			sourceTree = "<group>";
 		};
 		DBB25F8D2165F7B3002DFDB4 /* Views */ = {
@@ -968,6 +1020,14 @@
 				DBCB19DB21673C0500768650 /* UITableView+TableHeaderFooterView.swift */,
 			);
 			path = UITableView;
+			sourceTree = "<group>";
+		};
+		DBCB19DF21675A4500768650 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				DBCB19E021675A5100768650 /* DefaultStyleSheet.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 		DBD053442167308C00C1504D /* ParallaxTableHeader */ = {
@@ -1148,10 +1208,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */,
+				DB915E0C2167747F0097CE02 /* Ubuntu-Bold.ttf in Resources */,
 				DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */,
+				DB915E0D2167747F0097CE02 /* Ubuntu-BoldItalic.ttf in Resources */,
+				DB915E0E2167747F0097CE02 /* Ubuntu-Italic.ttf in Resources */,
+				DB915E102167747F0097CE02 /* Ubuntu-LightItalic.ttf in Resources */,
+				DB915E0F2167747F0097CE02 /* Ubuntu-Light.ttf in Resources */,
+				DB915E112167747F0097CE02 /* Ubuntu-Medium.ttf in Resources */,
 				DB4B343621637E7F005709E3 /* Images.xcassets in Resources */,
 				DB4B344121637ED5005709E3 /* Podfile in Resources */,
 				DB4B343421637E7D005709E3 /* Main.storyboard in Resources */,
+				DB915E122167747F0097CE02 /* Ubuntu-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1327,6 +1395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8BF1322165084300AB8287 /* Startable.swift in Sources */,
+				DBCB19E121675A5100768650 /* DefaultStyleSheet.swift in Sources */,
 				DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */,
 				DB4B343121637E7D005709E3 /* ViewController.swift in Sources */,
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
@@ -1392,12 +1461,14 @@
 				DBCB19DE2167513300768650 /* UIView+Additions.swift in Sources */,
 				DB8BF15321650AA500AB8287 /* CharactersListDelegateCaller.swift in Sources */,
 				DB84BC62216672A000440A7D /* CharacterDetailControllerConfig.swift in Sources */,
+				DB915E02216772CA0097CE02 /* CharactersListViewController+Appearance.swift in Sources */,
 				DBB25F9921662638002DFDB4 /* UIColor+WallaMarvel.swift in Sources */,
 				DB84BC54216672A000440A7D /* CharacterDetailMediator.swift in Sources */,
 				DB84BC59216672A000440A7D /* CharacterDetailPresenterProtocol.swift in Sources */,
 				DB84BC61216672A000440A7D /* CharacterDetailDelegateCallerProtocol.swift in Sources */,
 				DB84BC57216672A000440A7D /* CharacterDetailPresenter.swift in Sources */,
 				DBD0534C216737E300C1504D /* ParallaxTableHeaderDelegate.swift in Sources */,
+				DB915E1621678DE40097CE02 /* UIFont+DynamicSizing.swift in Sources */,
 				DB5C81EA21663ACC00F43F09 /* CharacterTableCell.swift in Sources */,
 				DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */,
 				DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */,
@@ -1413,6 +1484,7 @@
 				DBD053472167308C00C1504D /* ParallaxTableHeader.swift in Sources */,
 				DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */,
 				DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */,
+				DB915E18216795500097CE02 /* CharacterDetailViewController+Appearance.swift in Sources */,
 				DB8BF14921650AA500AB8287 /* CharactersDisplayData.swift in Sources */,
 				DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */,
 				DBCB19DC21673C0500768650 /* UITableView+TableHeaderFooterView.swift in Sources */,
@@ -1559,7 +1631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1615,7 +1687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

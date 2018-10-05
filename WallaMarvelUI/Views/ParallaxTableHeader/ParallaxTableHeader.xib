@@ -61,7 +61,7 @@
                 <constraint firstItem="4VD-Uz-S7Z" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="7c8-nP-Wg0"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="4VD-Uz-S7Z" secondAttribute="bottom" id="D5L-M4-GFw"/>
                 <constraint firstItem="4VD-Uz-S7Z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Scm-wq-v3e"/>
-                <constraint firstItem="4VD-Uz-S7Z" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="TiV-i5-l4G"/>
+                <constraint firstItem="4VD-Uz-S7Z" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" priority="999" id="TiV-i5-l4G"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

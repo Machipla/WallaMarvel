@@ -13,7 +13,7 @@ import AXPhotoViewer
 public final class CharacterDetailViewController: FormViewController{
 
     @IBOutlet private weak var imageView:UIImageView!
-    private var headerView:ParallaxTableHeader{ return tableView.tableHeaderView as! ParallaxTableHeader }
+    private var headerView:ParallaxTableHeader!
     
     public weak var delegate:CharacterDetailViewControllerDelegate?
 	var mediator: CharacterDetailMediatorProtocol!
@@ -28,14 +28,24 @@ public final class CharacterDetailViewController: FormViewController{
         CharacterDetailWirer.wireUp(viewController: self, config: config)
     }
     
+    public override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        // If headerView is not installed, we save up the layout of the header view
+        if headerView.isInstalled{
+            tableView.layoutTableHeaderView()
+            drawCut(height: 60, on: headerView)
+        }
+    }
+    
 	public override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "CHARACTER_DETAIL_TITLE".localized(onBundleFor: self)
         
-        let headerView = ParallaxTableHeader.fromNib()
-        headerView?.delegate = self
-        tableView.tableHeaderView = headerView
+        headerView = ParallaxTableHeader.fromNib()
+        headerView.delegate = self
+        updateTableViewHeaderForCurrentOrientationState()
         
         form +++ Section()
         form +++ Section("CHARACTER_DETAIL_INFO_SECTION_TITLE".localized(onBundleFor: self))
@@ -48,6 +58,14 @@ public final class CharacterDetailViewController: FormViewController{
         mediator.reloadData()
     }
 
+    public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        updateTableViewHeaderForCurrentOrientationState()
+    }
+    
+    private func updateTableViewHeaderForCurrentOrientationState(){
+        tableView.tableHeaderView = UIDevice.current.orientation.isPortrait ? headerView : nil
+    }
 }
 
 private extension CharacterDetailViewController{
@@ -62,37 +80,46 @@ private extension CharacterDetailViewController{
 
 extension CharacterDetailViewController{
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        headerView.updateParallaxOnScroll(of: tableView)
+        headerView.updateParallax(for: tableView)
     }
 }
 
 extension CharacterDetailViewController:  CharacterDetailViewProtocol{
     func display(_ data:CharacterDetailDisplayData){
         characterSection.removeAll()
+        dataSection.removeAll()
+        
         characterSection <<< LabelRow(){ row in
             row.title = data.name
-            row.cell.textLabel?.font = UIFont.preferredFont(forTextStyle: .title1)
+            
+            var titleFontStyle = UIFont.TextStyle.title1
+            if #available(iOS 11.0, *) { titleFontStyle = .largeTitle }
+            
+            row.cell.textLabel?.font = CharacterDetailViewController.Appearance.titleFont.scaledFontDynamicallyIfPossible(for: titleFontStyle)
+            row.cell.textLabel?.numberOfLines = 0
         }
         
         characterSection <<< TextAreaRow(){ row in
             row.value = data.description
             row.textAreaMode = .readOnly
             row.textAreaHeight = .dynamic(initialTextViewHeight: 0)
-            row.cell.textView.font = UIFont.preferredFont(forTextStyle: .body)
+            
+            row.cell.textView.font = CharacterDetailViewController.Appearance.detailFont.scaledFontDynamicallyIfPossible(for: .body)
+            row.cell.textLabel?.numberOfLines = 0
         }
         
         if data.mustShowComicsField{
             dataSection <<< LabelRow(){ row in
                 row.title = "CHARACTER_DETAIL_COMICS_FIELD".localized(onBundleFor: self)
                 row.value = String(data.comicsCount)
+                
+                row.cell.textLabel?.font = CharacterDetailViewController.Appearance.detailFont.scaledFontDynamicallyIfPossible(for: .body)
+                row.cell.detailTextLabel?.font = CharacterDetailViewController.Appearance.detailFont.scaledFontDynamicallyIfPossible(for: .body)
             }
         }
         
         headerView.imageView.setImage(withURL: data.imageURL, placeholderImage: UIImage(named: "im_placeholder", in: Bundle(forClassOfInstance: self)), imageTransition: .crossDissolve(0.4))
         imageView.setImage(withURL: data.imageURL, placeholderImage: UIImage(named: "im_placeholder", in: Bundle(forClassOfInstance: self)), imageTransition: .crossDissolve(0.4))
-        tableView.layoutTableHeaderView()
-        
-        drawCut(height: 60, on: headerView)
     }
     
     func displayImage(with data:CharacterImageDetailDisplayData){

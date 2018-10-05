@@ -34,7 +34,7 @@
                         <action selector="imageTapped" destination="-1" eventType="touchUpInside" id="xr8-vB-YRF"/>
                     </connections>
                 </button>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IvI-1Z-Kug">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="IvI-1Z-Kug">
                     <rect key="frame" x="333.5" y="32" width="333.5" height="343"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </tableView>
@@ -86,7 +86,7 @@
                     <exclude reference="do2-G6-y6Q"/>
                 </mask>
             </variation>
-            <point key="canvasLocation" x="-241" y="104"/>
+            <point key="canvasLocation" x="-736" y="210"/>
         </view>
     </objects>
 </document>

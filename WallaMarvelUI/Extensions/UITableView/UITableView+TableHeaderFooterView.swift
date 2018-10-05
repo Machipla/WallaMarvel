@@ -24,6 +24,7 @@ public extension UITableView {
                                                                        options: NSLayoutConstraint.FormatOptions(rawValue: UInt(0)),
                                                                        metrics: ["width": headerWidth],
                                                                        views: ["headerView": headerView])
+        temporaryWidthConstraints.forEach{ $0.priority = UILayoutPriority(999) }
         
         headerView.addConstraints(temporaryWidthConstraints)
         headerView.setNeedsLayout()

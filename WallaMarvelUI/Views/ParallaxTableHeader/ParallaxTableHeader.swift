@@ -22,7 +22,7 @@ public final class ParallaxTableHeader: UIView {
         }
     }
     
-    public func updateParallaxOnScroll(of tableView:UITableView){
+    public func updateParallax(for tableView:UITableView){
         let offsetY = tableView.contentOffset.y + tableView.contentInset.top
         let clampedHeight = offsetY < 0 ? CGFloat(height) : CGFloat(height) - offsetY
         heightConstraint.constant = clampedHeight

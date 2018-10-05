@@ -72,12 +72,44 @@ private extension CharactersListViewController{
     }
 }
 
+extension UIFont{
+    @available(iOS 11.0, *)
+    func getScaledFont(for textStyle: UIFont.TextStyle) -> UIFont {
+        
+        /// Uncomment the code below to check all the available fonts and have them printed in the console to double check the font name with existing fonts 😉
+        
+        /*for family: String in UIFont.familyNames
+         {
+         print("\(family)")
+         for names: String in UIFont.fontNames(forFamilyName: family)
+         {
+         print("== \(names)")
+         }
+         }*/
+        
+        let userFont =  UIFontDescriptor.preferredFontDescriptor(withTextStyle: textStyle)
+        guard let customFont = UIFont(name: fontName, size: userFont.pointSize) else { fatalError("") }
+        return UIFontMetrics.default.scaledFont(for: customFont)
+    }
+}
+
 extension CharactersListViewController: CharactersListViewProtocol{
     func displayHeroesData(_ displayData:CharactersDisplayData, behavior:CharactersDisplayBehavior){
         func mapHeroDisplayDataToRow(_ heroDisplayData:CharactersDisplayData.SingleCharacterDisplay) -> BaseRow{
             return CharacterRow(){ row in
                 row.title = heroDisplayData.title
                 row.imageURL = heroDisplayData.imageURL
+                row.cell.titleLabel.font = CharactersListViewController.Appearance.itemsFont.scaledFontDynamicallyIfPossible(for: .title3)
+                
+                if #available(iOS 11.0, *){ row.cell.titleLabel.adjustsFontForContentSizeCategory = true}
+                
+                switch CharactersListViewController.Appearance.itemsSeparatorStyle{
+                case .color(let color):
+                    row.cell.separatorView.backgroundColor = color
+                case .gradient(let startColor, let endColor):
+                    row.cell.separatorView.startColor = startColor
+                    row.cell.separatorView.endColor = endColor
+                }
             }.onCellSelection{ _, row in
                 guard let index = row.indexPath?.row else { return }
                 self.mediator.characterTapped(at: index)
