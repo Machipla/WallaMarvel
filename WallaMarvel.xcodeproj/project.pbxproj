@@ -119,6 +119,9 @@
 		DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */; };
 		DBC915EB21664B570064A706 /* Promises+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915EA21664B570064A706 /* Promises+Empty.swift */; };
 		DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */; };
+		DBD0533F2167248800C1504D /* ComicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0533E2167248800C1504D /* ComicsData.swift */; };
+		DBD053412167252900C1504D /* ComicsDataMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053402167252900C1504D /* ComicsDataMappingEntity.swift */; };
+		DBD053432167264000C1504D /* String+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053422167264000C1504D /* String+Info.swift */; };
 		DD34A701DA8D697C6E9D9454 /* Pods_WallaMarvelKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D70D899446A9188527E805 /* Pods_WallaMarvelKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -309,6 +312,9 @@
 		DBB25FAA21663371002DFDB4 /* UIImageView+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
 		DBC915EA21664B570064A706 /* Promises+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promises+Empty.swift"; sourceTree = "<group>"; };
 		DBC915ED216659920064A706 /* UINavigationItem+SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+SearchController.swift"; sourceTree = "<group>"; };
+		DBD0533E2167248800C1504D /* ComicsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsData.swift; sourceTree = "<group>"; };
+		DBD053402167252900C1504D /* ComicsDataMappingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsDataMappingEntity.swift; sourceTree = "<group>"; };
+		DBD053422167264000C1504D /* String+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Info.swift"; sourceTree = "<group>"; };
 		EF333CEAEDDD604B76378D5C /* Pods-WallaMarvelKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallaMarvelKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallaMarvelKit/Pods-WallaMarvelKit.release.xcconfig"; sourceTree = "<group>"; };
 		FF46C02C98D03EAA1FA493BB /* Pods_WallaMarvelUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallaMarvelUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -498,6 +504,8 @@
 				DB7BB2252163C11C00FE9BE4 /* Character.swift */,
 				DB7BB2272163C24D00FE9BE4 /* Thumbnail.swift */,
 				DB8BF1122164E8EC00AB8287 /* Comic.swift */,
+				DB8BF1032164E0B500AB8287 /* DataResult.swift */,
+				DBD0533E2167248800C1504D /* ComicsData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -531,8 +539,9 @@
 				DB8BF0E52164B4AA00AB8287 /* ThumbnailMappingEntity.swift */,
 				DB8BF0FE2164D8D200AB8287 /* CursorMappingEntity.swift */,
 				DB8BF1002164DB9400AB8287 /* CharactersFilterMappingEntity.swift */,
-				DB8BF1052164E12C00AB8287 /* DataResultMappingEntity.swift */,
 				DB8BF1142164EB1200AB8287 /* ComicsFilterMappingEntity.swift */,
+				DB8BF1052164E12C00AB8287 /* DataResultMappingEntity.swift */,
+				DBD053402167252900C1504D /* ComicsDataMappingEntity.swift */,
 			);
 			path = Serializers;
 			sourceTree = "<group>";
@@ -695,6 +704,7 @@
 				DB8BF0F42164CF9800AB8287 /* String+MD5.swift */,
 				DB8BF1072164E40C00AB8287 /* String+Format.swift */,
 				DBB25FA4216627A2002DFDB4 /* String+Localized.swift */,
+				DBD053422167264000C1504D /* String+Info.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -707,7 +717,6 @@
 				DB8BF0F82164D3F000AB8287 /* APIKeys+Marvel.swift */,
 				DB8BF0F12164C67100AB8287 /* API+Endpoints.swift */,
 				DB8BF0F62164D1A600AB8287 /* APIEndpoints+Marvel.swift */,
-				DB8BF1032164E0B500AB8287 /* DataResult.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -1327,7 +1336,9 @@
 				DB8BF0FF2164D8D200AB8287 /* CursorMappingEntity.swift in Sources */,
 				DB8BF1172165043900AB8287 /* ComicMappingEntity.swift in Sources */,
 				DB7BB23F2163C7CC00FE9BE4 /* JSONTypeRawRepresentable.swift in Sources */,
+				DBD0533F2167248800C1504D /* ComicsData.swift in Sources */,
 				DB8BF0E92164B63E00AB8287 /* MappingError.swift in Sources */,
+				DBD053412167252900C1504D /* ComicsDataMappingEntity.swift in Sources */,
 				DB8BF1132164E8EC00AB8287 /* Comic.swift in Sources */,
 				DB8BF0EC2164C40100AB8287 /* CharactersFilter.swift in Sources */,
 				DB8BF1062164E12C00AB8287 /* DataResultMappingEntity.swift in Sources */,
@@ -1382,6 +1393,7 @@
 				DB8BF174216513D800AB8287 /* String+Format.swift in Sources */,
 				DBC915EB21664B570064A706 /* Promises+Empty.swift in Sources */,
 				DBB25F922165FB5B002DFDB4 /* Bundle+Class.swift in Sources */,
+				DBD053432167264000C1504D /* String+Info.swift in Sources */,
 				DB8BF176216513D800AB8287 /* Dictionary+Filtering.swift in Sources */,
 				DB8BF172216513D800AB8287 /* Optional+TypeProtocol.swift in Sources */,
 				DB8BF178216513D800AB8287 /* Bool+Additions.swift in Sources */,

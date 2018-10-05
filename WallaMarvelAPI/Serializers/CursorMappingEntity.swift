@@ -26,8 +26,8 @@ internal struct CursorMappingEntity: Encodable, EntityConvertible{
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: EncodingKeys.self)
         
-        try container.encode(rawOffset, forKey: .offset)
-        try container.encode(rawLimit, forKey: .limit)
+        try container.encodeJSONValue(rawOffset, forKey: .offset)
+        try container.encodeJSONValue(rawLimit, forKey: .limit)
     }
 }
 

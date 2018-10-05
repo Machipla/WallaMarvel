@@ -12,7 +12,8 @@ import Foundation
 public struct Character{
     public let ID:String
     public let name:String
-    public let description:String
-    public let modified:Date
-    public let thumbnail:Thumbnail
+    public let description:String?
+    public let modified:Date?
+    public let thumbnail:Thumbnail?
+    public let comicsData:ComicsData?
 }

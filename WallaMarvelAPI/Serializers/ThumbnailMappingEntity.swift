@@ -35,8 +35,8 @@ internal struct ThumbnailMappingEntity: Codable, EntityConvertible{
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         
-        try container.encode(rawPath, forKey: .path)
-        try container.encode(rawExtension, forKey: .extension)
+        try container.encodeJSONValue(rawPath, forKey: .path)
+        try container.encodeJSONValue(rawExtension, forKey: .extension)
     }
 }
 

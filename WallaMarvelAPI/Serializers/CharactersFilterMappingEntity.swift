@@ -33,16 +33,16 @@ internal struct CharactersFilterMappingEntity: Encodable, EntityConvertible{
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: EncodingKeys.self)
 
-        try container.encodeIfPresent(rawNameStartsWith, forKey: .nameStartsWith)
-        try container.encodeIfPresent(rawModifiedSince, forKey: .modifiedSince)
-        try container.encode(rawOrderBy, forKey: .orderBy)
+        try container.encodeJSONValueIfPresent(rawNameStartsWith, forKey: .nameStartsWith)
+        try container.encodeJSONValueIfPresent(rawModifiedSince, forKey: .modifiedSince)
+        try container.encodeJSONValue(rawOrderBy, forKey: .orderBy)
 
         if !(rawName?.isEmpty ?? true){
-            try container.encodeIfPresent(rawName, forKey: .name)
+            try container.encodeJSONValueIfPresent(rawName, forKey: .name)
         }
         
         if !rawComicIDs.isEmpty{
-            try container.encode(rawComicIDs, forKey: .comics)
+            try container.encodeJSONValue(rawComicIDs, forKey: .comics)
         }
     }
 }

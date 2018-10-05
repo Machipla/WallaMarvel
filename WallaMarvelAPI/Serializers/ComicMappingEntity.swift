@@ -11,7 +11,7 @@ import SwiftDate
 
 /// A raw representation of a Comic that may come from a JSON.
 /// This is may be taken as a object representation of the JSON/Plist that can be converted into or feeded by an entity
-internal struct ComicMappingEntity: Decodable, EntityConvertible{
+internal struct ComicMappingEntity: Codable, EntityConvertible{
     private let rawID:String
     private let rawTitle:String
     private let rawDescription:String
@@ -32,7 +32,7 @@ internal struct ComicMappingEntity: Decodable, EntityConvertible{
     }
     
     init(from decoder:Decoder) throws{
-        let container = try decoder.container(keyedBy: DecodingKeys.self)
+        let container = try decoder.container(keyedBy: CodingKeys.self)
         
         rawID           = try container.decodeMappedJSONValue(forKey: .ID)
         rawTitle        = try container.decodeMappedJSONValue(forKey: .title)
@@ -43,10 +43,20 @@ internal struct ComicMappingEntity: Decodable, EntityConvertible{
         guard let _ = rawModified.date(format: .iso8601Auto)?.absoluteDate else { throw DecodingError.dataCorruptedError(forKey: .modified, in: container, debugDescription: "")}
         guard let _ = try? ThumbnailMappingEntity(from: rawThumbnail).asJSON() else { throw DecodingError.dataCorruptedError(forKey: .thumbnail, in: container, debugDescription: "")}
     }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        
+        try container.encodeJSONValue(rawID, forKey: .ID)
+        try container.encodeJSONValue(rawTitle, forKey: .title)
+        try container.encodeJSONValue(rawDescription, forKey: .description)
+        try container.encodeJSONValue(rawModified, forKey: .modified)
+        try container.encodeJSONValue(rawThumbnail, forKey: .thumbnail)
+    }
 }
 
 extension ComicMappingEntity{
-    enum DecodingKeys: String, CodingKey{
+    enum CodingKeys: String, CodingKey{
         case ID = "id"
         case title = "title"
         case description = "description"

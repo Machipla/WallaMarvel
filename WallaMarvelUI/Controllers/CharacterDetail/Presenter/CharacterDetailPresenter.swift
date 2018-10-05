@@ -15,12 +15,14 @@ final class CharacterDetailPresenter {
 
 extension CharacterDetailPresenter: CharacterDetailPresenterProtocol{
     func display(_ character:WallaMarvelAPI.Character){
-        let displayData = CharacterDetailDisplayData(name: character.name, description: character.description, imageURL: character.thumbnail.url)
+        let displayData = CharacterDetailDisplayData(name: character.name, description: character.description, imageURL: character.thumbnail?.url)
         attachedView.display(displayData)
     }
     
     func displayImageDetail(for character:WallaMarvelAPI.Character){
-        let imageDisplayData = CharacterImageDetailDisplayData(imageURL: character.thumbnail.url, title: character.name)
+        guard let thumbnailURL = character.thumbnail?.url else { return } // If no image is present, it makes no sense to show the image
+        
+        let imageDisplayData = CharacterImageDetailDisplayData(imageURL: thumbnailURL, title: character.name)
         attachedView.displayImage(with: imageDisplayData)
     }
     

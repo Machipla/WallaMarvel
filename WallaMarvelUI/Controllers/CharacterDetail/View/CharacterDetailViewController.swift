@@ -11,6 +11,8 @@ import Eureka
 
 public final class CharacterDetailViewController: FormViewController{
 
+    @IBOutlet weak var imageView:UIImageView!
+    
     public weak var delegate:CharacterDetailViewControllerDelegate?
 	var mediator: CharacterDetailMediatorProtocol!
 
@@ -47,9 +49,7 @@ private extension CharacterDetailViewController{
 
 extension CharacterDetailViewController:  CharacterDetailViewProtocol{
     func display(_ data:CharacterDetailDisplayData){
-        1. Seguir por aquí, mostrando la info del personaje
-        2. Luego seguir con la muestra de imagen
-        3. Luego seguir con las demás tareas :)
+        
     }
     
     func displayImage(with data:CharacterImageDetailDisplayData){

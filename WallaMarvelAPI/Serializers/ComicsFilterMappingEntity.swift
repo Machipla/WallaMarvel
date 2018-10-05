@@ -26,8 +26,8 @@ internal struct ComicsFilterMappingEntity: Encodable, EntityConvertible{
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: EncodingKeys.self)
         
-        try container.encode(rawTitle, forKey: .title)
-        try container.encode(rawOrderBy, forKey: .orderBy)
+        try container.encodeJSONValue(rawTitle, forKey: .title)
+        try container.encodeJSONValue(rawOrderBy, forKey: .orderBy)
     }
 }
 

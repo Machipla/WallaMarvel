@@ -11,8 +11,8 @@ import UIKit
 // MARK: - Detail display data
 struct CharacterDetailDisplayData {
     let name:String
-    let description:String
-    let imageURL:URL
+    let description:String?
+    let imageURL:URL?
 }
 
 // MARK: - Image detail display data
