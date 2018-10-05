@@ -7,12 +7,12 @@
 */
 
 /******** Character Detail ********/
-"CHARACTER_DETAIL_TITLE"                 = "Expedient de l'heroi";
+"CHARACTER_DETAIL_TITLE"                 = "Expedient del personatge";
 "CHARACTER_DETAIL_COMICS_FIELD"          = "Comics";
 "CHARACTER_DETAIL_INFO_SECTION_TITLE"    = "Info";
 /*****************************/
 
 /******** Characters List ********/
-"CHARACTERS_LIST_TITLE"                 = "Llistat d'herois";
+"CHARACTERS_LIST_TITLE"                 = "Llistat de personatges";
 "CHARACTERS_LIST_SEARCH_PLACEHOLDER"    = "Iron man, Spider-man...";
 /*****************************/

@@ -17,7 +17,7 @@ extension CharactersListPresenter: CharactersListPresenterProtocol{
     func displayReloadCharacters(_ characters:[WallaMarvelAPI.Character]){
         let charactersDisplayData = characters.map{ return CharactersDisplayData.SingleCharacterDisplay(imageURL: $0.thumbnail?.url, title: $0.name, description: nil) }
         let toDisplayData = CharactersDisplayData(characters: charactersDisplayData)
-        attachedView.displayHeroesData(toDisplayData, behavior: .removingOldOnes)
+        attachedView.displayCharactersData(toDisplayData, behavior: .removingOldOnes)
     }
     
     func displayRefreshCharacters(_ characters:[WallaMarvelAPI.Character]){
@@ -27,7 +27,7 @@ extension CharactersListPresenter: CharactersListPresenterProtocol{
     func displayNextDataCharacters(_ characters:[WallaMarvelAPI.Character]){
         let charactersDisplayData = characters.map{ return CharactersDisplayData.SingleCharacterDisplay(imageURL: $0.thumbnail?.url, title: $0.name, description: nil) }
         let toDisplayData = CharactersDisplayData(characters: charactersDisplayData)
-        attachedView.displayHeroesData(toDisplayData, behavior: .appendingToOldOnes)
+        attachedView.displayCharactersData(toDisplayData, behavior: .appendingToOldOnes)
     }
     
     func displayProgress(){

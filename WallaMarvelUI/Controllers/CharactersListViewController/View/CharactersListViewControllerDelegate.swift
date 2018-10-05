@@ -1,5 +1,5 @@
 //
-//  HeroesPresenterViewControllerDelegate.swift
+//  CharactersPresenterViewControllerDelegate.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.

@@ -1,5 +1,5 @@
 //
-//  HeroesViewController.swift
+//  CharactersViewController.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 3/10/18.
@@ -94,11 +94,11 @@ extension UIFont{
 }
 
 extension CharactersListViewController: CharactersListViewProtocol{
-    func displayHeroesData(_ displayData:CharactersDisplayData, behavior:CharactersDisplayBehavior){
-        func mapHeroDisplayDataToRow(_ heroDisplayData:CharactersDisplayData.SingleCharacterDisplay) -> BaseRow{
+    func displayCharactersData(_ displayData:CharactersDisplayData, behavior:CharactersDisplayBehavior){
+        func mapCharacterDisplayDataToRow(_ characterDisplayData:CharactersDisplayData.SingleCharacterDisplay) -> BaseRow{
             return CharacterRow(){ row in
-                row.title = heroDisplayData.title
-                row.imageURL = heroDisplayData.imageURL
+                row.title = characterDisplayData.title
+                row.imageURL = characterDisplayData.imageURL
                 row.cell.titleLabel.font = CharactersListViewController.Appearance.itemsFont.scaledFontDynamicallyIfPossible(for: .title3)
                 
                 if #available(iOS 11.0, *){ row.cell.titleLabel.adjustsFontForContentSizeCategory = true}
@@ -120,7 +120,7 @@ extension CharactersListViewController: CharactersListViewProtocol{
             charactersSection.removeAll()
         }
         
-        let rows = displayData.characters.map(mapHeroDisplayDataToRow(_:))
+        let rows = displayData.characters.map(mapCharacterDisplayDataToRow(_:))
         charactersSection.append(contentsOf: rows)
     }
     

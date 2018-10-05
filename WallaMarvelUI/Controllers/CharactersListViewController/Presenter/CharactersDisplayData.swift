@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: - Heroes dispay data
+// MARK: - Characters display data
 struct CharactersDisplayData {
     struct SingleCharacterDisplay{
         let imageURL:URL?
