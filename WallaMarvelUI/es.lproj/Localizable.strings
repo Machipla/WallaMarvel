@@ -6,13 +6,13 @@
   Copyright © 2018 Mario Plaza. All rights reserved.
 */
 
-/******** Hero Detail ********/
-"HERO_DETAIL_TITLE"                 = "Expediente del héroe";
-"HERO_DETAIL_COMICS_FIELD"          = "Comics";
-"HERO_DETAIL_INFO_SECTION_TITLE"    = "Info";
+/******** Character Detail ********/
+"CHARACTER_DETAIL_TITLE"                 = "Expediente del héroe";
+"CHARACTER_DETAIL_COMICS_FIELD"          = "Comics";
+"CHARACTER_DETAIL_INFO_SECTION_TITLE"    = "Info";
 /*****************************/
 
-/******** Heroes List ********/
-"HEROES_LIST_TITLE"                 = "Lista de heroes";
-"HEROES_LIST_SEARCH_PLACEHOLDER"    = "Iron man, Spider-man...";
+/******** Characters List ********/
+"CHARACTERS_LIST_TITLE"                 = "Lista de heroes";
+"CHARACTERS_LIST_SEARCH_PLACEHOLDER"    = "Iron man, Spider-man...";
 /*****************************/

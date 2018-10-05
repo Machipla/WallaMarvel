@@ -28,7 +28,7 @@ public final class CharactersListViewController: FormViewController {
 	public override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "HEROES_LIST_TITLE".localized(onBundleFor: self)
+        title = "CHARACTERS_LIST_TITLE".localized(onBundleFor: self)
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "ic_filters", inBundleOf: self)!, style: .plain, target: self, action: #selector(filtersTapped))
         setupSearchBar()
         
@@ -50,7 +50,7 @@ public final class CharactersListViewController: FormViewController {
         let searchController = UISearchController(searchResultsController: nil)
         searchController.searchBar.delegate = self
         searchController.searchBar.enablesReturnKeyAutomatically = false
-        searchController.searchBar.placeholder = "HEROES_LIST_SEARCH_PLACEHOLDER".localized(onBundleFor: self)
+        searchController.searchBar.placeholder = "CHARACTERS_LIST_SEARCH_PLACEHOLDER".localized(onBundleFor: self)
         searchController.hidesNavigationBarDuringPresentation = false
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true

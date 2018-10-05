@@ -31,14 +31,14 @@ public final class CharacterDetailViewController: FormViewController{
 	public override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "HERO_DETAIL_TITLE".localized(onBundleFor: self)
+        title = "CHARACTER_DETAIL_TITLE".localized(onBundleFor: self)
         
         let headerView = ParallaxTableHeader.fromNib()
         headerView?.delegate = self
         tableView.tableHeaderView = headerView
         
         form +++ Section()
-        form +++ Section("HERO_DETAIL_INFO_SECTION_TITLE".localized(onBundleFor: self))
+        form +++ Section("CHARACTER_DETAIL_INFO_SECTION_TITLE".localized(onBundleFor: self))
         
         if #available(iOS 10.0, *){
             tableView.refreshControl = UIRefreshControl()
@@ -83,7 +83,7 @@ extension CharacterDetailViewController:  CharacterDetailViewProtocol{
         
         if data.mustShowComicsField{
             dataSection <<< LabelRow(){ row in
-                row.title = "HERO_DETAIL_COMICS_FIELD".localized(onBundleFor: self)
+                row.title = "CHARACTER_DETAIL_COMICS_FIELD".localized(onBundleFor: self)
                 row.value = String(data.comicsCount)
             }
         }
