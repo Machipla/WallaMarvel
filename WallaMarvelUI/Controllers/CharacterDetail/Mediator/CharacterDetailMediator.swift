@@ -56,7 +56,7 @@ extension CharacterDetailMediator: CharacterDetailMediatorProtocol{
             self.currentCharacter = character
             self.presenter.display(character)
         }.always{
-            self.presenter.displayRefreshInProgress()
+            self.presenter.hideRefreshInProgress()
         }
     }
     
