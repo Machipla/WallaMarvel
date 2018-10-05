@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 final class CharactersListDelegateCaller{
     weak var attachedView: CharactersListViewController!
 }
 
 extension CharactersListDelegateCaller: CharactersListDelegateCallerProtocol {
-    
+    func callDelegateForCharacterSelected(_ selectedCharacter:WallaMarvelAPI.Character){
+        attachedView.delegate?.charactersListViewController(attachedView, hasSelected: selectedCharacter)
+    }
 }

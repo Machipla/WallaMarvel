@@ -18,6 +18,7 @@ def eureka;             pod 'Eureka', '~> 4.3.0'; end
 def jgprogressHUD;      pod 'JGProgressHUD', '~> 2.0.3'; end
 def alamofireimage;     pod 'AlamofireImage', '~> 3.4.1'; end
 def infiniteScroll;     pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'; end
+def axphotoViewer;      pod 'AXPhotoViewer', '~> 1.6.1'; end
 
 ######## Targets ########
 target 'WallaMarvel' do
@@ -43,6 +44,7 @@ target 'WallaMarvelUI' do
     jgprogressHUD
     alamofireimage
     infiniteScroll
+    axphotoViewer
 end
 
 ######## Post-installation scripts ########

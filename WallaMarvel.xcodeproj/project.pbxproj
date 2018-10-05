@@ -41,6 +41,21 @@
 		DB7BB2492163C7CC00FE9BE4 /* KeyedEncodingContainer+JSONMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB23C2163C7CC00FE9BE4 /* KeyedEncodingContainer+JSONMapping.swift */; };
 		DB7BB24A2163C7CC00FE9BE4 /* KeyedDecodingContainer+JSONMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB23D2163C7CC00FE9BE4 /* KeyedDecodingContainer+JSONMapping.swift */; };
 		DB7BB24B2163C7CC00FE9BE4 /* Encodable+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7BB23E2163C7CC00FE9BE4 /* Encodable+JSON.swift */; };
+		DB84BC412166719C00440A7D /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC402166719C00440A7D /* Collection+Safe.swift */; };
+		DB84BC54216672A000440A7D /* CharacterDetailMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC44216672A000440A7D /* CharacterDetailMediator.swift */; };
+		DB84BC55216672A000440A7D /* CharacterDetailDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC45216672A000440A7D /* CharacterDetailDisplayData.swift */; };
+		DB84BC57216672A000440A7D /* CharacterDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC47216672A000440A7D /* CharacterDetailPresenter.swift */; };
+		DB84BC58216672A000440A7D /* CharacterDetailMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC48216672A000440A7D /* CharacterDetailMediatorProtocol.swift */; };
+		DB84BC59216672A000440A7D /* CharacterDetailPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC49216672A000440A7D /* CharacterDetailPresenterProtocol.swift */; };
+		DB84BC5A216672A000440A7D /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC4A216672A000440A7D /* CharacterDetailViewController.swift */; };
+		DB84BC5B216672A000440A7D /* CharacterDetailWirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC4B216672A000440A7D /* CharacterDetailWirer.swift */; };
+		DB84BC5C216672A000440A7D /* CharacterDetailViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC4C216672A000440A7D /* CharacterDetailViewControllerDelegate.swift */; };
+		DB84BC5E216672A000440A7D /* CharacterDetailViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC4E216672A000440A7D /* CharacterDetailViewProtocol.swift */; };
+		DB84BC5F216672A000440A7D /* CharacterDetailDelegateCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC4F216672A000440A7D /* CharacterDetailDelegateCaller.swift */; };
+		DB84BC60216672A000440A7D /* CharacterDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB84BC50216672A000440A7D /* CharacterDetailViewController.xib */; };
+		DB84BC61216672A000440A7D /* CharacterDetailDelegateCallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC51216672A000440A7D /* CharacterDetailDelegateCallerProtocol.swift */; };
+		DB84BC62216672A000440A7D /* CharacterDetailControllerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC52216672A000440A7D /* CharacterDetailControllerConfig.swift */; };
+		DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BC68216679BC00440A7D /* CharacterDetailCoordinator.swift */; };
 		DB8BF0E62164B4AA00AB8287 /* ThumbnailMappingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E52164B4AA00AB8287 /* ThumbnailMappingEntity.swift */; };
 		DB8BF0E92164B63E00AB8287 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0E82164B63E00AB8287 /* MappingError.swift */; };
 		DB8BF0EC2164C40100AB8287 /* CharactersFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF0EB2164C40100AB8287 /* CharactersFilter.swift */; };
@@ -213,6 +228,21 @@
 		DB7BB23D2163C7CC00FE9BE4 /* KeyedDecodingContainer+JSONMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedDecodingContainer+JSONMapping.swift"; sourceTree = "<group>"; };
 		DB7BB23E2163C7CC00FE9BE4 /* Encodable+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
 		DB7BB24E2163C92600FE9BE4 /* Bool+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Additions.swift"; sourceTree = "<group>"; };
+		DB84BC402166719C00440A7D /* Collection+Safe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Safe.swift"; sourceTree = "<group>"; };
+		DB84BC44216672A000440A7D /* CharacterDetailMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailMediator.swift; sourceTree = "<group>"; };
+		DB84BC45216672A000440A7D /* CharacterDetailDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailDisplayData.swift; sourceTree = "<group>"; };
+		DB84BC47216672A000440A7D /* CharacterDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailPresenter.swift; sourceTree = "<group>"; };
+		DB84BC48216672A000440A7D /* CharacterDetailMediatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailMediatorProtocol.swift; sourceTree = "<group>"; };
+		DB84BC49216672A000440A7D /* CharacterDetailPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailPresenterProtocol.swift; sourceTree = "<group>"; };
+		DB84BC4A216672A000440A7D /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		DB84BC4B216672A000440A7D /* CharacterDetailWirer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailWirer.swift; sourceTree = "<group>"; };
+		DB84BC4C216672A000440A7D /* CharacterDetailViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DB84BC4E216672A000440A7D /* CharacterDetailViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewProtocol.swift; sourceTree = "<group>"; };
+		DB84BC4F216672A000440A7D /* CharacterDetailDelegateCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailDelegateCaller.swift; sourceTree = "<group>"; };
+		DB84BC50216672A000440A7D /* CharacterDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterDetailViewController.xib; sourceTree = "<group>"; };
+		DB84BC51216672A000440A7D /* CharacterDetailDelegateCallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailDelegateCallerProtocol.swift; sourceTree = "<group>"; };
+		DB84BC52216672A000440A7D /* CharacterDetailControllerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailControllerConfig.swift; sourceTree = "<group>"; };
+		DB84BC68216679BC00440A7D /* CharacterDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailCoordinator.swift; sourceTree = "<group>"; };
 		DB8BF0DA2164AF0B00AB8287 /* Sequence+Filtering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Filtering.swift"; sourceTree = "<group>"; };
 		DB8BF0DD2164AF5500AB8287 /* Optional+TypeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+TypeProtocol.swift"; sourceTree = "<group>"; };
 		DB8BF0E02164AF9400AB8287 /* Dictionary+Filtering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Filtering.swift"; sourceTree = "<group>"; };
@@ -554,6 +584,58 @@
 			path = Bool;
 			sourceTree = "<group>";
 		};
+		DB84BC422166728F00440A7D /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DB84BC4B216672A000440A7D /* CharacterDetailWirer.swift */,
+				DB84BC52216672A000440A7D /* CharacterDetailControllerConfig.swift */,
+				DB84BC63216672AC00440A7D /* Mediator */,
+				DB84BC64216672B000440A7D /* Presenter */,
+				DB84BC65216672BA00440A7D /* View */,
+				DB84BC66216672BF00440A7D /* DelegateCaller */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		DB84BC63216672AC00440A7D /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				DB84BC44216672A000440A7D /* CharacterDetailMediator.swift */,
+				DB84BC48216672A000440A7D /* CharacterDetailMediatorProtocol.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		DB84BC64216672B000440A7D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DB84BC45216672A000440A7D /* CharacterDetailDisplayData.swift */,
+				DB84BC47216672A000440A7D /* CharacterDetailPresenter.swift */,
+				DB84BC49216672A000440A7D /* CharacterDetailPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DB84BC65216672BA00440A7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB84BC4A216672A000440A7D /* CharacterDetailViewController.swift */,
+				DB84BC4C216672A000440A7D /* CharacterDetailViewControllerDelegate.swift */,
+				DB84BC4E216672A000440A7D /* CharacterDetailViewProtocol.swift */,
+				DB84BC50216672A000440A7D /* CharacterDetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB84BC66216672BF00440A7D /* DelegateCaller */ = {
+			isa = PBXGroup;
+			children = (
+				DB84BC4F216672A000440A7D /* CharacterDetailDelegateCaller.swift */,
+				DB84BC51216672A000440A7D /* CharacterDetailDelegateCallerProtocol.swift */,
+			);
+			path = DelegateCaller;
+			sourceTree = "<group>";
+		};
 		DB8BF0D92164AEC800AB8287 /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,6 +665,7 @@
 			children = (
 				DB8BF0E32164B0F000AB8287 /* Collection+ElementCheck.swift */,
 				DBB25F94216600D3002DFDB4 /* Collection+Info.swift */,
+				DB84BC402166719C00440A7D /* Collection+Safe.swift */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -659,6 +742,7 @@
 			children = (
 				DB8BF12C2165074500AB8287 /* Common */,
 				DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */,
+				DB84BC68216679BC00440A7D /* CharacterDetailCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -675,6 +759,7 @@
 		DB8BF13521650A8400AB8287 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DB84BC422166728F00440A7D /* CharacterDetail */,
 				DB8BF13621650A8700AB8287 /* CharactersListViewController */,
 			);
 			path = Controllers;
@@ -1041,6 +1126,7 @@
 				DB5C81EB21663ACC00F43F09 /* CharacterTableCell.xib in Resources */,
 				DB8BF15421650AA500AB8287 /* CharactersListViewController.xib in Resources */,
 				DBB25F9C216626EE002DFDB4 /* Localizable.strings in Resources */,
+				DB84BC60216672A000440A7D /* CharacterDetailViewController.xib in Resources */,
 				DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1136,8 +1222,11 @@
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/AXPhotoViewer/AXPhotoViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/AXStateButton/AXStateButton.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
 				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/UIScrollView-InfiniteScroll/UIScrollView_InfiniteScroll.framework",
 			);
@@ -1151,8 +1240,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXPhotoViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXStateButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIScrollView_InfiniteScroll.framework",
 			);
@@ -1194,6 +1286,7 @@
 				DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */,
 				DB4B343121637E7D005709E3 /* ViewController.swift in Sources */,
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
+				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
 				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1248,25 +1341,37 @@
 			files = (
 				DB8BF14B21650AA500AB8287 /* CharactersListPresenter.swift in Sources */,
 				DB8BF14E21650AA500AB8287 /* CharactersListViewController.swift in Sources */,
+				DB84BC5A216672A000440A7D /* CharacterDetailViewController.swift in Sources */,
 				DB5C81EE2166433800F43F09 /* CharacterRow.swift in Sources */,
 				DB8BF15321650AA500AB8287 /* CharactersListDelegateCaller.swift in Sources */,
+				DB84BC62216672A000440A7D /* CharacterDetailControllerConfig.swift in Sources */,
 				DBB25F9921662638002DFDB4 /* UIColor+WallaMarvel.swift in Sources */,
+				DB84BC54216672A000440A7D /* CharacterDetailMediator.swift in Sources */,
+				DB84BC59216672A000440A7D /* CharacterDetailPresenterProtocol.swift in Sources */,
+				DB84BC61216672A000440A7D /* CharacterDetailDelegateCallerProtocol.swift in Sources */,
+				DB84BC57216672A000440A7D /* CharacterDetailPresenter.swift in Sources */,
 				DB5C81EA21663ACC00F43F09 /* CharacterTableCell.swift in Sources */,
 				DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */,
 				DB8BF184216517B000AB8287 /* HUDDrawer.swift in Sources */,
 				DB8BF14821650AA500AB8287 /* CharactersListMediator.swift in Sources */,
 				DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */,
 				DBB25F8F2165F816002DFDB4 /* SpinnerView.swift in Sources */,
+				DB84BC5E216672A000440A7D /* CharacterDetailViewProtocol.swift in Sources */,
 				DB8BF14C21650AA500AB8287 /* CharactersListMediatorProtocol.swift in Sources */,
+				DB84BC58216672A000440A7D /* CharacterDetailMediatorProtocol.swift in Sources */,
 				DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */,
+				DB84BC5F216672A000440A7D /* CharacterDetailDelegateCaller.swift in Sources */,
 				DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */,
 				DBC915EE216659920064A706 /* UINavigationItem+SearchController.swift in Sources */,
 				DB8BF14921650AA500AB8287 /* CharactersDisplayData.swift in Sources */,
 				DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */,
 				DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */,
 				DBB25FA821662C7B002DFDB4 /* UIImage+Additions.swift in Sources */,
+				DB84BC5B216672A000440A7D /* CharacterDetailWirer.swift in Sources */,
 				DB8BF15021650AA500AB8287 /* CharactersListViewControllerDelegate.swift in Sources */,
+				DB84BC55216672A000440A7D /* CharacterDetailDisplayData.swift in Sources */,
 				DB8BF14D21650AA500AB8287 /* CharactersListPresenterProtocol.swift in Sources */,
+				DB84BC5C216672A000440A7D /* CharacterDetailViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1286,6 +1391,7 @@
 				DB8BF173216513D800AB8287 /* String+MD5.swift in Sources */,
 				DB8BF175216513D800AB8287 /* Collection+ElementCheck.swift in Sources */,
 				DBB25FA5216627A2002DFDB4 /* String+Localized.swift in Sources */,
+				DB84BC412166719C00440A7D /* Collection+Safe.swift in Sources */,
 				DBB25F95216600D3002DFDB4 /* Collection+Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

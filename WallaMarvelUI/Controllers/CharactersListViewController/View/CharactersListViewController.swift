@@ -78,6 +78,9 @@ extension CharactersListViewController: CharactersListViewProtocol{
             return CharacterRow(){ row in
                 row.title = heroDisplayData.title
                 row.imageURL = heroDisplayData.imageURL
+            }.onCellSelection{ _, row in
+                guard let index = row.indexPath?.row else { return }
+                self.mediator.characterTapped(at: index)
             }
         }
 

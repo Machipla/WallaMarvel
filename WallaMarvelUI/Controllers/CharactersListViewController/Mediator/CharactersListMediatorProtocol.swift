@@ -15,4 +15,5 @@ protocol CharactersListMediatorProtocol: class{
     func nextDataRequestTriggered()
     func searchHasChanged(to text:String?)
     func filtersTapped()
+    func characterTapped(at index:Int)
 }

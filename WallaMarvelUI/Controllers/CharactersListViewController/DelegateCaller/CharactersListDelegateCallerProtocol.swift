@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 protocol CharactersListDelegateCallerProtocol: class{
+    func callDelegateForCharacterSelected(_ selectedCharacter:WallaMarvelAPI.Character)
 }

@@ -8,13 +8,16 @@
 
 import Foundation
 import UIKit
+import WallaMarvelAPI
 import WallaMarvelUI
 
 final class AppRootCoordinator: Coordinator, Startable{
     var childs = [Coordinator]()
 
-    private(set) weak var rootNavigationController:UINavigationController?
-    private(set) weak var heroesListController:CharactersListViewController?
+    /// Root navigation controller of the app. Only accessible if root coordinator is started, otherwise it raises an exception
+    private(set) weak var rootNavigationController:UINavigationController!
+    /// Root controller of the app. Only accessible if root coordinator is started, otherwise it raises an exception
+    private(set) weak var charactersListController:CharactersListViewController!
     
     let launchOptions:[UIApplication.LaunchOptionsKey:Any]?
     let mainWindow:UIWindow
@@ -25,14 +28,22 @@ final class AppRootCoordinator: Coordinator, Startable{
     }
     
     func start(){
-        let heroesListController = CharactersListViewController()
+        let charactersListController = CharactersListViewController()
+        charactersListController.delegate = self
         
-        let rootNavigationController = UINavigationController(rootViewController: heroesListController)
+        let rootNavigationController = UINavigationController(rootViewController: charactersListController)
         
         mainWindow.rootViewController = rootNavigationController
         mainWindow.makeKeyAndVisible()
         
-        self.heroesListController = heroesListController
+        self.charactersListController = charactersListController
         self.rootNavigationController = rootNavigationController
+    }
+}
+
+extension AppRootCoordinator: CharactersListViewControllerDelegate{
+    func charactersListViewController(_ controller: CharactersListViewController, hasSelected charater: WallaMarvelAPI.Character) {
+        let detailCoordinator = CharacterDetailCoordinator(fromNavigationController: rootNavigationController)
+        startChild(detailCoordinator)
     }
 }

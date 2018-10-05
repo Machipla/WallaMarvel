@@ -77,6 +77,12 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
     }
     
     func filtersTapped(){
-        
+        // TODO: Filter screen will go here
+    }
+    
+    func characterTapped(at index:Int){
+        guard let selectedCharacter = currentCharacters[safe: index] else { return }
+        delegateCaller.callDelegateForCharacterSelected(selectedCharacter)
     }
 }
+

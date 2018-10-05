@@ -6,6 +6,10 @@
   Copyright © 2018 Mario Plaza. All rights reserved.
 */
 
+/******** Hero Detail ********/
+"HERO_DETAIL_TITLE" = "Expediente del héroe";
+/*****************************/
+
 /******** Heroes List ********/
 "HEROES_LIST_TITLE"                 = "Lista de heroes";
 "HEROES_LIST_SEARCH_PLACEHOLDER"    = "Iron man, Spider-man...";

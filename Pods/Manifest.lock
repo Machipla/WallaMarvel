@@ -2,10 +2,18 @@ PODS:
   - Alamofire (4.7.3)
   - AlamofireImage (3.4.1):
     - Alamofire (~> 4.7)
+  - AXPhotoViewer (1.6.1):
+    - AXPhotoViewer/Core (= 1.6.1)
+  - AXPhotoViewer/Core (1.6.1):
+    - AXStateButton (>= 1.1.3)
+    - FLAnimatedImage (>= 1.0.0)
+    - FLAnimatedImage-tvOS (>= 1.0.16)
+  - AXStateButton (1.1.4)
   - ErrorHandler (0.8.1):
     - ErrorHandler/Core (= 0.8.1)
   - ErrorHandler/Core (0.8.1)
   - Eureka (4.3.0)
+  - FLAnimatedImage (1.0.12)
   - IBAnimatable (5.2.1)
   - JGProgressHUD (2.0.3)
   - PromisesObjC (1.2.3)
@@ -17,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.7.3)
   - AlamofireImage (~> 3.4.1)
+  - AXPhotoViewer (~> 1.6.1)
   - ErrorHandler (~> 0.8.1)
   - Eureka (~> 4.3.0)
   - IBAnimatable (~> 5.2.1)
@@ -29,8 +38,11 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - AlamofireImage
+    - AXPhotoViewer
+    - AXStateButton
     - ErrorHandler
     - Eureka
+    - FLAnimatedImage
     - IBAnimatable
     - JGProgressHUD
     - PromisesObjC
@@ -41,8 +53,11 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  AXPhotoViewer: 45d93a29d097e8bf4c07a6f3dedb4fa155dfbb51
+  AXStateButton: 6c515a433e37551505046429b5be04c12daa8c07
   ErrorHandler: 04b1be7ec6e57e11f7382021f0760d0dbb84fdb6
   Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
   JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
   PromisesObjC: a3a4263d8a9260214267e0b3788d0f83466ad449
@@ -50,6 +65,6 @@ SPEC CHECKSUMS:
   SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
   UIScrollView-InfiniteScroll: c132d6d5851daff229ab4a1060ccf70a05a051c9
 
-PODFILE CHECKSUM: 8cb2441ae8aa3faf40b44c36f8473fa06422bab5
+PODFILE CHECKSUM: 2ba9ec701ae5f017d4648caecc2e84e160522be5
 
 COCOAPODS: 1.5.3
