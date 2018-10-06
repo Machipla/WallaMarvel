@@ -6,6 +6,12 @@
   Copyright © 2018 Mario Plaza. All rights reserved.
 */
 
+/******** Comic list ********/
+"COMICS_LIST_TITLE"              = "Comics";
+"COMICS_LIST_SEARCH_PLACEHOLDER" = "Avengers: The Initiative (2007) #14";
+"COMICS_LIST_NO_RESULTS_TITLE"   = "No results found!\nTry searching another comic!";
+/***********************************/
+
 /******** Character filters ********/
 "CHARACTER_FILTERS_TITLE"                            = "Filters";
 "CHARACTER_FILTERS_NAME_FIELD_TITLE"                 = "Name";

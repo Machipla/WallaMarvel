@@ -22,6 +22,7 @@ final class DefaultStyleSheet{
         applyTableCellsViewAppearance()
         applyCharactersListAppearance()
         applyCharacterDetailAppearance()
+        applyComicsListAppearance()
     }
 }
 
@@ -112,5 +113,9 @@ private extension DefaultStyleSheet{
         CharacterDetailViewController.Appearance.titleFont = Fonts.ubuntuBold
         CharacterDetailViewController.Appearance.detailFont = Fonts.ubuntuRegular
         CharacterDetailViewController.Appearance.detailFont = Fonts.ubuntuRegular
+    }
+    
+    static func applyComicsListAppearance(){
+        ComicsListViewController.Appearance.noFoundItemsTitleFont = Fonts.ubuntuMedium
     }
 }

@@ -11,8 +11,8 @@ import Foundation
 /// A raw representation of a ComicsFilter that comes from a JSON.
 /// This is may be taken as a object representation of the JSON that can be converted into or feeded by an entity
 internal struct ComicsFilterMappingEntity: Encodable, EntityConvertible{
-    let rawTitle:String
-    let rawOrderBy:String
+    let rawTitle:String?
+    let rawOrderBy:String?
     
     var asEntity:ComicsFilter{
         return ComicsFilter(title: rawTitle, orderBy: mappedOrderBy)
@@ -20,14 +20,14 @@ internal struct ComicsFilterMappingEntity: Encodable, EntityConvertible{
     
     init(entity:ComicsFilter) throws{
         rawTitle = entity.title
-        rawOrderBy = entity.orderBy.rawValue
+        rawOrderBy = entity.orderBy?.rawValue
     }
     
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: EncodingKeys.self)
         
-        try container.encodeJSONValue(rawTitle, forKey: .title)
-        try container.encodeJSONValue(rawOrderBy, forKey: .orderBy)
+        try container.encodeJSONValueIfPresent(rawTitle, forKey: .title)
+        try container.encodeJSONValueIfPresent(rawOrderBy, forKey: .orderBy)
     }
 }
 
@@ -39,7 +39,8 @@ internal extension ComicsFilterMappingEntity{
 }
 
 internal extension ComicsFilterMappingEntity{
-    var mappedOrderBy:ComicOrderBy{
+    var mappedOrderBy:ComicOrderBy?{
+        guard let rawOrderBy = rawOrderBy else { return nil }
         return ComicOrderBy(rawValue: rawOrderBy)!
     }
 }

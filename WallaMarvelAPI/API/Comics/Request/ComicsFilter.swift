@@ -9,8 +9,8 @@
 import Foundation
 
 public struct ComicsFilter{
-    let title:String
-    let orderBy:ComicOrderBy
+    public var title:String?
+    public var orderBy:ComicOrderBy?
     
     // XXX: These will not be available at the moment, maybe in a near future.
     //    let format:String
@@ -37,4 +37,10 @@ public struct ComicsFilter{
     //    let characterIDs:[String]
     //    let sharedAppearanceCharactersIDs:[String]
     //    let collaboratorIDs:[String]
+    
+    public init(title:String? = nil,
+                orderBy:ComicOrderBy? = nil){
+        self.title = title
+        self.orderBy = orderBy
+    }
 }
