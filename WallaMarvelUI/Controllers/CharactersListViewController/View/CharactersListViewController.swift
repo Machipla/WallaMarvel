@@ -133,6 +133,10 @@ extension CharactersListViewController: CharactersListViewProtocol{
         present(navigationController, animated: true, completion: nil)
     }
     
+    func displaySearch(_ search:String?){
+        navigationItem.searchingController?.searchBar.text = search
+    }
+    
     func drawRefreshProgressView() {
         guard #available(iOS 10.0, *) else { return }
         tableView.refreshControl?.beginRefreshing()

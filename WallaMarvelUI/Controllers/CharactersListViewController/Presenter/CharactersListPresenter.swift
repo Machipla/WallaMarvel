@@ -34,6 +34,10 @@ extension CharactersListPresenter: CharactersListPresenterProtocol{
         attachedView.displayFiltersView(with: currentFilter)
     }
     
+    func updateSearch(to newSearch:String?){
+        attachedView.displaySearch(newSearch)
+    }
+    
     func displayProgress(){
         attachedView.drawProgressHUD()
     }

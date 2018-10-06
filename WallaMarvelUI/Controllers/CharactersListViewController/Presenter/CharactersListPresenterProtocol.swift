@@ -14,6 +14,7 @@ protocol CharactersListPresenterProtocol: class{
     func displayRefreshCharacters(_ characters:[WallaMarvelAPI.Character])
     func displayNextDataCharacters(_ characters:[WallaMarvelAPI.Character])
     func displayFiltersView(with currentFilter:CharactersFilter)
+    func updateSearch(to newSearch:String?)
     
     func displayProgress()
     func hideProgress()

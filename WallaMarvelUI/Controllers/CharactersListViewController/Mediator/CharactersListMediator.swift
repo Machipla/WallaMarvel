@@ -74,6 +74,8 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
     func searchHasChanged(to text:String?){
         currentFilter.name = text
         reloadData()
+        
+        presenter.updateSearch(to: text)
     }
     
     func filtersTapped(){
@@ -88,6 +90,8 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
     func newFiltersSelected(_ filters:CharactersFilter){
         currentFilter = filters
         reloadData()
+        
+        presenter.updateSearch(to: currentFilter.name)
     }
 }
 
