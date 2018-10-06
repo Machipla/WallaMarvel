@@ -20,6 +20,9 @@ def alamofireimage;     pod 'AlamofireImage', '~> 3.4.1'; end
 def infiniteScroll;     pod 'UIScrollView-InfiniteScroll', '~> 1.0.0'; end
 def axphotoViewer;      pod 'AXPhotoViewer', '~> 1.6.1'; end
 
+## Testing
+def nimble; pod 'Nimble', '~> 7.3.0'; end
+
 ######## Targets ########
 target 'WallaMarvel' do
     ibanimatable
@@ -34,9 +37,13 @@ target 'WallaMarvelAPI' do
     alamofire
     promises
     swiftDate
-    
-    target 'WallaMarvelAPITests' do
-    end
+end
+
+target 'WallaMarvelAPITests' do
+    alamofire
+    promises
+    swiftDate
+    nimble
 end
 
 target 'WallaMarvelUI' do

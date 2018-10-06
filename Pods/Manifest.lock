@@ -16,6 +16,7 @@ PODS:
   - FLAnimatedImage (1.0.12)
   - IBAnimatable (5.2.1)
   - JGProgressHUD (2.0.3)
+  - Nimble (7.3.1)
   - PromisesObjC (1.2.3)
   - PromisesSwift (1.2.3):
     - PromisesObjC (= 1.2.3)
@@ -30,6 +31,7 @@ DEPENDENCIES:
   - Eureka (~> 4.3.0)
   - IBAnimatable (~> 5.2.1)
   - JGProgressHUD (~> 2.0.3)
+  - Nimble (~> 7.3.0)
   - PromisesSwift (~> 1.2.3)
   - SwiftDate (~> 4.0)
   - UIScrollView-InfiniteScroll (~> 1.0.0)
@@ -45,6 +47,7 @@ SPEC REPOS:
     - FLAnimatedImage
     - IBAnimatable
     - JGProgressHUD
+    - Nimble
     - PromisesObjC
     - PromisesSwift
     - SwiftDate
@@ -60,11 +63,12 @@ SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
   JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
   PromisesObjC: a3a4263d8a9260214267e0b3788d0f83466ad449
   PromisesSwift: f7f45c21986419e85f7c5b645ed8c6a2c10c04b4
   SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
   UIScrollView-InfiniteScroll: c132d6d5851daff229ab4a1060ccf70a05a051c9
 
-PODFILE CHECKSUM: 17d90f770af1fa9b4abb5a2ad7a34f55a065c68f
+PODFILE CHECKSUM: 9ae406cbaa1205f8aa8dee99d2dd0f1ff48263ee
 
 COCOAPODS: 1.5.3

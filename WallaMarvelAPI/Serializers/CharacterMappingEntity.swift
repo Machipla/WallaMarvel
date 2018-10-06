@@ -52,7 +52,8 @@ internal struct CharacterMappingEntity: Decodable, EntityConvertible{
         rawThumbnail    = try container.decodeMappedJSONValueIfPresent(forKey: .thumbnail)
         rawComicsData   = try container.decodeMappedJSONValueIfPresent(forKey: .comics)
 
-        if let rawModified = rawModified, rawModified.date(format: .iso8601Auto)?.absoluteDate == nil{
+        // We do check rawModified to be an ISO8601 date without SwiftDate as if malformed string comes in, SwiftDate throws an exception
+        if let rawModified = rawModified, !rawModified.isISO8601Date{
             throw DecodingError.dataCorruptedError(forKey: .modified, in: container, debugDescription: "")
         }
         
