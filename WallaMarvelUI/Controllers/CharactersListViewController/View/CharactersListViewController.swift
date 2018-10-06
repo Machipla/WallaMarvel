@@ -19,7 +19,7 @@ public final class CharactersListViewController: FormViewController {
 	var mediator: CharactersListMediatorProtocol!
     
     private var charactersSection:Section{ return form.allSections.first! }
-    private var isEmptyResultsViewAlreadySetup:Bool{ return tableView.backgroundView is EmptyCharacterListView }
+    private var isEmptyResultsViewAlreadySetup:Bool{ return tableView.backgroundView is EmptyListView }
 
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
     public init(){
@@ -65,7 +65,7 @@ private extension CharactersListViewController{
     
     func showNoResultsView(if condition:Bool){
         if condition && !isEmptyResultsViewAlreadySetup{
-            let noResultsView = EmptyCharacterListView.fromNib()
+            let noResultsView = EmptyListView.fromNib()
             noResultsView?.titleLabel.text = "CHARACTERS_LIST_NO_RESULTS_TITLE".localized(onBundleFor: self)
             noResultsView?.titleLabel.font = CharactersListViewController.Appearance.noFoundItemsTitleFont.scaledFontDynamicallyIfPossible(for: .title2)
             tableView.backgroundView = noResultsView

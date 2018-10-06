@@ -127,8 +127,8 @@
 		DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */; };
 		DB915E1621678DE40097CE02 /* UIFont+DynamicSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */; };
 		DB915E18216795500097CE02 /* CharacterDetailViewController+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */; };
-		DBA623532169125400C5D444 /* EmptyCharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA623522169125400C5D444 /* EmptyCharacterListView.swift */; };
-		DBA623552169125C00C5D444 /* EmptyCharacterListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA623542169125C00C5D444 /* EmptyCharacterListView.xib */; };
+		DBA623532169125400C5D444 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA623522169125400C5D444 /* EmptyListView.swift */; };
+		DBA623552169125C00C5D444 /* EmptyListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA623542169125C00C5D444 /* EmptyListView.xib */; };
 		DBA623682169206700C5D444 /* CharactersFilterMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA623582169206700C5D444 /* CharactersFilterMediator.swift */; };
 		DBA623692169206700C5D444 /* CharactersFilterDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA623592169206700C5D444 /* CharactersFilterDisplayData.swift */; };
 		DBA6236B2169206700C5D444 /* CharactersFilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6235B2169206700C5D444 /* CharactersFilterPresenter.swift */; };
@@ -381,8 +381,8 @@
 		DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DynamicSizing.swift"; sourceTree = "<group>"; };
 		DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterDetailViewController+Appearance.swift"; sourceTree = "<group>"; };
-		DBA623522169125400C5D444 /* EmptyCharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCharacterListView.swift; sourceTree = "<group>"; };
-		DBA623542169125C00C5D444 /* EmptyCharacterListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCharacterListView.xib; sourceTree = "<group>"; };
+		DBA623522169125400C5D444 /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		DBA623542169125C00C5D444 /* EmptyListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyListView.xib; sourceTree = "<group>"; };
 		DBA623582169206700C5D444 /* CharactersFilterMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersFilterMediator.swift; sourceTree = "<group>"; };
 		DBA623592169206700C5D444 /* CharactersFilterDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersFilterDisplayData.swift; sourceTree = "<group>"; };
 		DBA6235B2169206700C5D444 /* CharactersFilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersFilterPresenter.swift; sourceTree = "<group>"; };
@@ -1111,8 +1111,8 @@
 		DBA623512169123400C5D444 /* EmptyCharacterList */ = {
 			isa = PBXGroup;
 			children = (
-				DBA623522169125400C5D444 /* EmptyCharacterListView.swift */,
-				DBA623542169125C00C5D444 /* EmptyCharacterListView.xib */,
+				DBA623522169125400C5D444 /* EmptyListView.swift */,
+				DBA623542169125C00C5D444 /* EmptyListView.xib */,
 			);
 			path = EmptyCharacterList;
 			sourceTree = "<group>";
@@ -1552,7 +1552,7 @@
 				DBA623A021693B1400C5D444 /* ComicsListViewController.xib in Resources */,
 				DBB25F9C216626EE002DFDB4 /* Localizable.strings in Resources */,
 				DB84BC60216672A000440A7D /* CharacterDetailViewController.xib in Resources */,
-				DBA623552169125C00C5D444 /* EmptyCharacterListView.xib in Resources */,
+				DBA623552169125C00C5D444 /* EmptyListView.xib in Resources */,
 				DBD053482167308C00C1504D /* ParallaxTableHeader.xib in Resources */,
 				DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */,
 			);
@@ -1847,7 +1847,7 @@
 				DB84BC62216672A000440A7D /* CharacterDetailControllerConfig.swift in Sources */,
 				DB915E02216772CA0097CE02 /* CharactersListViewController+Appearance.swift in Sources */,
 				DBA623682169206700C5D444 /* CharactersFilterMediator.swift in Sources */,
-				DBA623532169125400C5D444 /* EmptyCharacterListView.swift in Sources */,
+				DBA623532169125400C5D444 /* EmptyListView.swift in Sources */,
 				DBB25F9921662638002DFDB4 /* UIColor+WallaMarvel.swift in Sources */,
 				DB84BC54216672A000440A7D /* CharacterDetailMediator.swift in Sources */,
 				DB84BC59216672A000440A7D /* CharacterDetailPresenterProtocol.swift in Sources */,

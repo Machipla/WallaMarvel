@@ -1,5 +1,5 @@
 //
-//  EmptyCharacterListView.swift
+//  EmptyListView.swift
 //  WallaMarvelUI
 //
 //  Created by Mario Plaza on 6/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class EmptyCharacterListView: UIView {
+final class EmptyListView: UIView {
 
     @IBOutlet weak var titleLabel:UILabel!
 

@@ -16,7 +16,7 @@ public final class ComicsListViewController: FormViewController {
 	var mediator: ComicsListMediatorProtocol!
 
     private var comicsSection:Section{ return form.allSections.first! }
-    private var isEmptyResultsViewAlreadySetup:Bool{ return tableView.backgroundView is EmptyCharacterListView }
+    private var isEmptyResultsViewAlreadySetup:Bool{ return tableView.backgroundView is EmptyListView }
     
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
     public init(config:ComicsListControllerConfig){
@@ -62,7 +62,7 @@ private extension ComicsListViewController{
     
     func showNoResultsView(if condition:Bool){
         if condition && !isEmptyResultsViewAlreadySetup{
-            let noResultsView = EmptyCharacterListView.fromNib()
+            let noResultsView = EmptyListView.fromNib()
             noResultsView?.titleLabel.text = "COMICS_LIST_NO_RESULTS_TITLE".localized(onBundleFor: self)
             noResultsView?.titleLabel.font = ComicsListViewController.Appearance.noFoundItemsTitleFont.scaledFontDynamicallyIfPossible(for: .title2)
             tableView.backgroundView = noResultsView
