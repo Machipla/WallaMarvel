@@ -6,6 +6,21 @@
   Copyright © 2018 Mario Plaza. All rights reserved.
 */
 
+/******** Character filters ********/
+"CHARACTER_FILTERS_TITLE"                            = "Filters";
+"CHARACTER_FILTERS_NAME_FIELD_TITLE"                 = "Name";
+"CHARACTER_FILTERS_NAME_FIELD_PLACEHOLDER"           = "Spider-man";
+"CHARACTER_FILTERS_NAME_STARTS_BY_FIELD_TITLE"       = "Name starts by";
+"CHARACTER_FILTERS_NAME_STARTS_BY_FIELD_PLACEHOLDER" = "Spid";
+"CHARACTER_FILTERS_MODIFIED_SINCE_FIELD_TITLE"       = "Modified since";
+"CHARACTER_FILTERS_APPEARS_IN_FIELD_TITLE"           = "Appears in";
+"CHARACTER_FILTERS_ORDER_BY_FIELD_TITLE"             = "Order by";
+"CHARACTER_FILTERS_ORDER_BY_NAME_ASC"                = "Name ↑";
+"CHARACTER_FILTERS_ORDER_BY_NAME_DESC"               = "Name ↓";
+"CHARACTER_FILTERS_ORDER_BY_MODIFIED_DATE_ASC"       = "Modified ↑";
+"CHARACTER_FILTERS_ORDER_BY_MODIFIED_DATE_DESC"      = "Modified ↓";
+/***********************************/
+
 /******** Character Detail ********/
 "CHARACTER_DETAIL_TITLE"                 = "Character's file";
 "CHARACTER_DETAIL_COMICS_FIELD"          = "Comics";

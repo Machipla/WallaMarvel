@@ -13,11 +13,13 @@ final class DefaultStyleSheet{
     private init(){}
     
     static func apply(){
+        applyGlobalViewAppearance()
         applyNavigationBarAppearance()
         applySearchBarAppearance()
         applyBarButtonItemAppearance()
         applyAlertControllerAppearance()
         applyTableHeaderFooterViewAppearance()
+        applyTableCellsViewAppearance()
         applyCharactersListAppearance()
         applyCharacterDetailAppearance()
     }
@@ -25,6 +27,10 @@ final class DefaultStyleSheet{
 
 private extension DefaultStyleSheet{
    
+    static func applyGlobalViewAppearance(){
+        UIApplication.shared.keyWindow?.tintColor = UIColor.WallaMarvel.wallapop
+    }
+    
     static func applyNavigationBarAppearance(){
         let navigationBarProxy = UINavigationBar.appearance()
         
@@ -78,6 +84,7 @@ private extension DefaultStyleSheet{
         
         barItemProxy.setTitleTextAttributes(dictTextAttributes, for: .normal)
         barItemProxy.setTitleTextAttributes(dictTextAttributes, for: .selected)
+        barItemProxy.setTitleTextAttributes(dictTextAttributes, for: .highlighted)
     }
     
     static func applyAlertControllerAppearance(){
@@ -88,6 +95,11 @@ private extension DefaultStyleSheet{
     static func applyTableHeaderFooterViewAppearance(){
         let labelTableHeaderFooterViewProxy = UILabel.appearance(whenContainedInInstancesOf: [UITableViewHeaderFooterView.self])
         labelTableHeaderFooterViewProxy.font = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .subheadline)
+    }
+    
+    static func applyTableCellsViewAppearance(){
+        let labelTableHeaderFooterViewProxy = UILabel.appearance(whenContainedInInstancesOf: [UITableViewCell.self])
+        labelTableHeaderFooterViewProxy.font = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .body)
     }
     
     static func applyCharactersListAppearance(){

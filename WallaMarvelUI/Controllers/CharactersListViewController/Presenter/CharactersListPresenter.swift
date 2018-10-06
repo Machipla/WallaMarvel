@@ -30,6 +30,10 @@ extension CharactersListPresenter: CharactersListPresenterProtocol{
         attachedView.displayCharactersData(toDisplayData, behavior: .appendingToOldOnes)
     }
     
+    func displayFiltersView(with currentFilter:CharactersFilter){
+        attachedView.displayFiltersView(with: currentFilter)
+    }
+    
     func displayProgress(){
         attachedView.drawProgressHUD()
     }

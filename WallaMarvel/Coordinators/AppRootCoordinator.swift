@@ -28,10 +28,6 @@ final class AppRootCoordinator: Coordinator, Startable{
     }
     
     func start(){
-        // 1. Apply the app appearance
-        DefaultStyleSheet.apply()
-        
-        // 2. Start the root controller
         let charactersListController = CharactersListViewController()
         charactersListController.delegate = self
         
@@ -39,6 +35,8 @@ final class AppRootCoordinator: Coordinator, Startable{
         
         mainWindow.rootViewController = rootNavigationController
         mainWindow.makeKeyAndVisible()
+        
+        DefaultStyleSheet.apply()
         
         self.charactersListController = charactersListController
         self.rootNavigationController = rootNavigationController

@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 protocol CharactersListViewProtocol: class, HUDDrawer {
     func displayCharactersData(_ displayData:CharactersDisplayData, behavior:CharactersDisplayBehavior)
+    func displayFiltersView(with preSelectedFilter:CharactersFilter)
     
     func drawRefreshProgressView()
     func hideRefreshProgressView()

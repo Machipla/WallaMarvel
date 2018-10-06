@@ -11,6 +11,7 @@ import Eureka
 import AlamofireImage
 import UIScrollView_InfiniteScroll
 import WallaMarvelKit
+import WallaMarvelAPI
 
 public final class CharactersListViewController: FormViewController {
 
@@ -123,6 +124,15 @@ extension CharactersListViewController: CharactersListViewProtocol{
         showNoResultsView(if: charactersSection.isEmpty)
     }
     
+    func displayFiltersView(with preSelectedFilter:CharactersFilter){
+        let config = CharacterFiltersControllerConfig(preSelectedFilters: preSelectedFilter)
+        let filtersController = CharacterFiltersViewController(config: config)
+        filtersController.delegate = self
+        
+        let navigationController = UINavigationController(rootViewController: filtersController)
+        present(navigationController, animated: true, completion: nil)
+    }
+    
     func drawRefreshProgressView() {
         guard #available(iOS 10.0, *) else { return }
         tableView.refreshControl?.beginRefreshing()
@@ -153,5 +163,17 @@ extension CharactersListViewController: UISearchBarDelegate{
         // We do it like this in order not to make a lot of requests at once if user types fast.
         // If we want to do it so, we just have to change the delegate method to the appropiate one
         mediator.searchHasChanged(to: searchBar.text)
+    }
+}
+
+extension CharactersListViewController: CharacterFiltersViewControllerDelegate{
+    public func characterFiltersViewControllerCancelled(_ controller: CharacterFiltersViewController) {
+        controller.dismiss(animated: true, completion: nil)
+    }
+    
+    public func characterFiltersViewController(_ controller: CharacterFiltersViewController, hasSelected newFilters: CharactersFilter) {
+        controller.dismiss(animated: true) {
+            self.mediator.newFiltersSelected(newFilters)
+        }
     }
 }

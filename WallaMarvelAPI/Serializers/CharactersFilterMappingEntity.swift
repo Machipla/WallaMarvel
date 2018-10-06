@@ -16,7 +16,7 @@ internal struct CharactersFilterMappingEntity: Encodable, EntityConvertible{
     let rawNameStartsWith:String?
     let rawModifiedSince:String?
     let rawComicIDs:String
-    let rawOrderBy:String
+    let rawOrderBy:String?
     
     var asEntity:CharactersFilter{
         return CharactersFilter(name: rawName, nameStartsWith: rawNameStartsWith, modifiedSince: mappedModifiedSince, comicIDs: mappedComicIDs, orderBy: mappedOrderBy)
@@ -27,7 +27,7 @@ internal struct CharactersFilterMappingEntity: Encodable, EntityConvertible{
         rawNameStartsWith = entity.nameStartsWith
         rawModifiedSince = entity.modifiedSince?.iso8601()
         rawComicIDs = entity.comicIDs.map{ String($0) }.joined(separator: ",")
-        rawOrderBy = entity.orderBy.rawValue
+        rawOrderBy = entity.orderBy?.rawValue
     }
     
     func encode(to encoder: Encoder) throws {
@@ -35,7 +35,7 @@ internal struct CharactersFilterMappingEntity: Encodable, EntityConvertible{
 
         try container.encodeJSONValueIfPresent(rawNameStartsWith, forKey: .nameStartsWith)
         try container.encodeJSONValueIfPresent(rawModifiedSince, forKey: .modifiedSince)
-        try container.encodeJSONValue(rawOrderBy, forKey: .orderBy)
+        try container.encodeJSONValueIfPresent(rawOrderBy, forKey: .orderBy)
 
         if !(rawName?.isEmpty ?? true){
             try container.encodeJSONValueIfPresent(rawName, forKey: .name)
@@ -66,7 +66,8 @@ internal extension CharactersFilterMappingEntity{
         return rawModifiedSince?.date(format: .iso8601Auto)!.absoluteDate
     }
     
-    var mappedOrderBy:CharacterOrderBy{
+    var mappedOrderBy:CharacterOrderBy?{
+        guard let rawOrderBy = rawOrderBy else { return nil }
         return CharacterOrderBy(rawValue: rawOrderBy)!
     }
 }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 protocol CharactersListMediatorProtocol: class{
     func reloadData()
@@ -16,4 +17,5 @@ protocol CharactersListMediatorProtocol: class{
     func searchHasChanged(to text:String?)
     func filtersTapped()
     func characterTapped(at index:Int)
+    func newFiltersSelected(_ filters:CharactersFilter)
 }

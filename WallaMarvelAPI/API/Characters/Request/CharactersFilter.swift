@@ -13,7 +13,7 @@ public struct CharactersFilter{
     public var nameStartsWith:String?
     public var modifiedSince:Date?
     public var comicIDs:[Int]
-    public var orderBy:CharacterOrderBy
+    public var orderBy:CharacterOrderBy?
     // XXX: These will not be available at the moment, maybe in a near future.
     //    let series:[Int]
     //    let events:[Int]
@@ -23,7 +23,7 @@ public struct CharactersFilter{
                 nameStartsWith:String? = nil,
                 modifiedSince:Date? = nil,
                 comicIDs:[Int] = [],
-                orderBy:CharacterOrderBy = .ascendingByName){
+                orderBy:CharacterOrderBy? = .ascendingByName){
         self.name = name
         self.nameStartsWith = nameStartsWith
         self.modifiedSince = modifiedSince
