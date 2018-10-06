@@ -15,6 +15,8 @@ public extension CharactersListViewController{
         public static var itemsFont:UIFont = UIFont.systemFont(ofSize: UIFont.labelFontSize)
         /// Allows the customization of the items separator
         public static var itemsSeparatorStyle:ItemSeparatorStyle = .color(.lightGray)
+        /// The font to be used on the no-results found title view.
+        public static var noFoundItemsTitleFont:UIFont = UIFont.systemFont(ofSize: UIFont.labelFontSize)
         
         public enum ItemSeparatorStyle{
             case color(UIColor)

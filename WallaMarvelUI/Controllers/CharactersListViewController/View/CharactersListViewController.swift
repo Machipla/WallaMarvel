@@ -45,8 +45,12 @@ public final class CharactersListViewController: FormViewController {
     
     public override func deleteAnimation(forRows rows: [BaseRow]) -> UITableView.RowAnimation { return .fade }
     public override func insertAnimation(forRows rows: [BaseRow]) -> UITableView.RowAnimation { return .fade }
+    
+}
 
-    private func setupSearchBar(){
+// MARK: - Setup/Draw methods
+private extension CharactersListViewController{
+    func setupSearchBar(){
         let searchController = UISearchController(searchResultsController: nil)
         searchController.searchBar.delegate = self
         searchController.searchBar.enablesReturnKeyAutomatically = false
@@ -56,8 +60,16 @@ public final class CharactersListViewController: FormViewController {
         definesPresentationContext = true
         navigationItem.searchingController = searchController
     }
+    
+    func setupNoResultsView(){
+        let noResultsView = EmptyCharacterListView.fromNib()
+        noResultsView?.titleLabel.text = "CHARACTERS_LIST_NO_RESULTS_TITLE".localized(onBundleFor: self)
+        noResultsView?.titleLabel.font = CharactersListViewController.Appearance.noFoundItemsTitleFont.scaledFontDynamicallyIfPossible(for: .title2)
+        tableView.backgroundView = noResultsView
+    }
 }
 
+// MARK: - IBAction's
 private extension CharactersListViewController{
     @objc func filtersTapped(){
         mediator.filtersTapped()
@@ -72,27 +84,7 @@ private extension CharactersListViewController{
     }
 }
 
-extension UIFont{
-    @available(iOS 11.0, *)
-    func getScaledFont(for textStyle: UIFont.TextStyle) -> UIFont {
-        
-        /// Uncomment the code below to check all the available fonts and have them printed in the console to double check the font name with existing fonts 😉
-        
-        /*for family: String in UIFont.familyNames
-         {
-         print("\(family)")
-         for names: String in UIFont.fontNames(forFamilyName: family)
-         {
-         print("== \(names)")
-         }
-         }*/
-        
-        let userFont =  UIFontDescriptor.preferredFontDescriptor(withTextStyle: textStyle)
-        guard let customFont = UIFont(name: fontName, size: userFont.pointSize) else { fatalError("") }
-        return UIFontMetrics.default.scaledFont(for: customFont)
-    }
-}
-
+// MARK - CharactersListViewProtocol conformance
 extension CharactersListViewController: CharactersListViewProtocol{
     func displayCharactersData(_ displayData:CharactersDisplayData, behavior:CharactersDisplayBehavior){
         func mapCharacterDisplayDataToRow(_ characterDisplayData:CharactersDisplayData.SingleCharacterDisplay) -> BaseRow{
@@ -122,6 +114,7 @@ extension CharactersListViewController: CharactersListViewProtocol{
         
         let rows = displayData.characters.map(mapCharacterDisplayDataToRow(_:))
         charactersSection.append(contentsOf: rows)
+        setupNoResultsView()
     }
     
     func drawRefreshProgressView() {
@@ -143,6 +136,7 @@ extension CharactersListViewController: CharactersListViewProtocol{
     }
 }
 
+// MARK: - Delegates
 extension CharactersListViewController: UISearchBarDelegate{
     public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.text = nil

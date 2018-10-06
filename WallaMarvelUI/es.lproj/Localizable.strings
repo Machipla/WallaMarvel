@@ -15,4 +15,5 @@
 /******** Characters List ********/
 "CHARACTERS_LIST_TITLE"                 = "Lista de personaje";
 "CHARACTERS_LIST_SEARCH_PLACEHOLDER"    = "Iron man, Spider-man...";
+"CHARACTERS_LIST_NO_RESULTS_TITLE"      = "¡No hay resultados!\n¡Prueba buscando otro personaje o quitando algunos filtros!";
 /*****************************/

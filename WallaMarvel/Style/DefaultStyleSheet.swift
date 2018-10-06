@@ -92,6 +92,7 @@ private extension DefaultStyleSheet{
     
     static func applyCharactersListAppearance(){
         CharactersListViewController.Appearance.itemsFont = Fonts.ubuntuMedium
+        CharactersListViewController.Appearance.noFoundItemsTitleFont = Fonts.ubuntuMedium
         CharactersListViewController.Appearance.itemsSeparatorStyle = .gradient(startColor: UIColor.WallaMarvel.wallapop, endColor: UIColor.WallaMarvel.marvel)
     }
     

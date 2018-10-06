@@ -127,6 +127,8 @@
 		DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */; };
 		DB915E1621678DE40097CE02 /* UIFont+DynamicSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */; };
 		DB915E18216795500097CE02 /* CharacterDetailViewController+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */; };
+		DBA623532169125400C5D444 /* EmptyCharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA623522169125400C5D444 /* EmptyCharacterListView.swift */; };
+		DBA623552169125C00C5D444 /* EmptyCharacterListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA623542169125C00C5D444 /* EmptyCharacterListView.xib */; };
 		DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB25F8B2165F6ED002DFDB4 /* Images.xcassets */; };
 		DBB25F8F2165F816002DFDB4 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25F8E2165F816002DFDB4 /* SpinnerView.swift */; };
 		DBB25F922165FB5B002DFDB4 /* Bundle+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB25F912165FB5B002DFDB4 /* Bundle+Class.swift */; };
@@ -349,6 +351,8 @@
 		DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DynamicSizing.swift"; sourceTree = "<group>"; };
 		DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterDetailViewController+Appearance.swift"; sourceTree = "<group>"; };
+		DBA623522169125400C5D444 /* EmptyCharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCharacterListView.swift; sourceTree = "<group>"; };
+		DBA623542169125C00C5D444 /* EmptyCharacterListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyCharacterListView.xib; sourceTree = "<group>"; };
 		DBB25F8B2165F6ED002DFDB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DBB25F8E2165F816002DFDB4 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		DBB25F912165FB5B002DFDB4 /* Bundle+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Class.swift"; sourceTree = "<group>"; };
@@ -1041,9 +1045,19 @@
 			path = UIFont;
 			sourceTree = "<group>";
 		};
+		DBA623512169123400C5D444 /* EmptyCharacterList */ = {
+			isa = PBXGroup;
+			children = (
+				DBA623522169125400C5D444 /* EmptyCharacterListView.swift */,
+				DBA623542169125C00C5D444 /* EmptyCharacterListView.xib */,
+			);
+			path = EmptyCharacterList;
+			sourceTree = "<group>";
+		};
 		DBB25F8D2165F7B3002DFDB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DBA623512169123400C5D444 /* EmptyCharacterList */,
 				DBD053442167308C00C1504D /* ParallaxTableHeader */,
 				DB5C81E721663A7800F43F09 /* CharacterCell */,
 				DB5C81E621663A7200F43F09 /* SpinnerView */,
@@ -1358,6 +1372,7 @@
 				DB8BF15421650AA500AB8287 /* CharactersListViewController.xib in Resources */,
 				DBB25F9C216626EE002DFDB4 /* Localizable.strings in Resources */,
 				DB84BC60216672A000440A7D /* CharacterDetailViewController.xib in Resources */,
+				DBA623552169125C00C5D444 /* EmptyCharacterListView.xib in Resources */,
 				DBD053482167308C00C1504D /* ParallaxTableHeader.xib in Resources */,
 				DBB25F8C2165F6ED002DFDB4 /* Images.xcassets in Resources */,
 			);
@@ -1645,6 +1660,7 @@
 				DB8BF15321650AA500AB8287 /* CharactersListDelegateCaller.swift in Sources */,
 				DB84BC62216672A000440A7D /* CharacterDetailControllerConfig.swift in Sources */,
 				DB915E02216772CA0097CE02 /* CharactersListViewController+Appearance.swift in Sources */,
+				DBA623532169125400C5D444 /* EmptyCharacterListView.swift in Sources */,
 				DBB25F9921662638002DFDB4 /* UIColor+WallaMarvel.swift in Sources */,
 				DB84BC54216672A000440A7D /* CharacterDetailMediator.swift in Sources */,
 				DB84BC59216672A000440A7D /* CharacterDetailPresenterProtocol.swift in Sources */,
