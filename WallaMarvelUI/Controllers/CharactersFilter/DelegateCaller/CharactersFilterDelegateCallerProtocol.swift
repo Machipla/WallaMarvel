@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersDelegateCallerProtocol.swift
+//  CharactersFilterDelegateCallerProtocol.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -9,7 +9,7 @@
 import UIKit
 import WallaMarvelAPI
 
-protocol CharacterFiltersDelegateCallerProtocol: class{
+protocol CharactersFilterDelegateCallerProtocol: class{
     func callDelegateForCancelTapped()
     func callDelegateForNewFiltersSelected(_ filters:CharactersFilter)
 }

@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersDataProvider.swift
+//  CharactersFilterDataProvider.swift
 //  WallaMarvelUI
 //
 //  Created by Mario Plaza on 6/10/18.
@@ -10,11 +10,11 @@ import Foundation
 import WallaMarvelAPI
 
 /// Provider of the data generated in the view in order to be understandable for the mediator.
-final class CharacterFiltersDataProvider{
-    weak var attachedView:CharacterFiltersViewController!
+final class CharactersFilterDataProvider{
+    weak var attachedView:CharactersFilterViewController!
 }
 
-extension CharacterFiltersDataProvider: CharacterFiltersDataProviderProtocol{
+extension CharactersFilterDataProvider: CharactersFilterDataProviderProtocol{
     func provideData() -> CharactersFilter{
         let generatedFilter = CharactersFilter(name: attachedView.nameRow.value,
                                                nameStartsWith: attachedView.nameStartsByRow.value,

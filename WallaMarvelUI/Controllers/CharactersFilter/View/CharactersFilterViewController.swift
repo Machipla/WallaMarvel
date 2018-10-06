@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersViewController.swift
+//  CharactersFilterViewController.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -9,21 +9,21 @@
 import UIKit
 import Eureka
 
-public final class CharacterFiltersViewController: FormViewController{
+public final class CharactersFilterViewController: FormViewController{
 
-    public weak var delegate:CharacterFiltersViewControllerDelegate?
-	var mediator: CharacterFiltersMediatorProtocol!
+    public weak var delegate:CharactersFilterViewControllerDelegate?
+	var mediator: CharactersFilterMediatorProtocol!
     
     var mainSection:Section        { return form.allSections.first! }
     var nameRow:TextRow            { return mainSection[0] as! TextRow }
     var nameStartsByRow:TextRow    { return mainSection[1] as! TextRow }
     var modifiedSinceRow:DateRow   { return mainSection[2] as! DateRow }
-    var orderByRow:PickerInputRow<CharacterOrderByDisplayData>  { return mainSection[3] as! PickerInputRow<CharacterOrderByDisplayData> }
+    var orderByRow:PickerInputRow<CharactersOrderByDisplayData>  { return mainSection[3] as! PickerInputRow<CharactersOrderByDisplayData> }
 
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
-    public init(config:CharacterFiltersControllerConfig){
+    public init(config:CharactersFilterControllerConfig){
         super.init(nibName: type(of: self).loadNibName, bundle: type(of: self).loadBundle)
-        CharacterFiltersWirer.wireUp(viewController: self, config: config)
+        CharactersFilterWirer.wireUp(viewController: self, config: config)
     }
     
 	public override func viewDidLoad() {
@@ -39,7 +39,7 @@ public final class CharacterFiltersViewController: FormViewController{
     }
 }
 
-private extension CharacterFiltersViewController{
+private extension CharactersFilterViewController{
     func setupForm(){
         let nameRow = TextRow(){ row in
             row.title = "CHARACTER_FILTERS_NAME_FIELD_TITLE".localized(onBundleFor: self)
@@ -57,7 +57,7 @@ private extension CharacterFiltersViewController{
             row.maximumDate = Date()
         }
         
-        let orderByRow = PickerInputRow<CharacterOrderByDisplayData>(){ row in
+        let orderByRow = PickerInputRow<CharactersOrderByDisplayData>(){ row in
             row.title = "CHARACTER_FILTERS_ORDER_BY_FIELD_TITLE".localized(onBundleFor: self)
             row.options = [.ascendingByName,.descendingByName,.ascendingByModified,.descendingByModified]
             row.value = row.options.first
@@ -68,7 +68,7 @@ private extension CharacterFiltersViewController{
     }
 }
 
-private extension CharacterFiltersViewController{
+private extension CharactersFilterViewController{
     @objc func cancelTapped(){
         mediator.cancelTapped()
     }
@@ -78,8 +78,8 @@ private extension CharacterFiltersViewController{
     }
 }
 
-extension CharacterFiltersViewController:  CharacterFiltersViewProtocol{
-    func display(_ data:CharacterFiltersDisplayData){
+extension CharactersFilterViewController:  CharactersFilterViewProtocol{
+    func display(_ data:CharactersFilterDisplayData){
         nameRow.value = data.name
         nameStartsByRow.value = data.nameStartsWith
         modifiedSinceRow.value = data.modifiedSince

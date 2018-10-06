@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersDataProviderProtocol.swift
+//  CharactersFilterDataProviderProtocol.swift
 //  WallaMarvelUI
 //
 //  Created by Mario Plaza on 6/10/18.
@@ -9,6 +9,6 @@
 import Foundation
 import WallaMarvelAPI
 
-protocol CharacterFiltersDataProviderProtocol {
+protocol CharactersFilterDataProviderProtocol {
     func provideData() -> CharactersFilter
 }

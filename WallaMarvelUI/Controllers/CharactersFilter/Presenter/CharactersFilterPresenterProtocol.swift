@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersPresenterProtocol.swift
+//  CharactersFilterPresenterProtocol.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -9,6 +9,6 @@
 import UIKit
 import WallaMarvelAPI
 
-protocol CharacterFiltersPresenterProtocol: class{
+protocol CharactersFilterPresenterProtocol: class{
     func display(_ filters:CharactersFilter?)
 }

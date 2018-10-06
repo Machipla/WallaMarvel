@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersPresenter.swift
+//  CharactersFilterPresenter.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -9,16 +9,16 @@
 import UIKit
 import WallaMarvelAPI
 
-final class CharacterFiltersPresenter {
-    weak var attachedView: CharacterFiltersViewProtocol!
+final class CharactersFilterPresenter {
+    weak var attachedView: CharactersFilterViewProtocol!
 }
 
-extension CharacterFiltersPresenter: CharacterFiltersPresenterProtocol{
+extension CharactersFilterPresenter: CharactersFilterPresenterProtocol{
     func display(_ filters:CharactersFilter?){
-        let displayData = CharacterFiltersDisplayData(name: filters?.name,
+        let displayData = CharactersFilterDisplayData(name: filters?.name,
                                                       nameStartsWith: filters?.nameStartsWith,
                                                       modifiedSince: filters?.modifiedSince,
-                                                      orderBy: CharacterOrderByDisplayData(orderBy: filters?.orderBy ?? .ascendingByName))
+                                                      orderBy: CharactersOrderByDisplayData(orderBy: filters?.orderBy ?? .ascendingByName))
         attachedView.display(displayData)
     }
 }

@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersMediatorProtocol.swift
+//  CharactersFilterMediatorProtocol.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol CharacterFiltersMediatorProtocol: class{
+protocol CharactersFilterMediatorProtocol: class{
     func reloadData()
     
     func cancelTapped()

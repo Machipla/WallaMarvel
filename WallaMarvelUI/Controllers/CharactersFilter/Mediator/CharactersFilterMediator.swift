@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersMediator.swift
+//  CharactersFilterMediator.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -8,20 +8,20 @@
 
 import UIKit
 
-final class CharacterFiltersMediator {
+final class CharactersFilterMediator {
 
-    var presenter: CharacterFiltersPresenterProtocol!
-    var delegateCaller: CharacterFiltersDelegateCallerProtocol!
-    var dataProvider: CharacterFiltersDataProviderProtocol!
+    var presenter: CharactersFilterPresenterProtocol!
+    var delegateCaller: CharactersFilterDelegateCallerProtocol!
+    var dataProvider: CharactersFilterDataProviderProtocol!
     
-    fileprivate let config:CharacterFiltersControllerConfig
+    fileprivate let config:CharactersFilterControllerConfig
     
-    init(config:CharacterFiltersControllerConfig){
+    init(config:CharactersFilterControllerConfig){
         self.config = config
     }
 }
 
-extension CharacterFiltersMediator: CharacterFiltersMediatorProtocol{
+extension CharactersFilterMediator: CharactersFilterMediatorProtocol{
     func reloadData(){
         presenter.display(config.preSelectedFilters)
     }

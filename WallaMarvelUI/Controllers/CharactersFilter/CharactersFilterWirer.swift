@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersWirer.swift
+//  CharactersFilterWirer.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-struct CharacterFiltersWirer{
+struct CharactersFilterWirer{
  
-    static func wireUp(viewController:CharacterFiltersViewController, config:CharacterFiltersControllerConfig){
-        let mediator = CharacterFiltersMediator(config: config)
-        let presenter = CharacterFiltersPresenter()
-        let delegateCaller = CharacterFiltersDelegateCaller()
-        let dataProvider = CharacterFiltersDataProvider()
+    static func wireUp(viewController:CharactersFilterViewController, config:CharactersFilterControllerConfig){
+        let mediator = CharactersFilterMediator(config: config)
+        let presenter = CharactersFilterPresenter()
+        let delegateCaller = CharactersFilterDelegateCaller()
+        let dataProvider = CharactersFilterDataProvider()
         
         viewController.mediator = mediator
         

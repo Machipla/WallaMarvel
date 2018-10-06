@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersDisplayData.swift
+//  CharactersFilterDisplayData.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -11,15 +11,15 @@ import Eureka
 import WallaMarvelAPI
 
 // MARK: - Display data
-struct CharacterFiltersDisplayData {
+struct CharactersFilterDisplayData {
     public var name:String?
     public var nameStartsWith:String?
     public var modifiedSince:Date?
-    public var orderBy:CharacterOrderByDisplayData?
+    public var orderBy:CharactersOrderByDisplayData?
 }
 
 // MARK: - OrderBy display data
-enum CharacterOrderByDisplayData: Int, InputTypeInitiable{
+enum CharactersOrderByDisplayData: Int, InputTypeInitiable{
     case ascendingByName
     case ascendingByModified
     case descendingByName

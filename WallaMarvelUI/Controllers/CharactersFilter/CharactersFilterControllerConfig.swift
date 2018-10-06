@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersControllerConfig.swift
+//  CharactersFiltersControllerConfig.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -9,7 +9,7 @@
 import UIKit
 import WallaMarvelAPI
 
-public struct CharacterFiltersControllerConfig{
+public struct CharactersFilterControllerConfig{
     public let preSelectedFilters:CharactersFilter?
     
     public init(preSelectedFilters:CharactersFilter?){

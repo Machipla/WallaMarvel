@@ -125,8 +125,8 @@ extension CharactersListViewController: CharactersListViewProtocol{
     }
     
     func displayFiltersView(with preSelectedFilter:CharactersFilter){
-        let config = CharacterFiltersControllerConfig(preSelectedFilters: preSelectedFilter)
-        let filtersController = CharacterFiltersViewController(config: config)
+        let config = CharactersFilterControllerConfig(preSelectedFilters: preSelectedFilter)
+        let filtersController = CharactersFilterViewController(config: config)
         filtersController.delegate = self
         
         let navigationController = UINavigationController(rootViewController: filtersController)
@@ -170,12 +170,12 @@ extension CharactersListViewController: UISearchBarDelegate{
     }
 }
 
-extension CharactersListViewController: CharacterFiltersViewControllerDelegate{
-    public func characterFiltersViewControllerCancelled(_ controller: CharacterFiltersViewController) {
+extension CharactersListViewController: CharactersFilterViewControllerDelegate{
+    public func characterFiltersViewControllerCancelled(_ controller: CharactersFilterViewController) {
         controller.dismiss(animated: true, completion: nil)
     }
     
-    public func characterFiltersViewController(_ controller: CharacterFiltersViewController, hasSelected newFilters: CharactersFilter) {
+    public func characterFiltersViewController(_ controller: CharactersFilterViewController, hasSelected newFilters: CharactersFilter) {
         controller.dismiss(animated: true) {
             self.mediator.newFiltersSelected(newFilters)
         }

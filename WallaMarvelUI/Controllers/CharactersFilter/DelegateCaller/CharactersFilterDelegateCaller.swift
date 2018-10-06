@@ -1,5 +1,5 @@
 //
-//  CharacterFiltersDelegateCaller.swift
+//  CharactersFilterDelegateCaller.swift
 //  WallaMarvel
 //
 //  Created Mario Plaza on 6/10/18.
@@ -9,11 +9,11 @@
 import UIKit
 import WallaMarvelAPI
 
-final class CharacterFiltersDelegateCaller{
-    weak var attachedView: CharacterFiltersViewController!
+final class CharactersFilterDelegateCaller{
+    weak var attachedView: CharactersFilterViewController!
 }
 
-extension CharacterFiltersDelegateCaller: CharacterFiltersDelegateCallerProtocol {
+extension CharactersFilterDelegateCaller: CharactersFilterDelegateCallerProtocol {
     func callDelegateForCancelTapped(){
         attachedView.delegate?.characterFiltersViewControllerCancelled(attachedView)
     }
