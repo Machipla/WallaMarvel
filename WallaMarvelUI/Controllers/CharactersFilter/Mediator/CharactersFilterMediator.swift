@@ -15,11 +15,12 @@ final class CharactersFilterMediator {
     var delegateCaller: CharactersFilterDelegateCallerProtocol!
     var dataProvider: CharactersFilterDataProviderProtocol!
     
-    fileprivate let config:CharactersFilterControllerConfig
-    private var filterByComics = [Comic]()
+    private let config:CharactersFilterControllerConfig
+    private var filterByComicsIDs = [String]()
     
     init(config:CharactersFilterControllerConfig){
         self.config = config
+        filterByComicsIDs = config.preSelectedFilters?.comicIDs ?? []
     }
 }
 
@@ -33,16 +34,17 @@ extension CharactersFilterMediator: CharactersFilterMediatorProtocol{
     }
     
     func doneTapped(){
-        let generatedFilter = dataProvider.provideData()
-
+        var generatedFilter = dataProvider.provideData()
+        generatedFilter.comicIDs = filterByComicsIDs
+        
         delegateCaller.callDelegateForNewFiltersSelected(generatedFilter)
     }
     
     func comicsFilterTapped(){
-        presenter.displayComicsSelector()
+        presenter.displayComicsSelectorPreselectingComicsWithIDs(filterByComicsIDs)
     }
     
-    func comicsSelected(_ comics:[Comic]){
-        filterByComics = comics
+    func comicsSelected(_ comicIDs:[String]){
+        filterByComicsIDs = comicIDs
     }
 }

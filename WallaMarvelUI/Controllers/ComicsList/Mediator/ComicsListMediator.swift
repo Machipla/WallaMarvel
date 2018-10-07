@@ -15,18 +15,19 @@ import WallaMarvelAPI
 final class ComicsListMediator {
     var presenter: ComicsListPresenterProtocol!
     var delegateCaller: ComicsListDelegateCallerProtocol!
-    
-    fileprivate let config:ComicsListControllerConfig
-    
+
+    /// Current filter
     private var currentFilter = ComicsFilter()
+    /// Current cursor
     private var currentCursor = Cursor()
+    /// The comics currently loaded
     private var comics = [Comic]()
-    private var selectedComics = [Comic]()
+    /// The selected comic ID's
+    private var selectedComicsIDs = [String]()
     
     init(config:ComicsListControllerConfig){
-        self.config = config
+        self.selectedComicsIDs = config.preSelectedComicsIDs
     }
-    
 }
 
 private extension ComicsListMediator{
@@ -47,7 +48,7 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
             self.currentCursor = result.nextCursor
             self.comics = result.comics
             
-            self.presenter.displayReloadComics(result.comics)
+            self.presenter.displayReloadComics(result.comics, withSelectedOnesIDs: self.selectedComicsIDs)
         }.always {
             self.presenter.hideProgress()
         }
@@ -61,7 +62,7 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
             self.currentCursor = result.nextCursor
             self.comics = result.comics
             
-            self.presenter.displayRefreshComics(result.comics)
+            self.presenter.displayRefreshComics(result.comics, withSelectedOnesIDs: self.selectedComicsIDs)
         }.always {
             self.presenter.hideRefreshInProgress()
         }
@@ -73,7 +74,7 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
             self.currentCursor = result.nextCursor
             self.comics.append(contentsOf: result.comics)
             
-            self.presenter.displayNextDataComics(result.comics)
+            self.presenter.displayNextDataComics(result.comics, withSelectedOnesIDs: self.selectedComicsIDs)
         }.always {
             self.presenter.hideNextDataRequestInProgress()
         }
@@ -87,16 +88,21 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
     }
 
     func comicSelected(at index:Int){
-        guard let comic = comics[safe: index] else { return }
+        guard let comic = comics[safe: index], let comicID = comic.ID else { return }
         
-        if selectedComics.contains(comic){
-            selectedComics.remove(comic)
+        if selectedComicsIDs.contains(comicID){
+            selectedComicsIDs.remove(comicID)
         }else{
-            selectedComics.append(comic)
+            selectedComicsIDs.append(comicID)
         }
     }
     
     func dismissTapped(){
-        delegateCaller.callDelegateForComicsSelected(selectedComics)
+        delegateCaller.callDelegateForComicsSelected(withIDs: selectedComicsIDs)
+    }
+    
+    func clearSelectionTapped(){
+        selectedComicsIDs.removeAll()
+        presenter.deselectAll()
     }
 }

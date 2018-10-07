@@ -10,10 +10,11 @@ import UIKit
 import WallaMarvelAPI
 
 protocol ComicsListPresenterProtocol: class{
-    func displayReloadComics(_ comics:[Comic])
-    func displayRefreshComics(_ comics:[Comic])
-    func displayNextDataComics(_ comics:[Comic])
+    func displayReloadComics(_ comics:[Comic], withSelectedOnesIDs selectedComicsIDs:[String])
+    func displayRefreshComics(_ comics:[Comic], withSelectedOnesIDs selectedComicsIDs:[String])
+    func displayNextDataComics(_ comics:[Comic], withSelectedOnesIDs selectedComicsIDs:[String])
     func updateSearch(to newSearch:String?)
+    func deselectAll()
     
     func displayProgress()
     func hideProgress()

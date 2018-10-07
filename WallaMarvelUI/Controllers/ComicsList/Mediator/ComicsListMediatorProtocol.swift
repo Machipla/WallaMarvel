@@ -16,4 +16,5 @@ protocol ComicsListMediatorProtocol: class{
     
     func comicSelected(at index:Int)
     func dismissTapped()
+    func clearSelectionTapped()
 }

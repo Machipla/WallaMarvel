@@ -94,8 +94,8 @@ extension CharactersFilterViewController:  CharactersFilterViewProtocol{
         orderByRow.value = data.orderBy
     }
     
-    func displayComicsSelector(){
-        let config = ComicsListControllerConfig(comicsAreSelectable: true)
+    func displayComicsSelectorPreselectingComicsWithIDs(_ comicsIDs:[String]){
+        let config = ComicsListControllerConfig(preSelectedComicsIDs: comicsIDs)
         let comicsController = ComicsListViewController(config: config)
         comicsController.delegate = self
         
@@ -104,7 +104,7 @@ extension CharactersFilterViewController:  CharactersFilterViewProtocol{
 }
 
 extension CharactersFilterViewController: ComicsListViewControllerDelegate{
-    public func comicsListViewController(_ controller: ComicsListViewController, hasSelected comics: [Comic]) {
-        mediator.comicsSelected(comics)
+    public func comicsListViewController(_ controller: ComicsListViewController, hasSelectedComicsWithIDs comicIDs: [String]) {
+        mediator.comicsSelected(comicIDs)
     }
 }

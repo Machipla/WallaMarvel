@@ -28,12 +28,20 @@ public final class ComicsListViewController: FormViewController {
         super.viewDidLoad()
         
         title = "COMICS_LIST_TITLE".localized(onBundleFor: self)
-
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "COMICS_LIST_CLEAR_SELECTTION_BTN_TITLE".localized(onBundleFor: self),
+                                                            style: .plain,
+                                                            target: self,
+                                                            action: #selector(clearSelectionTapped))
+        
         setupSearchBar()
+
+        form +++ SelectableSection<ListCheckRow<String>>("", selectionType: .multipleSelection)
+        comicsSection.onSelectSelectableRow = { cell, row in
+            guard let rowIndex = row.indexPath?.row else { return }
+            self.mediator.comicSelected(at: rowIndex)
+        }
         
         tableView.addInfiniteScroll(handler: { _ in self.nextDataRequestTriggered() })
-        form +++ SelectableSection<ListCheckRow<String>>("", selectionType: .multipleSelection)
-        
         if #available(iOS 10.0, *){
             tableView.refreshControl = UIRefreshControl()
             tableView.refreshControl?.addTarget(self, action: #selector(refreshTriggered), for: .valueChanged)
@@ -86,6 +94,10 @@ private extension ComicsListViewController{
         mediator.refreshTriggered()
     }
     
+    @objc func clearSelectionTapped(){
+        mediator.clearSelectionTapped()
+    }
+    
     func nextDataRequestTriggered(){
         mediator.nextDataRequestTriggered()
     }
@@ -97,11 +109,9 @@ extension ComicsListViewController:  ComicsListViewProtocol{
         func mapComicDisplayDataToRow(_ comicDisplayData:ComicsListDisplayData.SingleComicDisplay) -> BaseRow{
             return ListCheckRow<String>(){ row in
                 row.title = comicDisplayData.title
-                
+                row.selectableValue = comicDisplayData.title
+                row.value = comicDisplayData.isSelected ? comicDisplayData.title : nil
                 if #available(iOS 11.0, *){ row.cell.textLabel?.adjustsFontForContentSizeCategory = true}
-            }.onCellSelection{ _, row in
-                guard let index = row.indexPath?.row else { return }
-                self.mediator.comicSelected(at: index)
             }
         }
         
@@ -117,6 +127,13 @@ extension ComicsListViewController:  ComicsListViewProtocol{
     
     func displaySearch(_ search:String?){
         navigationItem.searchingController?.searchBar.text = search
+    }
+    
+    func deselectAll(){
+        comicsSection.selectedRows().forEach{
+            $0.value = nil
+            $0.updateCell()
+        }
     }
     
     func drawRefreshProgressView() {

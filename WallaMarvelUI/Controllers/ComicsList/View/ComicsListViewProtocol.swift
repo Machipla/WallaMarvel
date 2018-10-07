@@ -11,6 +11,7 @@ import UIKit
 protocol ComicsListViewProtocol: class, HUDDrawer {
     func displayComicsData(_ displayData:ComicsListDisplayData, behavior:ComicsDisplayBehavior)
     func displaySearch(_ search:String?)
+    func deselectAll()
     
     func drawRefreshProgressView()
     func hideRefreshProgressView()

@@ -37,13 +37,8 @@ internal struct CharactersFilterMappingEntity: Encodable, EntityConvertible{
         try container.encodeJSONValueIfPresent(rawModifiedSince, forKey: .modifiedSince)
         try container.encodeJSONValueIfPresent(rawOrderBy, forKey: .orderBy)
 
-        if !(rawName?.isEmpty ?? true){
-            try container.encodeJSONValueIfPresent(rawName, forKey: .name)
-        }
-        
-        if !rawComicIDs.isEmpty{
-            try container.encodeJSONValue(rawComicIDs, forKey: .comics)
-        }
+        if !(rawName?.isEmpty ?? true)  { try container.encodeJSONValueIfPresent(rawName, forKey: .name) }
+        if !rawComicIDs.isEmpty         { try container.encodeJSONValue(rawComicIDs, forKey: .comics) }
     }
 }
 
@@ -58,8 +53,8 @@ internal extension CharactersFilterMappingEntity{
 }
 
 internal extension CharactersFilterMappingEntity{
-    var mappedComicIDs:[Int]{
-        return rawComicIDs.split(separator: ",").map{ Int($0) }.filteringNils()
+    var mappedComicIDs:[String]{
+        return rawComicIDs.split(separator: ",").map{ String($0) }
     }
     
     var mappedModifiedSince:Date?{

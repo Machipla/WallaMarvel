@@ -9,10 +9,10 @@
 import UIKit
 
 public struct ComicsListControllerConfig{
-    public let comicsAreSelectable:Bool
+    public let preSelectedComicsIDs:[String]
     
-    public init(comicsAreSelectable:Bool){
-        self.comicsAreSelectable = comicsAreSelectable
+    public init(preSelectedComicsIDs:[String] = []){
+        self.preSelectedComicsIDs = preSelectedComicsIDs
     }
 }
 

@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import WallaMarvelAPI
 
 protocol ComicsListDelegateCallerProtocol: class{
-    func callDelegateForComicsSelected(_ comics:[Comic])
+    func callDelegateForComicsSelected(withIDs comicIDs:[String])
 }

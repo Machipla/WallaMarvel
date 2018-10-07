@@ -10,9 +10,9 @@ import UIKit
 import WallaMarvelAPI
 
 public protocol ComicsListViewControllerDelegate: class {
-    func comicsListViewController(_ controller:ComicsListViewController, hasSelected comics:[Comic])
+    func comicsListViewController(_ controller:ComicsListViewController, hasSelectedComicsWithIDs comicIDs:[String])
 }
 
 public extension ComicsListViewControllerDelegate {
-    func comicsListViewController(_ controller:ComicsListViewController, hasSelected comics:[Comic]){}
+    func comicsListViewController(_ controller:ComicsListViewController, hasSelectedComicsWithIDs comicIDs:[String]){}
 }

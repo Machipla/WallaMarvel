@@ -12,6 +12,7 @@ import UIKit
 struct ComicsListDisplayData {
     struct SingleComicDisplay{
         let title:String
+        let isSelected:Bool
     }
     
     let comics:[SingleComicDisplay]

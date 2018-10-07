@@ -22,7 +22,7 @@ extension CharactersFilterPresenter: CharactersFilterPresenterProtocol{
         attachedView.display(displayData)
     }
     
-    func displayComicsSelector(){
-        attachedView.displayComicsSelector()
+    func displayComicsSelectorPreselectingComicsWithIDs(_ comicsIDs:[String]){
+        attachedView.displayComicsSelectorPreselectingComicsWithIDs(comicsIDs)
     }
 }

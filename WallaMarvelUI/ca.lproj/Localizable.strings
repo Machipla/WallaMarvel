@@ -7,9 +7,10 @@
 */
 
 /******** Comic list ********/
-"COMICS_LIST_TITLE"              = "Comics";
-"COMICS_LIST_SEARCH_PLACEHOLDER" = "Ex. Avengers: The Initiative (2007) #14";
-"COMICS_LIST_NO_RESULTS_TITLE"   = "No hi ha resultats!\n¡Prova buscant un altre comic!";
+"COMICS_LIST_TITLE"                      = "Comics";
+"COMICS_LIST_SEARCH_PLACEHOLDER"         = "Ex. Avengers: The Initiative (2007) #14";
+"COMICS_LIST_NO_RESULTS_TITLE"           = "No hi ha resultats!\n¡Prova buscant un altre comic!";
+"COMICS_LIST_CLEAR_SELECTTION_BTN_TITLE" = "Netejar selecció";
 /***********************************/
 
 /******** Character filters ********/
