@@ -180,13 +180,12 @@
 		DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053492167313E00C1504D /* ViewCutDrawer.swift */; };
 		DBD0534C216737E300C1504D /* ParallaxTableHeaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */; };
 		DBE4CD17216A6BC400A1050F /* AboutMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD07216A6BC400A1050F /* AboutMediator.swift */; };
-		DBE4CD18216A6BC400A1050F /* AboutDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD08216A6BC400A1050F /* AboutDisplayData.swift */; };
 		DBE4CD1A216A6BC400A1050F /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */; };
 		DBE4CD1B216A6BC400A1050F /* AboutMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0B216A6BC400A1050F /* AboutMediatorProtocol.swift */; };
 		DBE4CD1C216A6BC400A1050F /* AboutPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0C216A6BC400A1050F /* AboutPresenterProtocol.swift */; };
 		DBE4CD1D216A6BC400A1050F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0D216A6BC400A1050F /* AboutViewController.swift */; };
 		DBE4CD1E216A6BC400A1050F /* AboutWirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0E216A6BC400A1050F /* AboutWirer.swift */; };
-		DBE4CD1F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift */; };
+		DBE4CD1F216A6BC400A1050F /* AboutViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0F216A6BC400A1050F /* AboutViewControllerDelegate.swift */; };
 		DBE4CD21216A6BC400A1050F /* AboutViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD11216A6BC400A1050F /* AboutViewProtocol.swift */; };
 		DBE4CD22216A6BC400A1050F /* AboutDelegateCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD12216A6BC400A1050F /* AboutDelegateCaller.swift */; };
 		DBE4CD23216A6BC400A1050F /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD13216A6BC400A1050F /* AboutViewController.xib */; };
@@ -199,6 +198,7 @@
 		DBE4CD63216A739B00A1050F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD2E216A6D1000A1050F /* Localizable.strings */; };
 		DBE4CD68216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD67216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift */; };
 		DBE4CD6A216A761800A1050F /* AboutCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */; };
+		DBE4CD6F216A7B8E00A1050F /* AboutURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD6E216A7B8E00A1050F /* AboutURLs.swift */; };
 		DBECCB9F2167BBD3001DC736 /* CharacterMappingEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -455,13 +455,12 @@
 		DBD053492167313E00C1504D /* ViewCutDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCutDrawer.swift; sourceTree = "<group>"; };
 		DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxTableHeaderDelegate.swift; sourceTree = "<group>"; };
 		DBE4CD07216A6BC400A1050F /* AboutMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMediator.swift; sourceTree = "<group>"; };
-		DBE4CD08216A6BC400A1050F /* AboutDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDisplayData.swift; sourceTree = "<group>"; };
 		DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
 		DBE4CD0B216A6BC400A1050F /* AboutMediatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMediatorProtocol.swift; sourceTree = "<group>"; };
 		DBE4CD0C216A6BC400A1050F /* AboutPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenterProtocol.swift; sourceTree = "<group>"; };
 		DBE4CD0D216A6BC400A1050F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		DBE4CD0E216A6BC400A1050F /* AboutWirer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWirer.swift; sourceTree = "<group>"; };
-		DBE4CD0F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenterViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DBE4CD0F216A6BC400A1050F /* AboutViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewControllerDelegate.swift; sourceTree = "<group>"; };
 		DBE4CD11216A6BC400A1050F /* AboutViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewProtocol.swift; sourceTree = "<group>"; };
 		DBE4CD12216A6BC400A1050F /* AboutDelegateCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDelegateCaller.swift; sourceTree = "<group>"; };
 		DBE4CD13216A6BC400A1050F /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
@@ -476,6 +475,7 @@
 		DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoordinator.swift; sourceTree = "<group>"; };
 		DBE4CD67216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailCoordinatorDelegate.swift; sourceTree = "<group>"; };
 		DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		DBE4CD6E216A7B8E00A1050F /* AboutURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutURLs.swift; sourceTree = "<group>"; };
 		DBECCB7F2167B9E2001DC736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallaMarvelAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMappingEntityTests.swift; sourceTree = "<group>"; };
@@ -640,6 +640,7 @@
 				DB4B344321638C30005709E3 /* SplashScreen.xib */,
 				DBCB19DF21675A4500768650 /* Style */,
 				DB8BF12B2165073400AB8287 /* Coordinators */,
+				DBE4CD6D216A77AF00A1050F /* Models */,
 				DBE4CCE4216A6AC900A1050F /* Controllers */,
 				DB4B344221638BFD005709E3 /* Resources */,
 			);
@@ -1401,7 +1402,6 @@
 		DBE4CD27216A6BDE00A1050F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				DBE4CD08216A6BC400A1050F /* AboutDisplayData.swift */,
 				DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */,
 				DBE4CD0C216A6BC400A1050F /* AboutPresenterProtocol.swift */,
 			);
@@ -1412,7 +1412,7 @@
 			isa = PBXGroup;
 			children = (
 				DBE4CD0D216A6BC400A1050F /* AboutViewController.swift */,
-				DBE4CD0F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift */,
+				DBE4CD0F216A6BC400A1050F /* AboutViewControllerDelegate.swift */,
 				DBE4CD11216A6BC400A1050F /* AboutViewProtocol.swift */,
 				DBE4CD13216A6BC400A1050F /* AboutViewController.xib */,
 				DBE4CD5F216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift */,
@@ -1462,6 +1462,14 @@
 				DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */,
 			);
 			path = About;
+			sourceTree = "<group>";
+		};
+		DBE4CD6D216A77AF00A1050F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD6E216A7B8E00A1050F /* AboutURLs.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		DBECCB952167BA89001DC736 /* WallaMarvelAPITests */ = {
@@ -1917,7 +1925,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBE4CD1F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift in Sources */,
+				DBE4CD1F216A6BC400A1050F /* AboutViewControllerDelegate.swift in Sources */,
 				DBE4CD24216A6BC400A1050F /* AboutDelegateCallerProtocol.swift in Sources */,
 				DBE4CD68216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift in Sources */,
 				DBE4CD21216A6BC400A1050F /* AboutViewProtocol.swift in Sources */,
@@ -1934,11 +1942,11 @@
 				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
 				DBE4CD6A216A761800A1050F /* AboutCoordinatorDelegate.swift in Sources */,
 				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
-				DBE4CD18216A6BC400A1050F /* AboutDisplayData.swift in Sources */,
 				DBE4CD1C216A6BC400A1050F /* AboutPresenterProtocol.swift in Sources */,
 				DBE4CD22216A6BC400A1050F /* AboutDelegateCaller.swift in Sources */,
 				DBE4CD17216A6BC400A1050F /* AboutMediator.swift in Sources */,
 				DBE4CD1E216A6BC400A1050F /* AboutWirer.swift in Sources */,
+				DBE4CD6F216A7B8E00A1050F /* AboutURLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

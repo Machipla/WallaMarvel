@@ -9,4 +9,5 @@
 import UIKit
 
 protocol AboutPresenterProtocol: class{
+    func display(_ url:URL)
 }

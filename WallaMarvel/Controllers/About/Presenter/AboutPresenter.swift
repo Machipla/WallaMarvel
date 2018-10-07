@@ -13,5 +13,7 @@ final class AboutPresenter {
 }
 
 extension AboutPresenter: AboutPresenterProtocol{
-    
+    func display(_ url:URL){
+        attachedView.display(url)
+    }
 }

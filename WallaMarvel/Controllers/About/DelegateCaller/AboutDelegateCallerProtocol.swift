@@ -9,4 +9,5 @@
 import UIKit
 
 protocol AboutDelegateCallerProtocol: class{
+    func callDelegateForDismissDone()
 }

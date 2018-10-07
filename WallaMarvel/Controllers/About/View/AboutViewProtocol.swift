@@ -9,5 +9,5 @@
 import UIKit
 
 protocol AboutViewProtocol: class {
-    
+    func display(_ url:URL)
 }

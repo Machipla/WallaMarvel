@@ -13,5 +13,7 @@ final class AboutDelegateCaller{
 }
 
 extension AboutDelegateCaller: AboutDelegateCallerProtocol {
-    
+    func callDelegateForDismissDone(){
+        attachedView.delegate?.aboutViewControllerDelegateHasBeenDismissed(attachedView)
+    }
 }

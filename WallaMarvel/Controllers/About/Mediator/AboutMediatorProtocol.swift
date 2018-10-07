@@ -9,4 +9,11 @@
 import UIKit
 
 protocol AboutMediatorProtocol: class{
+    func dismissDone()
+    
+    func myLinkedInTapped()
+    func myGithubTapped()
+    func wallapopTapped()
+    func marvelTapped()
+    func iconsTapped()
 }

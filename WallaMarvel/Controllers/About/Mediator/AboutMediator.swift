@@ -14,5 +14,27 @@ final class AboutMediator {
 }
 
 extension AboutMediator: AboutMediatorProtocol{
+    func dismissDone(){
+        delegateCaller.callDelegateForDismissDone()
+    }
     
+    func myLinkedInTapped(){
+        presenter.display(AboutURLs.linkedIn)
+    }
+    
+    func myGithubTapped(){
+        presenter.display(AboutURLs.github)
+    }
+    
+    func wallapopTapped(){
+        presenter.display(AboutURLs.wallapop)
+    }
+    
+    func marvelTapped(){
+        presenter.display(AboutURLs.marvelAPI)
+    }
+    
+    func iconsTapped(){
+        presenter.display(AboutURLs.icons8)
+    }
 }
