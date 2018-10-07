@@ -14,6 +14,7 @@ import WallaMarvelUI
 final class AboutCoordinator: Coordinator, Startable{
     var childs = [Coordinator]()
     
+    weak var delegate:AboutCoordinatorDelegate?
     private(set) weak var fromController:UIViewController!
     private(set) weak var aboutController:AboutViewController?
     
@@ -23,8 +24,15 @@ final class AboutCoordinator: Coordinator, Startable{
     
     func start(){
         let aboutController = AboutViewController()
+        aboutController.delegate = self
         
         fromController.present(aboutController, animated: true, completion: nil)
         self.aboutController = aboutController
+    }
+}
+
+extension AboutCoordinator: AboutViewControllerDelegate{
+    func aboutViewControllerDelegateHasBeenDismissed(_ controller: AboutViewController) {
+        delegate?.aboutCoordinatorHasFinished(self)
     }
 }

@@ -8,5 +8,10 @@
 
 import UIKit
 
-public protocol AboutViewControllerDelegate: class {
+protocol AboutViewControllerDelegate: class {
+    func aboutViewControllerDelegateHasBeenDismissed(_ controller:AboutViewController)
+}
+
+extension AboutViewControllerDelegate {
+    func aboutViewControllerDelegateHasBeenDismissed(_ controller:AboutViewController){}
 }

@@ -197,6 +197,8 @@
 		DBE4CD60216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD5F216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift */; };
 		DBE4CD62216A71AB00A1050F /* AboutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */; };
 		DBE4CD63216A739B00A1050F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD2E216A6D1000A1050F /* Localizable.strings */; };
+		DBE4CD68216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD67216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift */; };
+		DBE4CD6A216A761800A1050F /* AboutCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */; };
 		DBECCB9F2167BBD3001DC736 /* CharacterMappingEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -472,6 +474,8 @@
 		DBE4CD3D216A6F5800A1050F /* MenuLabelRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLabelRow.swift; sourceTree = "<group>"; };
 		DBE4CD5F216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AboutViewController+MenuOptionsCrolors.swift"; sourceTree = "<group>"; };
 		DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoordinator.swift; sourceTree = "<group>"; };
+		DBE4CD67216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoordinatorDelegate.swift; sourceTree = "<group>"; };
 		DBECCB7F2167B9E2001DC736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallaMarvelAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMappingEntityTests.swift; sourceTree = "<group>"; };
@@ -976,9 +980,9 @@
 			isa = PBXGroup;
 			children = (
 				DB8BF12C2165074500AB8287 /* Common */,
-				DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */,
-				DB84BC68216679BC00440A7D /* CharacterDetailCoordinator.swift */,
-				DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */,
+				DBE4CD65216A758B00A1050F /* AppRoot */,
+				DBE4CD64216A758400A1050F /* CharacterDetail */,
+				DBE4CD66216A758F00A1050F /* About */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -1432,6 +1436,32 @@
 				DBE4CD3A216A6F4500A1050F /* MenuLabelTableCell.xib */,
 			);
 			path = MenuLabelCell;
+			sourceTree = "<group>";
+		};
+		DBE4CD64216A758400A1050F /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DB84BC68216679BC00440A7D /* CharacterDetailCoordinator.swift */,
+				DBE4CD67216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		DBE4CD65216A758B00A1050F /* AppRoot */ = {
+			isa = PBXGroup;
+			children = (
+				DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */,
+			);
+			path = AppRoot;
+			sourceTree = "<group>";
+		};
+		DBE4CD66216A758F00A1050F /* About */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */,
+				DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 		DBECCB952167BA89001DC736 /* WallaMarvelAPITests */ = {
@@ -1889,6 +1919,7 @@
 			files = (
 				DBE4CD1F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift in Sources */,
 				DBE4CD24216A6BC400A1050F /* AboutDelegateCallerProtocol.swift in Sources */,
+				DBE4CD68216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift in Sources */,
 				DBE4CD21216A6BC400A1050F /* AboutViewProtocol.swift in Sources */,
 				DB8BF1322165084300AB8287 /* Startable.swift in Sources */,
 				DBE4CD1D216A6BC400A1050F /* AboutViewController.swift in Sources */,
@@ -1901,6 +1932,7 @@
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
 				DBE4CD62216A71AB00A1050F /* AboutCoordinator.swift in Sources */,
 				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
+				DBE4CD6A216A761800A1050F /* AboutCoordinatorDelegate.swift in Sources */,
 				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
 				DBE4CD18216A6BC400A1050F /* AboutDisplayData.swift in Sources */,
 				DBE4CD1C216A6BC400A1050F /* AboutPresenterProtocol.swift in Sources */,

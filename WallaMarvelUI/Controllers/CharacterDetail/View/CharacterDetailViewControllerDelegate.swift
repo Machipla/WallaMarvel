@@ -9,4 +9,9 @@
 import UIKit
 
 public protocol CharacterDetailViewControllerDelegate: class {
+    func characterDetailViewControllerHasBeenDismised(_ controller:CharacterDetailViewController)
+}
+
+public extension CharacterDetailViewControllerDelegate{
+    func characterDetailViewControllerHasBeenDismised(_ controller:CharacterDetailViewController){}
 }

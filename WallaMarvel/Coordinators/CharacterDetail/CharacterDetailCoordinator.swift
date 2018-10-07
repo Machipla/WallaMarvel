@@ -14,6 +14,7 @@ import WallaMarvelUI
 final class CharacterDetailCoordinator: Coordinator, Startable{
     var childs = [Coordinator]()
     
+    weak var delegate:CharacterDetailCoordinatorDelegate?
     private(set) weak var fromNavigationController:UINavigationController!
     private(set) weak var characterDetailController:CharacterDetailViewController?
     
@@ -40,5 +41,7 @@ final class CharacterDetailCoordinator: Coordinator, Startable{
 }
 
 extension CharacterDetailCoordinator: CharacterDetailViewControllerDelegate{
-    
+    func characterDetailViewControllerHasBeenDismised(_ controller:CharacterDetailViewController){
+        delegate?.characterDetailCoordinatorHasFinished(self)
+    }
 }

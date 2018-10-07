@@ -64,4 +64,8 @@ extension CharacterDetailMediator: CharacterDetailMediatorProtocol{
         guard let character = currentCharacter else { return }
         presenter.displayImageDetail(for: character)
     }
+    
+    func dismissDone(){
+        delegateCaller.callDelegateForDismissDone()
+    }
 }

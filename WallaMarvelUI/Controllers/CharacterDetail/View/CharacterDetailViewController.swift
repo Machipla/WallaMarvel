@@ -57,6 +57,14 @@ public final class CharacterDetailViewController: FormViewController{
         
         mediator.reloadData()
     }
+    
+    public override func didMove(toParent parent: UIViewController?) {
+        super.didMove(toParent: parent)
+        
+        if parent == nil{
+            mediator.dismissDone()
+        }
+    }
 
     public override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)

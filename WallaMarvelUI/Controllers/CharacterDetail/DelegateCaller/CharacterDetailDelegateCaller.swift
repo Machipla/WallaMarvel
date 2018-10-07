@@ -13,5 +13,7 @@ final class CharacterDetailDelegateCaller{
 }
 
 extension CharacterDetailDelegateCaller: CharacterDetailDelegateCallerProtocol {
-    
+    func callDelegateForDismissDone(){
+        attachedView.delegate?.characterDetailViewControllerHasBeenDismised(attachedView)
+    }
 }

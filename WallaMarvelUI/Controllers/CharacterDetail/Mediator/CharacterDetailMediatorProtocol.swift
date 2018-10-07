@@ -13,4 +13,5 @@ protocol CharacterDetailMediatorProtocol: class{
     
     func refreshTriggered()
     func imageTapped()
+    func dismissDone()
 }
