@@ -47,4 +47,9 @@ extension CharactersFilterMediator: CharactersFilterMediatorProtocol{
     func comicsSelected(_ comicIDs:[String]){
         filterByComicsIDs = comicIDs
     }
+    
+    func clearFiltersTapped(){
+        filterByComicsIDs.removeAll()
+        presenter.display(nil)
+    }
 }

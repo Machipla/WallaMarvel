@@ -26,6 +26,7 @@
 "CHARACTER_FILTERS_ORDER_BY_NAME_DESC"               = "Nombre ↓";
 "CHARACTER_FILTERS_ORDER_BY_MODIFIED_DATE_ASC"       = "Modificado ↑";
 "CHARACTER_FILTERS_ORDER_BY_MODIFIED_DATE_DESC"      = "Modificado ↓";
+"CHARACTER_FILTERS_CLEAR_ALL_BTN_TITLE"              = "Limpiar filtros";
 /***********************************/
 
 /******** Character Detail ********/

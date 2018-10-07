@@ -15,6 +15,8 @@ public extension UIColor{
         public static let marvel            = #colorLiteral(red: 0.9098039216, green: 0.1176470588, blue: 0.1411764706, alpha: 1)
         public static let marvelContrast    = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
-        public static let darkTextColor     = UIColor.darkGray
+        public static let darkTextColor     = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+        
+        public static let destroyBehavior   = #colorLiteral(red: 1, green: 0, blue: 0, alpha: 1)
     }
 }

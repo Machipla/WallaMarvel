@@ -16,6 +16,7 @@ public final class CharactersFilterViewController: FormViewController{
 	var mediator: CharactersFilterMediatorProtocol!
     
     var mainSection:Section        { return form.allSections.first! }
+    var resetSection:Section       { return form.allSections.last! }
     var nameRow:TextRow            { return mainSection[0] as! TextRow }
     var nameStartsByRow:TextRow    { return mainSection[1] as! TextRow }
     var modifiedSinceRow:DateRow   { return mainSection[2] as! DateRow }
@@ -54,8 +55,8 @@ private extension CharactersFilterViewController{
         
         let modifiedSinceRow = DateRow(){ row in
             row.title = "CHARACTER_FILTERS_MODIFIED_SINCE_FIELD_TITLE".localized(onBundleFor: self)
-            row.value = Date()
             row.maximumDate = Date()
+            row.value = Date()
         }
         
         let orderByRow = PickerInputRow<CharactersOrderByDisplayData>(){ row in
@@ -73,6 +74,18 @@ private extension CharactersFilterViewController{
         }
         
         form +++ Section() <<< nameRow <<< nameStartsByRow <<< modifiedSinceRow <<< orderByRow <<< appearsInRow
+        
+        let clearFiltersRow = LabelRow(){ row in
+            row.title = "CHARACTER_FILTERS_CLEAR_ALL_BTN_TITLE".localized(onBundleFor: self)
+            row.cellStyle = .default
+        }.cellUpdate{ cell, row in
+            cell.textLabel?.textColor = UIColor.WallaMarvel.destroyBehavior
+            cell.textLabel?.textAlignment = .center
+        }.onCellSelection { _, _ in
+            self.clearFiltersTapped()
+        }
+        
+        form +++ Section() <<< clearFiltersRow
     }
 }
 
@@ -84,6 +97,10 @@ private extension CharactersFilterViewController{
     @objc func doneTapped(){
         mediator.doneTapped()
     }
+    
+    func clearFiltersTapped(){
+        mediator.clearFiltersTapped()
+    }
 }
 
 extension CharactersFilterViewController:  CharactersFilterViewProtocol{
@@ -92,6 +109,8 @@ extension CharactersFilterViewController:  CharactersFilterViewProtocol{
         nameStartsByRow.value = data.nameStartsWith
         modifiedSinceRow.value = data.modifiedSince
         orderByRow.value = data.orderBy
+        
+        mainSection.reload(with: .none)
     }
     
     func displayComicsSelectorPreselectingComicsWithIDs(_ comicsIDs:[String]){

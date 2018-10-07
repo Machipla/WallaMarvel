@@ -16,4 +16,5 @@ protocol CharactersFilterMediatorProtocol: class{
     func doneTapped()
     func comicsFilterTapped()
     func comicsSelected(_ comicIDs:[String])
+    func clearFiltersTapped()
 }
