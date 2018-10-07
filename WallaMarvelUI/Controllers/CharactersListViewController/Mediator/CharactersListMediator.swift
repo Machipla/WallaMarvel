@@ -72,6 +72,10 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
     }
     
     func searchHasChanged(to text:String?){
+        let searchIsStillEmpty = (text?.isEmpty ?? true) && (currentFilter.name?.isEmpty ?? true)
+        let searchHasChanged = currentFilter.name != text && !searchIsStillEmpty
+        guard searchHasChanged else { return }
+        
         currentFilter.name = text
         reloadData()
         

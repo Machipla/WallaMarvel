@@ -81,6 +81,10 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
     }
     
     func searchHasChanged(to text:String?){
+        let searchIsStillEmpty = (text?.isEmpty ?? true) && (currentFilter.title?.isEmpty ?? true)
+        let searchHasChanged = currentFilter.title != text && !searchIsStillEmpty
+        guard searchHasChanged else { return }
+        
         currentFilter.title = text
         reloadData()
         
