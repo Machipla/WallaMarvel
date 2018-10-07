@@ -42,6 +42,7 @@ private extension DefaultStyleSheet{
         navigationBarProxy.titleTextAttributes = dictTextAttributes
         navigationBarProxy.barTintColor = UIColor.WallaMarvel.wallapop
         navigationBarProxy.tintColor = UIColor.WallaMarvel.wallapopContrast
+        navigationBarProxy.barStyle = .black
         
         if #available(iOS 11, *){
             var largeTitleTextAttributes = [NSAttributedString.Key:Any]()
@@ -59,16 +60,15 @@ private extension DefaultStyleSheet{
         let labelSearchBarProxy = UILabel.appearance(whenContainedInInstancesOf: [UISearchBar.self])
         
         var dictTextAttributes = [NSAttributedString.Key:Any]()
-        dictTextAttributes[NSAttributedString.Key.foregroundColor] = UIColor.WallaMarvel.darkTextColor
+        dictTextAttributes[NSAttributedString.Key.foregroundColor] = UIColor.WallaMarvel.wallapopContrast
         
         textFieldSearchBarProxy.defaultTextAttributes = dictTextAttributes
         textFieldSearchBarProxy.font = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .body)
         labelSearchBarProxy.font = Fonts.ubuntuRegular.scaledFontDynamicallyIfPossible(for: .body)
         
-        searchBarProxy.tintColor = UIColor.WallaMarvel.darkTextColor
-        searchBarProxy.barTintColor = UIColor.WallaMarvel.darkTextColor
-        
-        
+        searchBarProxy.tintColor = UIColor.WallaMarvel.wallapopContrast
+        searchBarProxy.barTintColor = UIColor.WallaMarvel.wallapopContrast
+
         if #available(iOS 11.0, *){
             searchBarProxy.setSearchFieldBackgroundImage(UIImage(named: "bg_search_bar")!, for: .normal)
             searchBarProxy.backgroundImage = UIImage()

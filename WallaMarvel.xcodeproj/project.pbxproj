@@ -19,8 +19,6 @@
 		DB2F93F12168D4E300A9E9C9 /* JSONField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F93F02168D4E300A9E9C9 /* JSONField.swift */; };
 		DB2F93F62168D95A00A9E9C9 /* String+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F93F52168D95A00A9E9C9 /* String+ISO8601.swift */; };
 		DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B342E21637E7D005709E3 /* AppDelegate.swift */; };
-		DB4B343121637E7D005709E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B343021637E7D005709E3 /* ViewController.swift */; };
-		DB4B343421637E7D005709E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343221637E7D005709E3 /* Main.storyboard */; };
 		DB4B343621637E7F005709E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343521637E7F005709E3 /* Images.xcassets */; };
 		DB4B344121637ED5005709E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344021637ED5005709E3 /* Podfile */; };
 		DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344321638C30005709E3 /* SplashScreen.xib */; };
@@ -273,8 +271,6 @@
 		DB2F93F52168D95A00A9E9C9 /* String+ISO8601.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ISO8601.swift"; sourceTree = "<group>"; };
 		DB4B342B21637E7D005709E3 /* WallaMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallaMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B342E21637E7D005709E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB4B343021637E7D005709E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB4B343321637E7D005709E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB4B343521637E7F005709E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB4B343A21637E7F005709E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4B344021637ED5005709E3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -421,9 +417,7 @@
 		DBB25F94216600D3002DFDB4 /* Collection+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Info.swift"; sourceTree = "<group>"; };
 		DBB25F9821662638002DFDB4 /* UIColor+WallaMarvel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+WallaMarvel.swift"; sourceTree = "<group>"; };
 		DBB25F9D216626EE002DFDB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DBB25F9F216626FD002DFDB4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		DBB25FA0216626FE002DFDB4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DBB25FA121662711002DFDB4 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Main.strings; sourceTree = "<group>"; };
 		DBB25FA221662711002DFDB4 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DBB25FA4216627A2002DFDB4 /* String+Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		DBB25FA721662C7B002DFDB4 /* UIImage+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
@@ -601,11 +595,9 @@
 			isa = PBXGroup;
 			children = (
 				DB4B342E21637E7D005709E3 /* AppDelegate.swift */,
+				DB4B344321638C30005709E3 /* SplashScreen.xib */,
 				DBCB19DF21675A4500768650 /* Style */,
 				DB8BF12B2165073400AB8287 /* Coordinators */,
-				DB4B343021637E7D005709E3 /* ViewController.swift */,
-				DB4B343221637E7D005709E3 /* Main.storyboard */,
-				DB4B344321638C30005709E3 /* SplashScreen.xib */,
 				DB4B344221638BFD005709E3 /* Resources */,
 			);
 			path = WallaMarvel;
@@ -1541,7 +1533,6 @@
 				DB915E112167747F0097CE02 /* Ubuntu-Medium.ttf in Resources */,
 				DB4B343621637E7F005709E3 /* Images.xcassets in Resources */,
 				DB4B344121637ED5005709E3 /* Podfile in Resources */,
-				DB4B343421637E7D005709E3 /* Main.storyboard in Resources */,
 				DB915E122167747F0097CE02 /* Ubuntu-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1784,7 +1775,6 @@
 				DB8BF1322165084300AB8287 /* Startable.swift in Sources */,
 				DBCB19E121675A5100768650 /* DefaultStyleSheet.swift in Sources */,
 				DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */,
-				DB4B343121637E7D005709E3 /* ViewController.swift in Sources */,
 				DB2BF41C2167A875001D110D /* DefaultStyleSheet+Fonts.swift in Sources */,
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
 				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
@@ -1991,16 +1981,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB4B343221637E7D005709E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB4B343321637E7D005709E3 /* Base */,
-				DBB25F9F216626FD002DFDB4 /* es */,
-				DBB25FA121662711002DFDB4 /* ca */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DBB25F9E216626EE002DFDB4 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2139,7 +2119,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAPBGQ838M;
 				INFOPLIST_FILE = "$(SRCROOT)/WallaMarvel/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2159,7 +2139,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAPBGQ838M;
 				INFOPLIST_FILE = "$(SRCROOT)/WallaMarvel/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
