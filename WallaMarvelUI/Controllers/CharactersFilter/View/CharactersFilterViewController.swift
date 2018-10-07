@@ -8,6 +8,7 @@
 
 import UIKit
 import Eureka
+import WallaMarvelAPI
 
 public final class CharactersFilterViewController: FormViewController{
 
@@ -63,8 +64,15 @@ private extension CharactersFilterViewController{
             row.value = row.options.first
             row.displayValueFor = { $0?.localizedString ?? "" }
         }
+
+        let appearsInRow = LabelRow(){ row in
+            row.title = "CHARACTER_FILTERS_APPEARS_IN_FIELD_TITLE".localized(onBundleFor: self)
+            row.cell.accessoryType = .disclosureIndicator
+        }.onCellSelection { cell, row in
+            self.mediator.comicsFilterTapped()
+        }
         
-        form +++ Section() <<< nameRow <<< nameStartsByRow <<< modifiedSinceRow <<< orderByRow
+        form +++ Section() <<< nameRow <<< nameStartsByRow <<< modifiedSinceRow <<< orderByRow <<< appearsInRow
     }
 }
 
@@ -84,5 +92,19 @@ extension CharactersFilterViewController:  CharactersFilterViewProtocol{
         nameStartsByRow.value = data.nameStartsWith
         modifiedSinceRow.value = data.modifiedSince
         orderByRow.value = data.orderBy
+    }
+    
+    func displayComicsSelector(){
+        let config = ComicsListControllerConfig(comicsAreSelectable: true)
+        let comicsController = ComicsListViewController(config: config)
+        comicsController.delegate = self
+        
+        navigationController?.pushViewController(comicsController, animated: true)
+    }
+}
+
+extension CharactersFilterViewController: ComicsListViewControllerDelegate{
+    public func comicsListViewController(_ controller: ComicsListViewController, hasSelected comics: [Comic]) {
+        mediator.comicsSelected(comics)
     }
 }

@@ -15,4 +15,5 @@ protocol ComicsListMediatorProtocol: class{
     func searchHasChanged(to text:String?)
     
     func comicSelected(at index:Int)
+    func dismissTapped()
 }

@@ -11,4 +11,5 @@ import WallaMarvelAPI
 
 protocol CharactersFilterPresenterProtocol: class{
     func display(_ filters:CharactersFilter?)
+    func displayComicsSelector()
 }

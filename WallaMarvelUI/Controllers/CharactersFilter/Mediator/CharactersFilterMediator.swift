@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 final class CharactersFilterMediator {
 
@@ -15,6 +16,7 @@ final class CharactersFilterMediator {
     var dataProvider: CharactersFilterDataProviderProtocol!
     
     fileprivate let config:CharactersFilterControllerConfig
+    private var filterByComics = [Comic]()
     
     init(config:CharactersFilterControllerConfig){
         self.config = config
@@ -32,6 +34,15 @@ extension CharactersFilterMediator: CharactersFilterMediatorProtocol{
     
     func doneTapped(){
         let generatedFilter = dataProvider.provideData()
+
         delegateCaller.callDelegateForNewFiltersSelected(generatedFilter)
+    }
+    
+    func comicsFilterTapped(){
+        presenter.displayComicsSelector()
+    }
+    
+    func comicsSelected(_ comics:[Comic]){
+        filterByComics = comics
     }
 }

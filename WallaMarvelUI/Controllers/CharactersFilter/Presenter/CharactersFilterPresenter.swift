@@ -21,4 +21,8 @@ extension CharactersFilterPresenter: CharactersFilterPresenterProtocol{
                                                       orderBy: CharactersOrderByDisplayData(orderBy: filters?.orderBy ?? .ascendingByName))
         attachedView.display(displayData)
     }
+    
+    func displayComicsSelector(){
+        attachedView.displayComicsSelector()
+    }
 }

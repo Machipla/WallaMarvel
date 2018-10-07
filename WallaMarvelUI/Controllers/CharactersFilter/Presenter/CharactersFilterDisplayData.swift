@@ -16,6 +16,17 @@ struct CharactersFilterDisplayData {
     public var nameStartsWith:String?
     public var modifiedSince:Date?
     public var orderBy:CharactersOrderByDisplayData?
+    
+    public init(name:String? = nil,
+                nameStartsWith:String? = nil,
+                modifiedSince:Date? = nil,
+                orderBy:CharactersOrderByDisplayData? = nil){
+        self.name = name
+        self.nameStartsWith = nameStartsWith
+        self.modifiedSince = modifiedSince
+        self.orderBy = orderBy
+    }
+    
 }
 
 // MARK: - OrderBy display data

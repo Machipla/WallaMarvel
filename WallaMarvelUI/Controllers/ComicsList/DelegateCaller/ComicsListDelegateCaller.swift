@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 final class ComicsListDelegateCaller{
     weak var attachedView: ComicsListViewController!
 }
 
 extension ComicsListDelegateCaller: ComicsListDelegateCallerProtocol {
-    
+    func callDelegateForComicsSelected(_ comics:[Comic]){
+        attachedView.delegate?.comicsListViewController(attachedView, hasSelected: comics)
+    }
 }

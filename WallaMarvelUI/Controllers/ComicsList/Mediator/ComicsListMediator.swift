@@ -21,6 +21,7 @@ final class ComicsListMediator {
     private var currentFilter = ComicsFilter()
     private var currentCursor = Cursor()
     private var comics = [Comic]()
+    private var selectedComics = [Comic]()
     
     init(config:ComicsListControllerConfig){
         self.config = config
@@ -86,6 +87,16 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
     }
 
     func comicSelected(at index:Int){
+        guard let comic = comics[safe: index] else { return }
         
+        if selectedComics.contains(comic){
+            selectedComics.remove(comic)
+        }else{
+            selectedComics.append(comic)
+        }
+    }
+    
+    func dismissTapped(){
+        delegateCaller.callDelegateForComicsSelected(selectedComics)
     }
 }

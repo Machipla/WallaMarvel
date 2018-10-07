@@ -10,4 +10,5 @@ import UIKit
 
 protocol CharactersFilterViewProtocol: class {
     func display(_ data:CharactersFilterDisplayData)
+    func displayComicsSelector()
 }

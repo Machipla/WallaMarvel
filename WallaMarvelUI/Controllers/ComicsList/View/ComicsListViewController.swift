@@ -15,7 +15,7 @@ public final class ComicsListViewController: FormViewController {
     public weak var delegate:ComicsListViewControllerDelegate?
 	var mediator: ComicsListMediatorProtocol!
 
-    private var comicsSection:Section{ return form.allSections.first! }
+    private var comicsSection:SelectableSection<ListCheckRow<String>>{ return form.allSections.first as! SelectableSection<ListCheckRow<String>> }
     private var isEmptyResultsViewAlreadySetup:Bool{ return tableView.backgroundView is EmptyListView }
     
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
@@ -32,7 +32,7 @@ public final class ComicsListViewController: FormViewController {
         setupSearchBar()
         
         tableView.addInfiniteScroll(handler: { _ in self.nextDataRequestTriggered() })
-        form +++ Section()
+        form +++ SelectableSection<ListCheckRow<String>>("", selectionType: .multipleSelection)
         
         if #available(iOS 10.0, *){
             tableView.refreshControl = UIRefreshControl()
@@ -40,6 +40,14 @@ public final class ComicsListViewController: FormViewController {
         }
         
         mediator.reloadData()
+    }
+    
+    public override func willMove(toParent parent: UIViewController?) {
+        super.willMove(toParent: parent)
+        
+        if parent == nil{
+            mediator.dismissTapped()
+        }
     }
     
     public override func deleteAnimation(forRows rows: [BaseRow]) -> UITableView.RowAnimation { return .fade }
@@ -87,9 +95,9 @@ private extension ComicsListViewController{
 extension ComicsListViewController:  ComicsListViewProtocol{
     func displayComicsData(_ displayData:ComicsListDisplayData, behavior:ComicsDisplayBehavior){
         func mapComicDisplayDataToRow(_ comicDisplayData:ComicsListDisplayData.SingleComicDisplay) -> BaseRow{
-            return LabelRow(){ row in
+            return ListCheckRow<String>(){ row in
                 row.title = comicDisplayData.title
-
+                
                 if #available(iOS 11.0, *){ row.cell.textLabel?.adjustsFontForContentSizeCategory = true}
             }.onCellSelection{ _, row in
                 guard let index = row.indexPath?.row else { return }

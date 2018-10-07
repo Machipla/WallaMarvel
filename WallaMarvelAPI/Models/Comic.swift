@@ -16,3 +16,9 @@ public struct Comic{
     public let modified:Date?
     public let thumbnail:Thumbnail?
 }
+
+extension Comic: Equatable{
+    public static func == (lhs: Comic, rhs: Comic) -> Bool {
+        return lhs.ID == rhs.ID || lhs.title == rhs.title
+    }
+}

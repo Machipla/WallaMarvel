@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import WallaMarvelAPI
 
 protocol CharactersFilterMediatorProtocol: class{
     func reloadData()
     
     func cancelTapped()
     func doneTapped()
+    func comicsFilterTapped()
+    func comicsSelected(_ comics:[Comic])
 }
