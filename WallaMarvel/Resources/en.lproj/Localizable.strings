@@ -1,0 +1,18 @@
+/* 
+  Localized.strings
+  WallaMarvel
+
+  Created by Mario Plaza on 7/10/18.
+  Copyright © 2018 Mario Plaza. All rights reserved.
+*/
+
+/******** About screen ********/
+"ABOUT_TITLE" = "About the app";
+"ABOUT_ME_SECTION_TITLE" = "About me";
+"ABOUT_CREDITS_SECTION_TITLE" = "Credits";
+"ABOUT_ME_LINKEDIN_TITLE"   = "My Linkedin";
+"ABOUT_ME_GITHUB_TITLE" = "My Github";
+"ABOUT_CREDITS_WALLAPOP_TITLE" = "Wallapop";
+"ABOUT_CREDITS_MARVEL_TITLE" = "Marvel API";
+"ABOUT_CREDITS_ICONS_TITLE" = "Icons";
+/******************************/

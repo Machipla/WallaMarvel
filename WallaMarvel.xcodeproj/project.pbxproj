@@ -179,6 +179,24 @@
 		DBD053482167308C00C1504D /* ParallaxTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD053462167308C00C1504D /* ParallaxTableHeader.xib */; };
 		DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053492167313E00C1504D /* ViewCutDrawer.swift */; };
 		DBD0534C216737E300C1504D /* ParallaxTableHeaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */; };
+		DBE4CD17216A6BC400A1050F /* AboutMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD07216A6BC400A1050F /* AboutMediator.swift */; };
+		DBE4CD18216A6BC400A1050F /* AboutDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD08216A6BC400A1050F /* AboutDisplayData.swift */; };
+		DBE4CD1A216A6BC400A1050F /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */; };
+		DBE4CD1B216A6BC400A1050F /* AboutMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0B216A6BC400A1050F /* AboutMediatorProtocol.swift */; };
+		DBE4CD1C216A6BC400A1050F /* AboutPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0C216A6BC400A1050F /* AboutPresenterProtocol.swift */; };
+		DBE4CD1D216A6BC400A1050F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0D216A6BC400A1050F /* AboutViewController.swift */; };
+		DBE4CD1E216A6BC400A1050F /* AboutWirer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0E216A6BC400A1050F /* AboutWirer.swift */; };
+		DBE4CD1F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift */; };
+		DBE4CD21216A6BC400A1050F /* AboutViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD11216A6BC400A1050F /* AboutViewProtocol.swift */; };
+		DBE4CD22216A6BC400A1050F /* AboutDelegateCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD12216A6BC400A1050F /* AboutDelegateCaller.swift */; };
+		DBE4CD23216A6BC400A1050F /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD13216A6BC400A1050F /* AboutViewController.xib */; };
+		DBE4CD24216A6BC400A1050F /* AboutDelegateCallerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD14216A6BC400A1050F /* AboutDelegateCallerProtocol.swift */; };
+		DBE4CD3B216A6F4500A1050F /* MenuLabelTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD39216A6F4500A1050F /* MenuLabelTableCell.swift */; };
+		DBE4CD3C216A6F4500A1050F /* MenuLabelTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD3A216A6F4500A1050F /* MenuLabelTableCell.xib */; };
+		DBE4CD3E216A6F5800A1050F /* MenuLabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD3D216A6F5800A1050F /* MenuLabelRow.swift */; };
+		DBE4CD60216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD5F216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift */; };
+		DBE4CD62216A71AB00A1050F /* AboutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */; };
+		DBE4CD63216A739B00A1050F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBE4CD2E216A6D1000A1050F /* Localizable.strings */; };
 		DBECCB9F2167BBD3001DC736 /* CharacterMappingEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -434,6 +452,26 @@
 		DBD053462167308C00C1504D /* ParallaxTableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParallaxTableHeader.xib; sourceTree = "<group>"; };
 		DBD053492167313E00C1504D /* ViewCutDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCutDrawer.swift; sourceTree = "<group>"; };
 		DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxTableHeaderDelegate.swift; sourceTree = "<group>"; };
+		DBE4CD07216A6BC400A1050F /* AboutMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMediator.swift; sourceTree = "<group>"; };
+		DBE4CD08216A6BC400A1050F /* AboutDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDisplayData.swift; sourceTree = "<group>"; };
+		DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
+		DBE4CD0B216A6BC400A1050F /* AboutMediatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMediatorProtocol.swift; sourceTree = "<group>"; };
+		DBE4CD0C216A6BC400A1050F /* AboutPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenterProtocol.swift; sourceTree = "<group>"; };
+		DBE4CD0D216A6BC400A1050F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DBE4CD0E216A6BC400A1050F /* AboutWirer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWirer.swift; sourceTree = "<group>"; };
+		DBE4CD0F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenterViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DBE4CD11216A6BC400A1050F /* AboutViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewProtocol.swift; sourceTree = "<group>"; };
+		DBE4CD12216A6BC400A1050F /* AboutDelegateCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDelegateCaller.swift; sourceTree = "<group>"; };
+		DBE4CD13216A6BC400A1050F /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		DBE4CD14216A6BC400A1050F /* AboutDelegateCallerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutDelegateCallerProtocol.swift; sourceTree = "<group>"; };
+		DBE4CD2D216A6D1000A1050F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBE4CD2F216A6D1100A1050F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBE4CD30216A6D1400A1050F /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DBE4CD39216A6F4500A1050F /* MenuLabelTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLabelTableCell.swift; sourceTree = "<group>"; };
+		DBE4CD3A216A6F4500A1050F /* MenuLabelTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuLabelTableCell.xib; sourceTree = "<group>"; };
+		DBE4CD3D216A6F5800A1050F /* MenuLabelRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuLabelRow.swift; sourceTree = "<group>"; };
+		DBE4CD5F216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AboutViewController+MenuOptionsCrolors.swift"; sourceTree = "<group>"; };
+		DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoordinator.swift; sourceTree = "<group>"; };
 		DBECCB7F2167B9E2001DC736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallaMarvelAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMappingEntityTests.swift; sourceTree = "<group>"; };
@@ -598,6 +636,7 @@
 				DB4B344321638C30005709E3 /* SplashScreen.xib */,
 				DBCB19DF21675A4500768650 /* Style */,
 				DB8BF12B2165073400AB8287 /* Coordinators */,
+				DBE4CCE4216A6AC900A1050F /* Controllers */,
 				DB4B344221638BFD005709E3 /* Resources */,
 			);
 			path = WallaMarvel;
@@ -609,6 +648,7 @@
 				DB915E032167739D0097CE02 /* Fonts */,
 				DB4B343A21637E7F005709E3 /* Info.plist */,
 				DB4B343521637E7F005709E3 /* Images.xcassets */,
+				DBE4CD2E216A6D1000A1050F /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -641,6 +681,7 @@
 		DB5C81EC2166431300F43F09 /* EurekaRows */ = {
 			isa = PBXGroup;
 			children = (
+				DBE4CD3D216A6F5800A1050F /* MenuLabelRow.swift */,
 				DB5C81ED2166433800F43F09 /* CharacterRow.swift */,
 			);
 			path = EurekaRows;
@@ -937,6 +978,7 @@
 				DB8BF12C2165074500AB8287 /* Common */,
 				DB8BF12F2165080A00AB8287 /* AppRootCoordinator.swift */,
 				DB84BC68216679BC00440A7D /* CharacterDetailCoordinator.swift */,
+				DBE4CD61216A71AB00A1050F /* AboutCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -1238,6 +1280,7 @@
 		DBB25F8D2165F7B3002DFDB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DBE4CD38216A6F4400A1050F /* MenuLabelCell */,
 				DBA623512169123400C5D444 /* EmptyCharacterList */,
 				DBD053442167308C00C1504D /* ParallaxTableHeader */,
 				DB5C81E721663A7800F43F09 /* CharacterCell */,
@@ -1320,6 +1363,75 @@
 				DBD053462167308C00C1504D /* ParallaxTableHeader.xib */,
 			);
 			path = ParallaxTableHeader;
+			sourceTree = "<group>";
+		};
+		DBE4CCE4216A6AC900A1050F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CCE5216A6AEE00A1050F /* About */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DBE4CCE5216A6AEE00A1050F /* About */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD0E216A6BC400A1050F /* AboutWirer.swift */,
+				DBE4CD26216A6BDA00A1050F /* Mediator */,
+				DBE4CD27216A6BDE00A1050F /* Presenter */,
+				DBE4CD28216A6BE700A1050F /* View */,
+				DBE4CD29216A6BEC00A1050F /* DelegateCaller */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		DBE4CD26216A6BDA00A1050F /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD07216A6BC400A1050F /* AboutMediator.swift */,
+				DBE4CD0B216A6BC400A1050F /* AboutMediatorProtocol.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		DBE4CD27216A6BDE00A1050F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD08216A6BC400A1050F /* AboutDisplayData.swift */,
+				DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */,
+				DBE4CD0C216A6BC400A1050F /* AboutPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DBE4CD28216A6BE700A1050F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD0D216A6BC400A1050F /* AboutViewController.swift */,
+				DBE4CD0F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift */,
+				DBE4CD11216A6BC400A1050F /* AboutViewProtocol.swift */,
+				DBE4CD13216A6BC400A1050F /* AboutViewController.xib */,
+				DBE4CD5F216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBE4CD29216A6BEC00A1050F /* DelegateCaller */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD12216A6BC400A1050F /* AboutDelegateCaller.swift */,
+				DBE4CD14216A6BC400A1050F /* AboutDelegateCallerProtocol.swift */,
+			);
+			path = DelegateCaller;
+			sourceTree = "<group>";
+		};
+		DBE4CD38216A6F4400A1050F /* MenuLabelCell */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4CD39216A6F4500A1050F /* MenuLabelTableCell.swift */,
+				DBE4CD3A216A6F4500A1050F /* MenuLabelTableCell.xib */,
+			);
+			path = MenuLabelCell;
 			sourceTree = "<group>";
 		};
 		DBECCB952167BA89001DC736 /* WallaMarvelAPITests */ = {
@@ -1523,6 +1635,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE4CD63216A739B00A1050F /* Localizable.strings in Resources */,
 				DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */,
 				DB915E0C2167747F0097CE02 /* Ubuntu-Bold.ttf in Resources */,
 				DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */,
@@ -1533,6 +1646,7 @@
 				DB915E112167747F0097CE02 /* Ubuntu-Medium.ttf in Resources */,
 				DB4B343621637E7F005709E3 /* Images.xcassets in Resources */,
 				DB4B344121637ED5005709E3 /* Podfile in Resources */,
+				DBE4CD23216A6BC400A1050F /* AboutViewController.xib in Resources */,
 				DB915E122167747F0097CE02 /* Ubuntu-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1548,6 +1662,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE4CD3C216A6F4500A1050F /* MenuLabelTableCell.xib in Resources */,
 				DBA623742169206700C5D444 /* CharactersFilterViewController.xib in Resources */,
 				DB5C81EB21663ACC00F43F09 /* CharacterTableCell.xib in Resources */,
 				DB8BF15421650AA500AB8287 /* CharactersListViewController.xib in Resources */,
@@ -1772,13 +1887,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE4CD1F216A6BC400A1050F /* AboutPresenterViewControllerDelegate.swift in Sources */,
+				DBE4CD24216A6BC400A1050F /* AboutDelegateCallerProtocol.swift in Sources */,
+				DBE4CD21216A6BC400A1050F /* AboutViewProtocol.swift in Sources */,
 				DB8BF1322165084300AB8287 /* Startable.swift in Sources */,
+				DBE4CD1D216A6BC400A1050F /* AboutViewController.swift in Sources */,
+				DBE4CD1B216A6BC400A1050F /* AboutMediatorProtocol.swift in Sources */,
 				DBCB19E121675A5100768650 /* DefaultStyleSheet.swift in Sources */,
 				DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */,
+				DBE4CD60216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift in Sources */,
 				DB2BF41C2167A875001D110D /* DefaultStyleSheet+Fonts.swift in Sources */,
+				DBE4CD1A216A6BC400A1050F /* AboutPresenter.swift in Sources */,
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
+				DBE4CD62216A71AB00A1050F /* AboutCoordinator.swift in Sources */,
 				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
 				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
+				DBE4CD18216A6BC400A1050F /* AboutDisplayData.swift in Sources */,
+				DBE4CD1C216A6BC400A1050F /* AboutPresenterProtocol.swift in Sources */,
+				DBE4CD22216A6BC400A1050F /* AboutDelegateCaller.swift in Sources */,
+				DBE4CD17216A6BC400A1050F /* AboutMediator.swift in Sources */,
+				DBE4CD1E216A6BC400A1050F /* AboutWirer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1871,6 +1999,7 @@
 				DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */,
 				DBA623A82169416E00C5D444 /* ComicsListViewController+Appearance.swift in Sources */,
 				DBA623732169206700C5D444 /* CharactersFilterDelegateCaller.swift in Sources */,
+				DBE4CD3B216A6F4500A1050F /* MenuLabelTableCell.swift in Sources */,
 				DBA623752169206700C5D444 /* CharactersFilterDelegateCallerProtocol.swift in Sources */,
 				DBB25F8F2165F816002DFDB4 /* SpinnerView.swift in Sources */,
 				DB84BC5E216672A000440A7D /* CharacterDetailViewProtocol.swift in Sources */,
@@ -1890,6 +2019,7 @@
 				DB8BF15521650AA500AB8287 /* CharactersListDelegateCallerProtocol.swift in Sources */,
 				DBCB19DC21673C0500768650 /* UITableView+TableHeaderFooterView.swift in Sources */,
 				DBA6239821693B1400C5D444 /* ComicsListMediatorProtocol.swift in Sources */,
+				DBE4CD3E216A6F5800A1050F /* MenuLabelRow.swift in Sources */,
 				DBA6236D2169206700C5D444 /* CharactersFilterPresenterProtocol.swift in Sources */,
 				DBA623692169206700C5D444 /* CharactersFilterDisplayData.swift in Sources */,
 				DB8BF15E21650BF900AB8287 /* UIViewController+Load.swift in Sources */,
@@ -1987,6 +2117,16 @@
 				DBB25F9D216626EE002DFDB4 /* en */,
 				DBB25FA0216626FE002DFDB4 /* es */,
 				DBB25FA221662711002DFDB4 /* ca */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DBE4CD2E216A6D1000A1050F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE4CD2D216A6D1000A1050F /* en */,
+				DBE4CD2F216A6D1100A1050F /* es */,
+				DBE4CD30216A6D1400A1050F /* ca */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

@@ -36,10 +36,19 @@ final class AppRootCoordinator: Coordinator, Startable{
         mainWindow.rootViewController = rootNavigationController
         mainWindow.makeKeyAndVisible()
         
+        charactersListController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "ic_menu")!, style: .plain, target: self, action: #selector(menuTapped))
+        
         DefaultStyleSheet.apply()
         
         self.charactersListController = charactersListController
         self.rootNavigationController = rootNavigationController
+    }
+}
+
+private extension AppRootCoordinator{
+    @objc func menuTapped(){
+        let aboutCoordinator = AboutCoordinator(fromController: rootNavigationController)
+        startChild(aboutCoordinator)
     }
 }
 
