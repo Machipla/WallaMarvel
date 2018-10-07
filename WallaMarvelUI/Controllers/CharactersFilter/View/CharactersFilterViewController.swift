@@ -21,6 +21,7 @@ public final class CharactersFilterViewController: FormViewController{
     var nameStartsByRow:TextRow    { return mainSection[1] as! TextRow }
     var modifiedSinceRow:DateRow   { return mainSection[2] as! DateRow }
     var orderByRow:PickerInputRow<CharactersOrderByDisplayData>  { return mainSection[3] as! PickerInputRow<CharactersOrderByDisplayData> }
+    var appearsInRow:LabelRow      { return mainSection[4] as! LabelRow }
 
     public required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
     public init(config:CharactersFilterControllerConfig){
@@ -56,7 +57,6 @@ private extension CharactersFilterViewController{
         let modifiedSinceRow = DateRow(){ row in
             row.title = "CHARACTER_FILTERS_MODIFIED_SINCE_FIELD_TITLE".localized(onBundleFor: self)
             row.maximumDate = Date()
-            row.value = Date()
         }
         
         let orderByRow = PickerInputRow<CharactersOrderByDisplayData>(){ row in
@@ -109,6 +109,12 @@ extension CharactersFilterViewController:  CharactersFilterViewProtocol{
         nameStartsByRow.value = data.nameStartsWith
         modifiedSinceRow.value = data.modifiedSince
         orderByRow.value = data.orderBy
+        
+        if data.selectedComicsCount != 0{
+            appearsInRow.value = "CHARACTER_FILTERS_APPEARS_IN_VALUE_TITLE".localized(onBundleFor: self).formatted(String(data.selectedComicsCount))
+        }else{
+            appearsInRow.value = nil
+        }
         
         mainSection.reload(with: .none)
     }

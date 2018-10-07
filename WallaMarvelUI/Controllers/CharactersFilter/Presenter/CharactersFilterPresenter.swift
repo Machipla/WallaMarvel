@@ -18,7 +18,8 @@ extension CharactersFilterPresenter: CharactersFilterPresenterProtocol{
         let displayData = CharactersFilterDisplayData(name: filters?.name,
                                                       nameStartsWith: filters?.nameStartsWith,
                                                       modifiedSince: filters?.modifiedSince,
-                                                      orderBy: CharactersOrderByDisplayData(orderBy: filters?.orderBy ?? .ascendingByName))
+                                                      orderBy: CharactersOrderByDisplayData(orderBy: filters?.orderBy ?? .ascendingByName),
+                                                      selectedComicsCount: filters?.comicIDs.count ?? 0)
         attachedView.display(displayData)
     }
     

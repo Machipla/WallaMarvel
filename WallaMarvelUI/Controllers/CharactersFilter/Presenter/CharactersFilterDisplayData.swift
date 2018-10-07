@@ -16,15 +16,18 @@ struct CharactersFilterDisplayData {
     public var nameStartsWith:String?
     public var modifiedSince:Date?
     public var orderBy:CharactersOrderByDisplayData?
+    public var selectedComicsCount:Int
     
     public init(name:String? = nil,
                 nameStartsWith:String? = nil,
                 modifiedSince:Date? = nil,
-                orderBy:CharactersOrderByDisplayData? = nil){
+                orderBy:CharactersOrderByDisplayData? = nil,
+                selectedComicsCount:Int = 0){
         self.name = name
         self.nameStartsWith = nameStartsWith
         self.modifiedSince = modifiedSince
         self.orderBy = orderBy
+        self.selectedComicsCount = selectedComicsCount
     }
     
 }

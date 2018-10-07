@@ -15,18 +15,16 @@ final class CharactersFilterMediator {
     var delegateCaller: CharactersFilterDelegateCallerProtocol!
     var dataProvider: CharactersFilterDataProviderProtocol!
     
-    private let config:CharactersFilterControllerConfig
-    private var filterByComicsIDs = [String]()
+    private var selectedFilter:CharactersFilter
     
     init(config:CharactersFilterControllerConfig){
-        self.config = config
-        filterByComicsIDs = config.preSelectedFilters?.comicIDs ?? []
+        selectedFilter = config.preSelectedFilters ?? CharactersFilter()
     }
 }
 
 extension CharactersFilterMediator: CharactersFilterMediatorProtocol{
     func reloadData(){
-        presenter.display(config.preSelectedFilters)
+        presenter.display(selectedFilter)
     }
     
     func cancelTapped(){
@@ -34,22 +32,23 @@ extension CharactersFilterMediator: CharactersFilterMediatorProtocol{
     }
     
     func doneTapped(){
-        var generatedFilter = dataProvider.provideData()
-        generatedFilter.comicIDs = filterByComicsIDs
+        var finalFilter = dataProvider.provideData()
+        finalFilter.comicIDs = selectedFilter.comicIDs
         
-        delegateCaller.callDelegateForNewFiltersSelected(generatedFilter)
+        delegateCaller.callDelegateForNewFiltersSelected(finalFilter)
     }
     
     func comicsFilterTapped(){
-        presenter.displayComicsSelectorPreselectingComicsWithIDs(filterByComicsIDs)
+        presenter.displayComicsSelectorPreselectingComicsWithIDs(selectedFilter.comicIDs)
     }
     
     func comicsSelected(_ comicIDs:[String]){
-        filterByComicsIDs = comicIDs
+        self.selectedFilter.comicIDs = comicIDs
+        presenter.display(selectedFilter)
     }
     
     func clearFiltersTapped(){
-        filterByComicsIDs.removeAll()
-        presenter.display(nil)
+        selectedFilter = CharactersFilter()
+        presenter.display(selectedFilter)
     }
 }
