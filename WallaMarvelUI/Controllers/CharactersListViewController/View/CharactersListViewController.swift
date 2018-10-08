@@ -19,6 +19,7 @@ public final class CharactersListViewController: FormViewController {
 	var mediator: CharactersListMediatorProtocol!
     
     internal var previewControllerToLaunch:UIViewController?
+    private var rowsPrevieweingContexts = [UIViewControllerPreviewing]()
     
     private var charactersSection:Section{ return form.allSections.first! }
     private var isEmptyResultsViewAlreadySetup:Bool{ return tableView.backgroundView is EmptyListView }
@@ -61,6 +62,8 @@ private extension CharactersListViewController{
         searchController.searchBar.placeholder = "CHARACTERS_LIST_SEARCH_PLACEHOLDER".localized(onBundleFor: self)
         searchController.hidesNavigationBarDuringPresentation = false
         searchController.dimsBackgroundDuringPresentation = false
+        searchController.delegate = self
+
         definesPresentationContext = true
         navigationItem.searchingController = searchController
     }
@@ -73,6 +76,16 @@ private extension CharactersListViewController{
             tableView.backgroundView = noResultsView
         }else if !condition{
             tableView.backgroundView = nil
+        }
+    }
+    
+    func setupPreviewingForRows(){
+        rowsPrevieweingContexts.forEach{ unregisterForPreviewing(withContext: $0) }
+        
+        if (navigationItem.searchingController?.isActive ?? false){
+            charactersSection.forEach{ navigationItem.searchingController?.registerForPreviewing(with: self, sourceView: $0.baseCell) }
+        }else{
+            charactersSection.forEach{ registerForPreviewing(with: self, sourceView: $0.baseCell) }
         }
     }
 }
@@ -111,7 +124,7 @@ extension CharactersListViewController: CharactersListViewProtocol{
                     row.cell.separatorView.endColor = endColor
                 }
                 
-                registerForPreviewing(with: self, sourceView: row.cell)
+                setupPreviewingForRows()
             }.onCellSelection{[weak self] _, row in
                 guard let index = row.indexPath?.row else { return }
                 self?.mediator.characterTapped(at: index)
@@ -126,6 +139,7 @@ extension CharactersListViewController: CharactersListViewProtocol{
         charactersSection.append(contentsOf: rows)
         
         showNoResultsView(if: charactersSection.isEmpty)
+        setupPreviewingForRows()
     }
     
     func displayFiltersView(with preSelectedFilter:CharactersFilter){
@@ -171,6 +185,16 @@ extension CharactersListViewController: UISearchBarDelegate{
         // We do it like this in order not to make a lot of requests at once if user types fast.
         // If we want to do it so, we just have to change the delegate method to the appropiate one
         mediator.searchHasChanged(to: searchBar.text)
+    }
+}
+
+extension CharactersListViewController: UISearchControllerDelegate{
+    public func didPresentSearchController(_ searchController: UISearchController) {
+        setupPreviewingForRows()
+    }
+    
+    public func didDismissSearchController(_ searchController: UISearchController) {
+        setupPreviewingForRows()
     }
 }
 
