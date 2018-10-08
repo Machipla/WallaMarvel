@@ -17,4 +17,12 @@ extension CharactersListDelegateCaller: CharactersListDelegateCallerProtocol {
     func callDelegateForCharacterSelected(_ selectedCharacter:WallaMarvelAPI.Character){
         attachedView.delegate?.charactersListViewController(attachedView, hasSelected: selectedCharacter)
     }
+    
+    func callDelegateForPreviewSelected(for selectedCharacter:WallaMarvelAPI.Character){
+        attachedView.previewControllerToLaunch = attachedView.delegate?.charactersListViewController(attachedView, hasSelectedPreviewFor: selectedCharacter)
+    }
+    
+    func callDelegateForPreviewAccepted(for selectedCharacter:WallaMarvelAPI.Character){
+        attachedView.delegate?.charactersListViewController(attachedView, hasAcceptedPreviewFor: selectedCharacter)
+    }
 }

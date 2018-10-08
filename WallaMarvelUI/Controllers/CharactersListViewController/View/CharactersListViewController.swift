@@ -18,6 +18,8 @@ public final class CharactersListViewController: FormViewController {
     public weak var delegate:CharactersListViewControllerDelegate?
 	var mediator: CharactersListMediatorProtocol!
     
+    internal var previewControllerToLaunch:UIViewController?
+    
     private var charactersSection:Section{ return form.allSections.first! }
     private var isEmptyResultsViewAlreadySetup:Bool{ return tableView.backgroundView is EmptyListView }
 
@@ -108,9 +110,11 @@ extension CharactersListViewController: CharactersListViewProtocol{
                     row.cell.separatorView.startColor = startColor
                     row.cell.separatorView.endColor = endColor
                 }
-            }.onCellSelection{ _, row in
+                
+                registerForPreviewing(with: self, sourceView: row.cell)
+            }.onCellSelection{[weak self] _, row in
                 guard let index = row.indexPath?.row else { return }
-                self.mediator.characterTapped(at: index)
+                self?.mediator.characterTapped(at: index)
             }
         }
 
@@ -179,5 +183,22 @@ extension CharactersListViewController: CharactersFilterViewControllerDelegate{
         controller.dismiss(animated: true) {
             self.mediator.newFiltersSelected(newFilters)
         }
+    }
+}
+
+extension CharactersListViewController: UIViewControllerPreviewingDelegate{
+    public func previewingContext(_ previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
+        guard let row = charactersSection.first(where: { $0.baseCell == previewingContext.sourceView }), let rowIndex = row.indexPath?.row else { return nil }
+        mediator.previewSelectedForRow(at: rowIndex)
+        
+        let toLaunchController = previewControllerToLaunch
+        previewControllerToLaunch = nil
+        
+        return toLaunchController
+    }
+    
+    public func previewingContext(_ previewingContext: UIViewControllerPreviewing, commit viewControllerToCommit: UIViewController) {
+        guard let row = charactersSection.first(where: { $0.baseCell == previewingContext.sourceView }), let rowIndex = row.indexPath?.row else { return }
+        mediator.previewAcceptedForRow(at: rowIndex)
     }
 }

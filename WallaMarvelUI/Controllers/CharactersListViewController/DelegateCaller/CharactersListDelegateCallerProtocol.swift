@@ -11,4 +11,6 @@ import WallaMarvelAPI
 
 protocol CharactersListDelegateCallerProtocol: class{
     func callDelegateForCharacterSelected(_ selectedCharacter:WallaMarvelAPI.Character)
+    func callDelegateForPreviewSelected(for selectedCharacter:WallaMarvelAPI.Character)
+    func callDelegateForPreviewAccepted(for selectedCharacter:WallaMarvelAPI.Character)
 }

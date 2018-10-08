@@ -46,6 +46,14 @@ final class AppRootCoordinator: Coordinator, Startable{
 }
 
 private extension AppRootCoordinator{
+    func startCharacterDetailCoordinator(for character:WallaMarvelAPI.Character){
+        let detailCoordinator = CharacterDetailCoordinator(fromNavigationController: rootNavigationController, character: character)
+        detailCoordinator.delegate = self
+        startChild(detailCoordinator)
+    }
+}
+
+private extension AppRootCoordinator{
     @objc func menuTapped(){
         let aboutCoordinator = AboutCoordinator(fromController: rootNavigationController)
         aboutCoordinator.delegate = self
@@ -55,9 +63,18 @@ private extension AppRootCoordinator{
 
 extension AppRootCoordinator: CharactersListViewControllerDelegate{
     func charactersListViewController(_ controller: CharactersListViewController, hasSelected character: WallaMarvelAPI.Character) {
+        startCharacterDetailCoordinator(for: character)
+    }
+    
+    func charactersListViewController(_ controller: CharactersListViewController, hasSelectedPreviewFor character: WallaMarvelAPI.Character) -> UIViewController? {
         let detailCoordinator = CharacterDetailCoordinator(fromNavigationController: rootNavigationController, character: character)
         detailCoordinator.delegate = self
-        startChild(detailCoordinator)
+        addChild(detailCoordinator)
+        return detailCoordinator.startForViewControllerPreviewPeek()
+    }
+    
+    func charactersListViewController(_ controller: CharactersListViewController, hasAcceptedPreviewFor character: WallaMarvelAPI.Character) {
+        startCharacterDetailCoordinator(for: character)
     }
 }
 

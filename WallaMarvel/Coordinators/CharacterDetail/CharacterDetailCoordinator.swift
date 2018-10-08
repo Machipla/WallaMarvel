@@ -38,10 +38,20 @@ final class CharacterDetailCoordinator: Coordinator, Startable{
         
         self.characterDetailController = characterDetailController
     }
+    
+    /// The coordinator gets started for feeding a UIViewContrllerPreview peek. The returned controller must be used for that preview
+    /// - Returns: The controller to show in the preview
+    func startForViewControllerPreviewPeek() -> UIViewController{
+        let characterDetailController = CharacterDetailViewController(config: characterDetailControllerConfig)
+        characterDetailController.delegate = self
+        self.characterDetailController = characterDetailController
+        
+        return characterDetailController
+    }
 }
 
 extension CharacterDetailCoordinator: CharacterDetailViewControllerDelegate{
-    func characterDetailViewControllerHasBeenDismised(_ controller:CharacterDetailViewController){
+    func characterDetailViewControllerHasBeenDismised(_ controller: CharacterDetailViewController) {
         delegate?.characterDetailCoordinatorHasFinished(self)
     }
 }

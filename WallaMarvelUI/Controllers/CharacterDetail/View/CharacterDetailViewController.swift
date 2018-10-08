@@ -58,9 +58,10 @@ public final class CharacterDetailViewController: FormViewController{
         mediator.reloadData()
     }
     
-    public override func didMove(toParent parent: UIViewController?) {
-        super.didMove(toParent: parent)
-        
+    
+    public override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+
         if parent == nil{
             mediator.dismissDone()
         }

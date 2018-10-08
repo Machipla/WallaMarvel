@@ -18,4 +18,6 @@ protocol CharactersListMediatorProtocol: class{
     func filtersTapped()
     func characterTapped(at index:Int)
     func newFiltersSelected(_ filters:CharactersFilter)
+    func previewSelectedForRow(at index:Int)
+    func previewAcceptedForRow(at index:Int)
 }

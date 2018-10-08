@@ -97,5 +97,15 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
         
         presenter.updateSearch(to: currentFilter.name)
     }
+    
+    func previewSelectedForRow(at index:Int){
+        guard let characterSelected = currentCharacters[safe: index] else { return }
+        delegateCaller.callDelegateForPreviewSelected(for: characterSelected)
+    }
+    
+    func previewAcceptedForRow(at index:Int){
+        guard let characterSelected = currentCharacters[safe: index] else { return }
+        delegateCaller.callDelegateForPreviewAccepted(for: characterSelected)
+    }
 }
 
