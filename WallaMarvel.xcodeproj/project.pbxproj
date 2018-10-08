@@ -179,6 +179,7 @@
 		DBD053482167308C00C1504D /* ParallaxTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD053462167308C00C1504D /* ParallaxTableHeader.xib */; };
 		DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD053492167313E00C1504D /* ViewCutDrawer.swift */; };
 		DBD0534C216737E300C1504D /* ParallaxTableHeaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */; };
+		DBD8454F216A800C00E9FE3D /* UIViewController+ChildInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD8454E216A800C00E9FE3D /* UIViewController+ChildInjection.swift */; };
 		DBE4CD17216A6BC400A1050F /* AboutMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD07216A6BC400A1050F /* AboutMediator.swift */; };
 		DBE4CD1A216A6BC400A1050F /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */; };
 		DBE4CD1B216A6BC400A1050F /* AboutMediatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD0B216A6BC400A1050F /* AboutMediatorProtocol.swift */; };
@@ -199,6 +200,9 @@
 		DBE4CD68216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD67216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift */; };
 		DBE4CD6A216A761800A1050F /* AboutCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */; };
 		DBE4CD6F216A7B8E00A1050F /* AboutURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4CD6E216A7B8E00A1050F /* AboutURLs.swift */; };
+		DBEB8E7C216B778C00E364C8 /* GenericModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E7B216B778C00E364C8 /* GenericModalViewController.swift */; };
+		DBEB8E7E216B791200E364C8 /* GenericModalViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E7D216B791200E364C8 /* GenericModalViewControllerDelegate.swift */; };
+		DBEB8E80216B839400E364C8 /* UIViewController+ChildDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E7F216B839400E364C8 /* UIViewController+ChildDismiss.swift */; };
 		DBECCB9F2167BBD3001DC736 /* CharacterMappingEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -454,6 +458,7 @@
 		DBD053462167308C00C1504D /* ParallaxTableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParallaxTableHeader.xib; sourceTree = "<group>"; };
 		DBD053492167313E00C1504D /* ViewCutDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCutDrawer.swift; sourceTree = "<group>"; };
 		DBD0534B216737E300C1504D /* ParallaxTableHeaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxTableHeaderDelegate.swift; sourceTree = "<group>"; };
+		DBD8454E216A800C00E9FE3D /* UIViewController+ChildInjection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildInjection.swift"; sourceTree = "<group>"; };
 		DBE4CD07216A6BC400A1050F /* AboutMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMediator.swift; sourceTree = "<group>"; };
 		DBE4CD0A216A6BC400A1050F /* AboutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
 		DBE4CD0B216A6BC400A1050F /* AboutMediatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMediatorProtocol.swift; sourceTree = "<group>"; };
@@ -476,6 +481,9 @@
 		DBE4CD67216A759F00A1050F /* CharacterDetailCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailCoordinatorDelegate.swift; sourceTree = "<group>"; };
 		DBE4CD69216A761800A1050F /* AboutCoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoordinatorDelegate.swift; sourceTree = "<group>"; };
 		DBE4CD6E216A7B8E00A1050F /* AboutURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutURLs.swift; sourceTree = "<group>"; };
+		DBEB8E7B216B778C00E364C8 /* GenericModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModalViewController.swift; sourceTree = "<group>"; };
+		DBEB8E7D216B791200E364C8 /* GenericModalViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModalViewControllerDelegate.swift; sourceTree = "<group>"; };
+		DBEB8E7F216B839400E364C8 /* UIViewController+ChildDismiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildDismiss.swift"; sourceTree = "<group>"; };
 		DBECCB7F2167B9E2001DC736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallaMarvelAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMappingEntityTests.swift; sourceTree = "<group>"; };
@@ -1000,6 +1008,7 @@
 		DB8BF13521650A8400AB8287 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DBEB8E7A216B776C00E364C8 /* GenericModal */,
 				DBA6238221693B0100C5D444 /* ComicsList */,
 				DBA623562169205900C5D444 /* CharactersFilter */,
 				DB84BC422166728F00440A7D /* CharacterDetail */,
@@ -1078,6 +1087,8 @@
 		DB8BF15C21650BF800AB8287 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DBD8454E216A800C00E9FE3D /* UIViewController+ChildInjection.swift */,
+				DBEB8E7F216B839400E364C8 /* UIViewController+ChildDismiss.swift */,
 				DB8BF15D21650BF800AB8287 /* UIViewController+Load.swift */,
 			);
 			path = UIViewController;
@@ -1470,6 +1481,15 @@
 				DBE4CD6E216A7B8E00A1050F /* AboutURLs.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DBEB8E7A216B776C00E364C8 /* GenericModal */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB8E7B216B778C00E364C8 /* GenericModalViewController.swift */,
+				DBEB8E7D216B791200E364C8 /* GenericModalViewControllerDelegate.swift */,
+			);
+			path = GenericModal;
 			sourceTree = "<group>";
 		};
 		DBECCB952167BA89001DC736 /* WallaMarvelAPITests */ = {
@@ -2007,6 +2027,7 @@
 				DB8BF14B21650AA500AB8287 /* CharactersListPresenter.swift in Sources */,
 				DB8BF14E21650AA500AB8287 /* CharactersListViewController.swift in Sources */,
 				DB84BC5A216672A000440A7D /* CharacterDetailViewController.swift in Sources */,
+				DBEB8E80216B839400E364C8 /* UIViewController+ChildDismiss.swift in Sources */,
 				DB5C81EE2166433800F43F09 /* CharacterRow.swift in Sources */,
 				DBCB19DE2167513300768650 /* UIView+Additions.swift in Sources */,
 				DBA6239421693B1400C5D444 /* ComicsListMediator.swift in Sources */,
@@ -2028,6 +2049,7 @@
 				DB915E1621678DE40097CE02 /* UIFont+DynamicSizing.swift in Sources */,
 				DB5C81EA21663ACC00F43F09 /* CharacterTableCell.swift in Sources */,
 				DBB25FAB21663371002DFDB4 /* UIImageView+URL.swift in Sources */,
+				DBEB8E7E216B791200E364C8 /* GenericModalViewControllerDelegate.swift in Sources */,
 				DBA6239A21693B1400C5D444 /* ComicsListViewController.swift in Sources */,
 				DBA623A221693B1400C5D444 /* ComicsListControllerConfig.swift in Sources */,
 				DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */,
@@ -2039,6 +2061,7 @@
 				DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */,
 				DBA623A82169416E00C5D444 /* ComicsListViewController+Appearance.swift in Sources */,
 				DBA623732169206700C5D444 /* CharactersFilterDelegateCaller.swift in Sources */,
+				DBEB8E7C216B778C00E364C8 /* GenericModalViewController.swift in Sources */,
 				DBE4CD3B216A6F4500A1050F /* MenuLabelTableCell.swift in Sources */,
 				DBA623752169206700C5D444 /* CharactersFilterDelegateCallerProtocol.swift in Sources */,
 				DBB25F8F2165F816002DFDB4 /* SpinnerView.swift in Sources */,
@@ -2048,6 +2071,7 @@
 				DB84BC58216672A000440A7D /* CharacterDetailMediatorProtocol.swift in Sources */,
 				DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */,
 				DB84BC5F216672A000440A7D /* CharacterDetailDelegateCaller.swift in Sources */,
+				DBD8454F216A800C00E9FE3D /* UIViewController+ChildInjection.swift in Sources */,
 				DBA6239C21693B1400C5D444 /* ComicsListViewControllerDelegate.swift in Sources */,
 				DBD053472167308C00C1504D /* ParallaxTableHeader.swift in Sources */,
 				DB8BF14F21650AA500AB8287 /* CharactersListWirer.swift in Sources */,

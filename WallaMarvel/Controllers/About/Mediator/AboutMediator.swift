@@ -37,4 +37,12 @@ extension AboutMediator: AboutMediatorProtocol{
     func iconsTapped(){
         presenter.display(AboutURLs.icons8)
     }
+
+    func webWillBePresented(){
+        delegateCaller.callDelegateForURLWillBePresented()
+    }
+    
+    func webDismissed(){
+        delegateCaller.callDelegateForURLHasBeenDismissed()
+    }
 }

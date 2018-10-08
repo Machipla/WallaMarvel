@@ -10,6 +10,9 @@ import UIKit
 
 protocol AboutMediatorProtocol: class{
     func dismissDone()
+    func webWillBePresented()
+    func webDismissed()
+    
     
     func myLinkedInTapped()
     func myGithubTapped()

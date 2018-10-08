@@ -14,6 +14,16 @@ final class AboutDelegateCaller{
 
 extension AboutDelegateCaller: AboutDelegateCallerProtocol {
     func callDelegateForDismissDone(){
-        attachedView.delegate?.aboutViewControllerDelegateHasBeenDismissed(attachedView)
+        attachedView.delegate?.aboutViewControllerHasBeenDismissed(attachedView)
+    }
+    
+    func callDelegateForURLWillBePresented(){
+        guard let safariController = attachedView.safariController, let safariPresentation = attachedView.safariPresentation else { return }
+        attachedView.delegate?.aboutViewController(attachedView, willPresentWebOn: safariController, completionHandler: safariPresentation)
+    }
+    
+    func callDelegateForURLHasBeenDismissed(){
+        guard let safariController = attachedView.safariController else { return }
+        attachedView.delegate?.aboutViewController(attachedView, hasDismissedWebOn: safariController)
     }
 }

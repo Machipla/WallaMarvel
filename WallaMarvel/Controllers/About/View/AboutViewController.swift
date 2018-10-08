@@ -13,10 +13,12 @@ import WallaMarvelKit
 import WallaMarvelUI
 
 final class AboutViewController: FormViewController{
-
+    
     public weak var delegate:AboutViewControllerDelegate?
 	var mediator: AboutMediatorProtocol!
-
+    internal private(set) weak var safariController:SFSafariViewController?
+    internal private(set) var safariPresentation:(() -> Void)?
+    
     required init?(coder aDecoder: NSCoder) { super.init(coder: aDecoder) }
     init(){
         super.init(nibName: type(of: self).loadNibName, bundle: type(of: self).loadBundle)
@@ -30,10 +32,9 @@ final class AboutViewController: FormViewController{
         
         setupForm()
     }
-    
-    public override func didMove(toParent parent: UIViewController?) {
-        super.didMove(toParent: parent)
-        
+
+    public override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
         if parent == nil{ mediator.dismissDone() }
     }
 }
@@ -45,16 +46,18 @@ private extension AboutViewController{
             row.menuTitle = "ABOUT_ME_LINKEDIN_TITLE".localized(onBundleFor: self)
             row.menuImage = UIImage(named: "ic_menu_linkedin")!
             row.menuColor = AboutViewController.MenuOptionsColors.linkedIn
-        }.onCellSelection{ _, _ in
-            self.mediator.myLinkedInTapped()
+            row.cell.selectionStyle = .none
+        }.onCellSelection{ [weak self] _, _ in
+            self?.mediator.myLinkedInTapped()
         }
         
-        let githubRow = MenuLabelRow(){ row in
-            row.menuTitle = "ABOUT_ME_GITHUB_TITLE".localized(onBundleFor: self)
+        let githubRow = MenuLabelRow(){ [weak self] row in
+            row.menuTitle = "ABOUT_ME_GITHUB_TITLE".localized(onBundleFor: self!)
             row.menuImage = UIImage(named: "ic_menu_github")!
             row.menuColor = AboutViewController.MenuOptionsColors.gitHubContrast
-        }.onCellSelection{ _, _ in
-            self.mediator.myGithubTapped()
+            row.cell.selectionStyle = .none
+        }.onCellSelection{ [weak self] _, _ in
+            self?.mediator.myGithubTapped()
         }
         
         let aboutMeTitleSection = "ABOUT_ME_SECTION_TITLE".localized(onBundleFor: self)
@@ -64,26 +67,29 @@ private extension AboutViewController{
             row.menuTitle = "ABOUT_CREDITS_WALLAPOP_TITLE".localized(onBundleFor: self)
             row.menuImage = UIImage(named: "ic_menu_wallapop")!
             row.menuColor = UIColor.WallaMarvel.wallapop
-        }.onCellSelection{ _, _ in
-            self.mediator.wallapopTapped()
+            row.cell.selectionStyle = .none
+        }.onCellSelection{ [weak self] _, _ in
+            self?.mediator.wallapopTapped()
         }
-        
+
         let marvelRow = MenuLabelRow(){ row in
             row.menuTitle = "ABOUT_CREDITS_MARVEL_TITLE".localized(onBundleFor: self)
             row.menuImage = UIImage(named: "ic_menu_marvel")!
             row.menuColor = UIColor.WallaMarvel.marvel
-        }.onCellSelection{ _, _ in
-            self.mediator.marvelTapped()
+            row.cell.selectionStyle = .none
+        }.onCellSelection{ [weak self] _, _ in
+            self?.mediator.marvelTapped()
         }
-        
+
         let iconsRow = MenuLabelRow(){ row in
             row.menuTitle = "ABOUT_CREDITS_ICONS_TITLE".localized(onBundleFor: self)
             row.menuImage = UIImage(named: "ic_menu_icons8")!
             row.menuColor = AboutViewController.MenuOptionsColors.icons8
-        }.onCellSelection{ _, _ in
-            self.mediator.iconsTapped()
+            row.cell.selectionStyle = .none
+        }.onCellSelection{ [weak self] _, _ in
+            self?.mediator.iconsTapped()
         }
-        
+
         let creditsTitleSection = "ABOUT_CREDITS_SECTION_TITLE".localized(onBundleFor: self)
         form +++ Section(creditsTitleSection) <<< wallapopRow <<< marvelRow <<< iconsRow
     }
@@ -93,6 +99,28 @@ private extension AboutViewController{
 extension AboutViewController: AboutViewProtocol{
     func display(_ url:URL){
         let safariController = SFSafariViewController(url: url)
-        present(safariController, animated: true, completion: nil)
+        safariController.delegate = self
+        if #available(iOS 11.0, *){ safariController.dismissButtonStyle = .close }
+        self.safariController = safariController
+        
+        if delegate != nil{
+            safariPresentation = { [weak self] in
+                guard let strongSelf = self else { return }
+                strongSelf.present(strongSelf.safariController!, animated: true, completion: nil)
+            }
+            
+            mediator.webWillBePresented()
+        }else{
+            mediator.webWillBePresented()
+            present(safariController, animated: true, completion: nil)
+        }
+    }
+}
+
+// MARK: - Delegates
+extension AboutViewController: SFSafariViewControllerDelegate{
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+        safariPresentation = nil
+        mediator.webDismissed()
     }
 }

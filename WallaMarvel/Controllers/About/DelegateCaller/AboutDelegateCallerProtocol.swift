@@ -10,4 +10,6 @@ import UIKit
 
 protocol AboutDelegateCallerProtocol: class{
     func callDelegateForDismissDone()
+    func callDelegateForURLWillBePresented()
+    func callDelegateForURLHasBeenDismissed()
 }
