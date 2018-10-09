@@ -21,6 +21,11 @@
 		DB4859BC216C6CAE0085BD15 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859BB216C6CAE0085BD15 /* LocalNotification.swift */; };
 		DB4859BF216C95D20085BD15 /* NotificationsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859BE216C95D20085BD15 /* NotificationsCoordinator.swift */; };
 		DB4859C1216C9A910085BD15 /* Notifications+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859C0216C9A910085BD15 /* Notifications+Types.swift */; };
+		DB4859C4216CA61F0085BD15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB4859C6216CA61F0085BD15 /* InfoPlist.strings */; };
+		DB4859CC216CAA020085BD15 /* DeepLinksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859CB216CAA020085BD15 /* DeepLinksCoordinator.swift */; };
+		DB4859D0216CAD5A0085BD15 /* DeepLinkPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859CF216CAD5A0085BD15 /* DeepLinkPaths.swift */; };
+		DB4859D3216CB2370085BD15 /* UINavigationController+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859D2216CB2370085BD15 /* UINavigationController+Transitions.swift */; };
+		DB4859D5216CB30D0085BD15 /* UINavigationController+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859D4216CB30D0085BD15 /* UINavigationController+Info.swift */; };
 		DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B342E21637E7D005709E3 /* AppDelegate.swift */; };
 		DB4B343621637E7F005709E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343521637E7F005709E3 /* Images.xcassets */; };
 		DB4B344121637ED5005709E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344021637ED5005709E3 /* Podfile */; };
@@ -301,6 +306,13 @@
 		DB4859BB216C6CAE0085BD15 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
 		DB4859BE216C95D20085BD15 /* NotificationsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsCoordinator.swift; sourceTree = "<group>"; };
 		DB4859C0216C9A910085BD15 /* Notifications+Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifications+Types.swift"; sourceTree = "<group>"; };
+		DB4859C5216CA61F0085BD15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB4859C7216CA6200085BD15 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB4859C8216CA6210085BD15 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = ca.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB4859CB216CAA020085BD15 /* DeepLinksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinksCoordinator.swift; sourceTree = "<group>"; };
+		DB4859CF216CAD5A0085BD15 /* DeepLinkPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkPaths.swift; sourceTree = "<group>"; };
+		DB4859D2216CB2370085BD15 /* UINavigationController+Transitions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transitions.swift"; sourceTree = "<group>"; };
+		DB4859D4216CB30D0085BD15 /* UINavigationController+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Info.swift"; sourceTree = "<group>"; };
 		DB4B342B21637E7D005709E3 /* WallaMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallaMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B342E21637E7D005709E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4B343521637E7F005709E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -632,6 +644,23 @@
 			path = Notifications;
 			sourceTree = "<group>";
 		};
+		DB4859CA216CA9F60085BD15 /* DeepLinks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4859CB216CAA020085BD15 /* DeepLinksCoordinator.swift */,
+			);
+			path = DeepLinks;
+			sourceTree = "<group>";
+		};
+		DB4859D1216CB1D60085BD15 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DB4859D2216CB2370085BD15 /* UINavigationController+Transitions.swift */,
+				DB4859D4216CB30D0085BD15 /* UINavigationController+Info.swift */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
 		DB4B342221637E7D005709E3 = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +710,7 @@
 				DB4B343A21637E7F005709E3 /* Info.plist */,
 				DB4B343521637E7F005709E3 /* Images.xcassets */,
 				DBE4CD2E216A6D1000A1050F /* Localizable.strings */,
+				DB4859C6216CA61F0085BD15 /* InfoPlist.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1010,6 +1040,7 @@
 				DB8BF12C2165074500AB8287 /* Common */,
 				DBEB8E84216BB78E00E364C8 /* AppStart */,
 				DB4859BD216C95BA0085BD15 /* Notifications */,
+				DB4859CA216CA9F60085BD15 /* DeepLinks */,
 				DBE4CD65216A758B00A1050F /* AppRoot */,
 				DBE4CD64216A758400A1050F /* CharacterDetail */,
 				DBE4CD66216A758F00A1050F /* About */,
@@ -1093,6 +1124,7 @@
 		DB8BF15B21650BBB00AB8287 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DB4859D1216CB1D60085BD15 /* UINavigationController */,
 				DB915E1421678DDB0097CE02 /* UIFont */,
 				DBCB19DA21673BFA00768650 /* UITableView */,
 				DBC915EC2166596C0064A706 /* UINavigationItem */,
@@ -1500,6 +1532,7 @@
 			isa = PBXGroup;
 			children = (
 				DBE4CD6E216A7B8E00A1050F /* AboutURLs.swift */,
+				DB4859CF216CAD5A0085BD15 /* DeepLinkPaths.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1733,6 +1766,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBE4CD63216A739B00A1050F /* Localizable.strings in Resources */,
+				DB4859C4216CA61F0085BD15 /* InfoPlist.strings in Resources */,
 				DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */,
 				DB915E0C2167747F0097CE02 /* Ubuntu-Bold.ttf in Resources */,
 				DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */,
@@ -1894,6 +1928,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DeepLinkKit/DeepLinkKit.framework",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/ErrorHandler/ErrorHandler.framework",
@@ -1912,6 +1947,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeepLinkKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ErrorHandler.framework",
@@ -1998,6 +2034,8 @@
 				DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */,
 				DBE4CD62216A71AB00A1050F /* AboutCoordinator.swift in Sources */,
 				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
+				DB4859D0216CAD5A0085BD15 /* DeepLinkPaths.swift in Sources */,
+				DB4859CC216CAA020085BD15 /* DeepLinksCoordinator.swift in Sources */,
 				DBE4CD6A216A761800A1050F /* AboutCoordinatorDelegate.swift in Sources */,
 				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
 				DB4859C1216C9A910085BD15 /* Notifications+Types.swift in Sources */,
@@ -2096,9 +2134,11 @@
 				DBA623A221693B1400C5D444 /* ComicsListControllerConfig.swift in Sources */,
 				DBD0534A2167313E00C1504D /* ViewCutDrawer.swift in Sources */,
 				DBA6239B21693B1400C5D444 /* ComicsListWirer.swift in Sources */,
+				DB4859D5216CB30D0085BD15 /* UINavigationController+Info.swift in Sources */,
 				DBA6239E21693B1400C5D444 /* ComicsListViewProtocol.swift in Sources */,
 				DB8BF184216517B000AB8287 /* HUDDrawer.swift in Sources */,
 				DB8BF14821650AA500AB8287 /* CharactersListMediator.swift in Sources */,
+				DB4859D3216CB2370085BD15 /* UINavigationController+Transitions.swift in Sources */,
 				DBA623702169206700C5D444 /* CharactersFilterViewControllerDelegate.swift in Sources */,
 				DB8BF15221650AA500AB8287 /* CharactersListViewProtocol.swift in Sources */,
 				DBA623A82169416E00C5D444 /* ComicsListViewController+Appearance.swift in Sources */,
@@ -2217,6 +2257,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DB4859C6216CA61F0085BD15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4859C5216CA61F0085BD15 /* en */,
+				DB4859C7216CA6200085BD15 /* es */,
+				DB4859C8216CA6210085BD15 /* ca */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		DBB25F9E216626EE002DFDB4 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -11,6 +11,7 @@ def swiftDate;  pod 'SwiftDate', '~> 4.0'; end
 
 ## Handlers
 def errorHandler;   pod 'ErrorHandler', '~> 0.8.1'; end
+def deepLinkKit;    pod 'DeepLinkKit', '~> 1.5.0'; end
 
 ## UI
 def ibanimatable;       pod 'IBAnimatable', '~> 5.2.1'; end
@@ -27,6 +28,7 @@ def nimble; pod 'Nimble', '~> 7.3.0'; end
 target 'WallaMarvel' do
     ibanimatable
     swiftDate
+    deepLinkKit
 end
 
 target 'WallaMarvelKit' do

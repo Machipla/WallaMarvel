@@ -15,7 +15,9 @@ import WallaMarvelAPI
 
 public final class CharactersListViewController: FormViewController {
 
+    public var searchController:UISearchController?{ return navigationItem.searchingController }
     public weak var delegate:CharactersListViewControllerDelegate?
+    
 	var mediator: CharactersListMediatorProtocol!
     
     internal var previewControllerToLaunch:UIViewController?

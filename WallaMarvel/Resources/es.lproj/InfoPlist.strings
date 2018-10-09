@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  WallaMarvel
+
+  Created by Mario Plaza on 9/10/18.
+  Copyright © 2018 Mario Plaza. All rights reserved.
+*/
+
+/******** Shortcut items ********/
+"APP_SHORTCUT_ITEM_SEARCH_TITLE" = "Buscar personajes";
+/********************************/
