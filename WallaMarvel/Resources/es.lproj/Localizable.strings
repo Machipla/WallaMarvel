@@ -6,6 +6,13 @@
   Copyright © 2018 Mario Plaza. All rights reserved.
 */
 
+/******** Local notifications ********/
+"LOCAL_NOTIFICATION_USER_ENGAGE_TITLE"           = "¡Hora de discutir!";
+"LOCAL_NOTIFICATION_USER_ENGAGE_MESSAGE_TITLE_1" = "¡Abre la app  Open the app and find the best character!";
+"LOCAL_NOTIFICATION_USER_ENGAGE_MESSAGE_TITLE_2" = "¡Coge algunos amigos y discutid sobre el mejor personaje! (Sangre necesaria)";
+"LOCAL_NOTIFICATION_USER_ENGAGE_MESSAGE_TITLE_3" = "¿Quién es mejor, Iron man o El capitán america? ¡Abre la app y descúbrelo!";
+/*************************************/
+
 /******** About screen ********/
 "ABOUT_TITLE"                   = "Sobre la app";
 "ABOUT_ME_SECTION_TITLE"        = "Sobre mí";

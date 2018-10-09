@@ -18,6 +18,9 @@
 		DB2F93EF2168D4D500A9E9C9 /* JSONMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F93EE2168D4D500A9E9C9 /* JSONMock.swift */; };
 		DB2F93F12168D4E300A9E9C9 /* JSONField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F93F02168D4E300A9E9C9 /* JSONField.swift */; };
 		DB2F93F62168D95A00A9E9C9 /* String+ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2F93F52168D95A00A9E9C9 /* String+ISO8601.swift */; };
+		DB4859BC216C6CAE0085BD15 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859BB216C6CAE0085BD15 /* LocalNotification.swift */; };
+		DB4859BF216C95D20085BD15 /* NotificationsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859BE216C95D20085BD15 /* NotificationsCoordinator.swift */; };
+		DB4859C1216C9A910085BD15 /* Notifications+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4859C0216C9A910085BD15 /* Notifications+Types.swift */; };
 		DB4B342F21637E7D005709E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4B342E21637E7D005709E3 /* AppDelegate.swift */; };
 		DB4B343621637E7F005709E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4B343521637E7F005709E3 /* Images.xcassets */; };
 		DB4B344121637ED5005709E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DB4B344021637ED5005709E3 /* Podfile */; };
@@ -203,6 +206,8 @@
 		DBEB8E7C216B778C00E364C8 /* GenericModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E7B216B778C00E364C8 /* GenericModalViewController.swift */; };
 		DBEB8E7E216B791200E364C8 /* GenericModalViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E7D216B791200E364C8 /* GenericModalViewControllerDelegate.swift */; };
 		DBEB8E80216B839400E364C8 /* UIViewController+ChildDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E7F216B839400E364C8 /* UIViewController+ChildDismiss.swift */; };
+		DBEB8E83216BB67A00E364C8 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E82216BB67A00E364C8 /* Notifications.swift */; };
+		DBEB8E86216BB79B00E364C8 /* AppStartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEB8E85216BB79B00E364C8 /* AppStartCoordinator.swift */; };
 		DBECCB9F2167BBD3001DC736 /* CharacterMappingEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -293,6 +298,9 @@
 		DB2F93EE2168D4D500A9E9C9 /* JSONMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMock.swift; sourceTree = "<group>"; };
 		DB2F93F02168D4E300A9E9C9 /* JSONField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONField.swift; sourceTree = "<group>"; };
 		DB2F93F52168D95A00A9E9C9 /* String+ISO8601.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ISO8601.swift"; sourceTree = "<group>"; };
+		DB4859BB216C6CAE0085BD15 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		DB4859BE216C95D20085BD15 /* NotificationsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsCoordinator.swift; sourceTree = "<group>"; };
+		DB4859C0216C9A910085BD15 /* Notifications+Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notifications+Types.swift"; sourceTree = "<group>"; };
 		DB4B342B21637E7D005709E3 /* WallaMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallaMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B342E21637E7D005709E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4B343521637E7F005709E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -484,6 +492,8 @@
 		DBEB8E7B216B778C00E364C8 /* GenericModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModalViewController.swift; sourceTree = "<group>"; };
 		DBEB8E7D216B791200E364C8 /* GenericModalViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericModalViewControllerDelegate.swift; sourceTree = "<group>"; };
 		DBEB8E7F216B839400E364C8 /* UIViewController+ChildDismiss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildDismiss.swift"; sourceTree = "<group>"; };
+		DBEB8E82216BB67A00E364C8 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		DBEB8E85216BB79B00E364C8 /* AppStartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStartCoordinator.swift; sourceTree = "<group>"; };
 		DBECCB7F2167B9E2001DC736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBECCB942167BA89001DC736 /* WallaMarvelAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallaMarvelAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBECCB962167BA8A001DC736 /* CharacterMappingEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMappingEntityTests.swift; sourceTree = "<group>"; };
@@ -614,6 +624,14 @@
 			path = SwiftDate;
 			sourceTree = "<group>";
 		};
+		DB4859BD216C95BA0085BD15 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				DB4859BE216C95D20085BD15 /* NotificationsCoordinator.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		DB4B342221637E7D005709E3 = {
 			isa = PBXGroup;
 			children = (
@@ -646,6 +664,7 @@
 			children = (
 				DB4B342E21637E7D005709E3 /* AppDelegate.swift */,
 				DB4B344321638C30005709E3 /* SplashScreen.xib */,
+				DBEB8E81216BB66A00E364C8 /* Notifications */,
 				DBCB19DF21675A4500768650 /* Style */,
 				DB8BF12B2165073400AB8287 /* Coordinators */,
 				DBE4CD6D216A77AF00A1050F /* Models */,
@@ -989,6 +1008,8 @@
 			isa = PBXGroup;
 			children = (
 				DB8BF12C2165074500AB8287 /* Common */,
+				DBEB8E84216BB78E00E364C8 /* AppStart */,
+				DB4859BD216C95BA0085BD15 /* Notifications */,
 				DBE4CD65216A758B00A1050F /* AppRoot */,
 				DBE4CD64216A758400A1050F /* CharacterDetail */,
 				DBE4CD66216A758F00A1050F /* About */,
@@ -1492,6 +1513,24 @@
 			path = GenericModal;
 			sourceTree = "<group>";
 		};
+		DBEB8E81216BB66A00E364C8 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB8E82216BB67A00E364C8 /* Notifications.swift */,
+				DB4859C0216C9A910085BD15 /* Notifications+Types.swift */,
+				DB4859BB216C6CAE0085BD15 /* LocalNotification.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		DBEB8E84216BB78E00E364C8 /* AppStart */ = {
+			isa = PBXGroup;
+			children = (
+				DBEB8E85216BB79B00E364C8 /* AppStartCoordinator.swift */,
+			);
+			path = AppStart;
+			sourceTree = "<group>";
+		};
 		DBECCB952167BA89001DC736 /* WallaMarvelAPITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1825,23 +1864,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvelAPITests/Pods-WallaMarvelAPITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
-				"${BUILT_PRODUCTS_DIR}/ErrorHandler/ErrorHandler.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ErrorHandler.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1858,11 +1895,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WallaMarvel/Pods-WallaMarvel-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/ErrorHandler/ErrorHandler.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesSwift/Promises.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/AXPhotoViewer/AXPhotoViewer.framework",
 				"${BUILT_PRODUCTS_DIR}/AXStateButton/AXStateButton.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
@@ -1876,11 +1913,11 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ErrorHandler.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Promises.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXPhotoViewer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXStateButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
@@ -1953,6 +1990,7 @@
 				DBE4CD1D216A6BC400A1050F /* AboutViewController.swift in Sources */,
 				DBE4CD1B216A6BC400A1050F /* AboutMediatorProtocol.swift in Sources */,
 				DBCB19E121675A5100768650 /* DefaultStyleSheet.swift in Sources */,
+				DB4859BC216C6CAE0085BD15 /* LocalNotification.swift in Sources */,
 				DB8BF1302165080A00AB8287 /* AppRootCoordinator.swift in Sources */,
 				DBE4CD60216A712100A1050F /* AboutViewController+MenuOptionsCrolors.swift in Sources */,
 				DB2BF41C2167A875001D110D /* DefaultStyleSheet+Fonts.swift in Sources */,
@@ -1962,11 +2000,15 @@
 				DB84BC69216679BC00440A7D /* CharacterDetailCoordinator.swift in Sources */,
 				DBE4CD6A216A761800A1050F /* AboutCoordinatorDelegate.swift in Sources */,
 				DB8BF12E2165079500AB8287 /* Coordinator.swift in Sources */,
+				DB4859C1216C9A910085BD15 /* Notifications+Types.swift in Sources */,
 				DBE4CD1C216A6BC400A1050F /* AboutPresenterProtocol.swift in Sources */,
 				DBE4CD22216A6BC400A1050F /* AboutDelegateCaller.swift in Sources */,
+				DBEB8E83216BB67A00E364C8 /* Notifications.swift in Sources */,
 				DBE4CD17216A6BC400A1050F /* AboutMediator.swift in Sources */,
 				DBE4CD1E216A6BC400A1050F /* AboutWirer.swift in Sources */,
 				DBE4CD6F216A7B8E00A1050F /* AboutURLs.swift in Sources */,
+				DBEB8E86216BB79B00E364C8 /* AppStartCoordinator.swift in Sources */,
+				DB4859BF216C95D20085BD15 /* NotificationsCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

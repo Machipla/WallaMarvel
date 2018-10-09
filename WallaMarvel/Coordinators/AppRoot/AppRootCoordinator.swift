@@ -19,11 +19,9 @@ final class AppRootCoordinator: Coordinator, Startable{
     /// Root controller of the app. Only accessible if root coordinator is started, otherwise it raises an exception
     private(set) weak var charactersListController:CharactersListViewController!
     
-    let launchOptions:[UIApplication.LaunchOptionsKey:Any]?
     let mainWindow:UIWindow
     
-    init(launchOptions:[UIApplication.LaunchOptionsKey:Any]?, window:UIWindow){
-        self.launchOptions = launchOptions
+    init(window:UIWindow){
         self.mainWindow = window
     }
     
@@ -37,8 +35,6 @@ final class AppRootCoordinator: Coordinator, Startable{
         mainWindow.makeKeyAndVisible()
         
         charactersListController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "ic_menu")!, style: .plain, target: self, action: #selector(menuTapped))
-        
-        DefaultStyleSheet.apply()
         
         self.charactersListController = charactersListController
         self.rootNavigationController = rootNavigationController

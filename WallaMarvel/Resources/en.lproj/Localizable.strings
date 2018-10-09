@@ -6,6 +6,13 @@
   Copyright © 2018 Mario Plaza. All rights reserved.
 */
 
+/******** Local notifications ********/
+"LOCAL_NOTIFICATION_USER_ENGAGE_TITLE"           = "Time to discuss!";
+"LOCAL_NOTIFICATION_USER_ENGAGE_MESSAGE_TITLE_1" = "Open the app and find the best character!";
+"LOCAL_NOTIFICATION_USER_ENGAGE_MESSAGE_TITLE_2" = "Get some friends and argue with them about the best character! (Blood needed)";
+"LOCAL_NOTIFICATION_USER_ENGAGE_MESSAGE_TITLE_3" = "Who is better, Iron man or Captain america? Open the app and find out!";
+/*************************************/
+
 /******** About screen ********/
 "ABOUT_TITLE"                   = "About the app";
 "ABOUT_ME_SECTION_TITLE"        = "About me";

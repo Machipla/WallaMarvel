@@ -26,6 +26,7 @@ def nimble; pod 'Nimble', '~> 7.3.0'; end
 ######## Targets ########
 target 'WallaMarvel' do
     ibanimatable
+    swiftDate
 end
 
 target 'WallaMarvelKit' do

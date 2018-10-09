@@ -12,12 +12,12 @@ import WallaMarvelAPI
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var rootCoordinator:AppRootCoordinator!
+    var startCoordinator:AppStartCoordinator!
     var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        rootCoordinator = AppRootCoordinator(launchOptions: launchOptions, window: window!)
-        rootCoordinator.start()
+        startCoordinator = AppStartCoordinator(launchOptions: launchOptions, window: window!)
+        startCoordinator.start()
         
         return true
     }

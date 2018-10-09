@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UserNotifications
 
 public extension String{
     func localized() -> String{
@@ -30,5 +31,10 @@ public extension String{
     
     func localized(onBundleFor thisClassInstance:AnyObject) -> String{
         return localized(on: Bundle(for: type(of: thisClassInstance)))
+    }
+    
+    @available(iOS 10.0, *)
+    func localizedForUserNotification() -> String{
+        return NSString.localizedUserNotificationString(forKey: self, arguments: nil)
     }
 }
