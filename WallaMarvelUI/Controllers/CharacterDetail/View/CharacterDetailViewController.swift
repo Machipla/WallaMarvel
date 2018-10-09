@@ -73,7 +73,7 @@ public final class CharacterDetailViewController: FormViewController{
     }
     
     private func updateTableViewHeaderForCurrentOrientationState(){
-        tableView.tableHeaderView = UIDevice.current.orientation.isPortrait ? headerView : nil
+        tableView.tableHeaderView = UIDevice.current.orientation.isLandscape ? nil : headerView
     }
 }
 
