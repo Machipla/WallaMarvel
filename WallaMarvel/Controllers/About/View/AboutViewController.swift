@@ -37,6 +37,18 @@ final class AboutViewController: FormViewController{
         super.viewDidDisappear(animated)
         if parent == nil{ mediator.dismissDone() }
     }
+    
+    public override var shouldAutorotate: Bool{
+        guard isAllowedToRotate else { return false }
+        return true
+    }
+    
+    private var isAllowedToRotate:Bool{
+        // XXX: SFSafariViewController doesnt seem to update his constraints on rotation if modalPresentationStyle is overCurrentContext so we disable it if it's the case
+        // There seems to be no way to make SFSafariViewController to redraw neither
+        guard !(safariController?.isModallyPresented ?? false) || safariController?.modalPresentationStyle != .overCurrentContext else { return false }
+        return true
+    }
 }
 
 // MARK: - Setup/Draw methods

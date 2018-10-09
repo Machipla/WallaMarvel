@@ -35,6 +35,7 @@
 		DB5C81EB21663ACC00F43F09 /* CharacterTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB5C81E921663ACC00F43F09 /* CharacterTableCell.xib */; };
 		DB5C81EE2166433800F43F09 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C81ED2166433800F43F09 /* CharacterRow.swift */; };
 		DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C81F02166440B00F43F09 /* UIView+Load.swift */; };
+		DB69ABAC216CDCC7005CF3B3 /* UIViewController+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ABAB216CDCC7005CF3B3 /* UIViewController+Info.swift */; };
 		DB7BB20E2163BC5400FE9BE4 /* WallaMarvelAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7BB20C2163BC5400FE9BE4 /* WallaMarvelAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB7BB2112163BC5400FE9BE4 /* WallaMarvelAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */; };
 		DB7BB2122163BC5400FE9BE4 /* WallaMarvelAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -319,6 +320,7 @@
 		DB5C81E921663ACC00F43F09 /* CharacterTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableCell.xib; sourceTree = "<group>"; };
 		DB5C81ED2166433800F43F09 /* CharacterRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
 		DB5C81F02166440B00F43F09 /* UIView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Load.swift"; sourceTree = "<group>"; };
+		DB69ABAB216CDCC7005CF3B3 /* UIViewController+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Info.swift"; sourceTree = "<group>"; };
 		DB7BB20A2163BC5300FE9BE4 /* WallaMarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WallaMarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7BB20C2163BC5400FE9BE4 /* WallaMarvelAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallaMarvelAPI.h; sourceTree = "<group>"; };
 		DB7BB20D2163BC5400FE9BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1130,6 +1132,7 @@
 		DB8BF15C21650BF800AB8287 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DB69ABAB216CDCC7005CF3B3 /* UIViewController+Info.swift */,
 				DBD8454E216A800C00E9FE3D /* UIViewController+ChildInjection.swift */,
 				DBEB8E7F216B839400E364C8 /* UIViewController+ChildDismiss.swift */,
 				DB8BF15D21650BF800AB8287 /* UIViewController+Load.swift */,
@@ -2133,6 +2136,7 @@
 				DB84BC58216672A000440A7D /* CharacterDetailMediatorProtocol.swift in Sources */,
 				DB5C81F12166440B00F43F09 /* UIView+Load.swift in Sources */,
 				DB84BC5F216672A000440A7D /* CharacterDetailDelegateCaller.swift in Sources */,
+				DB69ABAC216CDCC7005CF3B3 /* UIViewController+Info.swift in Sources */,
 				DBD8454F216A800C00E9FE3D /* UIViewController+ChildInjection.swift in Sources */,
 				DBA6239C21693B1400C5D444 /* ComicsListViewControllerDelegate.swift in Sources */,
 				DBD053472167308C00C1504D /* ParallaxTableHeader.swift in Sources */,

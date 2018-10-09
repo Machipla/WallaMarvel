@@ -18,6 +18,8 @@ open class GenericModalViewController<PresentingControllerType: UIViewController
     
     open override var childForStatusBarStyle: UIViewController?{ return containedController }
     open override var childForStatusBarHidden: UIViewController?{ return containedController }
+    open override var supportedInterfaceOrientations: UIInterfaceOrientationMask{ return containedController.supportedInterfaceOrientations }
+    open override var shouldAutorotate: Bool{ return containedController.shouldAutorotate }
     
     public required init?(coder aDecoder: NSCoder) {
         containedController = PresentingControllerType()

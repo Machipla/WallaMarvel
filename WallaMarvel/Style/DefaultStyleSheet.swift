@@ -8,6 +8,7 @@
 
 import Foundation
 import WallaMarvelUI
+import SafariServices
 
 final class DefaultStyleSheet{
     private init(){}
