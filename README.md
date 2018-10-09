@@ -3,6 +3,9 @@ This project is a sample test app for Wallapop to led discuss their devs about w
 
 Now we will show a quick guide about the main classes in the project, the structure of the targets, as well as the pattern used and why.
 
+## Installation
+Clone or download the project and perform a `pod install` in the project folder!
+
 ## Targets
 We have 5 targets in the App
 #### - WallaMarvel
@@ -95,6 +98,9 @@ This is a test, so I tried to retrieve only what I'll be using for the views
 As this is a test project I inverted my time in making some cool features instead of doing testing, but in the future and if it's needed, I'll add some new tests to all targets!
 Therefore, I've just made a couple of tests as a template.
 Also, and I'm aware of it, I have to improve my testing skills and It will be a cool idea to improve them in this project.
+
+#### - Why the sharing controllers on a image controller are saw with strange colors?
+I'm not trying to be aggresive, but that's Apple fault as stated [here](https://stackoverflow.com/a/43289676)
 
 ## More
 Suggestions? Questions? Threats? If it's the case, just let me know 😁
