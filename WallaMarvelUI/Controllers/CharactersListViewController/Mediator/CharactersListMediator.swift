@@ -23,9 +23,9 @@ final class CharactersListMediator {
 
 private extension CharactersListMediator{
     func loadDataAndHandleErrorIfAny() -> Promise<API.Characters.Get.CharactersResult>{
-        return API.Characters.Get.all(filteringBy: currentFilter, cursor: currentCursor).catch { error in
+        return API.Characters.Get.all(filteringBy: currentFilter, cursor: currentCursor).catch { [weak self] error in
             ErrorHandler.default.handle(error)
-            self.presenter.display(error)
+            self?.presenter.display(error)
         }
     }
 }
@@ -35,13 +35,13 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
         currentCursor.resetToFirstResults()
         
         presenter.displayProgress()
-        loadDataAndHandleErrorIfAny().then{ result in
-            self.currentCursor = result.nextCursor
-            self.currentCharacters = result.characters
+        loadDataAndHandleErrorIfAny().then{ [weak self] result in
+            self?.currentCursor = result.nextCursor
+            self?.currentCharacters = result.characters
             
-            self.presenter.displayReloadCharacters(result.characters)
-        }.always {
-            self.presenter.hideProgress()
+            self?.presenter.displayReloadCharacters(result.characters)
+        }.always { [weak self] in
+            self?.presenter.hideProgress()
         }
     }
     
@@ -49,25 +49,25 @@ extension CharactersListMediator: CharactersListMediatorProtocol{
         currentCursor.resetToFirstResults()
         
         presenter.displayRefreshInProgress()
-        loadDataAndHandleErrorIfAny().then{ result in
-            self.currentCursor = result.nextCursor
-            self.currentCharacters = result.characters
+        loadDataAndHandleErrorIfAny().then{ [weak self] result in
+            self?.currentCursor = result.nextCursor
+            self?.currentCharacters = result.characters
             
-            self.presenter.displayRefreshCharacters(result.characters)
-        }.always {
-            self.presenter.hideRefreshInProgress()
+            self?.presenter.displayRefreshCharacters(result.characters)
+        }.always { [weak self] in
+            self?.presenter.hideRefreshInProgress()
         }
     }
     
     func nextDataRequestTriggered(){
         presenter.displayNextDataRequestInProgress()
-        loadDataAndHandleErrorIfAny().then{ result in
-            self.currentCursor = result.nextCursor
-            self.currentCharacters.append(contentsOf: result.characters)
+        loadDataAndHandleErrorIfAny().then{ [weak self] result in
+            self?.currentCursor = result.nextCursor
+            self?.currentCharacters.append(contentsOf: result.characters)
             
-            self.presenter.displayNextDataCharacters(result.characters)
-        }.always {
-            self.presenter.hideNextDataRequestInProgress()
+            self?.presenter.displayNextDataCharacters(result.characters)
+        }.always { [weak self] in
+            self?.presenter.hideNextDataRequestInProgress()
         }
     }
     

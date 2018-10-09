@@ -69,8 +69,8 @@ private extension CharactersFilterViewController{
         let appearsInRow = LabelRow(){ row in
             row.title = "CHARACTER_FILTERS_APPEARS_IN_FIELD_TITLE".localized(onBundleFor: self)
             row.cell.accessoryType = .disclosureIndicator
-        }.onCellSelection { cell, row in
-            self.mediator.comicsFilterTapped()
+        }.onCellSelection { [weak self] cell, row in
+            self?.mediator.comicsFilterTapped()
         }
         
         form +++ Section() <<< nameRow <<< nameStartsByRow <<< modifiedSinceRow <<< orderByRow <<< appearsInRow
@@ -81,8 +81,8 @@ private extension CharactersFilterViewController{
         }.cellUpdate{ cell, row in
             cell.textLabel?.textColor = UIColor.WallaMarvel.destroyBehavior
             cell.textLabel?.textAlignment = .center
-        }.onCellSelection { _, _ in
-            self.clearFiltersTapped()
+        }.onCellSelection { [weak self] _, _ in
+            self?.clearFiltersTapped()
         }
         
         form +++ Section() <<< clearFiltersRow

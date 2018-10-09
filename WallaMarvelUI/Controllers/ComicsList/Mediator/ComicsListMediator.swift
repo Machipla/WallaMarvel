@@ -32,9 +32,9 @@ final class ComicsListMediator {
 
 private extension ComicsListMediator{
     func loadDataAndHandleErrorIfAny() -> Promise<API.Comics.Get.ComicsResult>{
-        return API.Comics.Get.all(filteringBy: currentFilter, cursor: currentCursor).catch { error in
+        return API.Comics.Get.all(filteringBy: currentFilter, cursor: currentCursor).catch { [weak self] error in
             ErrorHandler.default.handle(error)
-            self.presenter.display(error)
+            self?.presenter.display(error)
         }
     }
 }
@@ -44,13 +44,15 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
         currentCursor.resetToFirstResults()
         
         presenter.displayProgress()
-        loadDataAndHandleErrorIfAny().then{ result in
-            self.currentCursor = result.nextCursor
-            self.comics = result.comics
+        loadDataAndHandleErrorIfAny().then{ [weak self] result in
+            guard let strongSelf = self else { return }
             
-            self.presenter.displayReloadComics(result.comics, withSelectedOnesIDs: self.selectedComicsIDs)
-        }.always {
-            self.presenter.hideProgress()
+            strongSelf.currentCursor = result.nextCursor
+            strongSelf.comics = result.comics
+            
+            strongSelf.presenter.displayReloadComics(result.comics, withSelectedOnesIDs: strongSelf.selectedComicsIDs)
+        }.always { [weak self] in
+            self?.presenter.hideProgress()
         }
     }
     
@@ -58,25 +60,28 @@ extension ComicsListMediator: ComicsListMediatorProtocol{
         currentCursor.resetToFirstResults()
         
         presenter.displayRefreshInProgress()
-        loadDataAndHandleErrorIfAny().then{ result in
-            self.currentCursor = result.nextCursor
-            self.comics = result.comics
+        loadDataAndHandleErrorIfAny().then{ [weak self] result in
+            guard let strongSelf = self else { return }
+            strongSelf.currentCursor = result.nextCursor
+            strongSelf.comics = result.comics
             
-            self.presenter.displayRefreshComics(result.comics, withSelectedOnesIDs: self.selectedComicsIDs)
-        }.always {
-            self.presenter.hideRefreshInProgress()
+            strongSelf.presenter.displayRefreshComics(result.comics, withSelectedOnesIDs: strongSelf.selectedComicsIDs)
+        }.always { [weak self] in
+            self?.presenter.hideRefreshInProgress()
         }
     }
     
     func nextDataRequestTriggered(){
         presenter.displayNextDataRequestInProgress()
-        loadDataAndHandleErrorIfAny().then{ result in
-            self.currentCursor = result.nextCursor
-            self.comics.append(contentsOf: result.comics)
+        loadDataAndHandleErrorIfAny().then{ [weak self] result in
+            guard let strongSelf = self else { return }
             
-            self.presenter.displayNextDataComics(result.comics, withSelectedOnesIDs: self.selectedComicsIDs)
-        }.always {
-            self.presenter.hideNextDataRequestInProgress()
+            strongSelf.currentCursor = result.nextCursor
+            strongSelf.comics.append(contentsOf: result.comics)
+            
+            strongSelf.presenter.displayNextDataComics(result.comics, withSelectedOnesIDs: strongSelf.selectedComicsIDs)
+        }.always { [weak self] in
+            self?.presenter.hideNextDataRequestInProgress()
         }
     }
     

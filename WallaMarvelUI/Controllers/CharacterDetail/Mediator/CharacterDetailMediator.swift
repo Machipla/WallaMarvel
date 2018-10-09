@@ -42,21 +42,21 @@ private extension CharacterDetailMediator{
 extension CharacterDetailMediator: CharacterDetailMediatorProtocol{
     func reloadData(){
         presenter.displayProgress()
-        loadDataAndHandleErrorIfNecessary().then{ character in
-            self.currentCharacter = character
-            self.presenter.display(character)
-        }.always{
-            self.presenter.hideProgress()
+        loadDataAndHandleErrorIfNecessary().then{ [weak self] character in
+            self?.currentCharacter = character
+            self?.presenter.display(character)
+        }.always{ [weak self] in
+            self?.presenter.hideProgress()
         }
     }
     
     func refreshTriggered(){
         presenter.displayRefreshInProgress()
-        loadDataAndHandleErrorIfNecessary().then{ character in
-            self.currentCharacter = character
-            self.presenter.display(character)
-        }.always{
-            self.presenter.hideRefreshInProgress()
+        loadDataAndHandleErrorIfNecessary().then{ [weak self] character in
+            self?.currentCharacter = character
+            self?.presenter.display(character)
+        }.always{ [weak self] in
+            self?.presenter.hideRefreshInProgress()
         }
     }
     
