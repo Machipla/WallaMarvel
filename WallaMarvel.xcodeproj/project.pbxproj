@@ -124,12 +124,7 @@
 		DB8BF184216517B000AB8287 /* HUDDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8BF183216517B000AB8287 /* HUDDrawer.swift */; };
 		DB915E02216772CA0097CE02 /* CharactersListViewController+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E01216772CA0097CE02 /* CharactersListViewController+Appearance.swift */; };
 		DB915E0C2167747F0097CE02 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E09216773A50097CE02 /* Ubuntu-Bold.ttf */; };
-		DB915E0D2167747F0097CE02 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E05216773A40097CE02 /* Ubuntu-BoldItalic.ttf */; };
-		DB915E0E2167747F0097CE02 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E0A216773A60097CE02 /* Ubuntu-Italic.ttf */; };
-		DB915E0F2167747F0097CE02 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E06216773A50097CE02 /* Ubuntu-Light.ttf */; };
-		DB915E102167747F0097CE02 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E07216773A50097CE02 /* Ubuntu-LightItalic.ttf */; };
 		DB915E112167747F0097CE02 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E08216773A50097CE02 /* Ubuntu-Medium.ttf */; };
-		DB915E122167747F0097CE02 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E04216773A40097CE02 /* Ubuntu-MediumItalic.ttf */; };
 		DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */; };
 		DB915E1621678DE40097CE02 /* UIFont+DynamicSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */; };
 		DB915E18216795500097CE02 /* CharacterDetailViewController+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */; };
@@ -412,13 +407,8 @@
 		DB8BF17F216514AA00AB8287 /* ErrorHandler+WallaMarvel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ErrorHandler+WallaMarvel.swift"; sourceTree = "<group>"; };
 		DB8BF183216517B000AB8287 /* HUDDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDDrawer.swift; sourceTree = "<group>"; };
 		DB915E01216772CA0097CE02 /* CharactersListViewController+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharactersListViewController+Appearance.swift"; sourceTree = "<group>"; };
-		DB915E04216773A40097CE02 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
-		DB915E05216773A40097CE02 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
-		DB915E06216773A50097CE02 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
-		DB915E07216773A50097CE02 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
 		DB915E08216773A50097CE02 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		DB915E09216773A50097CE02 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
-		DB915E0A216773A60097CE02 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
 		DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		DB915E1521678DE40097CE02 /* UIFont+DynamicSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DynamicSizing.swift"; sourceTree = "<group>"; };
 		DB915E17216795500097CE02 /* CharacterDetailViewController+Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterDetailViewController+Appearance.swift"; sourceTree = "<group>"; };
@@ -1195,12 +1185,7 @@
 			isa = PBXGroup;
 			children = (
 				DB915E09216773A50097CE02 /* Ubuntu-Bold.ttf */,
-				DB915E05216773A40097CE02 /* Ubuntu-BoldItalic.ttf */,
-				DB915E0A216773A60097CE02 /* Ubuntu-Italic.ttf */,
-				DB915E06216773A50097CE02 /* Ubuntu-Light.ttf */,
-				DB915E07216773A50097CE02 /* Ubuntu-LightItalic.ttf */,
 				DB915E08216773A50097CE02 /* Ubuntu-Medium.ttf */,
-				DB915E04216773A40097CE02 /* Ubuntu-MediumItalic.ttf */,
 				DB915E0B216773A60097CE02 /* Ubuntu-Regular.ttf */,
 			);
 			path = Fonts;
@@ -1770,15 +1755,10 @@
 				DB915E132167747F0097CE02 /* Ubuntu-Regular.ttf in Resources */,
 				DB915E0C2167747F0097CE02 /* Ubuntu-Bold.ttf in Resources */,
 				DB4B344421638C30005709E3 /* SplashScreen.xib in Resources */,
-				DB915E0D2167747F0097CE02 /* Ubuntu-BoldItalic.ttf in Resources */,
-				DB915E0E2167747F0097CE02 /* Ubuntu-Italic.ttf in Resources */,
-				DB915E102167747F0097CE02 /* Ubuntu-LightItalic.ttf in Resources */,
-				DB915E0F2167747F0097CE02 /* Ubuntu-Light.ttf in Resources */,
 				DB915E112167747F0097CE02 /* Ubuntu-Medium.ttf in Resources */,
 				DB4B343621637E7F005709E3 /* Images.xcassets in Resources */,
 				DB4B344121637ED5005709E3 /* Podfile in Resources */,
 				DBE4CD23216A6BC400A1050F /* AboutViewController.xib in Resources */,
-				DB915E122167747F0097CE02 /* Ubuntu-MediumItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
